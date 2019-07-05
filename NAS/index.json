@@ -1,5 +1,8 @@
 {
-	"ads":[
-		{"menu": "menu.html"}
-	]
+	"pages":{
+		"MenuPage":[
+			{ "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu.html"} 
+		]
+	}
+	
 }
