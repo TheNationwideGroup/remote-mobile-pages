@@ -3,8 +3,8 @@
 		"MenuPage":[
 			{ "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/"} 
 		],
-		"LoginPage":[
-			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/menu/"} 
+		"Dashboard":[
+			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/"} 
 		]
 	}
 }
