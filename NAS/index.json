@@ -2,13 +2,13 @@
 	"guid": 2,
 	"pages":{
 		"MenuPage":[
-			{ "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"] , "displayFrequency":3 } 
+			{ "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"] } 
 		],
 		"Dashboard":[
 			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"], "displayInterval": "2 weeks" } 
 		],
 		"DetailsTab":[
-			{ "action":"insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"], "displayFrequency": 2 } 
+			{ "action":"insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"] } 
 		]
 	}
 }
