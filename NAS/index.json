@@ -5,6 +5,9 @@
 		],
 		"Dashboard":[
 			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/"} 
+		],
+		"DetailsTab":[
+			{ "action":"insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/"} 
 		]
 	}
 }
