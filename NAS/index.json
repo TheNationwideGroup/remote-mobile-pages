@@ -1,14 +1,14 @@
 {
-	"guid": 1,
+	"guid": 2,
 	"pages":{
 		"MenuPage":[
-			{ "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/","displayToUserTypes":[1,2] } 
+			{ "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[1,2] } 
 		],
 		"Dashboard":[
-			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/","displayToUserTypes":[1,2], "displayEvery": "2 weeks" } 
+			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/index.html","displayToUserTypes":[1,2], "displayEvery": "2 weeks" } 
 		],
 		"DetailsTab":[
-			{ "action":"insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/","displayToUserTypes":[1,2] } 
+			{ "action":"insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/index.html","displayToUserTypes":[1,2] } 
 		]
 	}
 }
