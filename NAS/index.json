@@ -2,13 +2,13 @@
 	"guid": 2,
 	"pages":{
 		"MenuPage":[
-			{ "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[1,2] } 
+			{ "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[1,2],"displayFrequency":3 } 
 		],
 		"Dashboard":[
-			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/index.html","displayToUserTypes":[1,2], "displayEvery": "2 weeks" } 
+			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/index.html","displayToUserTypes":[1,2], "displayInterval": "2 weeks" } 
 		],
 		"DetailsTab":[
-			{ "action":"insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/index.html","displayToUserTypes":[1,2] } 
+			{ "action":"insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/index.html","displayToUserTypes":[1,2], "displayFrequency": 2 } 
 		]
 	}
 }
