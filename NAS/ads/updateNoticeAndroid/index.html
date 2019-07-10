@@ -1,15 +1,15 @@
 <body style="margin:0; padding:0">
 	<div class="ad-popup" style="position:absolute; z-index: 10000; top:0; left: 0; width:100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rgba(0,0,0,.5);">
 		<div style = "background-color: white; max-width: 300px; margin: auto; border-radius: 5px; padding:20px; font-size: 1.2em; font-weight: bold; margin:15px; position: relative; box-shadow: 0 0 5px rgba(0,0,0,0.5);">
-			<div style="position: absolute; right: 15px; top: 15px;	font-size: 1.5em; color: #11497f;">
+			<button none style="position: absolute; right: 15px; top: 15px;	font-size: 1.5em; color: #11497f;">
 				<i class="far fa-window-close" onclick="$(this).closest('.ad-popup').remove();"></i>
-			</div>	
+			</button>	
 			<div style="color:#004A7C;margin-bottom: 15px">
 				A newer version of the app is available.
 			</div>
-			<div style = "color:white; background-color:#00A55A; border-radius: 5px; padding:5px;text-align: center" onclick="window.open('https://play.google.com/store/apps/details?id=com.nas.android', '_system');">
+			<button none style = "width:100%;color:white; background-color:#00A55A; border-radius: 5px; padding:5px;text-align: center" onclick="window.open('https://play.google.com/store/apps/details?id=com.nas.android', '_system');">
 				Update Now!
-			</div>
+			</button>
 		</div>	
 	</div>
 </body>
