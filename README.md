@@ -30,6 +30,8 @@ index.json Structure
 		 - displayToLanguages - **string[]** - languages to display the element to 
 		 - displayInterval - **string** - "number period" string specifying how often to show the element ex "2 weeks"
 		 - displayFrequency - **number** - how often should the element be displayed ex: 5 - element displayed every fifth time
+		 - displayToPlatforms - **string[]** - display to listed platrfroms only ex ["android","ios"]
+		 - displayToVersion - **string** - display to a specific semversion or a range of semversions ex: "<2.5.5", "<2.5.5 || 2.5.6"
 
 File structure
 
