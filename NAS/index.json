@@ -6,13 +6,13 @@
 			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeIOS/index.html", "displayToPlatforms": ["ios"], "displayToVersion":"<2.5.5"} 
 		],
 		"MenuPage":[
-			{ "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"] } 
+			{ "action":"inactive-insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"] } 
 		],
 		"Dashboard":[
 			{ "action":"inactive-insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"], "displayInterval": null } 
 		],
 		"DetailsTab":[
-			{ "action":"insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"] } 
+			{ "action":"inactive-insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"] } 
 		]
 	}
 }
