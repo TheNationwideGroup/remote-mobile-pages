@@ -12,28 +12,24 @@
               "fee": null,
               "name": "Lighthouse Inspections",
               "description": "We have more than 17+ years of experience and have completed over 37,000+ home inspections using the most progressive technology available.",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/lighthouseinspections.png"
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/lighthouseinspections.png",
+              "phoneNumber":"1-800-217-2450"
             },
             {
               "vendor_id":"truinspections",
               "fee": null,
               "name": "TRU Inspections",
               "description": "Raising the bar of GTA Home Inspection",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/truinspections.jpg"
-            },
-            {
-              "vendor_id":"125",
-              "fee": null,
-              "name": "4Sight Home Inspections",
-              "description": "Certified, full service, professional and master inspectors serving southern Ontario.",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/4sight.jpg"
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/truinspections.jpg",
+              "phoneNumber":"416-732-2165"
             },
             {
               "vendor_id":"carsondunlop",
               "fee": null,
               "name": "Carson Dunlop",
               "description": "The leaders in home inspection since 1978.",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/CarsonDunlopHomeInspection.png"
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/CarsonDunlopHomeInspection.png",
+              "phoneNumber":"1-800-268-7070"
             }
           ]
         }
