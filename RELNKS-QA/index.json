@@ -1,0 +1,88 @@
+{
+	"guid": 2,
+  "pages": {},
+  "config": {
+
+    "serviceOptions":{
+      "103":{
+        "vendors":{
+          "data":[
+            {
+              "vendor_id":"jmarino",
+              "fee": null,
+              "name": "Lighthouse Inspections",
+              "description": "We have more than 17+ years of experience and have completed over 37,000+ home inspections using the most progressive technology available.",
+              "imageURL": "./partners/lighthouseinspections.png"
+            },
+            {
+              "vendor_id":"truinspections",
+              "fee": null,
+              "name": "TRU Inspections",
+              "description": "Raising the bar of GTA Home Inspection",
+              "imageURL": "./partners/truinspections.jpg"
+            },
+            {
+              "vendor_id":"125",
+              "fee": null,
+              "name": "4Sight Home Inspections",
+              "description": "Certified, full service, professional and master inspectors serving southern Ontario.",
+              "imageURL": "./partners/4sight.jpg"
+            },
+            {
+              "vendor_id":"carsondunlop",
+              "fee": null,
+              "name": "Carson Dunlop",
+              "description": "The leaders in home inspection since 1978.",
+              "imageURL": "./partners/CarsonDunlopHomeInspection.png"
+            },
+            {
+              "vendor_id":"craiglaine",
+              "fee": null,
+              "name": "Craig Laine Realty Inc.",
+              "imageURL": "./partners/craigline.png"
+            },
+            {
+              "vendor_id":"tm",
+              "fee": null,
+              "name": "T. McCormick & Assoc",
+              "imageURL": "./partners/tm.png"
+            }
+          ]
+        }
+      },
+      "100":{
+        "vendors":{
+          "data": [
+            {
+              "vendor_id":"Nassir.Nathoo@tngoc.com",
+              "name": "ABC Mortgage",
+              "firstName":"John",
+              "lastName":"Smith",
+              "description": "John Smith",
+              "phoneNumber": "555-555-5555",
+              "imageURL": "./partners/generic-mortgage.jpg"
+            },
+            {
+              "vendor_id":"appraisertest@nationwideappraisals.com",
+              "name": "ABC Financial Group",
+              "firstName":"Jane",
+              "lastName":"Jones",            
+              "description": "Jane Jones",
+              "phoneNumber": "555-555-5555",
+              "imageURL": "./partners/generic-mortgage.jpg"
+            },
+            {
+              "vendor_id":"Elizabeth@Tngoc.com",
+              "name": "CBA Financial Group",
+              "firstName":"Elizabeth",
+              "lastName":"Corbett",            
+              "description": "Elizabeth Corbett",
+              "phoneNumber": "555-555-5555",
+              "imageURL": "./partners/generic-mortgage.jpg"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
