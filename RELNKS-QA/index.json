@@ -8,17 +8,41 @@
         "vendors":{
           "data":[
             {
-              "vendor_id":"craiglaine",
+              "vendor_id":"jmarino",
+              "fee": null,
+              "name": "Lighthouse Inspections",
+              "description": "We have more than 17+ years of experience and have completed over 37,000+ home inspections using the most progressive technology available.",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/lighthouseinspections.png",
+              "phoneNumber":"1-800-217-2450"
+            },
+            {
+              "vendor_id":"truinspections",
+              "fee": null,
+              "name": "TRU Inspections",
+              "description": "Raising the bar of GTA Home Inspection",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/truinspections.jpg",
+              "phoneNumber":"416-732-2165"
+            },
+            {
+              "vendor_id":"carsondunlop",
               "fee": null,
               "name": "Carson Dunlop",
+              "description": "The leaders in home inspection since 1978.",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/CarsonDunlopHomeInspection.png",
+              "phoneNumber":"1-800-268-7070"
+            },
+            {
+              "vendor_id":"craiglaine",
+              "fee": null,
+              "name": "Craig Line",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/craigline.png",
               "phoneNumber":"1-800-268-7070"
             },
             {
               "vendor_id":"tm",
               "fee": null,
-              "name": "Lighthouse Inspections",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/lighthouseinspections.png",
+              "name": "TM",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tm.png",
               "phoneNumber":"1-800-217-2450"
             }
           ]
