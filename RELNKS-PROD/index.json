@@ -30,6 +30,13 @@
               "description": "The leaders in home inspection since 1978.",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/CarsonDunlopHomeInspection.png",
               "phoneNumber":"+1-800-268-7070"
+            },
+            {
+              "vendor_id":"RELNKS Virtual",
+              "fee": null,
+              "name": "RELNKS to Assign Home Inspector",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
+              "phoneNumber": null
             }
           ]
         }
