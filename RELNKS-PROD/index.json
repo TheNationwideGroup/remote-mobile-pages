@@ -37,6 +37,20 @@
               "name": "RELNKS to Assign Home Inspector",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
               "phoneNumber": null
+            },
+            {
+              "vendor_id":"craiglaine",
+              "fee": null,
+              "name": "Craig Line",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/craigline.png",
+              "phoneNumber":"+1-800-268-7070"
+            },
+            {
+              "vendor_id":"tm",
+              "fee": null,
+              "name": "TM",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tm.png",
+              "phoneNumber":"+1-800-217-2450"
             }
           ]
         }
@@ -105,8 +119,8 @@
               "firstName":"Test",
               "lastName":"Broker",
               "description": "Test Broker",
-              "phoneNumber": "416-728-5924",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tribe.png"
+              "phoneNumber": "2345155555",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             }
           ]
         }
