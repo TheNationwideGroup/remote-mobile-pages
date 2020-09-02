@@ -111,7 +111,7 @@
           "Cleaning Services"
         ]
       },
-      { "title": "Pest Control", "conditions": {"province":["ON"]},
+      { "title": "Pest Control", "conditions": {"title": "Pest Control", "province":["ON"]},
         "parent": "Property Services",
         "items": [
           {
@@ -149,7 +149,7 @@
           }
         ]
       },
-      { "title": "Pest Control", "conditions": {"province":["BC"]},
+      { "title": "Pest Control", "conditions": { "title": "Pest Control", "province":["BC"]},
         "parent": "Property Services",
         "items": [
           {
@@ -187,7 +187,7 @@
           }
         ]
       },
-      { "title": "Home/Auto Insurance", "conditions": {"province":["BC"]},
+      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "province":["BC"]},
         "parent": "Insurance Products",
         "items": [
            {
@@ -233,7 +233,7 @@
            }
         ]
       },
-      { "title": "Junk Removal", "conditions": {"province":["BC"]},
+      { "title": "Junk Removal", "conditions": {"title": "Junk Removal", "province":["BC"]},
         "parent": "Concierge Services",
         "type": "button",
         "items": [
@@ -272,7 +272,7 @@
            }
         ]
       },
-      { "title": "Change Address", "conditions": {"province":["BC"]},
+      { "title": "Change Address", "conditions": {"title": "Change Address", "province":["BC"]},
         "parent": "Concierge Services",
         "items": [
           {
@@ -363,7 +363,7 @@
           }
         ]
       },
-      { "title": "Electric Companies", "conditions": {"province":["BC"]},
+      { "title": "Electric Companies", "conditions": {"title": "Electric Companies", "province":["BC"]},
         "items": [
           {
             "type": "div",
@@ -413,7 +413,7 @@
           }
         ]
       },
-      { "title": "Gas", "conditions": {"province":["BC"]},
+      { "title": "Gas", "conditions": {"title": "Gas", "province":["BC"]},
         "items": [
           {
             "type": "div",
@@ -471,7 +471,7 @@
           }
         ]
       },
-      { "title": "Phone", "conditions": {"province":["BC"]},
+      { "title": "Phone", "conditions": {"title": "Phone", "province":["BC"]},
         "items": [
           {
             "type": "div",
@@ -545,7 +545,7 @@
           }
         ]
       },
-      { "title": "Cable", "conditions": {"province":["BC"]},
+      { "title": "Cable", "conditions": {"title": "Cable", "province":["BC"]},
         "items": [
           {
             "type": "div",
@@ -619,7 +619,7 @@
           }
         ]
       },
-      { "title": "Internet", "conditions": {"province":["BC"]},
+      { "title": "Internet", "conditions": {"title": "Internet", "province":["BC"]},
         "items": [
           {
             "type": "div",
@@ -685,7 +685,7 @@
           }
         ]
       },
-      { "title": "Water Heater/Furnace Replacement", "conditions": {"province":["BC"]},
+      { "title": "Water Heater/Furnace Replacement", "conditions": {"title": "Water Heater/Furnace Replacement", "province":["BC"]},
         "items": [
           {
             "type": "div",
