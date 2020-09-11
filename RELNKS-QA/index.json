@@ -58,31 +58,68 @@
         "vendors":{
           "data": [
             {
-              "vendor_id":"nassir.nathoo@nationwideappraisals.com",
-              "name": "ABC Mortgage",
-              "firstName":"John",
-              "lastName":"Smith",
-              "description": "John Smith",
-              "phoneNumber": "555-555-5555",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/generic-mortgage.jpg"
+              "vendor_id":"peter@mymortgageplanner.ca",
+              "name": "Mortgage Architects, My Mortgage Planner",
+              "firstName":"Peter",
+              "lastName":"Majthenyi",
+              "description": "Peter Majthenyi",
+              "phoneNumber": "416-236-9300",
+              "email":"peter@mymortgageplanner.ca",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mortgagearchitects.jpg"
+            },
+            {
+              "vendor_id":"tbrock@dominionlending.ca",
+              "name": "Dominion Lending Centres Mortgage Plus",
+              "firstName":"Tracy",
+              "lastName":"Brock",
+              "description": "Tracy Brock",
+              "phoneNumber": "416-788-6207",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/dlc.jpg"
+            },
+            {
+              "vendor_id":"mhattim@dominionlending.ca",
+              "name": "Hattim Group Inc",
+              "firstName":"Mike",
+              "lastName":"Hattim",
+              "description": "Mike Hattim",
+              "phoneNumber": "519-679-8988",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/dlc.jpg"
+            },
+            {
+              "vendor_id":"team@mortgagewellness.ca",
+              "name": "Mortgage Wellness",
+              "firstName":"Nick",
+              "lastName":"Lecuyer",
+              "description": "Nick Lecuyer",
+              "phoneNumber": "705-730-1050",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mortgagewellness.jpg"
+            },
+            {
+              "vendor_id":"kevin_king@centum.ca",
+              "name": "Centum King Mortgages",
+              "firstName":"Kevin",
+              "lastName":"King",
+              "description": "Kevin King",
+              "phoneNumber": "705-528-0404",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/centum-kevinking.png"
+            },
+            {
+              "vendor_id":"frances@tribefinancial.com",
+              "name": "Tribe Financial Group",
+              "firstName":"Frances",
+              "lastName":"Hinojosa",
+              "description": "Frances Hinojosa",
+              "phoneNumber": "416-728-5924",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tribe.png"
             },
             {
               "vendor_id":"appraisertest@nationwideappraisals.com",
-              "name": "ABC Financial Group",
-              "firstName":"Jane",
-              "lastName":"Jones",            
-              "description": "Jane Jones",
-              "phoneNumber": "555-555-5555",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/generic-mortgage.jpg"
-            },
-            {
-              "vendor_id":"Elizabeth@Tngoc.com",
-              "name": "CBA Financial Group",
-              "firstName":"Elizabeth",
-              "lastName":"Corbett",            
-              "description": "Elizabeth Corbett",
-              "phoneNumber": "555-555-5555",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/generic-mortgage.jpg"
+              "name": "Test Broker",
+              "firstName":"Test",
+              "lastName":"Broker",
+              "description": "Test Broker",
+              "phoneNumber": "2345155555",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             }
           ]
         }
