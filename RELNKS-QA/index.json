@@ -69,6 +69,7 @@
             },
             {
               "vendor_id":"tbrock@dominionlending.ca",
+              "company":"DLC",
               "name": "Dominion Lending Centres Mortgage Plus",
               "firstName":"Tracy",
               "lastName":"Brock",
@@ -78,6 +79,7 @@
             },
             {
               "vendor_id":"mhattim@dominionlending.ca",
+              "company":"DLC",
               "name": "Hattim Group Inc",
               "firstName":"Mike",
               "lastName":"Hattim",
