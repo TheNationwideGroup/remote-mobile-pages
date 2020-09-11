@@ -60,22 +60,22 @@
             {
               "vendor_id":"nassir.nathoo@nationwideappraisals.com",
               "company":"ABC Mortgage",
-              "name": "ABC Mortgage",
+              "name": "John Smith",
               "firstName":"John",
               "lastName":"Smith",
               "description": "John Smith",
               "phoneNumber": "555-555-5555",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/generic-mortgage.jpg"
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             },
             {
               "vendor_id":"nassir.nathoo@nationwideappraisals.com",
               "company":"ABC Mortgage",
-              "name": "ABC Mortgage",
+              "name": "Jane Finch",
               "firstName":"Jane",
               "lastName":"Finch",
               "description": "John Smith",
               "phoneNumber": "555-555-5555",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/generic-mortgage.jpg"
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             },
             {
               "vendor_id":"appraisertest@nationwideappraisals.com",
@@ -84,7 +84,7 @@
               "lastName":"Jones",            
               "description": "Jane Jones",
               "phoneNumber": "555-555-5555",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/generic-mortgage.jpg"
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             },
             {
               "vendor_id":"Elizabeth@Tngoc.com",
@@ -93,7 +93,7 @@
               "lastName":"Corbett",            
               "description": "Elizabeth Corbett",
               "phoneNumber": "555-555-5555",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/generic-mortgage.jpg"
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             }
           ]
         }
