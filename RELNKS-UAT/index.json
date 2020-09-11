@@ -66,6 +66,15 @@
         "vendors":{
           "data": [
             {
+              "vendor_id":"frances@tribefinancial.com",
+              "name": "Oriana Financial",
+              "firstName":"",
+              "lastName":"",
+              "description": "",
+              "phoneNumber": "",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/oriana-financial.png"
+            },
+            {
               "vendor_id":"peter@mymortgageplanner.ca",
               "name": "Mortgage Architects, My Mortgage Planner",
               "firstName":"Peter",
@@ -100,7 +109,7 @@
               "lastName":"Lecuyer",
               "description": "Nick Lecuyer",
               "phoneNumber": "705-730-1050",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mortgagewellness.jpg"
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/verico.jpg"
             },
             {
               "vendor_id":"kevin_king@centum.ca",
