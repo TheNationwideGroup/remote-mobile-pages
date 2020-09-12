@@ -39,6 +39,13 @@
               "phoneNumber": null
             },
             {
+              "vendor_id":"RELNKS to Assign",
+              "fee": null,
+              "name": "RELNKS to Assign Home Inspector",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
+              "phoneNumber": null
+            },
+            {
               "vendor_id":"craiglaine",
               "fee": null,
               "name": "Craig Line",
@@ -59,6 +66,15 @@
         "vendors":{
           "data": [
             {
+              "vendor_id":"mhall@orianafinancial.com",
+              "name": "Oriana Financial",
+              "firstName":"",
+              "lastName":"",
+              "description": "",
+              "phoneNumber": "",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/oriana-financial.png"
+            },
+            {
               "vendor_id":"peter@mymortgageplanner.ca",
               "name": "Mortgage Architects, My Mortgage Planner",
               "firstName":"Peter",
@@ -78,22 +94,13 @@
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/dlc.jpg"
             },
             {
-              "vendor_id":"mhattim@dominionlending.ca",
-              "name": "Hattim Group Inc",
-              "firstName":"Mike",
-              "lastName":"Hattim",
-              "description": "Mike Hattim",
-              "phoneNumber": "519-679-8988",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/dlc.jpg"
-            },
-            {
               "vendor_id":"team@mortgagewellness.ca",
               "name": "Mortgage Wellness",
               "firstName":"Nick",
               "lastName":"Lecuyer",
               "description": "Nick Lecuyer",
               "phoneNumber": "705-730-1050",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mortgagewellness.jpg"
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/verico.jpg"
             },
             {
               "vendor_id":"kevin_king@centum.ca",
@@ -112,6 +119,15 @@
               "description": "Frances Hinojosa",
               "phoneNumber": "416-728-5924",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tribe.png"
+            },
+            {
+              "vendor_id":"nassir.nathoo@nationwideappraisals.com",
+              "name": "Test Broker",
+              "firstName":"Test",
+              "lastName":"Broker",
+              "description": "Test Broker",
+              "phoneNumber": "2345155555",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             }
           ]
         }
