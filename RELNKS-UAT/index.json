@@ -2,7 +2,9 @@
 	"guid": 2,
   "pages": {},
   "config": {
-
+    "SupportedRegions":{
+      "CA": ["ON"]
+    },
     "selectOptions":{
       "103":{
         "vendors":{
