@@ -3,7 +3,7 @@
   "pages": {},
   "config": {
     "SupportedRegions":{
-      "CA": ["ON"]
+      "CA": ["ON","BC"]
     },
     "UserTypePermissions":[
       { 
