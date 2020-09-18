@@ -119,15 +119,6 @@
               "description": "Frances Hinojosa",
               "phoneNumber": "416-728-5924",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tribe.png"
-            },
-            {
-              "vendor_id":"nassir.nathoo@nationwideappraisals.com",
-              "name": "Test Broker",
-              "firstName":"Test",
-              "lastName":"Broker",
-              "description": "Test Broker",
-              "phoneNumber": "2345155555",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             }
           ]
         }
