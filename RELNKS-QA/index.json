@@ -5,12 +5,31 @@
     "SupportedRegions":{
       "CA": ["ON","BC"]
     },
-    "UserTypePermissions":{
-      "100": ["CREATE_ORDER","CREATE_ORDER_NOT_FIRST"],
-      "102": ["CREATE_ORDER","CREATE_ORDER_NOT_FIRST"],
-      "103": ["CREATE_ORDER"],
-      "104": ["CREATE_ORDER","CREATE_ORDER_NOT_FIRST"]
-    },
+    "UserTypePermissions":[
+      { "conditions": { "serviceProvider_id":["100","102","103","104"]},
+        "permissions": [] },
+
+      {
+        "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["103", "104"] },
+        "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
+      },
+      { 
+        "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["100"] },
+        "permissions": ["CREATE_ORDER"]
+      },
+      {
+        "conditions": { "userType":"REALTOR", "serviceProvider_id":["103","104"] },
+        "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
+      },
+      { 
+        "conditions": { "userType":"BROKER", "serviceProvider_id":["103","104"] },
+        "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
+      },
+      { 
+        "conditions": { "userType":"LENDER", "serviceProvider_id":["103","104"] },
+        "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
+      }
+    ],
     "selectOptions":{
       "103":{
         "vendors":{
