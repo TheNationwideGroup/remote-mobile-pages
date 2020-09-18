@@ -18,7 +18,7 @@
         "permissions": ["CREATE_ORDER"]
       },
       { 
-        "conditions": { "serviceProvider_id":["100"], "isParticipant": true, "participantType":["APPLICANT","COAPPLICANT"] },
+        "conditions": { "userType":"*", "serviceProvider_id":["100"], "isParticipant": true, "participantType":["APPLICANT","COAPPLICANT"] },
         "permissions": ["CREATE_ORDER"]
       },
       {
