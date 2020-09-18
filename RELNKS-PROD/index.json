@@ -2,7 +2,35 @@
 	"guid": 2,
   "pages": {},
   "config": {
-
+    "SupportedRegions":{
+      "CA": ["ON"]
+    },
+    "UserTypePermissions":[
+      { 
+        "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["100"], "isParticipant": false },
+        "permissions": ["CREATE_ORDER"]
+      },
+      { 
+        "conditions": { "userType":"*", "serviceProvider_id":["100"], "isParticipant": true, "participantType":["APPLICANT","COAPPLICANT"] },
+        "permissions": ["CREATE_ORDER"]
+      },
+      {
+        "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["103", "104"] },
+        "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
+      },
+      {
+        "conditions": { "userType":"REALTOR", "serviceProvider_id":["103","104"] },
+        "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
+      },
+      { 
+        "conditions": { "userType":"BROKER", "serviceProvider_id":["103","104"] },
+        "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
+      },
+      { 
+        "conditions": { "userType":"LENDER", "serviceProvider_id":["103","104"] },
+        "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
+      }
+    ],
     "selectOptions":{
       "103":{
         "vendors":{
