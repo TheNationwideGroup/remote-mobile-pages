@@ -5,6 +5,12 @@
     "SupportedRegions":{
       "CA": ["ON","BC"]
     },
+    "UserTypePermissions":{
+      "100": ["CREATE_ORDER","CREATE_ORDER_NOT_FIRST"],
+      "102": ["CREATE_ORDER","CREATE_ORDER_NOT_FIRST"],
+      "103": ["CREATE_ORDER"],
+      "104": ["CREATE_ORDER","CREATE_ORDER_NOT_FIRST"]
+    },
     "selectOptions":{
       "103":{
         "vendors":{
