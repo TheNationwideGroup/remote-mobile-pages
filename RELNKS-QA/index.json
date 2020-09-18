@@ -14,7 +14,11 @@
         "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
       },
       { 
-        "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["100"], "isParticipant": true, "participantType":["APPLICANT","COAPPLICANT"] },
+        "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["100"], "isParticipant": false },
+        "permissions": ["CREATE_ORDER"]
+      },
+      { 
+        "conditions": { "serviceProvider_id":["100"], "isParticipant": true, "participantType":["APPLICANT","COAPPLICANT"] },
         "permissions": ["CREATE_ORDER"]
       },
       {
