@@ -7,7 +7,7 @@
     },
     "WhitelabelAssets":[
       { 
-        "conditions": { "page":"LoginPage", "company":"oriana" },
+        "conditions": { "page":["LoginPage","MenuPage"], "company":"oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
       }
     ],
