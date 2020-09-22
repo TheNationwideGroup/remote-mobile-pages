@@ -8,7 +8,7 @@
     "WhitelabelAssets":[
       { 
         "conditions": { "page":"LoginPage", "company":"oriana" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/logo.png"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
       }
     ],
     "UserTypePermissions":[
