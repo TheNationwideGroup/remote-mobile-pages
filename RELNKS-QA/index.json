@@ -5,6 +5,12 @@
     "SupportedRegions":{
       "CA": ["ON","BC"]
     },
+    "WhitelabelAssets":[
+      { 
+        "conditions": { "page":"LoginPage", "company":"oriana" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/logo.png"
+      }
+    ],
     "UserTypePermissions":[
       { 
         "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["100"], "isParticipant": false },
