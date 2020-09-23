@@ -286,44 +286,51 @@
       { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana" },
         "parent": null,
         "buttons": [
-          {"title":"Home/Auto Insurance", "items": [
-            {
-               "type": "div",
-               "items": [
-                  {
-                     "type": "p",
-                     "text": "Home Insurance is required to close on your home. Find the right fit for your needs here."
-                  },
-                  {
-                     "type": "info-tile-component",
-                     "title": "Case Insurance",
-                     "text": "Case Insurance Brokers: The entrepreneur's choice for business, auto and home insurance.",
-                     "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/case-insurance.png",
-                     "url": "https://www.caseinsurance.ca/",
-                     "phone": "416-484-3810"
-                  }
-               ]
-            }
-          ]},
-          {"title":"Life Insurance", "items": [
-            {
-              "type": "div",
-              "items": [
-                 {
-                    "type": "p",
-                    "text": "Life Insurance is required to close on your home. Find the right fit for your needs here."
-                 },
-                 {
-                    "type": "info-tile-component",
-                    "title": "Bold Financial",
-                    "text": "Life insurance, group benefits and investment solutions for business owners and professionals.",
-                    "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bold-financial.png",
-                    "url": "https://www.boldfinancial.ca/",
-                    "phone": "416-727-7071"
-                 }
-              ]
-            }
-          ]}
+          {"title":"Home/Auto Insurance"},
+          {"title":"Life Insurance"}
+        ]
+      },
+      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"oriana", "province":"*"},
+        "parent": "Insurance Products", "items": [
+          {
+             "type": "div",
+             "items": [
+                {
+                   "type": "p",
+                   "text": "Home Insurance is required to close on your home. Find the right fit for your needs here."
+                },
+                {
+                   "type": "info-tile-component",
+                   "title": "Case Insurance",
+                   "text": "Case Insurance Brokers: The entrepreneur's choice for business, auto and home insurance.",
+                   "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/case-insurance.png",
+                   "url": "https://www.caseinsurance.ca/",
+                   "phone": "416-484-3810"
+                }
+             ]
+          }
+       ]
+      },
+      { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"oriana", "province":"*"},
+       "parent": "Insurance Products",
+       "items": [
+          {
+            "type": "div",
+            "items": [
+               {
+                  "type": "p",
+                  "text": "Life Insurance is required to close on your home. Find the right fit for your needs here."
+               },
+               {
+                  "type": "info-tile-component",
+                  "title": "Bold Financial",
+                  "text": "Life insurance, group benefits and investment solutions for business owners and professionals.",
+                  "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bold-financial.png",
+                  "url": "https://www.boldfinancial.ca/",
+                  "phone": "416-727-7071"
+               }
+            ]
+          }
         ]
       },
       { "title": "Junk Removal", "conditions": {"title": "Junk Removal", "province":["BC"]},
