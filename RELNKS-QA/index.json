@@ -244,6 +244,13 @@
           {"title":"Home/Auto Insurance"}
         ]
       },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana", "province":"*" },
+        "parent": null,
+        "buttons": [
+          {"title":"Home/Auto Insurance"},
+          {"title":"Life Insurance"}
+        ]
+      },
       { "title": "Home Warranty Insurance", "conditions": {"title": "Home Warranty Insurance", "company":"*", "province":"*"},
         "parent": "Insurance Products",
         "items": [
@@ -354,13 +361,6 @@
                  }
               ]
            }
-        ]
-      },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana", "province":"*" },
-        "parent": null,
-        "buttons": [
-          {"title":"Home/Auto Insurance"},
-          {"title":"Life Insurance"}
         ]
       },
       { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"oriana", "province":"*"},
