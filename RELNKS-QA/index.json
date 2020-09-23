@@ -286,8 +286,8 @@
       { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana" },
         "parent": null,
         "buttons": [
-          "Home/Auto Insurance",
-          "Life Insurance"
+          {"title": "Home/Auto Insurance"},
+          {"title": "Life Insurance"}
         ]
       },
       { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"oriana", "province":"*"},
