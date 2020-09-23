@@ -237,7 +237,7 @@
           }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "province":"*" },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"*", "province":"*" },
         "parent": null,
         "buttons": [
           {"title":"Home Warranty Insurance"},
