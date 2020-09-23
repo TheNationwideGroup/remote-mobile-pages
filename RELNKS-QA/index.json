@@ -244,7 +244,7 @@
           {"title":"Home/Auto Insurance"}
         ]
       },
-      { "title": "Home Warranty Insurance", "conditions": {"title": "Home Warranty Insurance", "province":"*"},
+      { "title": "Home Warranty Insurance", "conditions": {"title": "Home Warranty Insurance", "company":"*", "province":"*"},
         "parent": "Insurance Products",
         "items": [
           {
@@ -277,7 +277,7 @@
           }
         ]
       },
-      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "province":"*"},
+      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"*", "province":"*"},
         "parent": "Insurance Products",
         "items": [
           {
@@ -310,7 +310,7 @@
           }
         ]
       },
-      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "province":["BC"]},
+      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"*", "province":["BC"]},
         "parent": "Insurance Products",
         "items": [
            {
@@ -356,7 +356,7 @@
            }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana" },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana", "province":"*" },
         "parent": null,
         "buttons": [
           {"title":"Home/Auto Insurance"},
