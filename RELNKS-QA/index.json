@@ -144,8 +144,8 @@
               "phoneNumber": null
             }
           ]
-        }]
-      },
+        }
+      ],
       "100":[
         { "conditions":{ "company":"*" },
           "vendors": [
