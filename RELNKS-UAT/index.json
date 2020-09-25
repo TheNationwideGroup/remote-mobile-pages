@@ -164,7 +164,7 @@
         { "conditions":{ "company":"*" },
           "vendors": [
             {
-              "vendor_id":"mhall@orianafinancial.com",
+              "vendor_id":"appraisertest@nationwideappraisals.com",
               "name": "Oriana Financial",
               "firstName":"",
               "lastName":"",
@@ -173,17 +173,16 @@
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/oriana-financial.png"
             },
             {
-              "vendor_id":"peter@mymortgageplanner.ca",
+              "vendor_id":"appraisertest@nationwideappraisals.com",
               "name": "Mortgage Architects, My Mortgage Planner",
               "firstName":"Peter",
               "lastName":"Majthenyi",
               "description": "Peter Majthenyi",
               "phoneNumber": "416-236-9300",
-              "email":"peter@mymortgageplanner.ca",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mortgagearchitects.jpg"
             },
             {
-              "vendor_id":"tbrock@dominionlending.ca",
+              "vendor_id":"appraisertest@nationwideappraisals.com",
               "name": "Dominion Lending Centres Mortgage Plus",
               "firstName":"Tracy",
               "lastName":"Brock",
@@ -192,7 +191,7 @@
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/dlc.jpg"
             },
             {
-              "vendor_id":"team@mortgagewellness.ca",
+              "vendor_id":"appraisertest@nationwideappraisals.com",
               "name": "Mortgage Wellness",
               "firstName":"Nick",
               "lastName":"Lecuyer",
@@ -201,7 +200,7 @@
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/verico.jpg"
             },
             {
-              "vendor_id":"kevin_king@centum.ca",
+              "vendor_id":"appraisertest@nationwideappraisals.com",
               "name": "Centum King Mortgages",
               "firstName":"Kevin",
               "lastName":"King",
@@ -210,7 +209,7 @@
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/centum-kevinking.png"
             },
             {
-              "vendor_id":"frances@tribefinancial.com",
+              "vendor_id":"appraisertest@nationwideappraisals.com",
               "name": "Tribe Financial Group",
               "firstName":"Frances",
               "lastName":"Hinojosa",
@@ -219,7 +218,7 @@
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tribe.png"
             },
             {
-              "vendor_id":"nassir.nathoo@nationwideappraisals.com",
+              "vendor_id":"appraisertest@nationwideappraisals.com",
               "name": "Test Broker",
               "firstName":"Test",
               "lastName":"Broker",
@@ -232,7 +231,7 @@
         { "conditions":{ "company":"oriana" },
           "vendors": [
             {
-              "vendor_id":"mhall@orianafinancial.com",
+              "vendor_id":"appraisertest@nationwideappraisals.com",
               "name": "Oriana Financial",
               "firstName":"",
               "lastName":"",
