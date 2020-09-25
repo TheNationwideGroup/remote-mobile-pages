@@ -5,6 +5,16 @@
     "SupportedRegions":{
       "CA": ["ON","BC"]
     },
+    "WhitelabelAssets":[
+      { 
+        "conditions": { "page":["LoginPage","MenuPage"], "company":"*" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo.png"
+      },
+      { 
+        "conditions": { "page":["LoginPage","MenuPage"], "company":"oriana" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
+      }
+    ],
     "UserTypePermissions":[
       { 
         "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["100"], "isParticipant": false },
@@ -89,10 +99,70 @@
             }
           ]
         }
-      },
-      "100":{
-        "vendors":{
-          "data": [
+      }
+    },
+    "serviceOptions":{
+      "103":[
+        { "conditions":{ "company":"*" },
+          "vendors":[
+            {
+              "vendor_id":"jmarino",
+              "fee": null,
+              "name": "Lighthouse Inspections",
+              "description": "We have more than 17+ years of experience and have completed over 37,000+ home inspections using the most progressive technology available.",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/lighthouseinspections.png",
+              "phoneNumber":"+1-800-217-2450"
+            },
+            {
+              "vendor_id":"truinspections",
+              "fee": null,
+              "name": "TRU Inspections",
+              "description": "Raising the bar of GTA Home Inspection",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/truinspections.jpg",
+              "phoneNumber":"416-732-2165"
+            },
+            {
+              "vendor_id":"carsondunlop",
+              "fee": null,
+              "name": "Carson Dunlop",
+              "description": "The leaders in home inspection since 1978.",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/CarsonDunlopHomeInspection.png",
+              "phoneNumber":"+1-800-268-7070"
+            },
+            {
+              "vendor_id":"RELNKS Virtual",
+              "fee": null,
+              "name": "RELNKS to Assign Home Inspector",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
+              "phoneNumber": null
+            },
+            {
+              "vendor_id":"RELNKS to Assign",
+              "fee": null,
+              "name": "RELNKS to Assign Home Inspector",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
+              "phoneNumber": null
+            },
+            {
+              "vendor_id":"craiglaine",
+              "fee": null,
+              "name": "Craig Line",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/craigline.png",
+              "phoneNumber":"+1-800-268-7070"
+            },
+            {
+              "vendor_id":"tm",
+              "fee": null,
+              "name": "TM",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tm.png",
+              "phoneNumber":"+1-800-217-2450"
+            }
+          ]
+        }
+      ],
+      "100":[
+        { "conditions":{ "company":"*" },
+          "vendors": [
             {
               "vendor_id":"mhall@orianafinancial.com",
               "name": "Oriana Financial",
@@ -158,8 +228,34 @@
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             }
           ]
+        },
+        { "conditions":{ "company":"oriana" },
+          "vendors": [
+            {
+              "vendor_id":"mhall@orianafinancial.com",
+              "name": "Oriana Financial",
+              "firstName":"",
+              "lastName":"",
+              "description": "",
+              "phoneNumber": "",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/oriana-financial.png"
+            }
+          ]
         }
-      }
+      ],
+      "104":[
+        { "conditions":{ "company":"oriana" },
+          "vendors": [
+            {
+              "portalOfficeId": 83,
+              "officeName": "Indigoblue Legal Professional Corporation",
+              "province": "ON",
+              "lawyerName": "Tanvi Nagda",
+              "internalLawyerId": 150150
+            }
+          ]
+        }
+      ]
     },
     "concieregeServicesPages":[
       { "title": "Concierge Services", "conditions": { "title": "Concierge Services" },
