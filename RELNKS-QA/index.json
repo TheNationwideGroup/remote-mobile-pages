@@ -17,7 +17,7 @@
         "italicText": "Powered by RELNKS"
       },
       { "conditions": { "page":["BaseHeaderPage"], "company":"oriana" },
-        "logoURL": ""
+        "imageURL": ""
       }
     ],
     "UserTypePermissions":[
