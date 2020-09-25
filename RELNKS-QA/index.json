@@ -6,13 +6,17 @@
       "CA": ["ON","BC"]
     },
     "WhitelabelAssets":[
-      { 
-        "conditions": { "page":["LoginPage","MenuPage"], "company":"*" },
+      { "conditions": { "page":["LoginPage","MenuPage"], "company":"*" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo.png"
       },
-      { 
-        "conditions": { "page":["LoginPage","MenuPage"], "company":"oriana" },
+      { "conditions": { "page":["LoginPage","MenuPage"], "company":"oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
+      },
+      { "conditions": { "page":["LoginPage"], "company":"oriana" },
+        "italicText": "Powered by RELNKS"
+      },
+      { "conditions": { "page":["BaseHeaderPage"], "company":"oriana" },
+        "logoURL": ""
       }
     ],
     "UserTypePermissions":[
