@@ -5,6 +5,21 @@
     "SupportedRegions":{
       "CA": ["ON","BC"]
     },
+    "WhitelabelAssets":[
+      { "conditions": { "page":["LoginPage","MenuPage"], "company":"*" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo.png"
+      },
+      { "conditions": { "page":["MenuPage"], "company":"oriana" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
+      },
+      { "conditions": { "page":["LoginPage"], "company":"oriana" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png",
+        "italicText": "Powered by RELNKS"
+      },
+      { "conditions": { "page":["BaseHeaderPage"], "company":"oriana" },
+        "imageURL": ""
+      }
+    ],
     "UserTypePermissions":[
       { 
         "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["100"], "isParticipant": false },
@@ -60,11 +75,18 @@
               "phoneNumber":"+1-800-268-7070"
             },
             {
-              "vendor_id":"RELNKS Virtual",
+              "vendor_id":"craiglaine",
               "fee": null,
-              "name": "RELNKS to Assign Home Inspector",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
-              "phoneNumber": null
+              "name": "Craig Line",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/craigline.png",
+              "phoneNumber":"+1-800-268-7070"
+            },
+            {
+              "vendor_id":"tm",
+              "fee": null,
+              "name": "TM",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tm.png",
+              "phoneNumber":"+1-800-217-2450"
             },
             {
               "vendor_id":"RELNKS to Assign",
@@ -72,6 +94,45 @@
               "name": "RELNKS to Assign Home Inspector",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
               "phoneNumber": null
+            },
+            {
+              "vendor_id":"RELNKS Virtual",
+              "fee": null,
+              "name": "RELNKS to Assign Home Inspector",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
+              "phoneNumber": null
+            }
+          ]
+        }
+      }
+    },
+    "serviceOptions":{
+      "103":[
+        { "conditions":{ "company":"*" },
+          "vendors":[
+            {
+              "vendor_id":"jmarino",
+              "fee": null,
+              "name": "Lighthouse Inspections",
+              "description": "We have more than 17+ years of experience and have completed over 37,000+ home inspections using the most progressive technology available.",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/lighthouseinspections.png",
+              "phoneNumber":"+1-800-217-2450"
+            },
+            {
+              "vendor_id":"truinspections",
+              "fee": null,
+              "name": "TRU Inspections",
+              "description": "Raising the bar of GTA Home Inspection",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/truinspections.jpg",
+              "phoneNumber":"416-732-2165"
+            },
+            {
+              "vendor_id":"carsondunlop",
+              "fee": null,
+              "name": "Carson Dunlop",
+              "description": "The leaders in home inspection since 1978.",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/CarsonDunlopHomeInspection.png",
+              "phoneNumber":"+1-800-268-7070"
             },
             {
               "vendor_id":"craiglaine",
@@ -86,13 +147,27 @@
               "name": "TM",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tm.png",
               "phoneNumber":"+1-800-217-2450"
+            },
+            {
+              "vendor_id":"RELNKS to Assign",
+              "fee": null,
+              "name": "RELNKS to Assign Home Inspector",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
+              "phoneNumber": null
+            },
+            {
+              "vendor_id":"RELNKS Virtual",
+              "fee": null,
+              "name": "RELNKS to Assign Home Inspector",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
+              "phoneNumber": null
             }
           ]
         }
-      },
-      "100":{
-        "vendors":{
-          "data": [
+      ],
+      "100":[
+        { "conditions":{ "company":"*" },
+          "vendors": [
             {
               "vendor_id":"mhall@orianafinancial.com",
               "name": "Oriana Financial",
@@ -148,8 +223,34 @@
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tribe.png"
             }
           ]
+        },
+        { "conditions":{ "company":"oriana" },
+          "vendors": [
+            {
+              "vendor_id":"mhall@orianafinancial.com",
+              "name": "Oriana Financial",
+              "firstName":"",
+              "lastName":"",
+              "description": "",
+              "phoneNumber": "",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/oriana-financial.png"
+            }
+          ]
         }
-      }
+      ],
+      "104":[
+        { "conditions":{ "company":"oriana" },
+          "vendors": [
+            {
+              "portalOfficeId": 89,
+              "officeName": "Indigoblue Legal Professional Corporation",
+              "province": "ON",
+              "lawyerName": "Tanvi Nagda",
+              "lawyerId": 150202
+            }
+          ]
+        }
+      ]
     },
     "concieregeServicesPages":[
       { "title": "Concierge Services", "conditions": { "title": "Concierge Services" },
@@ -250,7 +351,87 @@
           }
         ]
       },
-      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "province":["BC"]},
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"*", "province":"*" },
+        "parent": null,
+        "buttons": [
+          {"title":"Home Warranty Insurance", "icon": "fas fa-umbrella"},
+          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash"}
+        ]
+      },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana", "province":"*" },
+        "parent": null,
+        "buttons": [
+          {"title":"Home/Auto Insurance","icon": "fas fa-car-crash"},
+          {"title":"Life Insurance","icon": "fas fa-umbrella"}
+        ]
+      },
+      { "title": "Home Warranty Insurance", "conditions": {"title": "Home Warranty Insurance", "company":"*", "province":"*"},
+        "parent": "Insurance Products",
+        "items": [
+          {
+            "type": "p", 
+            "text": "Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Atlas Care",
+            "text": "Keeping GTA homes comfortable since 1932.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/atlascare.png",
+            "url": "https://atlascare.ca/protection-plans/",
+            "phone": "905-829-1296"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Complete Protection",
+            "text": "Complete Protection™ (CP™) is unlike any other home warranty on the market. In business since 1998, we have become the industry leader in Customer Service.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/completeprotection.png",
+            "url": "https://www.completehomewarranty.com/request-a-quote/",
+            "phone": "1-800-978-2022"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Blanket Universal Home Warranty",
+            "text": "Blanket Universal Home Warranty provides Canada’s best coverage against unexpected repairs or breakdowns that can cost homeowners thousands of dollars, whether it’s a new or pre-owned home.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/blanket.png",
+            "url": "https://portal.buhw.ca/register",
+            "phone": "1-855-587-4792"
+          }
+        ]
+      },
+      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"*", "province":"*"},
+        "parent": "Insurance Products",
+        "items": [
+          {
+            "type": "p", 
+            "text": "Home Insurance is required to close on your home. Find the right fit for your needs here."
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Magnes",
+            "text": "With effort and care, we deliver the very best personalized insurance coverage and risk management advice. ",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/magnes.png",
+            "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
+            "phone": "1-800-650-3435"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Sonnet",
+            "text": "At Sonnet, we offer customized coverage, in language you can understand, at a competitive price – and we do it all online.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/sonnet.png",
+            "url": "https://www.sonnet.ca",
+            "phone": "1-844-766-6374"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Belairdirect",
+            "text": "A true ally is someone you trust. At belairdirect, we’ve offered car and home insurance to nearly 1 million customers over the last 60 years.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/belairdirect.png",
+            "url": "https://www.belairdirect.com/",
+            "phone": "1-888-280-8549"
+          }
+        ]
+      },
+      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"*", "province":["BC"]},
         "parent": "Insurance Products",
         "items": [
            {
@@ -294,6 +475,49 @@
                  }
               ]
            }
+        ]
+      },
+      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"oriana", "province":"*"},
+        "parent": "Insurance Products", "items": [
+          {
+             "type": "div",
+             "items": [
+                {
+                   "type": "p",
+                   "text": "Home Insurance is required to close on your home. Find the right fit for your needs here."
+                },
+                {
+                   "type": "info-tile-component",
+                   "title": "Case Insurance",
+                   "text": "Case Insurance Brokers: The entrepreneur's choice for business, auto and home insurance.",
+                   "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/case-insurance.png",
+                   "url": "https://www.caseinsurance.ca/",
+                   "phone": "416-484-3810"
+                }
+             ]
+          }
+       ]
+      },
+      { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"oriana", "province":"*"},
+       "parent": "Insurance Products",
+       "items": [
+          {
+            "type": "div",
+            "items": [
+               {
+                  "type": "p",
+                  "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs Not required for closing."
+               },
+               {
+                  "type": "info-tile-component",
+                  "title": "Bold Financial",
+                  "text": "Life insurance, group benefits and investment solutions for business owners and professionals.",
+                  "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bold-financial.png",
+                  "url": "https://www.boldfinancial.ca/",
+                  "phone": "416-727-7071"
+               }
+            ]
+          }
         ]
       },
       { "title": "Junk Removal", "conditions": {"title": "Junk Removal", "province":["BC"]},
