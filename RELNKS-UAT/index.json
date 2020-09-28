@@ -75,20 +75,6 @@
               "phoneNumber":"+1-800-268-7070"
             },
             {
-              "vendor_id":"RELNKS Virtual",
-              "fee": null,
-              "name": "RELNKS to Assign Home Inspector",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
-              "phoneNumber": null
-            },
-            {
-              "vendor_id":"RELNKS to Assign",
-              "fee": null,
-              "name": "RELNKS to Assign Home Inspector",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
-              "phoneNumber": null
-            },
-            {
               "vendor_id":"craiglaine",
               "fee": null,
               "name": "Craig Line",
@@ -101,6 +87,48 @@
               "name": "TM",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tm.png",
               "phoneNumber":"+1-800-217-2450"
+            },
+            {
+              "vendor_id":"RELNKS to Assign",
+              "fee": null,
+              "name": "RELNKS to Assign Home Inspector",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
+              "phoneNumber": null
+            },
+            {
+              "vendor_id":"RELNKS Virtual",
+              "fee": null,
+              "name": "RELNKS to Assign Home Inspector",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
+              "phoneNumber": null
+            },
+            {
+              "vendor_id":"sklassen",
+              "fee": null,
+              "name": "sklassen",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/all-in-one-home-inspections.jpg",
+              "phoneNumber":""
+            },
+            {
+              "vendor_id":"douville",
+              "fee": null,
+              "name": "douville",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/douville.jpg",
+              "phoneNumber":""
+            },
+            {
+              "vendor_id":"jamesdobney",
+              "fee": null,
+              "name": "jamesdobney",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/james-dobney.png",
+              "phoneNumber":""
+            },
+            {
+              "vendor_id":"wolfpack",
+              "fee": null,
+              "name": "wolfpack",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/wolfpack-home-inspection.png",
+              "phoneNumber":""
             }
           ]
         }
