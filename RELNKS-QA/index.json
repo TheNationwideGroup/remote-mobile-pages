@@ -194,7 +194,65 @@
             }
           ]
         },
-        { "conditions":{ "company":"oriana" },
+        { "conditions":{ "company":"*", "province":"BC" },
+        "vendors": [
+          {
+            "vendor_id":"appraisertest@nationwideappraisals.com",
+            "name": "Mortgage Architects, My Mortgage Planner",
+            "firstName":"Peter",
+            "lastName":"Majthenyi",
+            "description": "Peter Majthenyi",
+            "phoneNumber": "416-236-9300",
+            "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mortgagearchitects.jpg"
+          },
+          {
+            "vendor_id":"appraisertest@nationwideappraisals.com",
+            "name": "Dominion Lending Centres Mortgage Plus",
+            "firstName":"Tracy",
+            "lastName":"Brock",
+            "description": "Tracy Brock",
+            "phoneNumber": "416-788-6207",
+            "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/dlc.jpg"
+          },
+          {
+            "vendor_id":"appraisertest@nationwideappraisals.com ",
+            "name": "The Mortgage Centre",
+            "firstName":"",
+            "lastName":"",
+            "description": "",
+            "phoneNumber": "",
+            "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/the-mortgage-centre.png"
+          },
+          {
+            "vendor_id":"appraisertest@nationwideappraisals.com",
+            "name": "Vine Group",
+            "firstName":"",
+            "lastName":"",
+            "description": "",
+            "phoneNumber": "",
+            "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/vine-group.jpg"
+          },
+          {
+            "vendor_id":"appraisertest@nationwideappraisals.com",
+            "name": "Karista Mortgage",
+            "firstName":"",
+            "lastName":"",
+            "description": "",
+            "phoneNumber": "",
+            "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/karista.jpg"
+          },
+          {
+            "vendor_id":"appraisertest@nationwideappraisals.com",
+            "name": "Kraft Mortgages Canada Inc.",
+            "firstName":"",
+            "lastName":"",
+            "description": "",
+            "phoneNumber": "",
+            "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/kraft-mortgages.png"
+          }
+        ]
+        },
+        { "conditions":{ "company":"oriana", "province":"ON" },
           "vendors": [
             {
               "vendor_id":"appraisertest@nationwideappraisals.com",
