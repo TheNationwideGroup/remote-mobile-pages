@@ -15,7 +15,7 @@
       { "conditions": { "page":["LoginPage"], "company":"oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png",
         "italicText": "Powered by",
-        "italicImageURL": "./whitelabel/oriana/poweredby.png"
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/poweredby.png"
       },
       { "conditions": { "page":["BaseHeaderPage"], "company":"oriana" },
         "imageURL": ""
