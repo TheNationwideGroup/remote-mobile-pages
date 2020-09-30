@@ -393,7 +393,7 @@
         }
       ]
       },
-      { "title": "Pest Control", "conditions": {"title": "Pest Control", "province":["ON"]},
+      { "title": "Pest Control", "conditions": {"title": "Pest Control"},
         "parent": "Property Services",
         "items": [
           {
