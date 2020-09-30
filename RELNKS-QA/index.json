@@ -334,7 +334,7 @@
             "items": [
                 {
                   "type": "p",
-                  "text": "1Don’t let a few pests ruin your dream home. Contact the experts in local pest control here for an easy solution."
+                  "text": "Don’t let a few pests ruin your dream home. Contact the experts in local pest control here for an easy solution."
                 },
                 {
                   "type": "info-tile-component",
@@ -557,7 +557,7 @@
             "items": [
                {
                   "type": "p",
-                  "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs Not required for closing."
+                  "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. Not required for closing."
                },
                {
                   "type": "info-tile-component",
