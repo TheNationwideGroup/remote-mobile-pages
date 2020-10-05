@@ -45,6 +45,14 @@
       { 
         "conditions": { "userType":"LENDER", "serviceProvider_id":["103","104"] },
         "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
+      },
+      { 
+        "conditions": { "userType":"*", "serviceProvider_id":["MASTERCHECKLIST"], "isParticipant": false },
+        "permissions": ["EDIT_CHECKLIST"]
+      },
+      { 
+        "conditions": { "userType":"*", "serviceProvider_id":["MASTERCHECKLIST"], "isParticipant": true, "participantType":["APPLICANT","COAPPLICANT"] },
+        "permissions": ["EDIT_CHECKLIST"]
       }
     ],
     "selectOptions":{
