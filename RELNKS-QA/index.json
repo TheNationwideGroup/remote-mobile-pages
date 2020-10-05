@@ -48,11 +48,15 @@
       },
       { 
         "conditions": { "userType":"*", "serviceProvider_id":["MASTERCHECKLIST"], "isParticipant": false },
-        "permissions": ["EDIT_CHECKLIST"]
+        "permissions": ["VIEW_CHECKLIST","EDIT_CHECKLIST"]
       },
       { 
         "conditions": { "userType":"*", "serviceProvider_id":["MASTERCHECKLIST"], "isParticipant": true, "participantType":["APPLICANT","COAPPLICANT"] },
-        "permissions": ["EDIT_CHECKLIST"]
+        "permissions": ["VIEW_CHECKLIST","EDIT_CHECKLIST"]
+      },
+      { 
+        "conditions": { "userType":"*", "serviceProvider_id":["MASTERCHECKLIST"], "isParticipant": true, "participantType":"*" },
+        "permissions": ["VIEW_CHECKLIST"]
       }
     ],
     "selectOptions":{
