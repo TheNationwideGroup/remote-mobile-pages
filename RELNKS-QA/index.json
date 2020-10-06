@@ -306,7 +306,7 @@
             }
           ]
         },
-	{ "conditions":{ "company":"*", "province":"*", "isParticipant":false ,"vendorEmail":"mbroker@zero-divide.net" },
+	{ "conditions":{ "isParticipant":false, "vendorEmail":"mbroker@zero-divide.net", "company":"*", "province":"*" },
           "vendors": [
             {
               "vendor_id":"mbroker@zero-divide.net",
