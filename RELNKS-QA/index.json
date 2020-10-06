@@ -306,7 +306,7 @@
             }
           ]
         },
-	{ "conditions":{ "isParticipant":false, "vendorEmail":"mbroker@zero-divide.net", "company":"*", "province":"*" },
+	{ "conditions":{ "company":"*", "province":"*", "isParticipant":false, "vendorEmail":"mbroker@zero-divide.net" },
           "vendors": [
             {
               "vendor_id":"mbroker@zero-divide.net",
@@ -314,9 +314,9 @@
               "companyName": "Relnks Financial",
               "firstName":"BrokerFN",
               "lastName":"BrokerLN",
-              "description": "Relinks Financial groups is the best thing ever!",
+              "description": "Broker added as participant by the Requestor",
               "phoneNumber": "1668888665",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/relnks.png"
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             }
           ]
         }
