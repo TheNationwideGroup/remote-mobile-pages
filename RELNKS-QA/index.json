@@ -312,6 +312,7 @@
               "vendor_id":"mbroker@zero-divide.net",
 	      "email":"mbroker@zero-divide.net",
               "companyName": "Relnks Financial",
+	      "isPreferred": true,
               "firstName":"BrokerFN",
               "lastName":"BrokerLN",
               "description": "Broker added as participant by the Requestor",
