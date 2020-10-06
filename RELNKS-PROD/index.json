@@ -259,15 +259,6 @@
               "description": "",
               "phoneNumber": "",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/kraft-mortgages.png"
-            },
-            {
-              "vendor_id":"appraisertest@nationwideappraisals.com",
-              "name": "Test Broker",
-              "firstName":"Test",
-              "lastName":"Broker",
-              "description": "Test Broker",
-              "phoneNumber": "2345155555",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             }
           ]
         },
@@ -281,15 +272,6 @@
               "description": "",
               "phoneNumber": "",
               "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/oriana-financial.png"
-            },
-            {
-              "vendor_id":"appraisertest@nationwideappraisals.com",
-              "name": "Test Broker",
-              "firstName":"Test",
-              "lastName":"Broker",
-              "description": "Test Broker",
-              "phoneNumber": "2345155555",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png"
             }
           ]
         }
