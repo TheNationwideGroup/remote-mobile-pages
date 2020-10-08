@@ -306,13 +306,13 @@
             }
           ]
         },
-	{ "conditions":{ "company":"*", "province":"*", "isParticipant":false, "vendorEmail":"mbroker@zero-divide.net" },
+	      { "conditions":{ "company":"*", "province":"*", "isParticipant":false, "vendorEmail":"mbroker@zero-divide.net" },
           "vendors": [
             {
               "vendor_id":"mbroker@zero-divide.net",
-	      "email":"mbroker@zero-divide.net",
+	            "email":"mbroker@zero-divide.net",
               "companyName": "Relnks Financial",
-	      "isPreferred": true,
+	            "isPreferred": true,
               "firstName":"BrokerFN",
               "lastName":"BrokerLN",
               "description": "Broker added as participant by the Requestor",
