@@ -372,9 +372,9 @@
               {
                 "type": "info-tile-component",
                 "title": "HomeStars",
-                "image": "./partners/homestars.png",
                 "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews. ",
                 "url": "https://homestars.com/get-quotes?source=homepage&input_search=undefined&selected_category_hierarchy=undefined",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
                 "phone": "1-855-569-0690"
               },
               {
@@ -382,7 +382,7 @@
                 "title": "Richmond Propety Advisory Services Inc.",
                 "text": "Richmond Advisory Services provides residential and commercial property management services across Canada.",
                 "url": "http://www.raspropertymanagement.com/",
-                "image": "./partners/ras.png",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ras.png",
                 "phone": "1-855-547-2122"
               },
               {
@@ -390,7 +390,7 @@
                 "title": "Veranova",
                 "text": "Serving the nation’s largest enterprises, lenders, law firms, property investors and real estate brokerages we’re Canada’s trusted partner in property management, real estate asset management and legal support services. ",
                 "url": "https://www.veranova.ca/",
-                "image": "./partners/veranova.png",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/veranova.png",
                 "phone": "1-800-667-3626"
               }
             ]
