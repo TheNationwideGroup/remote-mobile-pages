@@ -337,7 +337,7 @@
       ]
     },
     "concieregeServicesPages":[
-      { "title": "Concierge Services", "conditions": { "title": "Concierge Services" },
+      { "title": "Concierge Services", "conditions": { "title": "Concierge Services [DISABLED]" },
         "parent": null,
         "buttons": [
           "Property Services",
