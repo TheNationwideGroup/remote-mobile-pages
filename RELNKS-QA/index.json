@@ -410,14 +410,6 @@
               },
               {
                 "type": "info-tile-component",
-                "title": "HomeStars",
-                "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews. ",
-                "url": "https://homestars.com/get-quotes?source=homepage&input_search=undefined&selected_category_hierarchy=undefined",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
-                "phone": "1-855-569-0690"
-              },
-              {
-                "type": "info-tile-component",
                 "title": "Richmond Propety Advisory Services Inc.",
                 "text": "Richmond Advisory Services provides residential and commercial property management services across Canada.",
                 "url": "http://www.raspropertymanagement.com/",
@@ -513,14 +505,6 @@
                 "url": "https://mollymaid.ca/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mollymaid.png",
                 "phone": "1-855-223-5851"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "HomeStars",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
-                "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews.",
-                "url": "https://homestars.com/get-quotes?source=homepage&input_search=undefined&selected_category_hierarchy=undefined",
-                "phone": "1-855-569-0690"
               }
             ]
           }
