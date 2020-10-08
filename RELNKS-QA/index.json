@@ -360,6 +360,44 @@
           "Cleaning Services"
         ]
       },
+      { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care" },
+        "parent": "Property Services",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Thinking of leasing your property? Connect to a list of expert rental managers here to put your investment in the right hands."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "HomeStars",
+                "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews. ",
+                "url": "https://homestars.com/get-quotes?source=homepage&input_search=undefined&selected_category_hierarchy=undefined",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
+                "phone": "1-855-569-0690"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Richmond Propety Advisory Services Inc.",
+                "text": "Richmond Advisory Services provides residential and commercial property management services across Canada.",
+                "url": "http://www.raspropertymanagement.com/",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ras.png",
+                "phone": "1-855-547-2122"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Veranova",
+                "text": "Serving the nation’s largest enterprises, lenders, law firms, property investors and real estate brokerages we’re Canada’s trusted partner in property management, real estate asset management and legal support services. ",
+                "url": "https://www.veranova.ca/",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/veranova.png",
+                "phone": "1-800-667-3626"
+              }
+            ]
+          }
+        ]
+      },
       { "title": "Property Management", "conditions": { "title": "Property Management" },
         "parent": "Property Services",
         "items": [
@@ -437,6 +475,52 @@
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
                 "url": "http://www.popalock.ca/locksmith/relnks",
                 "phone": "905-891-9888"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Cleaning Services", "conditions": {"title": "Cleaning Services"},
+        "parent": "Property Services",
+        "items":[
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "There’s nothing like walking into a clean house. Experience an expert clean with these local house cleaners."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Mopify",
+                "text": "We're obsessed with making sure you're satisfied with your cleaning experience.",
+                "url": "https://mopify.com/signup/home",
+                "image": "./partners/mopify.png",
+                "phone": "1-866-743-9341"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Merry Maids",
+                "text": "Our cleaning services could be exactly what you're looking for to make your life a little easier",
+                "url": "https://merrymaids.ca/locations",
+                "image": "./partners/merrymaids.png",
+                "phone": "1-877-782-9201"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Molly Maid",
+                "text": "We know you’ll enjoy the premium quality of your MOLLY MAID cleaning service, so we offer a 100% Guarantee of Service!",
+                "url": "https://mollymaid.ca/",
+                "image": "./partners/mollymaid.png",
+                "phone": "1-855-223-5851"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "HomeStars",
+                "image": "./partners/homestars.png",
+                "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews.",
+                "url": "https://homestars.com/get-quotes?source=homepage&input_search=undefined&selected_category_hierarchy=undefined",
+                "phone": "1-855-569-0690"
               }
             ]
           }
