@@ -1025,6 +1025,14 @@
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": "https://www.telus.com/en/home-phone?linktype=ge-meganav",
                 "phone": "1-888-811-2323"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Shaw",
+                "text": "We make it easier than ever to connect with the people that matter most in your life.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
+                "url": "https://www.shaw.ca/home-phone#plansOverview",
+                "phone": "1-888-472-2222"
               }
             ]
           }
@@ -1099,6 +1107,14 @@
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": " https://www.telus.com/en/home-phone?linktype=ge-meganav",
                 "phone": "1-888-811-2323"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Shaw",
+                "text": "All the action, drama, reality, news, sports, and steaming you love.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
+                "url": "https://www.shaw.ca/tv/plans",
+                "phone": "1-888-472-2222"
               }
             ]
           }
@@ -1173,6 +1189,14 @@
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": "https://www.telus.com/en/internet",
                 "phone": "1-888-811-2323"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Shaw",
+                "text": "Connecting millions of Western Canadian homes and businesses with access to Fibre+ Gig speeds.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
+                "url": "https://www.shaw.ca/internet/plans",
+                "phone": "1-888-472-2222"
               }
             ]
           }
