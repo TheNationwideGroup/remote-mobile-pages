@@ -1302,6 +1302,43 @@
           }
         ]
       },
+      { "title": "Smart Home/Home Security", "conditions": {"title": "Smart Home/Home Security", "province":"*"},
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p", 
+                "text": "A secure home is a smart home. Contact these providers to learn more about smart home and home security options."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Ring",
+                "text": "We believe that stronger communities are the key to safer neighborhoods. ",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ring.png",
+                "url": "https://ring.com/",
+                "phone": "1-855-300-7289"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Bell",
+                "text": "Protect your home the smart way with Bell Smart Home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell_smart_home.png",
+                "url": "https://www.bell.ca/Smart-Home",
+                "phone": "1-800-267-2001"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Rogers",
+                "text": "Secure and control your home from anywhere with a Smart Home Monitoring plan.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
+                "url": "https://www.rogers.com/consumer/home-monitoring",
+                "phone": "1-855-399-3128"
+              },
+            ]
+          }
+        ]
+      },
       { "title": "Water Heater/Furnace Replacement", "conditions": { "title": "Water Heater/Furnace Replacement" },
         "items": [
           {
