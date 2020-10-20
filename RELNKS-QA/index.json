@@ -817,6 +817,44 @@
            }
         ]
       },
+      { "title": "Change Address", "conditions": {"title": "Change Address", "company":"*", "province":"*"},
+        "parent": "Concierge Services",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Canada Post",
+                "text": "Direct all your mail from your current address to your new home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
+                "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
+                "phone": "1-800-267-1177"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Canada",
+                "text": "Update your address with Federal government departments.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
+                "url": "https://www.canada.ca/en/government/change-address.html",
+                "phone": "1-800-622-6232"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Service Ontario",
+                "text": "Update your address on all documents issued by the province of Ontario (i.e. Driver's License and Health Card).",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ontario_gov.png",
+                "url": "https://www.ontario.ca/page/change-my-address-ontario-services",
+                "phone": "1-800-267-8097"
+              }
+            ]
+          }
+        ],
+      },
       { "title": "Change Address", "conditions": {"title": "Change Address", "province":["BC"]},
         "parent": "Concierge Services",
         "items": [
