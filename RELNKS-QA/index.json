@@ -892,7 +892,7 @@
               }
             ]
           }
-        ],
+        ]
       },
       { "title": "Change Address", "conditions": {"title": "Change Address", "province":["BC"]},
         "parent": "Concierge Services",
