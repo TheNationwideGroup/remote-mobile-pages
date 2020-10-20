@@ -590,7 +590,8 @@
         "parent": null,
         "buttons": [
           {"title":"Home Warranty Insurance", "icon": "fas fa-umbrella"},
-          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash"}
+          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash"},
+          {"title":"Life Insurance", "icon": "fas fa-umbrella"}
         ]
       },
       { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana", "province":"*" },
@@ -731,6 +732,28 @@
                 }
              ]
           }
+       ]
+      },
+      { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"*", "province":"*"},
+      "parent": "Insurance Products",
+      "items": [
+         {
+           "type": "div",
+           "items": [
+              {
+                 "type": "p",
+                 "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. Not required for closing."
+              },
+              {
+                 "type": "info-tile-component",
+                 "title": "Bold Financial",
+                 "text": "Life insurance, group benefits and investment solutions for business owners and professionals.",
+                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bold-financial.png",
+                 "url": "https://www.boldfinancial.ca/",
+                 "phone": "416-727-7071"
+              }
+           ]
+         }
        ]
       },
       { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"oriana", "province":"*"},
