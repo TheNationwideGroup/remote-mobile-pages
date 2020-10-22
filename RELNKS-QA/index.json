@@ -3,7 +3,8 @@
   "pages": {},
   "config": {
     "SupportedRegions":{
-      "CA": ["ON","BC"]
+      "CA": ["ON","BC"],
+      "US": ["CA","DC"]
     },
     "WhitelabelAssets":[
       { "conditions": { "page":["LoginPage","MenuPage"], "company":"*" },
