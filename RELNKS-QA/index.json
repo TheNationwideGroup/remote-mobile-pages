@@ -4,7 +4,7 @@
   "config": {
     "SupportedRegions":{
       "CA": ["ON","BC"],
-      "US": ["CA","DC"]
+      "US": ["AZ"]
     },
     "WhitelabelAssets":[
       { "conditions": { "page":["LoginPage","MenuPage"], "company":"*" },
