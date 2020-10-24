@@ -149,64 +149,6 @@
       }
     },
     "serviceOptions":{
-      "103":[
-        { "conditions":{ "company":"*" },
-          "vendors":[
-            {
-              "vendor_id":"jmarino",
-              "fee": null,
-              "name": "Lighthouse Inspections",
-              "description": "We have more than 17+ years of experience and have completed over 37,000+ home inspections using the most progressive technology available.",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/lighthouseinspections.png",
-              "phoneNumber":"+1-800-217-2450"
-            },
-            {
-              "vendor_id":"truinspections",
-              "fee": null,
-              "name": "TRU Inspections",
-              "description": "Raising the bar of GTA Home Inspection",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/truinspections.jpg",
-              "phoneNumber":"416-732-2165"
-            },
-            {
-              "vendor_id":"carsondunlop",
-              "fee": null,
-              "name": "Carson Dunlop",
-              "description": "The leaders in home inspection since 1978.",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/CarsonDunlopHomeInspection.png",
-              "phoneNumber":"+1-800-268-7070"
-            },
-            {
-              "vendor_id":"RELNKS Virtual",
-              "fee": null,
-              "name": "RELNKS to Assign Home Inspector",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
-              "phoneNumber": null
-            },
-            {
-              "vendor_id":"RELNKS to Assign",
-              "fee": null,
-              "name": "RELNKS to Assign Home Inspector",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
-              "phoneNumber": null
-            },
-            {
-              "vendor_id":"craiglaine",
-              "fee": null,
-              "name": "Craig Line",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/craigline.png",
-              "phoneNumber":"+1-800-268-7070"
-            },
-            {
-              "vendor_id":"tm",
-              "fee": null,
-              "name": "TM",
-              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tm.png",
-              "phoneNumber":"+1-800-217-2450"
-            }
-          ]
-        }
-      ],
       "104":[
         { "conditions":{ "company":"oriana" },
           "vendors": [
@@ -222,7 +164,7 @@
       ]
     },
     "concieregeServicesPages":[
-      { "title": "Concierge Services", "conditions": { "title": "Concierge Services [DISABLED]" },
+      { "title": "Concierge Services", "conditions": { "title": "Concierge Services" },
         "parent": null,
         "buttons": [
           "Property Services",
@@ -238,162 +180,33 @@
         "parent": "Concierge Services",
         "buttons": [
           "Lawn/Garden Care",
-          "Property Management",
-          "Home Renovation",
+          "Rental Management",
           "Pest Control",
           "Locksmith",
           "Cleaning Services"
         ]
       },
-      { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care" },
-        "parent": "Property Services",
-        "items": [
-          {
-            "type": "div",
-            "items": [
-              {
-                "type": "p",
-                "text": "Thinking of leasing your property? Connect to a list of expert rental managers here to put your investment in the right hands."
-              },
-              {
-                "type": "info-tile-component",
-                "title": "HomeStars",
-                "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews. ",
-                "url": "https://homestars.com/get-quotes?source=homepage&input_search=undefined&selected_category_hierarchy=undefined",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
-                "phone": "1-855-569-0690"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Richmond Propety Advisory Services Inc.",
-                "text": "Richmond Advisory Services provides residential and commercial property management services across Canada.",
-                "url": "http://www.raspropertymanagement.com/",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ras.png",
-                "phone": "1-855-547-2122"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Veranova",
-                "text": "Serving the nation’s largest enterprises, lenders, law firms, property investors and real estate brokerages we’re Canada’s trusted partner in property management, real estate asset management and legal support services. ",
-                "url": "https://www.veranova.ca/",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/veranova.png",
-                "phone": "1-800-667-3626"
-              }
-            ]
-          }
-        ]
-      },
-      { "title": "Property Management", "conditions": { "title": "Property Management" },
-        "parent": "Property Services",
-        "items": [
-          {
-            "type": "div",
-            "items": [
-              {
-                "type": "p",
-                "text": "Thinking of leasing your property? Connect to a list of expert rental managers here to put your investment in the right hands."
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Richmond Propety Advisory Services Inc.",
-                "text": "Richmond Advisory Services provides residential and commercial property management services across Canada.",
-                "url": "http://www.raspropertymanagement.com/",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ras.png",
-                "phone": "1-855-547-2122"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Veranova",
-                "text": "Serving the nation’s largest enterprises, lenders, law firms, property investors and real estate brokerages we’re Canada’s trusted partner in property management, real estate asset management and legal support services. ",
-                "url": "https://www.veranova.ca/",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/veranova.png",
-                "phone": "1-800-667-3626"
-              }
-            ]
-          }
-        ]
-      },
-      { "title": "Home Renovation", "conditions": {"title": "Home Renovation"},
-        "parent": "Property Management",
-        "items":[
-          {
-            "type": "div",
-            "items": [
-              {
-                "type": "p", 
-                "text": "Thinking of renovating your home? Connect with local and trusted home renovation professionals to bring your project to life!"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "HomeStars",
-                "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
-                "url": "https://homestars.com/",
-                "phone": "1-855-569-0690"
-              }
-            ]
-          }
-        ]
-      },
       { "title": "Locksmith", "conditions": {"title": "Locksmith"},
-        "parent": "Property Services",
-        "items":[
-          {
-            "type": "div",
-            "items": [
-              {
-                "type": "p", 
-                "text": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered."
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Pop-A-Lock",
-                "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
-                "url": "http://www.popalock.ca/locksmith/relnks",
-                "phone": "905-891-9888"
-              }
-            ]
-          }
-        ]
-      },
-      { "title": "Cleaning Services", "conditions": {"title": "Cleaning Services"},
-        "parent": "Property Services",
-        "items":[
-          {
-            "type": "div",
-            "items": [
-              {
-                "type": "p",
-                "text": "There’s nothing like walking into a clean house. Experience an expert clean with these local house cleaners."
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Mopify",
-                "text": "We're obsessed with making sure you're satisfied with your cleaning experience.",
-                "url": "https://mopify.com/signup/home",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mopify.png",
-                "phone": "1-866-743-9341"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Merry Maids",
-                "text": "Our cleaning services could be exactly what you're looking for to make your life a little easier",
-                "url": "https://merrymaids.ca/locations",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/merrymaids.png",
-                "phone": "1-877-782-9201"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Molly Maid",
-                "text": "We know you’ll enjoy the premium quality of your MOLLY MAID cleaning service, so we offer a 100% Guarantee of Service!",
-                "url": "https://mollymaid.ca/",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mollymaid.png",
-                "phone": "1-855-223-5851"
-              }
-            ]
-          }
-        ]
+      "parent": "Property Services",
+      "items":[
+        {
+          "type": "div",
+          "items": [
+            {
+              "type": "p", 
+              "text": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered."
+            },
+            {
+              "type": "info-tile-component",
+              "title": "Pop-A-Lock",
+              "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
+              "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
+              "url": "http://www.popalock.ca/locksmith/relnks",
+              "phone": "905-891-9888"
+            }
+          ]
+        }
+      ]
       },
       { "title": "Pest Control", "conditions": {"title": "Pest Control"},
         "parent": "Property Services",
@@ -475,8 +288,7 @@
         "parent": null,
         "buttons": [
           {"title":"Home Warranty Insurance", "icon": "fas fa-umbrella"},
-          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash"},
-          {"title":"Life Insurance", "icon": "fas fa-umbrella"}
+          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash"}
         ]
       },
       { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana", "province":"*" },
@@ -619,28 +431,6 @@
           }
        ]
       },
-      { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"*", "province":"*"},
-      "parent": "Insurance Products",
-      "items": [
-         {
-           "type": "div",
-           "items": [
-              {
-                 "type": "p",
-                 "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. Not required for closing."
-              },
-              {
-                 "type": "info-tile-component",
-                 "title": "Bold Financial",
-                 "text": "Life insurance, group benefits and investment solutions for business owners and professionals.",
-                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bold-financial.png",
-                 "url": "https://www.boldfinancial.ca/",
-                 "phone": "416-727-7071"
-              }
-           ]
-         }
-       ]
-      },
       { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"oriana", "province":"*"},
        "parent": "Insurance Products",
        "items": [
@@ -661,45 +451,6 @@
                }
             ]
           }
-        ]
-      },
-      { "title": "Junk Removal", "conditions": {"title": "Junk Removal", "province":"*"},
-        "parent": "Concierge Services",
-        "type": "button",
-        "items": [
-           {
-              "type": "div",
-              "items": [
-                {
-                  "type": "p",
-                  "text": "Whether you’re letting go of unwanted furnishings or cleaning up your next property, take care of it trouble-free with these experts in junk removal."
-                },
-                {
-                  "type": "info-tile-component",
-                  "title": "1-800-GOT-JUNK?",
-                  "text": "1-800-GOT-JUNK? Is a full-service junk removal company serving areas across Canada.",
-                  "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/gotjunk.png",
-                  "url": "https://request.1800gotjunk.com/ca_en/onlinebooking?_ga=2.116313093.2060181575.1591233719-669800212.1591233719",
-                  "phone": "1-866-674-1573"
-                },
-                {
-                  "type": "info-tile-component",
-                  "title": "Just Junk",
-                  "text": "We can remove virtually anything (except hazardous waste). Just point and we do the rest.",
-                  "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/justjunk.png",
-                  "url": "https://justjunk.com/book",
-                  "phone": "403-410-0822"
-                },
-                {
-                  "type": "info-tile-component",
-                  "title": "Canada Junk",
-                  "text": "Canada Junk is a locally owned and operated Toronto junk disposal and recycling company.",
-                  "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadajunk.png",
-                  "url": "https://booknow.appointment-plus.com/36jqyn1k/10",
-                  "phone": "1-888-979-5865"
-                }
-              ]
-           }
         ]
       },
       { "title": "Junk Removal", "conditions": {"title": "Junk Removal", "province":["BC"]},
@@ -739,44 +490,6 @@
                  }
               ]
            }
-        ]
-      },
-      { "title": "Change Address", "conditions": {"title": "Change Address", "company":"*", "province":"*"},
-        "parent": "Concierge Services",
-        "items": [
-          {
-            "type": "div",
-            "items": [
-              {
-                "type": "p",
-                "text": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Canada Post",
-                "text": "Direct all your mail from your current address to your new home.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
-                "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
-                "phone": "1-800-267-1177"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Government of Canada",
-                "text": "Update your address with Federal government departments.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
-                "url": "https://www.canada.ca/en/government/change-address.html",
-                "phone": "1-800-622-6232"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Service Ontario",
-                "text": "Update your address on all documents issued by the province of Ontario (i.e. Driver's License and Health Card).",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ontario_gov.png",
-                "url": "https://www.ontario.ca/page/change-my-address-ontario-services",
-                "phone": "1-800-267-8097"
-              }
-            ]
-          }
         ]
       },
       { "title": "Change Address", "conditions": {"title": "Change Address", "province":["BC"]},
@@ -1010,14 +723,6 @@
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": "https://www.telus.com/en/home-phone?linktype=ge-meganav",
                 "phone": "1-888-811-2323"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Shaw",
-                "text": "We make it easier than ever to connect with the people that matter most in your life.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
-                "url": "https://www.shaw.ca/home-phone#plansOverview",
-                "phone": "1-888-472-2222"
               }
             ]
           }
@@ -1092,14 +797,6 @@
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": " https://www.telus.com/en/home-phone?linktype=ge-meganav",
                 "phone": "1-888-811-2323"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Shaw",
-                "text": "All the action, drama, reality, news, sports, and steaming you love.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
-                "url": "https://www.shaw.ca/tv/plans",
-                "phone": "1-888-472-2222"
               }
             ]
           }
@@ -1174,51 +871,6 @@
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": "https://www.telus.com/en/internet",
                 "phone": "1-888-811-2323"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Shaw",
-                "text": "Connecting millions of Western Canadian homes and businesses with access to Fibre+ Gig speeds.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
-                "url": "https://www.shaw.ca/internet/plans",
-                "phone": "1-888-472-2222"
-              }
-            ]
-          }
-        ]
-      },
-      { "title": "Smart Home/Home Security", "conditions": {"title": "Smart Home/Home Security", "province":"*"},
-        "items": [
-          {
-            "type": "div",
-            "items": [
-              {
-                "type": "p", 
-                "text": "A secure home is a smart home. Contact these providers to learn more about smart home and home security options."
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Ring",
-                "text": "We believe that stronger communities are the key to safer neighborhoods. ",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ring.png",
-                "url": "https://ring.com/",
-                "phone": "1-855-300-7289"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Bell",
-                "text": "Protect your home the smart way with Bell Smart Home.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell_smart_home.png",
-                "url": "https://www.bell.ca/Smart-Home",
-                "phone": "1-800-267-2001"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Rogers",
-                "text": "Secure and control your home from anywhere with a Smart Home Monitoring plan.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
-                "url": "https://www.rogers.com/consumer/home-monitoring",
-                "phone": "1-855-399-3128"
               }
             ]
           }
