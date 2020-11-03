@@ -409,7 +409,7 @@
       { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"*", "province":"*" },
         "parent": null,
         "buttons": [
-          {"title":"Home Warranty Insurance", "icon": "fas fa-umbrella"},
+          {"title":"Home Warranty", "icon": "fas fa-umbrella"},
           {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash"},
           {"title":"Life Insurance", "icon": "fas fa-umbrella"}
         ]
@@ -421,7 +421,7 @@
           {"title":"Life Insurance","icon": "fas fa-umbrella"}
         ]
       },
-      { "title": "Home Warranty Insurance", "conditions": {"title": "Home Warranty Insurance", "company":"*", "province":"*"},
+      { "title": "Home Warranty", "conditions": {"title": "Home Warranty", "company":"*", "province":"*"},
         "parent": "Insurance Products",
         "items": [
           {
