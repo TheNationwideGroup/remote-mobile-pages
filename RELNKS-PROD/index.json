@@ -58,6 +58,14 @@
       { 
         "conditions": { "userType":"*", "serviceProvider_id":["MASTERCHECKLIST"], "isParticipant": true, "participantType":"*" },
         "permissions": ["VIEW_CHECKLIST"]
+      },
+      { 
+        "conditions": { "userType":"*", "serviceProvider_id":["DOCUMENT_REPOSITORY"], "isParticipant": false, "participantType":"*" },
+        "permissions": ["UPDATE_CHECKLIST"]
+      },
+      { 
+        "conditions": { "userType":"*", "serviceProvider_id":["DOCUMENT_REPOSITORY"], "isParticipant": true, "participantType":["APPLICANT","COAPPLICANT"] },
+        "permissions": ["UPDATE_CHECKLIST"]
       }
     ],
     "selectOptions":{
@@ -416,7 +424,7 @@
       { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"*", "province":"*" },
         "parent": null,
         "buttons": [
-          {"title":"Home Warranty Insurance", "icon": "fas fa-umbrella"},
+          {"title":"Home Warranty", "icon": "fas fa-umbrella"},
           {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash"}
         ]
       },
@@ -427,7 +435,7 @@
           {"title":"Life Insurance","icon": "fas fa-umbrella"}
         ]
       },
-      { "title": "Home Warranty Insurance", "conditions": {"title": "Home Warranty Insurance", "company":"*", "province":"*"},
+      { "title": "Home Warranty", "conditions": {"title": "Home Warranty", "company":"*", "province":"*"},
         "parent": "Insurance Products",
         "items": [
           {

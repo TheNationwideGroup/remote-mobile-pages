@@ -425,8 +425,7 @@
         "parent": null,
         "buttons": [
           {"title":"Home Warranty", "icon": "fas fa-umbrella"},
-          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash"},
-          {"title":"Life Insurance", "icon": "fas fa-umbrella"}
+          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash"}
         ]
       },
       { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana", "province":"*" },
