@@ -10,6 +10,9 @@
       { "conditions": { "page":["LoginPage","MenuPage"], "company":"*" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo.png"
       },
+      { "conditions": { "page":["LoginPage","MenuPage"], "company":"whitelabel" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/whitelabel/logo.png"
+      },
       { "conditions": { "page":["MenuPage"], "company":"oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
       },
