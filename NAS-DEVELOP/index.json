@@ -1,19 +1,9 @@
 {
 	"guid": 2,
-	"pages":{
-		"LoginPage":[
-			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeAndroid/index.html", "conditions":{"platform": ["android"]}, "displayToVersion":"<2.6.0"} ,
-			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeIOS/index.html", "conditions":{"platform": ["ios"]}, "displayToVersion":"<2.6.0"} 
-		],
-		"MenuPage":[
-      { "action":"inactive-insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[2,5], "displayToRegions":["ca"],"displayToLanguages":["en"] },
-      { "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/relnksadd/index.html", "conditions":{"userType":[1], "region":["CA"], "language":["EN"] } }  
-		],
-		"Dashboard":[
-			{ "action":"inactive-insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"], "displayInterval": null } 
-		],
-		"DetailsTab":[
-			{ "action":"inactive-insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/index.html","displayToUserTypes":[1,2,5], "displayToRegions":["ca"],"displayToLanguages":["en"] } 
-		]
-	}
+	"pages":[
+    { "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeAndroid/index.html", "conditions":{ "page": ["LoginPage"], "platform": ["android"]}, "displayToVersion":"<2.6.0"} ,
+    { "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeIOS/index.html", "conditions":{ "page": ["LoginPage"], "platform": ["ios"]}, "displayToVersion":"<2.6.0"},
+    { "action":"inactive-insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[2,5], "displayToRegions":["ca"],"displayToLanguages":["en"] },
+    { "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/relnksadd/index.html", "conditions":{ "page": ["MenuPage"], "userType":[1], "region":["CA"], "language":["EN"] } }  
+  ]
 }
