@@ -7,7 +7,7 @@
 		],
 		"MenuPage":[
       { "action":"inactive-insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[2,5], "displayToRegions":["ca"],"displayToLanguages":["en"] },
-      { "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/relnksadd/index.html","displayToUserTypes":[1], "displayToRegions":["ca"],"displayToLanguages":["en"] }  
+      { "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/relnksadd/index.html", "conditions":{"userType":[1], "region":["CA"], "language":["EN"] } }  
 		],
 		"Dashboard":[
 			{ "action":"inactive-insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"], "displayInterval": null } 
