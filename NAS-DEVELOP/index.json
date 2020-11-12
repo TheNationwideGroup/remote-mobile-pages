@@ -2,8 +2,8 @@
 	"guid": 2,
 	"pages":{
 		"LoginPage":[
-			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeAndroid/index.html", "displayToPlatforms": ["android"], "displayToVersion":"<2.6.0"} ,
-			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeIOS/index.html", "displayToPlatforms": ["ios"], "displayToVersion":"<2.6.0"} 
+			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeAndroid/index.html", "conditions":{"platform": ["android"]}, "displayToVersion":"<2.6.0"} ,
+			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeIOS/index.html", "conditions":{"platform": ["ios"]}, "displayToVersion":"<2.6.0"} 
 		],
 		"MenuPage":[
       { "action":"inactive-insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[2,5], "displayToRegions":["ca"],"displayToLanguages":["en"] },
