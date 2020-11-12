@@ -1,18 +1,10 @@
 {
 	"guid": 2,
-	"pages":{
-		"LoginPage":[
-			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeAndroid/index.html", "displayToPlatforms": ["android"], "displayToVersion":"<2.5.5"} ,
-			{ "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeIOS/index.html", "displayToPlatforms": ["ios"], "displayToVersion":"<2.5.5"} 
-		],
-		"MenuPage":[
-			{ "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"] } 
-		],
-		"Dashboard":[
-			{ "action":"inactive-insertAfter", "selector": ".content", "sourceFile": "ads/dashboard/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"], "displayInterval": null } 
-		],
-		"DetailsTab":[
-			{ "action":"insertBefore", "selector": "#infos", "sourceFile": "ads/orderdetails/index.html","displayToUserTypes":[1,2], "displayToRegions":["ca"],"displayToLanguages":["en"] } 
-		]
-	}
+	"pages":[
+    { "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeAndroid/index.html", "conditions":{ "page": ["LoginPage"], "platform": ["android"]}, "displayToVersion":"<2.6.0"} ,
+    { "action":"insertAfter", "selector": ".content", "sourceFile": "ads/updateNoticeIOS/index.html", "conditions":{ "page": ["LoginPage"], "platform": ["ios"]}, "displayToVersion":"<2.6.0"},
+    { "action":"insertAfter", "selector": ".menu-body>.menu-tree", "sourceFile": "ads/menu/relnksadd/index.html",
+      "conditions":{ "page": ["MenuPage"], "userType": [1,5], "region": ["CA"], "province": ["ON"] }
+    }  
+  ]
 }
