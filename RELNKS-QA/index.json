@@ -443,7 +443,7 @@
         ]
       },
       { "title": "Home Warranty", "conditions": {"title": "Home Warranty", "company":"*", "province":"*"},
-        "parent": "Insurance Products",
+        "parent": "Insurance Products", "serviceProvider_id": "105",
         "items": [
           {
             "type": "p", 
