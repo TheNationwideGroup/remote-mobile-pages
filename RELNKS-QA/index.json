@@ -185,13 +185,12 @@
       { "title": "Concierge Services", "conditions": { "title": "Concierge Services" },
         "parent": null, "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          "Property Services",
-          "Junk Removal",
-          "Change Address",
-          "Utilities",
-          "Water Heater/Furnace Replacement",
-          "Smart Home/Home Security",
-          "My Documents"
+          {"title":"Property Services", "icon": "", "serviceProvider_id": ""},
+          {"title":"Junk Removal", "icon": "", "serviceProvider_id": ""},
+          {"title":"Change Address", "icon": "", "serviceProvider_id": ""},
+          {"title":"Utilities", "icon": "", "serviceProvider_id": ""},
+          {"title":"Water Heater/Furnace Replacement", "icon": "", "serviceProvider_id": ""},
+          {"title":"Smart Home/Home Security", "icon": "", "serviceProvider_id": ""}
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services" },
