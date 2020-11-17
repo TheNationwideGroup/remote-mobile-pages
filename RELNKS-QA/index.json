@@ -431,7 +431,7 @@
           }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"*", "province":"*" },
+      { "title": "Insurance & Warranty Products", "conditions": { "title": "Insurance & Warranty Products", "company":"*", "province":"*" },
         "parent": null,
         "buttons": [
           {"title":"Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105"},
@@ -439,7 +439,7 @@
           {"title":"Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107"}
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company":"oriana", "province":"*" },
+      { "title": "Insurance & Warranty Products", "conditions": { "title": "Insurance & Warranty Products", "company":"oriana", "province":"*" },
         "parent": null,
         "buttons": [
           {"title":"Home/Auto Insurance","icon": "fas fa-car-crash","serviceProvider_id": "105"},
