@@ -1250,6 +1250,286 @@
           {"title":"Arrange Storage", "icon": "", "serviceProvider_id": "110"},
           {"title":"Moving Tips", "icon": "", "serviceProvider_id": ""}
         ]
+      },
+      {
+        "title": "Utilities", "conditions": { "title": "Utilities", "company":"*", "province":"*" },
+        "parent": "Concierge Services", "serviceProvider_id":"",
+        "items": [
+         {
+          "type": "huge-buttons",
+          "items": [
+           {
+            "type": "button",
+            "onClickPage": {
+             "title": "Electric Companies",
+             "items": [
+              {
+               "type": "div",
+               "items": [
+                {
+                 "type": "p",
+                 "text": "Regional electric providers all in one location for your convenience. <b>Required before you move in.</b>"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Hydro One",
+                 "text": "Hydro One is Ontario’s largest electricity transmission and distribution service provider.",
+                 "image": "/img/hydroone.png",
+                 "url": "https://www.hydroone.com/",
+                 "phone": "1-888-664-9376"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Bullfrog Power",
+                 "text": "With Bullfrog Power, you can reduce your emissions footprint and support the growth of renewable energy in Canada.",
+                 "image": "/img/bullfrog.png",
+                 "url": "https://www.bullfrogpower.com",
+                 "phone": "1-877-360-3464"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Alectra Utilities",
+                 "text": "Alectra Inc., through its subsidiary Alectra Utilities Corporation, serves approximately one million homes and businesses across an 1,800 square kilometre service territory comprising 17 communities.",
+                 "image": "/img/alectra.png",
+                 "url": "https://alectrautilities.com/",
+                 "phone": "1-833-253-2872"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Toronto Hydro",
+                 "text": "Toronto Hydro owns and operates an electricity distribution system that delivers electricity to approximately 772,000 customers located in the city of Toronto.",
+                 "image": "/img/tor_hydro.png",
+                 "url": "https://www.torontohydro.com/",
+                 "phone": "416-542-8000"
+                }
+               ]
+              }
+             ]
+            },
+            "items": [
+             {
+              "type": "span",
+              "text": "Electric Companies"
+             },
+             {
+              "type": "icon",
+              "text": "fas fa-chevron-right"
+             }
+            ]
+           },
+           {
+            "type": "button",
+            "onClickPage": {
+             "title": "Gas",
+             "items": [
+              {
+               "type": "div",
+               "items": [
+                {
+                 "type": "p",
+                 "text": "Regional gas providers all in one location for your convenience. <b>Required before you move in.</b>"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Enbridge",
+                 "text": "We exist to deliver the energy that enhances peoples quality of life, drawing on a 170-year history of providing safe and reliable service to customers.",
+                 "image": "/img/enbridge_union.png",
+                 "url": "https://www.enbridgegas.com/",
+                 "phone": "1-866-763-5427"
+                }
+               ]
+              }
+             ]
+            },
+            "items": [
+             {
+              "type": "span",
+              "text": "Gas"
+             },
+             {
+              "type": "icon",
+              "text": "fas fa-chevron-right"
+             }
+            ]
+           },
+           {
+            "type": "button",
+            "onClickPage": {
+             "title": "Water",
+             "items": [
+              {
+               "type": "p",
+               "text": "Please contact your local provider."
+              }
+             ]
+            },
+            "items": [
+             {
+              "type": "span",
+              "text": "Water"
+             },
+             {
+              "type": "icon",
+              "text": "fas fa-chevron-right"
+             }
+            ]
+           },
+           {
+            "type": "button",
+            "onClickPage": {
+             "title": "Phone",
+             "items": [
+              {
+               "type": "div",
+               "items": [
+                {
+                 "type": "p",
+                 "text": "Regional phone providers all in one location for your convenience."
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Rogers",
+                 "text": "With Rogers Home Phone, you can choose the calling features that suit your needs.",
+                 "image": "/img/rogers.png",
+                 "url": "https://www.rogers.com/consumer/home-phone",
+                 "phone": "1-866-210-4059"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Bell",
+                 "text": "The Home phone the most Canadians count on.",
+                 "image": "/img/bell.png",
+                 "url": "https://www.bell.ca/Home_phone",
+                 "phone": "1-866-778-5529"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Cogeco",
+                 "text": "Choose a reliable Home Phone package that suits your needs perfectly.",
+                 "image": "/img/cogeco.png",
+                 "url": "https://www.cogeco.ca/en/phone/packages",
+                 "phone": "1-866-261-4447"
+                }
+               ]
+              }
+             ]
+            },
+            "items": [
+             {
+              "type": "span",
+              "text": "Phone"
+             },
+             {
+              "type": "icon",
+              "text": "fas fa-chevron-right"
+             }
+            ]
+           },
+           {
+            "type": "button",
+            "onClickPage": {
+             "title": "Internet",
+             "items": [
+              {
+               "type": "div",
+               "items": [
+                {
+                 "type": "p",
+                 "text": "Regional internet providers all in one location for your convenience."
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Rogers",
+                 "text": "Get a fibre-powered connection for all the speed you need throughout your home.",
+                 "image": "/img/rogers.png",
+                 "url": "https://www.rogers.com/consumer/internet",
+                 "phone": "1-866-210-4059"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Bell",
+                 "text": "Get on Canada’s largest fibre optic network.",
+                 "image": "/img/bell.png",
+                 "url": "https://www.bell.ca/Bell_Internet/Internet_access",
+                 "phone": "1-866-778-5529"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Cogeco",
+                 "text": "Discover the Internet package that's perfect for your home",
+                 "image": "/img/cogeco.png",
+                 "url": "https://www.cogeco.ca/en/internet/packages",
+                 "phone": "1-866-261-4447"
+                }
+               ]
+              }
+             ]
+            },
+            "items": [
+             {
+              "type": "span",
+              "text": "Internet"
+             },
+             {
+              "type": "icon",
+              "text": "fas fa-chevron-right"
+             }
+            ]
+           },
+           {
+            "type": "button",
+            "onClickPage": {
+             "title": "Cable",
+             "items": [
+              {
+               "type": "div",
+               "items": [
+                {
+                 "type": "p",
+                 "text": "Regional cable providers all in one location for your convenience."
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Rogers",
+                 "text": "Your entertainment, your way.",
+                 "image": "/img/rogers.png",
+                 "url": "https://www.rogers.com/web/consumer/ignite-bundles/tv-internet",
+                 "phone": "1-866-210-4059"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Bell",
+                 "text": "Fibe TV is the best TV service.",
+                 "image": "/img/bell.png",
+                 "url": "https://www.bell.ca/Fibe-TV",
+                 "phone": "1-866-778-5529"
+                },
+                {
+                 "type": "info-tile-component",
+                 "title": "Cogeco",
+                 "text": "Switch to a personalized TV experience.",
+                 "image": "/img/cogeco.png",
+                 "url": "https://www.cogeco.ca/en/tv/packages",
+                 "phone": "1-866-261-4447"
+                }
+               ]
+              }
+             ]
+            },
+            "items": [
+             {
+              "type": "span",
+              "text": "Cable"
+             },
+             {
+              "type": "icon",
+              "text": "fas fa-chevron-right"
+             }
+            ]
+           }
+          ]
+         }
+        ]
       }
     ]
   }
