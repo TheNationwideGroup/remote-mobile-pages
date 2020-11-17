@@ -196,16 +196,16 @@
       { "title": "Property Services", "conditions": { "title": "Property Services" },
         "parent": "Concierge Services",
         "buttons": [
-          "Lawn/Garden Care",
-          "Property Management",
-          "Home Renovation",
-          "Pest Control",
-          "Locksmith",
-          "Cleaning Services"
+          {"title": "Lawn/Garden Care", "icon": "", "serviceProvider_id": "111"},
+          {"title": "Property Management", "icon": "", "serviceProvider_id": "112"},
+          {"title": "Home Renovation", "icon": "", "serviceProvider_id": "113"},
+          {"title": "Pest Control", "icon": "", "serviceProvider_id": "114"},
+          {"title": "Locksmith", "icon": "", "serviceProvider_id": "115"},
+          {"title": "Cleaning Services", "icon": "", "serviceProvider_id": "116"}
         ]
       },
       { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care" },
-        "parent": "Property Services",
+        "parent": "Property Services", "serviceProvider_id":"111",
         "items": [
           {
             "type": "div",
@@ -243,7 +243,7 @@
         ]
       },
       { "title": "Property Management", "conditions": { "title": "Property Management" },
-        "parent": "Property Services",
+        "parent": "Property Services", "serviceProvider_id": "112",
         "items": [
           {
             "type": "div",
@@ -273,7 +273,7 @@
         ]
       },
       { "title": "Home Renovation", "conditions": {"title": "Home Renovation"},
-        "parent": "Property Management",
+        "parent": "Property Management", "serviceProvider_id":"113",
         "items":[
           {
             "type": "div",
@@ -295,7 +295,7 @@
         ]
       },
       { "title": "Locksmith", "conditions": {"title": "Locksmith"},
-        "parent": "Property Services",
+        "parent": "Property Services", "serviceProvider_id": "115",
         "items":[
           {
             "type": "div",
@@ -317,7 +317,7 @@
         ]
       },
       { "title": "Cleaning Services", "conditions": {"title": "Cleaning Services"},
-        "parent": "Property Services",
+        "parent": "Property Services", "serviceProvider_id":"116",
         "items":[
           {
             "type": "div",
@@ -355,7 +355,7 @@
         ]
       },
       { "title": "Pest Control", "conditions": {"title": "Pest Control"},
-        "parent": "Property Services",
+        "parent": "Property Services","serviceProvider_id":"114",
         "items": [
           {
             "type": "div",
@@ -393,7 +393,7 @@
         ]
       },
       { "title": "Pest Control", "conditions": { "title": "Pest Control", "province":["BC"]},
-        "parent": "Property Services",
+        "parent": "Property Services", "serviceProvider_id":"114",
         "items": [
           {
             "type": "div",
