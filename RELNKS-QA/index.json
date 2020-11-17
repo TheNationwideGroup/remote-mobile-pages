@@ -61,7 +61,7 @@
         "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
       },
       { 
-        "conditions": { "userType":"*", "serviceProvider_id":["105","106","107","108","109","110"] },
+        "conditions": { "userType":"*", "serviceProvider_id":["105","106","107","108","109","110","111","112","113","114","115","116","117","118","119","120","121","122","123","124","125","126"] },
         "permissions": ["CREATE_ORDER", "CREATE_ORDER_NOT_FIRST"]
       },
       { 
