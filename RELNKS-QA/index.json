@@ -182,8 +182,8 @@
       ]
     },
     "concieregeServicesPages":[
-      { "title": "Concierge Services", "conditions": { "title": "Concierge Services [DISABLED]" },
-        "parent": null,
+      { "title": "Concierge Services", "conditions": { "title": "Concierge Services" },
+        "parent": null, "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           "Property Services",
           "Junk Removal",
