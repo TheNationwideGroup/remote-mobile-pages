@@ -1251,8 +1251,110 @@
           {"title":"Moving Tips", "icon": "", "serviceProvider_id": ""}
         ]
       },
-      {
-        "title": "Utilities", "conditions": { "title": "Utilities", "company":"*", "province":"*" },
+      { "title": "Moving Companies", "conditions": { "title": "Moving Companies", "company":"*", "province":"*" },
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p", 
+                "text": "Make moving day easy. Browse professional movers early and you’ll be in your new home in no time."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Atlas Van Lines",
+                "text": "Atlas Canada is the 'national mover of choice' for families and companies due to our ethical business practices, quality service and our ability to provide customers with a positive moving experience for over 55 years.",
+                "image": "./partners/AtlasVanLines_logo.png",
+                "url": "https://www.atlasvanlines.ca/moving-estimate/",
+                "phone": "1-877-505-8527"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "PODS",
+                "text": "Get 10% off initial delivery, first month's container rental, and long-distance transportation. <b>PODS is a no-contact service</b> -- and the flexible, convenient way to move and store.",
+                "image": "./partners/pods_mss.png",
+                "url": "https://www.PODS.com/RELNKS",
+                "phone": "1-888-847-6680"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Truck Rental", "conditions": { "title": "Truck Rental", "company":"*", "province":"*" },
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p", 
+                "text": "Shop moving truck rentals for a cost-saving alternative to professional movers."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "U-Haul",
+                "text": "Since 1945, U-Haul has been serving do-it-yourself movers and their households.",
+                "image": "./partners/uhaul.png",
+                "url": "https://www.uhaul.com/Home/",
+                "phone": "1-800-468-4285"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Discount Truck Rental",
+                "text": "Discount Car and Truck Rentals is proud to be one of Canada’s largest vehicle rental companies. We offer a variety of moving truck rentals that are reliable and safe. ",
+                "image": "./partners/dicount.png",
+                "url": "https://www.discountcar.com/for-moving",
+                "phone": "1-888-310-2277"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Enterprise Truck Rental",
+                "text": "Enterprise Truck Rental can help you move with a variety of commercial-grade trucks, from box-style moving vans to pickup trucks.",
+                "image": "./partners/enterprise.png",
+                "url": "https://www.enterprisetrucks.ca/truckrental/en_CA.html",
+                "phone": "1-888-736-8287"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Arrange Storage", "conditions": { "title": "Arrange Storage", "company":"*", "province":"*" },
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "You can't always take everything with you. Contact these storage providers to simplify your move."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "PODS",
+                "text": "Get 10% off initial delivery, first month's container rental, and long-distance transportation. <b>PODS is a no-contact service</b> -- and the flexible, convenient way to move and store.",
+                "url": "https://www.PODS.com/RELNKS",
+                "image": "./partners/pods_mss.png",
+                "phone": "1-888-847-6680"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Public Storage",
+                "text": "As the pioneer brand in self-storage since 1979, this is what we’ve been doing best to help you get the right solution for your storage needs across Canada.",
+                "url": "https://publicstoragecanada.com/",
+                "image": "./partners/publicstorage.png",
+                "phone": "1-877-777-8672"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Storage Mart",
+                "text": "We strive to make your storage experience as pleasant and convenient as possible by fulfilling our brand promise of easy, clean, and friendly service to every customer.",
+                "url": "https://www.storage-mart.com/",
+                "image": "./partners/storage_mart.png",
+                "phone": "1-877-750-9565"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Utilities", "conditions": { "title": "Utilities", "company":"*", "province":"*" },
         "parent": "Concierge Services", "serviceProvider_id":"",
         "items": [
          {
