@@ -438,6 +438,14 @@
           {"title":"Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107"}
         ]
       },
+      { "title": "Insurance & Warranty Products", "conditions": { "title": "Insurance & Warranty Products", "company":"*", "province":"BC" },
+        "parent": null,
+        "buttons": [
+          {"title":"Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105"},
+          {"title":"Home Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106"},
+          {"title":"Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106"}
+        ]
+      },
       { "title": "Insurance & Warranty Products", "conditions": { "title": "Insurance & Warranty Products", "company":"oriana", "province":"*" },
         "parent": null,
         "buttons": [
@@ -511,7 +519,7 @@
           }
         ]
       },
-      { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"*", "province":["BC"]},
+      { "title": "Home Insurance", "conditions": {"title": "Home Insurance", "company":"*", "province":["BC"]},
         "parent": "Insurance Products", "serviceProvider_id": "106",
         "items": [
            {
@@ -528,33 +536,31 @@
                     "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/magnes.png",
                     "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
                     "phone": "1-800-650-3435"
-                 },
-                 {
-                    "type": "info-tile-component",
-                    "title": "Sonnet",
-                    "text": "At Sonnet, we offer customized coverage, in language you can understand, at a competitive price – and we do it all online.",
-                    "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/sonnet.png",
-                    "url": "https://www.sonnet.ca",
-                    "phone": "1-844-766-6374"
-                 },
-                 {
-                    "type": "info-tile-component",
-                    "title": "Belairdirect",
-                    "text": "A true ally is someone you trust. At belairdirect, we’ve offered car and home insurance to nearly 1 million customers over the last 60 years.",
-                    "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/belairdirect.png",
-                    "url": "https://www.belairdirect.com/",
-                    "phone": "1-888-280-8549"
-                 },
-                 {
+                 }
+              ]
+           }
+        ]
+      },
+      { "title": "Auto Insurance", "conditions": {"title": "Auto Insurance", "company":"*", "province":["BC"]},
+        "parent": "Insurance Products", "serviceProvider_id": "106",
+        "items": [
+          {
+              "type": "div",
+              "items": [
+                {
+                    "type": "p",
+                    "text": "Home Insurance is required to close on your home. Find the right fit for your needs here."
+                },
+                {
                     "type": "info-tile-component",
                     "title": "ICBC",
                     "text": "Buy, renew, or update your auto insurance through the Insurance Corporation of British Columbia.",
                     "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/icbc.png",
                     "url": "https://www.icbc.com/insurance/buy-renew-cancel/Pages/buy-or-renew.aspx",
                     "phone": "1-800-910-4222"
-                 }
+                }
               ]
-           }
+          }
         ]
       },
       { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"oriana", "province":"*"},
