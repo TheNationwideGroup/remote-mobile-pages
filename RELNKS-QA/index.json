@@ -1242,7 +1242,7 @@
           }
         ]
       },
-      { "title": "Moving Services", "conditions": { "title": "Moving Services", "company":"*", "province":"*" },
+      { "title": "Moving Services", "conditions": { "title": "Moving Services-disabled", "company":"*", "province":"*" },
         "parent": null,
         "buttons": [
           {"title":"Moving Companies", "icon": "", "serviceProvider_id": "108"},
