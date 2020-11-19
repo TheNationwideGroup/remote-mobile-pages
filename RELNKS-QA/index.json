@@ -434,15 +434,14 @@
         "parent": null,
         "buttons": [
           {"title":"Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105"},
-          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106"},
-          {"title":"Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107"}
+          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106"}
         ]
       },
       { "title": "Insurance & Warranty Products", "conditions": { "title": "Insurance & Warranty Products", "company":"*", "province":"BC" },
         "parent": null,
         "buttons": [
           {"title":"Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105"},
-          {"title":"Home Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106"},
+          {"title":"Home Insurance", "icon": "fas fa-home", "serviceProvider_id": "106"},
           {"title":"Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106"}
         ]
       },
