@@ -1258,6 +1258,7 @@
         ]
       },
       { "title": "Moving Companies", "conditions": { "title": "Moving Companies", "company":"*", "province":"*" },
+        "serviceProvider_id": "108",
         "items": [
           {
             "type": "div",
