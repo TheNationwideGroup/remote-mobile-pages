@@ -200,7 +200,7 @@
         ]
       },
       { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care" },
-        "parent": "Property Services", "serviceProvider_id":"111",
+        "parent": "Property Services",
         "items": [
           {
             "type": "div",
@@ -238,7 +238,7 @@
         ]
       },
       { "title": "Property Management", "conditions": { "title": "Property Management" },
-        "parent": "Property Services", "serviceProvider_id": "112",
+        "parent": "Property Services", 
         "items": [
           {
             "type": "div",
@@ -268,7 +268,7 @@
         ]
       },
       { "title": "Home Renovation", "conditions": {"title": "Home Renovation"},
-        "parent": "Property Management", "serviceProvider_id":"113",
+        "parent": "Property Management", 
         "items":[
           {
             "type": "div",
@@ -290,7 +290,7 @@
         ]
       },
       { "title": "Locksmith", "conditions": {"title": "Locksmith"},
-        "parent": "Property Services", "serviceProvider_id": "115",
+        "parent": "Property Services", 
         "items":[
           {
             "type": "div",
@@ -312,7 +312,7 @@
         ]
       },
       { "title": "Cleaning Services", "conditions": {"title": "Cleaning Services"},
-        "parent": "Property Services", "serviceProvider_id":"116",
+        "parent": "Property Services", 
         "items":[
           {
             "type": "div",
@@ -350,7 +350,7 @@
         ]
       },
       { "title": "Pest Control", "conditions": {"title": "Pest Control"},
-        "parent": "Property Services","serviceProvider_id":"114",
+        "parent": "Property Services",
         "items": [
           {
             "type": "div",
@@ -388,7 +388,7 @@
         ]
       },
       { "title": "Pest Control", "conditions": { "title": "Pest Control", "province":["BC"]},
-        "parent": "Property Services", "serviceProvider_id":"114",
+        "parent": "Property Services",
         "items": [
           {
             "type": "div",
@@ -448,7 +448,7 @@
         ]
       },
       { "title": "Home Warranty", "conditions": {"title": "Home Warranty", "company":"*", "province":"*"},
-        "parent": "Insurance Products", "serviceProvider_id": "105",
+        "parent": "Insurance Products", 
         "items": [
           {
             "type": "p", 
@@ -481,7 +481,7 @@
         ]
       },
       { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"*", "province":"*"},
-        "parent": "Insurance Products", "serviceProvider_id": "106",
+        "parent": "Insurance Products", 
         "items": [
           {
             "type": "p", 
@@ -514,7 +514,7 @@
         ]
       },
       { "title": "Home Insurance", "conditions": {"title": "Home Insurance", "company":"*", "province":["BC"]},
-        "parent": "Insurance Products", "serviceProvider_id": "106",
+        "parent": "Insurance Products",
         "items": [
            {
               "type": "div",
@@ -536,7 +536,7 @@
         ]
       },
       { "title": "Auto Insurance", "conditions": {"title": "Auto Insurance", "company":"*", "province":["BC"]},
-        "parent": "Insurance Products", "serviceProvider_id": "106",
+        "parent": "Insurance Products", 
         "items": [
           {
               "type": "div",
@@ -558,7 +558,7 @@
         ]
       },
       { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"oriana", "province":"*"},
-        "parent": "Insurance Products", "serviceProvider_id": "106",
+        "parent": "Insurance Products", 
         "items": [
           {
              "type": "div",
@@ -580,7 +580,7 @@
        ]
       },
       { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"*", "province":"*"},
-      "parent": "Insurance Products", "serviceProvider_id": "107",
+      "parent": "Insurance Products", 
       "items": [
          {
            "type": "div",
@@ -602,7 +602,7 @@
        ]
       },
       { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"oriana", "province":"*"},
-       "parent": "Insurance Products", "serviceProvider_id": "107",
+       "parent": "Insurance Products", 
        "items": [
           {
             "type": "div",
@@ -624,7 +624,7 @@
         ]
       },
       { "title": "Junk Removal", "conditions": {"title": "Junk Removal", "province":"*"},
-        "parent": "Concierge Services", "serviceProvider_id": "117",
+        "parent": "Concierge Services",
         "type": "button",
         "items": [
            {
@@ -1245,10 +1245,10 @@
       { "title": "Moving Services", "conditions": { "title": "Moving Services", "company":"*", "province":"*" },
         "parent": null,
         "buttons": [
-          {"title":"Moving Companies", "icon": "", "serviceProvider_id": "108"},
-          {"title":"Truck Rental", "icon": "", "serviceProvider_id": "109"},
-          {"title":"Arrange Storage", "icon": "", "serviceProvider_id": "110"},
-          {"title":"Moving Tips", "icon": "", "serviceProvider_id": ""}
+          {"title":"Moving Companies", "icon": ""},
+          {"title":"Truck Rental", "icon": ""},
+          {"title":"Arrange Storage", "icon": ""},
+          {"title":"Moving Tips", "icon": ""}
         ]
       },
       { "title": "Moving Companies", "conditions": { "title": "Moving Companies", "company":"*", "province":"*" },
