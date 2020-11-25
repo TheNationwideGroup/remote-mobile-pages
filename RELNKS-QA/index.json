@@ -630,7 +630,7 @@
         ]
       },
       { "title": "Junk Removal", "conditions": {"title": "Junk Removal", "province":"*"},
-        "parent": "Concierge Services",
+        "parent": "Concierge Services", "serviceProvider_id": "117",
         "type": "button",
         "items": [
            {
