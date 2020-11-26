@@ -1258,7 +1258,7 @@
         ]
       },
       { "title": "Moving Companies", "conditions": { "title": "Moving Companies", "company":"*", "province":"*" },
-        "serviceProvider_id": "108",
+        "parent": "Moving Services", "serviceProvider_id": "108",
         "items": [
           {
             "type": "div",
@@ -1288,7 +1288,7 @@
         ]
       },
       { "title": "Truck Rental", "conditions": { "title": "Truck Rental", "company":"*", "province":"*" },
-        "serviceProvider_id": "109",
+        "parent": "Moving Services", "serviceProvider_id": "109",
         "items": [
           {
             "type": "div",
@@ -1326,6 +1326,7 @@
         ]
       },
       { "title": "Arrange Storage", "conditions": { "title": "Arrange Storage", "company":"*", "province":"*" },
+        "parent": "Moving Services", "serviceProvider_id": "110",
         "items": [
           {
             "type": "div",
