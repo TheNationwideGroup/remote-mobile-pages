@@ -1288,6 +1288,7 @@
         ]
       },
       { "title": "Truck Rental", "conditions": { "title": "Truck Rental", "company":"*", "province":"*" },
+        "serviceProvider_id": "109",
         "items": [
           {
             "type": "div",
