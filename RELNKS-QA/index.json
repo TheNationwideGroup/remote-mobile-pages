@@ -450,7 +450,7 @@
         "parent": null,
         "buttons": [
           {"title":"Home/Auto Insurance","icon": "fas fa-car-crash","serviceProvider_id": "106"},
-          {"title":"Life Insurance","icon": "fas fa-umbrella", "serviceProvider_id": "107"}
+          {"title":"Life Insurance","icon": "fas fa-umbrella", "serviceProvider_id": "106"}
         ]
       },
       { "title": "Home Warranty", "conditions": {"title": "Home Warranty", "company":"*", "province":"*"},
@@ -586,7 +586,7 @@
        ]
       },
       { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"*", "province":"*"},
-      "parent": "Insurance Products", "serviceProvider_id": "107",
+      "parent": "Insurance Products", "serviceProvider_id": "106",
       "items": [
          {
            "type": "div",
@@ -608,7 +608,7 @@
        ]
       },
       { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"oriana", "province":"*"},
-       "parent": "Insurance Products", "serviceProvider_id": "107",
+       "parent": "Insurance Products", "serviceProvider_id": "106",
        "items": [
           {
             "type": "div",
