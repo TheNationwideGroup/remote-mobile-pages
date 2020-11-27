@@ -318,7 +318,7 @@
         ]
       },
       { "title": "Cleaning Services", "conditions": {"title": "Cleaning Services"},
-        "parent": "Property Services",
+        "parent": "Property Services", "serviceProvider_id":"116",
         "items":[
           {
             "type": "div",
