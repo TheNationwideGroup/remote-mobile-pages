@@ -296,7 +296,7 @@
         ]
       },
       { "title": "Locksmith", "conditions": {"title": "Locksmith"},
-        "parent": "Property Services", "serviceProvider_id": "115",
+        "parent": "Property Services",
         "items":[
           {
             "type": "div",
