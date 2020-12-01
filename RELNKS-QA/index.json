@@ -36,6 +36,20 @@
         "imageURL": ""
       }
     ],
+    "WhitelabelData":[
+      { "conditions": { "company":"oriana", "page":"RegisterPage", "userType":"BROKER" },
+        "hideBrokerInfo": true,
+        "brokerCompanyName": "Oriana",
+        "brokerHouse": "Oriana",
+        "defaultProvince":"ON"
+      },
+      { "conditions": { "company":"opendoorsmortgage", "page":"RegisterPage", "userType":"BROKER" },
+        "hideBrokerInfo": true,
+        "brokerCompanyName": "Open Doors Mortgage",
+        "brokerHouse": "DLC",
+        "defaultProvince":"BC"
+      }
+    ],
     "UserTypePermissions":[
       { 
         "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["100"], "isParticipant": false },
