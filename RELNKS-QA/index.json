@@ -70,7 +70,7 @@
     ],
     "WhitelabelCSS":[
       { "conditions": { "company":"opendoorsmortgage" },
-        "css":"#page-login #login {background-color: #8cc542;} .page-HeaderPage>.header {background-color: #8cc542;} div[page].page-Menu .menu-body {background-color: #8cc542;}"
+        "css":"#page-login #login {background-color: #8cc542;} .page-HeaderPage>.header {background-color: #8cc542;} div[page].page-Menu .menu-body {background-color: #8cc542;} #page-WelcomePage .content{background-image: radial-gradient(circle, #76c70b, #85c72e, #84ca2a, #7ac716, #72c702);}"
       }
     ],
     "UserTypePermissions":[
