@@ -37,13 +37,13 @@
       }
     ],
     "WhitelabelData":[
-      { "conditions": { "company":"oriana", "page":"RegisterPage", "userType":"BROKER" },
+      { "conditions": { "company":"oriana", "page":"RegisterPage", "userType":"*" },
         "hideBrokerInfo": true,
         "brokerCompanyName": "Oriana",
         "brokerHouse": "Oriana",
         "defaultProvince":"ON"
       },
-      { "conditions": { "company":"opendoorsmortgage", "page":"RegisterPage", "userType":"BROKER" },
+      { "conditions": { "company":"opendoorsmortgage", "page":"RegisterPage", "userType":"*" },
         "hideBrokerInfo": true,
         "brokerCompanyName": "Open Doors Mortgage",
         "brokerHouse": "DLC",
