@@ -41,7 +41,7 @@
       },
       { "conditions": { "page":["LoginPage"], "company":"opendoorsmortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png",
-        "imageSize": "auto 55%",
+        "imageSize": "auto 45%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/poweredby.png"
       },
