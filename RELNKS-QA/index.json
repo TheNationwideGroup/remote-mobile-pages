@@ -68,6 +68,11 @@
         "defaultProvince":"BC"
       }
     ],
+    "WhitelabelCSS":[
+      { "conditions": { "company":"oriana" },
+        "css":"#page-login #login {background-color: #8cc542;} .page-HeaderPage>.header {background-color: #8cc542;} div[page].page-Menu .menu-body {background-color: #8cc542;}"
+      }
+    ],
     "UserTypePermissions":[
       { 
         "conditions": { "userType":"HOMEOWNER", "serviceProvider_id":["100"], "isParticipant": false },
