@@ -34,17 +34,35 @@
       },
       { "conditions": { "page":["BaseHeaderPage"], "company":"oriana" },
         "imageURL": ""
+      },
+
+      { "conditions": { "page":["MenuPage"], "company":"opendoorsmortgage" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png"
+      },
+      { "conditions": { "page":["LoginPage"], "company":"opendoorsmortgage" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png",
+        "imageSize": "auto 55%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/poweredby.png"
+      },
+      { "conditions": { "page":["BaseHeaderPage"], "company":"opendoorsmortgage" },
+        "imageURL": ""
       }
     ],
     "WhitelabelData":[
       { "conditions": { "company":"oriana", "page":"RegisterPage", "userType":"*" },
-        "hideBrokerInfo": true,
+        "defaultProvince":"ON"
+      },
+      { "conditions": { "company":"oriana", "page":"RegisterPage", "userType":"BROKER" },
         "brokerCompanyName": "Oriana",
         "brokerHouse": "Oriana",
         "defaultProvince":"ON"
       },
+      
       { "conditions": { "company":"opendoorsmortgage", "page":"RegisterPage", "userType":"*" },
-        "hideBrokerInfo": true,
+        "defaultProvince":"BC"
+      },
+      { "conditions": { "company":"opendoorsmortgage", "page":"RegisterPage", "userType":"BROKER" },
         "brokerCompanyName": "Open Doors Mortgage",
         "brokerHouse": "DLC",
         "defaultProvince":"BC"
