@@ -69,7 +69,7 @@
       }
     ],
     "WhitelabelCSS":[
-      { "conditions": { "company":"oriana" },
+      { "conditions": { "company":"opendoorsmortgage" },
         "css":"#page-login #login {background-color: #8cc542;} .page-HeaderPage>.header {background-color: #8cc542;} div[page].page-Menu .menu-body {background-color: #8cc542;}"
       }
     ],
