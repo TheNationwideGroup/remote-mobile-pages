@@ -1685,10 +1685,16 @@
             "type": "div",
             "items": [
               {
-                "type": "info-tile-component",
-                "text": "Apply for a Mortgage with Open Doors Mortgage",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/opendoorsmortgage.png",
-                "url": "https://open-doors-mortgage-team.mtg-app.com/signup"
+                "type": "image",
+                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/opendoorsmortgage.png Apply for a Mortgage with Open Doors Mortgage"
+              },
+              {
+                "type": "p",
+                "text": "Apply for a Mortgage with Open Doors Mortgage"
+              },
+              {
+                "type": "button",
+                "text": "https://open-doors-mortgage-team.mtg-app.com/signup"
               }
             ]
           }
