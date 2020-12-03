@@ -1682,19 +1682,20 @@
       { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company":"opendoorsmortgage", "province":"*" },
         "items": [
           {
-            "type": "div",
+            "type": "card",
             "items": [
               {
                 "type": "image",
-                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/opendoorsmortgage.png Apply for a Mortgage with Open Doors Mortgage"
+                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/opendoorsmortgage.png"
               },
               {
-                "type": "p",
+                "type": "p bold",
                 "text": "Apply for a Mortgage with Open Doors Mortgage"
               },
               {
-                "type": "button",
-                "text": "https://open-doors-mortgage-team.mtg-app.com/signup"
+                "type": "button primary",
+                "text": "Apply",
+                "onClickUrl": "https://open-doors-mortgage-team.mtg-app.com/signup"
               }
             ]
           }
