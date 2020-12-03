@@ -46,6 +46,7 @@
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/poweredby.png"
       },
       { "conditions": { "page":["BaseHeaderPage"], "company":"opendoorsmortgage" },
+        "pageTitle": "Open Doors Mortgage",
         "imageURL": ""
       }
     ],
