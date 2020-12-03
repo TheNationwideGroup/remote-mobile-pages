@@ -1685,16 +1685,10 @@
             "type": "div",
             "items": [
               {
-                "type": "p",
-                "text": "Regional internet providers all in one location for your convenience."
-              },
-              {
                 "type": "info-tile-component",
-                "title": "Rogers",
-                "text": "Get a fibre-powered connection for all the speed you need throughout your home.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
-                "url": "https://www.rogers.com/consumer/internet",
-                "phone": "1-866-210-4059"
+                "text": "Apply for a Mortgage with Open Doors Mortgage",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/opendoorsmortgage.png",
+                "url": "https://open-doors-mortgage-team.mtg-app.com/signup"
               }
             ]
           }
