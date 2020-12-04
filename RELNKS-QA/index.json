@@ -632,7 +632,7 @@
            "items": [
               {
                  "type": "p",
-                 "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. Not required for closing."
+                 "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
               },
               {
                  "type": "info-tile-component",
@@ -654,7 +654,7 @@
             "items": [
                {
                   "type": "p",
-                  "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. Not required for closing."
+                  "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
                },
                {
                   "type": "info-tile-component",
