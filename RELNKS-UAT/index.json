@@ -21,6 +21,44 @@
       },
       { "conditions": { "page":["BaseHeaderPage"], "company":"oriana" },
         "imageURL": ""
+      },
+
+      { "conditions": { "page":["MenuPage"], "company":"opendoorsmortgage" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png"
+      },
+      { "conditions": { "page":["LoginPage"], "company":"opendoorsmortgage" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png",
+        "imageSize": "auto 45%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/poweredby.png"
+      },
+      { "conditions": { "page":["BaseHeaderPage"], "company":"opendoorsmortgage" },
+        "pageTitle": "Open Doors Mortgage",
+        "imageURL": ""
+      }
+    ],
+    "WhitelabelData":[
+      { "conditions": { "company":"oriana", "page":"RegisterPage", "userType":"*" },
+        "defaultProvince":"ON"
+      },
+      { "conditions": { "company":"oriana", "page":"RegisterPage", "userType":"BROKER" },
+        "brokerCompanyName": "Oriana",
+        "brokerHouse": "Oriana",
+        "defaultProvince":"ON"
+      },
+      
+      { "conditions": { "company":"opendoorsmortgage", "page":"RegisterPage", "userType":"*" },
+        "defaultProvince":"BC"
+      },
+      { "conditions": { "company":"opendoorsmortgage", "page":"RegisterPage", "userType":"BROKER" },
+        "brokerCompanyName": "Open Doors Mortgage",
+        "brokerHouse": "DLC",
+        "defaultProvince":"BC"
+      }
+    ],
+    "WhitelabelCSS":[
+      { "conditions": { "company":"opendoorsmortgage" },
+        "css":"#page-login #login {background-color: #8cc542;} .page-HeaderPage>.header {background-color: #8cc542;} div[page].page-Menu .menu-body {background-color: #8cc542;} #page-WelcomePage .content{background-image: radial-gradient(circle, #76c70b, #85c72e, #84ca2a, #7ac716, #72c702);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea { border-color: #86b14e !important;} .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i, #page-CustomerPortfolio_Ph1_Page #dashboard .d_item .d_icon i { color: #8cc542 !important; } .btn-primary, button.primary { background-color: #8cc542 !important; border: 1px solid #8cc542 !important;} button.primary:active { background-color: #649623 !important; border-color: #8cc542 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #8cc542 !important; }.fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #8cc542 !important; } div[type='info-tile-component'] button { background-color: #8cc542 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #517325 !important;}"
       }
     ],
     "UserTypePermissions":[
@@ -181,7 +219,7 @@
         "parent": null, "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {"title":"Property Services", "icon": "", "serviceProvider_id": ""},
-          {"title":"Junk Removal", "icon": "", "serviceProvider_id": ""},
+          {"title":"Junk Removal", "icon": "", "serviceProvider_id": "117"},
           {"title":"Change Address", "icon": "", "serviceProvider_id": ""},
           {"title":"Utilities", "icon": "", "serviceProvider_id": ""},
           {"title":"Water Heater/Furnace Replacement", "icon": "", "serviceProvider_id": ""},
@@ -193,14 +231,14 @@
         "buttons": [
           {"title": "Lawn/Garden Care", "icon": "", "serviceProvider_id": "111"},
           {"title": "Property Management", "icon": "", "serviceProvider_id": "112"},
-          {"title": "Home Renovation", "icon": "", "serviceProvider_id": "113"},
+          {"title": "Home Renovation", "icon": "", "serviceProvider_id": ""},
           {"title": "Pest Control", "icon": "", "serviceProvider_id": "114"},
-          {"title": "Locksmith", "icon": "", "serviceProvider_id": "115"},
+          {"title": "Locksmith", "icon": "", "serviceProvider_id": ""},
           {"title": "Cleaning Services", "icon": "", "serviceProvider_id": "116"}
         ]
       },
       { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care" },
-        "parent": "Property Services",
+        "parent": "Property Services", "serviceProvider_id":"111",
         "items": [
           {
             "type": "div",
@@ -238,7 +276,7 @@
         ]
       },
       { "title": "Property Management", "conditions": { "title": "Property Management" },
-        "parent": "Property Services", 
+        "parent": "Property Services", "serviceProvider_id": "112",
         "items": [
           {
             "type": "div",
@@ -268,7 +306,7 @@
         ]
       },
       { "title": "Home Renovation", "conditions": {"title": "Home Renovation"},
-        "parent": "Property Management", 
+        "parent": "Property Management",
         "items":[
           {
             "type": "div",
@@ -290,7 +328,7 @@
         ]
       },
       { "title": "Locksmith", "conditions": {"title": "Locksmith"},
-        "parent": "Property Services", 
+        "parent": "Property Services",
         "items":[
           {
             "type": "div",
@@ -312,7 +350,7 @@
         ]
       },
       { "title": "Cleaning Services", "conditions": {"title": "Cleaning Services"},
-        "parent": "Property Services", 
+        "parent": "Property Services", "serviceProvider_id":"116",
         "items":[
           {
             "type": "div",
@@ -350,7 +388,7 @@
         ]
       },
       { "title": "Pest Control", "conditions": {"title": "Pest Control"},
-        "parent": "Property Services",
+        "parent": "Property Services","serviceProvider_id":"114",
         "items": [
           {
             "type": "div",
@@ -388,7 +426,7 @@
         ]
       },
       { "title": "Pest Control", "conditions": { "title": "Pest Control", "province":["BC"]},
-        "parent": "Property Services",
+        "parent": "Property Services", "serviceProvider_id":"114",
         "items": [
           {
             "type": "div",
@@ -429,7 +467,8 @@
         "parent": null,
         "buttons": [
           {"title":"Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105"},
-          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106"}
+          {"title":"Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106"},
+          {"title":"Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "106"}
         ]
       },
       { "title": "Insurance & Warranty Products", "conditions": { "title": "Insurance & Warranty Products", "company":"*", "province":"BC" },
@@ -443,12 +482,12 @@
       { "title": "Insurance & Warranty Products", "conditions": { "title": "Insurance & Warranty Products", "company":"oriana", "province":"*" },
         "parent": null,
         "buttons": [
-          {"title":"Home/Auto Insurance","icon": "fas fa-car-crash","serviceProvider_id": "105"},
-          {"title":"Life Insurance","icon": "fas fa-umbrella", "serviceProvider_id": "107"}
+          {"title":"Home/Auto Insurance","icon": "fas fa-car-crash","serviceProvider_id": "106"},
+          {"title":"Life Insurance","icon": "fas fa-umbrella", "serviceProvider_id": "106"}
         ]
       },
       { "title": "Home Warranty", "conditions": {"title": "Home Warranty", "company":"*", "province":"*"},
-        "parent": "Insurance Products", 
+        "parent": "Insurance Products", "serviceProvider_id": "105",
         "items": [
           {
             "type": "p", 
@@ -481,7 +520,7 @@
         ]
       },
       { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"*", "province":"*"},
-        "parent": "Insurance Products", 
+        "parent": "Insurance Products", "serviceProvider_id": "106",
         "items": [
           {
             "type": "p", 
@@ -514,7 +553,7 @@
         ]
       },
       { "title": "Home Insurance", "conditions": {"title": "Home Insurance", "company":"*", "province":["BC"]},
-        "parent": "Insurance Products",
+        "parent": "Insurance Products", "serviceProvider_id": "106",
         "items": [
            {
               "type": "div",
@@ -536,7 +575,7 @@
         ]
       },
       { "title": "Auto Insurance", "conditions": {"title": "Auto Insurance", "company":"*", "province":["BC"]},
-        "parent": "Insurance Products", 
+        "parent": "Insurance Products", "serviceProvider_id": "106",
         "items": [
           {
               "type": "div",
@@ -558,7 +597,7 @@
         ]
       },
       { "title": "Home/Auto Insurance", "conditions": {"title": "Home/Auto Insurance", "company":"oriana", "province":"*"},
-        "parent": "Insurance Products", 
+        "parent": "Insurance Products", "serviceProvider_id": "106",
         "items": [
           {
              "type": "div",
@@ -580,14 +619,14 @@
        ]
       },
       { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"*", "province":"*"},
-      "parent": "Insurance Products", 
+      "parent": "Insurance Products", "serviceProvider_id": "106",
       "items": [
          {
            "type": "div",
            "items": [
               {
                  "type": "p",
-                 "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. Not required for closing."
+                 "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
               },
               {
                  "type": "info-tile-component",
@@ -602,14 +641,14 @@
        ]
       },
       { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"oriana", "province":"*"},
-       "parent": "Insurance Products", 
+       "parent": "Insurance Products", "serviceProvider_id": "106",
        "items": [
           {
             "type": "div",
             "items": [
                {
                   "type": "p",
-                  "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. Not required for closing."
+                  "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
                },
                {
                   "type": "info-tile-component",
@@ -624,7 +663,7 @@
         ]
       },
       { "title": "Junk Removal", "conditions": {"title": "Junk Removal", "province":"*"},
-        "parent": "Concierge Services",
+        "parent": "Concierge Services", "serviceProvider_id": "117",
         "type": "button",
         "items": [
            {
@@ -663,7 +702,7 @@
         ]
       },
       { "title": "Junk Removal", "conditions": {"title": "Junk Removal", "province":["BC"]},
-        "parent": "Concierge Services",
+        "parent": "Concierge Services", "serviceProvider_id": "117",
         "type": "button",
         "items": [
            {
@@ -1245,13 +1284,14 @@
       { "title": "Moving Services", "conditions": { "title": "Moving Services", "company":"*", "province":"*" },
         "parent": null,
         "buttons": [
-          {"title":"Moving Companies", "icon": ""},
-          {"title":"Truck Rental", "icon": ""},
-          {"title":"Arrange Storage", "icon": ""},
-          {"title":"Moving Tips", "icon": ""}
+          {"title":"Moving Companies", "icon": "", "serviceProvider_id": "108"},
+          {"title":"Truck Rental", "icon": "", "serviceProvider_id": "109"},
+          {"title":"Arrange Storage", "icon": "", "serviceProvider_id": "110"},
+          {"title":"Moving Tips", "icon": "", "serviceProvider_id": ""}
         ]
       },
       { "title": "Moving Companies", "conditions": { "title": "Moving Companies", "company":"*", "province":"*" },
+        "parent": "Moving Services", "serviceProvider_id": "108",
         "items": [
           {
             "type": "div",
@@ -1281,6 +1321,7 @@
         ]
       },
       { "title": "Truck Rental", "conditions": { "title": "Truck Rental", "company":"*", "province":"*" },
+        "parent": "Moving Services", "serviceProvider_id": "109",
         "items": [
           {
             "type": "div",
@@ -1318,6 +1359,7 @@
         ]
       },
       { "title": "Arrange Storage", "conditions": { "title": "Arrange Storage", "company":"*", "province":"*" },
+        "parent": "Moving Services", "serviceProvider_id": "110",
         "items": [
           {
             "type": "div",
@@ -1631,6 +1673,28 @@
            }
           ]
          }
+        ]
+      },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company":"opendoorsmortgage", "province":"*" },
+        "items": [
+          {
+            "type": "card",
+            "items": [
+              {
+                "type": "image",
+                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/opendoorsmortgage.png"
+              },
+              {
+                "type": "p",
+                "text": "Apply for a Mortgage with Open Doors Mortgage"
+              },
+              {
+                "type": "button primary",
+                "text": "Apply",
+                "onClickUrl": "https://open-doors-mortgage-team.mtg-app.com/signup"
+              }
+            ]
+          }
         ]
       }
     ]
