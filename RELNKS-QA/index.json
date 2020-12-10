@@ -114,14 +114,6 @@
       { 
         "conditions": { "userType":"*", "serviceProvider_id":["MASTERCHECKLIST"], "isParticipant": true, "participantType":"*" },
         "permissions": ["VIEW_CHECKLIST"]
-      },
-      { 
-        "conditions": { "userType":"*", "serviceProvider_id":["DOCUMENT_REPOSITORY"], "isParticipant": false, "participantType":"*" },
-        "permissions": ["6"]
-      },
-      { 
-        "conditions": { "userType":"*", "serviceProvider_id":["DOCUMENT_REPOSITORY"], "isParticipant": true, "participantType":["APPLICANT","COAPPLICANT"] },
-        "permissions": ["6"]
       }
     ],
     "selectOptions":{
