@@ -239,7 +239,7 @@
           {"title": "Property Management", "icon": "", "serviceProvider_id": "112"},
           {"title": "Home Renovation", "icon": "", "serviceProvider_id": ""},
           {"title": "Pest Control", "icon": "", "serviceProvider_id": "114"},
-          {"title": "Locksmith", "icon": "", "serviceProvider_id": ""},
+          {"title": "Locksmith", "icon": "", "serviceProvider_id": "115"},
           {"title": "Cleaning Services", "icon": "", "serviceProvider_id": "116"}
         ]
       },
@@ -334,7 +334,7 @@
         ]
       },
       { "title": "Locksmith", "conditions": {"title": "Locksmith"},
-        "parent": "Property Services",
+        "parent": "Property Services", "serviceProvider_id":"115",
         "items":[
           {
             "type": "div",
