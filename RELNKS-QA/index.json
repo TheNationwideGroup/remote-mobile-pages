@@ -117,11 +117,11 @@
       },
       { 
         "conditions": { "userType":"*", "serviceProvider_id":["DOCUMENT_REPOSITORY"], "isParticipant": false, "participantType":"*" },
-        "permissions": ["UPDATE_CHECKLIST"]
+        "permissions": ["6"]
       },
       { 
         "conditions": { "userType":"*", "serviceProvider_id":["DOCUMENT_REPOSITORY"], "isParticipant": true, "participantType":["APPLICANT","COAPPLICANT"] },
-        "permissions": ["UPDATE_CHECKLIST"]
+        "permissions": ["6"]
       }
     ],
     "selectOptions":{
