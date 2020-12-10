@@ -237,7 +237,7 @@
         "buttons": [
           {"title": "Lawn/Garden Care", "icon": "", "serviceProvider_id": "111"},
           {"title": "Property Management", "icon": "", "serviceProvider_id": "112"},
-          {"title": "Home Renovation", "icon": "", "serviceProvider_id": ""},
+          {"title": "Home Renovation", "icon": "", "serviceProvider_id": "113"},
           {"title": "Pest Control", "icon": "", "serviceProvider_id": "114"},
           {"title": "Locksmith", "icon": "", "serviceProvider_id": "115"},
           {"title": "Cleaning Services", "icon": "", "serviceProvider_id": "116"}
@@ -312,7 +312,7 @@
         ]
       },
       { "title": "Home Renovation", "conditions": {"title": "Home Renovation"},
-        "parent": "Property Management",
+        "parent": "Property Management", "serviceProvider_id": "113",
         "items":[
           {
             "type": "div",
