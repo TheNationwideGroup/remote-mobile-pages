@@ -624,7 +624,7 @@
           }
        ]
       },
-      { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"*", "province":"*"},
+      { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"*", "province":["ON"]},
       "parent": "Insurance Products", "serviceProvider_id": "106",
       "items": [
          {
@@ -645,28 +645,6 @@
            ]
          }
        ]
-      },
-      { "title": "Life Insurance", "conditions": {"title": "Life Insurance", "company":"oriana", "province":"*"},
-       "parent": "Insurance Products", "serviceProvider_id": "106",
-       "items": [
-          {
-            "type": "div",
-            "items": [
-               {
-                  "type": "p",
-                  "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
-               },
-               {
-                  "type": "info-tile-component",
-                  "title": "Bold Financial",
-                  "text": "Life insurance, group benefits and investment solutions for business owners and professionals.",
-                  "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bold-financial.png",
-                  "url": "https://www.boldfinancial.ca/",
-                  "phone": "416-727-7071"
-               }
-            ]
-          }
-        ]
       },
       { "title": "Junk Removal", "conditions": {"title": "Junk Removal", "province":"*"},
         "parent": "Concierge Services", "serviceProvider_id": "117",
