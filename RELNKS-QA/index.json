@@ -67,6 +67,10 @@
         "brokerCompanyName": "Open Doors Mortgage",
         "brokerHouse": "DLC",
         "defaultProvince":"BC"
+      },
+      { "conditions": { "company":"thrivemortgage", "page":"RegisterPage", "userType":"BROKER" },
+        "brokerCompanyName": "Thrive Mortgage",
+        "brokerHouse": "DLC"
       }
     ],
     "WhitelabelCSS":[
