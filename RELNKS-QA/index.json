@@ -1690,6 +1690,10 @@
       { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company":"thrivemortgage", "province":"*" },
         "items": [
           {
+            "type": "p",
+            "text": "<!--Just a whitespace-->"
+          },
+          {
             "type": "card",
             "items": [
               {
