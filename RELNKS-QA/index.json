@@ -6,6 +6,7 @@
       "CA": ["ON","BC"],
       "US": ["AZ"]
     },
+    "WhitelabelCompanies":["whitelabel","oriana","opendoorsmortgage","thrivemortgage"],
     "WhitelabelAssets":[
       { "conditions": { "page":["LoginPage","MenuPage"], "company":"*" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo.png"
@@ -1681,6 +1682,28 @@
                 "type": "button primary",
                 "text": "Apply",
                 "onClickUrl": "https://open-doors-mortgage-team.mtg-app.com/signup"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company":"thrivemortgage", "province":"*" },
+        "items": [
+          {
+            "type": "card",
+            "items": [
+              {
+                "type": "image",
+                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png"
+              },
+              {
+                "type": "p",
+                "text": "Apply for a Mortgage with Thrive Mortgage Co."
+              },
+              {
+                "type": "button primary",
+                "text": "Apply",
+                "onClickUrl": "https://thrive-mortgage.mtg-app.com/signup"
               }
             ]
           }
