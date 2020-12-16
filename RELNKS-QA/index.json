@@ -49,6 +49,20 @@
       { "conditions": { "page":["BaseHeaderPage"], "company":"opendoorsmortgage" },
         "pageTitle": "Open Doors Mortgage",
         "imageURL": ""
+      },
+
+      { "conditions": { "page":["MenuPage"], "company":"thrivemortgage" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png"
+      },
+      { "conditions": { "page":["LoginPage"], "company":"thrivemortgage" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png",
+        "imageSize": "auto 45%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/poweredby.png"
+      },
+      { "conditions": { "page":["BaseHeaderPage"], "company":"thrivemortgage" },
+        "pageTitle": "Thrive Mortgage Co.",
+        "imageURL": ""
       }
     ],
     "WhitelabelData":[
