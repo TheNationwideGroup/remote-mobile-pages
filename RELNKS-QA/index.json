@@ -1451,6 +1451,58 @@
         ]
       },
       { "title": "Utilities", "conditions": { "title": "Utilities", "company": "*", "province": "*" },
+        "buttons":[
+          {
+            "title": "Electric Companies",
+            "serviceProvider_id": "119"
+          },
+          {
+            "title": "Gas",
+            "serviceProvider_id": "120"
+          },
+          {
+            "title": "Water",
+            "serviceProvider_id": "121" 
+          },
+          {
+            "title": "Phone",
+            "serviceProvider_id": "122"
+          },
+          {
+            "title": "Internet",
+            "serviceProvider_id": "123"
+          },
+          {
+            "title": "Cable",
+            "serviceProvider_id": "124"
+          }
+        ]
+      },
+      { "title": "Electric Companies", "conditions": {"title": "Electric Companies", "company":"*", "province":"*"},
+        "serviceProvider_id": "119",
+        "items":[]
+      },
+      { "title": "Gas", "conditions": {"title": "Gas", "company":"*", "province":"*"},
+        "serviceProvider_id": "120",
+        "items":[]
+      },
+      { "title": "Water", "conditions": {"title": "Water", "company":"*", "province":"*"},
+        "serviceProvider_id": "121" ,
+        "items":[]
+      },
+      { "title": "Phone", "conditions": {"title": "Phone", "company":"*", "province":"*"},
+        "serviceProvider_id": "122",
+        "items":[]
+      },
+      { "title": "Internet", "conditions": {"title": "Internet", "company":"*", "province":"*"},
+        "serviceProvider_id": "123",
+        "items":[]
+      },
+      { "title": "Cable", "conditions": {"title": "Cable", "company":"*", "province":"*"},
+        "serviceProvider_id": "124",
+        "items":[]
+      },
+      { "title": "Utilities", "conditions": { "title": "Utilities", "company": "*", "province": "*" },
         "parent": "Concierge Services",
         "serviceProvider_id": "",
         "items": [
