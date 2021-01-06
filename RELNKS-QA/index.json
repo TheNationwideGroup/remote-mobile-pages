@@ -1835,6 +1835,44 @@
             ]
           }
         ]
+      },
+      { "title": "Credit Score", "conditions": { "title": "Credit Score", "company": "*", "province": "*" },
+        "items": [
+          {
+            "type": "p",
+            "text": "<!--Just a whitespace-->"
+          },
+          {
+            "type": "card",
+            "items": [
+              {
+                "type": "image",
+                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/Transunion.svg"
+              },
+              {
+                "type": "subtitle",
+                "text": "Consumer Disclosure"
+              },              
+              {
+                "type": "p",
+                "text": "Access to your free monthly Consumer Disclosure report. This lists all inquiries made to your credit information, including account management inquiries, non-credit-related inquires, and your own inquires."
+              },
+              {
+                "type": "subtitle",
+                "text": "Credit Report"
+              },              
+              {
+                "type": "p",
+                "text": "Access a snapshot of your financial history. It’s the primary tool that credit grantors, like banks and credit card companies, use to decide whether to grant you credit."
+              },
+              {
+                "type": "button primary",
+                "text": "Go to TransUnion",
+                "onClickUrl": "https://secure-ocs.transunion.ca/secureocs/credit-agree.html?lang=en"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
