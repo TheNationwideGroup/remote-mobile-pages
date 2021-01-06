@@ -1843,11 +1843,11 @@
             "text": "<!--Just a whitespace-->"
           },
           {
-            "type": "image",
+            "type": "logo",
             "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/Transunion.svg"
           },
           {
-            "type": "subtitle",
+            "type": "p-bold",
             "text": "Consumer Disclosure"
           },              
           {
@@ -1855,7 +1855,7 @@
             "text": "Access to your free monthly Consumer Disclosure report. This lists all inquiries made to your credit information, including account management inquiries, non-credit-related inquires, and your own inquires."
           },
           {
-            "type": "subtitle",
+            "type": "p-bold",
             "text": "Credit Report"
           },              
           {
