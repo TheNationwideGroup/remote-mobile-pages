@@ -61,7 +61,7 @@
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/poweredby.png"
       },
       { "conditions": { "page": [ "BaseHeaderPage" ], "company": "thrivemortgage" },
-        "pageTitle": "Thrive Mortgage Co.", "imageURL": ""
+        "pageTitle": "Thrive Connect", "imageURL": ""
       },
 
       { "conditions": { "page": [ "MenuPage" ], "company": "tribefinancial" },
