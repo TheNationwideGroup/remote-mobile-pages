@@ -906,7 +906,7 @@
           {
             "title": "Life Insurance",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "106"
+            "serviceProvider_id": "107"
           }
         ]
       },
@@ -953,7 +953,7 @@
           {
             "title": "Life Insurance",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "106"
+            "serviceProvider_id": "107"
           }
         ]
       },
@@ -1138,7 +1138,7 @@
           ]
         },
         "parent": "Insurance Products",
-        "serviceProvider_id": "106",
+        "serviceProvider_id": "107",
         "items": [
           {
             "type": "div",
