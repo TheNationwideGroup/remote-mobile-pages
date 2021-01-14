@@ -523,42 +523,17 @@
     },
     "concieregeServicesPages": [
       {
-        "title": "Property Services",
+        "title": "Concierge Services",
         "conditions": {
-          "title": "Property Services"
+          "title": "Concierge Services"
         },
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {
-            "title": "Lawn/Garden Care",
+            "title": "Property Services",
             "icon": "",
-            "serviceProvider_id": "111"
-          },
-          {
-            "title": "Property Management",
-            "icon": "",
-            "serviceProvider_id": "112"
-          },
-          {
-            "title": "Home Renovation",
-            "icon": "",
-            "serviceProvider_id": "113"
-          },
-          {
-            "title": "Pest Control",
-            "icon": "",
-            "serviceProvider_id": "114"
-          },
-          {
-            "title": "Locksmith",
-            "icon": "",
-            "serviceProvider_id": "115"
-          },
-          {
-            "title": "Cleaning Services",
-            "icon": "",
-            "serviceProvider_id": "116"
+            "serviceProvider_id": ""
           },
           {
             "title": "Junk Removal",
@@ -588,7 +563,7 @@
         ]
       },
       {
-        "title": "Property Services_bck",
+        "title": "Property Services",
         "conditions": {
           "title": "Property Services"
         },
