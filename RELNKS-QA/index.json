@@ -560,21 +560,6 @@
             "serviceProvider_id": "117"
           },
           {
-            "title": "Change Address",
-            "icon": "",
-            "serviceProvider_id": "118"
-          },
-          {
-            "title": "Utilities",
-            "icon": "",
-            "serviceProvider_id": ""
-          },
-          {
-            "title": "Water Heater/Furnace Replacement",
-            "icon": "",
-            "serviceProvider_id": "125"
-          },
-          {
             "title": "Smart Home/Home Security",
             "icon": "",
             "serviceProvider_id": "126"
@@ -1914,6 +1899,21 @@
             "title": "Arrange Storage",
             "icon": "",
             "serviceProvider_id": "110"
+          },
+          {
+            "title": "Change Address",
+            "icon": "",
+            "serviceProvider_id": "118"
+          },
+          {
+            "title": "Utilities",
+            "icon": "",
+            "serviceProvider_id": ""
+          },
+          {
+            "title": "Water Heater/Furnace Replacement",
+            "icon": "",
+            "serviceProvider_id": "125"
           },
           {
             "title": "Moving Tips",
