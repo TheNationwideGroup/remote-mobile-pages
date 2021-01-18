@@ -16,7 +16,8 @@
       "oriana",
       "opendoorsmortgage",
       "thrivemortgage",
-      "tribefinancial"
+      "tribefinancial",
+      "vericoconnect"
     ],
     "WhitelabelAssets": [
       {
@@ -99,6 +100,23 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "tribefinancial" },
         "pageTitle": "Tribe Financial",
+        "imageURL": ""
+      },
+      
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "vericoconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "vericoconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/logo.png",
+        "imageSize": "auto 45%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "vericoconnect" },
+        "pageTitle": "Verico Connect",
         "imageURL": ""
       }
     ],
