@@ -110,7 +110,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "vericoconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/logo.png",
-        "imageSize": "auto 45%",
+        "imageSize": "auto 20%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/poweredby.png"
       },
