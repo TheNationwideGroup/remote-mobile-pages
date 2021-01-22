@@ -19,242 +19,112 @@
     ],
     "WhitelabelAssets": [
       {
-        "conditions": {
-          "page": [
-            "LoginPage",
-            "MenuPage"
-          ],
-          "company": "*"
-        },
+        "conditions": { "page": [ "LoginPage", "MenuPage" ], "company": "*" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo.png"
       },
       {
-        "conditions": {
-          "page": [
-            "MenuPage"
-          ],
-          "company": "whitelabel"
-        },
+        "conditions": { "page": [ "MenuPage" ], "company": "whitelabel" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/whitelabel/logo.png"
       },
       {
-        "conditions": {
-          "page": [
-            "LoginPage"
-          ],
-          "company": "whitelabel"
-        },
+        "conditions": { "page": [ "LoginPage" ], "company": "whitelabel" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/whitelabel/logo.png",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/whitelabel/poweredby.png"
       },
       {
-        "conditions": {
-          "page": [
-            "BaseHeaderPage"
-          ],
-          "company": "whitelabel"
-        },
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "whitelabel" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/whitelabel/logo.png"
       },
       {
-        "conditions": {
-          "page": [
-            "MenuPage"
-          ],
-          "company": "oriana"
-        },
+        "conditions": { "page": [ "MenuPage" ], "company": "oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
       },
       {
-        "conditions": {
-          "page": [
-            "LoginPage"
-          ],
-          "company": "oriana"
-        },
+        "conditions": { "page": [ "LoginPage" ], "company": "oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png",
         "imageSize": "auto 55%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/poweredby.png"
       },
       {
-        "conditions": {
-          "page": [
-            "BaseHeaderPage"
-          ],
-          "company": "oriana"
-        },
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "oriana" },
+        "pageTitle": "Oriana Financial",
         "imageURL": ""
       },
       {
-        "conditions": {
-          "page": [
-            "MenuPage"
-          ],
-          "company": "opendoorsmortgage"
-        },
+        "conditions": { "page": [ "MenuPage" ], "company": "opendoorsmortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png"
       },
       {
-        "conditions": {
-          "page": [
-            "LoginPage"
-          ],
-          "company": "opendoorsmortgage"
-        },
+        "conditions": { "page": [ "LoginPage" ], "company": "opendoorsmortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png",
         "imageSize": "auto 45%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/poweredby.png"
       },
       {
-        "conditions": {
-          "page": [
-            "BaseHeaderPage"
-          ],
-          "company": "opendoorsmortgage"
-        },
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "opendoorsmortgage" },
         "pageTitle": "Open Doors Mortgage",
         "imageURL": ""
       },
       {
-        "conditions": {
-          "page": [
-            "MenuPage"
-          ],
-          "company": "thrivemortgage"
-        },
+        "conditions": { "page": [ "MenuPage" ], "company": "thrivemortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png"
       },
       {
-        "conditions": {
-          "page": [
-            "LoginPage"
-          ],
-          "company": "thrivemortgage"
-        },
+        "conditions": { "page": [ "LoginPage" ], "company": "thrivemortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png",
         "imageSize": "auto 45%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/poweredby.png"
       },
       {
-        "conditions": {
-          "page": [
-            "BaseHeaderPage"
-          ],
-          "company": "thrivemortgage"
-        },
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "thrivemortgage" },
         "pageTitle": "Thrive Connect",
         "imageURL": ""
       },
       {
-        "conditions": {
-          "page": [
-            "MenuPage"
-          ],
-          "company": "tribefinancial"
-        },
+        "conditions": { "page": [ "MenuPage" ], "company": "tribefinancial" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/tribefinancial/logo.png"
       },
       {
-        "conditions": {
-          "page": [
-            "LoginPage"
-          ],
-          "company": "tribefinancial"
-        },
+        "conditions": { "page": [ "LoginPage" ], "company": "tribefinancial" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/tribefinancial/logo.png",
         "imageSize": "auto 45%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/tribefinancial/poweredby.png"
       },
       {
-        "conditions": {
-          "page": [
-            "BaseHeaderPage"
-          ],
-          "company": "tribefinancial"
-        },
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "tribefinancial" },
         "pageTitle": "Tribe Financial",
         "imageURL": ""
       }
     ],
     "WhitelabelData": [
-      {
-        "conditions": {
-          "company": "oriana",
-          "page": "RegisterPage",
-          "userType": "*"
-        },
-        "defaultProvince": "ON"
-      },
-      {
-        "conditions": {
-          "company": "oriana",
-          "page": "RegisterPage",
-          "userType": "BROKER"
-        },
-        "brokerCompanyName": "Oriana",
-        "brokerHouse": "Oriana",
-        "defaultProvince": "ON"
-      },
-      {
-        "conditions": {
-          "company": "opendoorsmortgage",
-          "page": "RegisterPage",
-          "userType": "*"
-        },
-        "defaultProvince": "BC"
-      },
-      {
-        "conditions": {
-          "company": "opendoorsmortgage",
-          "page": "RegisterPage",
-          "userType": "BROKER"
-        },
-        "brokerCompanyName": "Open Doors Mortgage",
-        "brokerHouse": "DLC",
-        "defaultProvince": "BC"
-      },
-      {
-        "conditions": {
-          "company": "thrivemortgage",
-          "page": "RegisterPage",
-          "userType": "BROKER"
-        },
-        "brokerCompanyName": "Thrive Mortgage",
-        "brokerHouse": "DLC"
-      },
-      {
-        "conditions": {
-          "company": "tribefinancial",
-          "page": "RegisterPage",
-          "userType": "BROKER"
-        },
-        "brokerCompanyName": "Tribe Financial",
-        "brokerHouse": "TBD"
-      }
+      { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "ON" },
+      { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "defaultProvince": "ON" },
+      { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "BC" },
+      { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Open Doors Mortgage", "brokerHouse": "DLC", "defaultProvince": "BC" },
+      { "conditions": { "company": "thrivemortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Thrive Mortgage", "brokerHouse": "DLC" },
+      { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Tribe Financial", "brokerHouse": "TBD" }
     ],
     "WhitelabelCSS": [
       {
-        "conditions": {
-          "company": "opendoorsmortgage"
-        },
-        "css": "#page-login #login {background-color: #8cc542;} .page-HeaderPage>.header {background-color: #8cc542;} div[page].page-Menu .menu-body {background-color: #8cc542;} #page-WelcomePage .content{background-image: radial-gradient(circle, #76c70b, #85c72e, #84ca2a, #7ac716, #72c702);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea { border-color: #86b14e !important;} .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i, #page-CustomerPortfolio_Ph1_Page #dashboard .d_item .d_icon i { color: #8cc542 !important; } .btn-primary, button.primary { background-color: #8cc542 !important; border: 1px solid #8cc542 !important;} button.primary:active { background-color: #649623 !important; border-color: #8cc542 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #8cc542 !important; }.fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #8cc542 !important; } div[type='info-tile-component'] button { background-color: #8cc542 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #517325 !important;}"
+        "conditions": { "company": "opendoorsmortgage" },
+        "css": "#page-login #login { background-color: #8cc542; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #8cc542 !important;} .theme-accent-bg{background-color: #8cc542 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #8cc542 !important; background-color:white !important; } .theme-accent-fg{color: #8cc542 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #8cc542 !important; color:white !important; } .page-HeaderPage>.header {background-color: #8cc542 !important;} div[page].page-Menu .menu-body {background-color: #8cc542;} #page-WelcomePage .content{background-image: radial-gradient(circle, #76c70b, #85c72e, #84ca2a, #7ac716, #72c702);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea { border-color: #86b14e !important;} .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #8cc542 !important; } .btn-primary, button.primary { background-color: #8cc542 !important; border: 1px solid #8cc542 !important;} button.primary:active { background-color: #649623 !important; border-color: #8cc542 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #8cc542 !important; }.fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #8cc542 !important; } div[type='info-tile-component'] button { background-color: #8cc542 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #517325 !important;}"
       },
       {
-        "conditions": {
-          "company": "thrivemortgage"
-        },
-        "css": "#page-login #login { background-color: #FF7F40; } .page-HeaderPage>.header { background-color: #FF7F40; } div[page].page-Menu .menu-body { background-color: #FF7F40; } #page-WelcomePage .content { background-image: radial-gradient(circle, #FF7F40, #FF7F40, #FF7F40, #FF7F40, #FF7F40); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea { border-color: #d66a34 !important; } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i, #page-CustomerPortfolio_Ph1_Page #dashboard .d_item .d_icon i { color: #FF7F40 !important; } .btn-primary, button.primary { background-color: #FF7F40 !important; border: 1px solid #FF7F40 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #FF7F40 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #FF7F40 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #FF7F40 !important; } div[type='info-tile-component'] button { background-color: #FF7F40 !important; } #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; }"
+        "conditions": { "company": "thrivemortgage" },
+        "css": "#page-login #login { background-color: #FF7F40; } .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #FF7F40 !important;} .theme-accent-bg{background-color: #FF7F40 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #FF7F40 !important; background-color:white !important; } .theme-accent-fg{color: #FF7F40 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #FF7F40 !important; color:white !important; }.page-HeaderPage>.header { background-color: #FF7F40 !important;} div[page].page-Menu .menu-body { background-color: #FF7F40; } #page-WelcomePage .content { background-image: radial-gradient(circle, #FF7F40, #FF7F40, #FF7F40, #FF7F40, #FF7F40); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea { border-color: #d66a34 !important; } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #FF7F40 !important; } .btn-primary, button.primary { background-color: #FF7F40 !important; border: 1px solid #FF7F40 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #FF7F40 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #FF7F40 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #FF7F40 !important; } div[type='info-tile-component'] button { background-color: #FF7F40 !important; } #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; }"
       },
       {
-        "conditions": {
-          "company": "tribefinancial"
-        },
-        "css": "#page-login #login { background-color: #ED5864; } .page-HeaderPage>.header { background-color: #ED5864; } div[page].page-Menu .menu-body { background-color: #ED5864; } #page-WelcomePage .content { background-image: radial-gradient(circle, #ED5864, #ED5864, #ED5864, #ED5864, #ED5864); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea { border-color: #d66a34 !important; } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i, #page-CustomerPortfolio_Ph1_Page #dashboard .d_item .d_icon i { color: #ED5864 !important; } .btn-primary, button.primary { background-color: #ED5864 !important; border: 1px solid #ED5864 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #ED5864 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #ED5864 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #ED5864 !important; } div[type='info-tile-component'] button { background-color: #ED5864 !important; } #page-DocumentsRepositoryPage .box-info .title-row { color: #ed5864  !important; }"
+        "conditions": { "company": "tribefinancial" },
+        "css": "#page-login #login { background-color: #ED5864; } .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #ED5864 !important;} .theme-accent-bg{background-color: #ED5864 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #ED5864 !important; background-color:white !important; } .theme-accent-fg{color: #ED5864 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #ED5864 !important; color:white !important; }.page-HeaderPage>.header { background-color: #ED5864 !important;} div[page].page-Menu .menu-body { background-color: #ED5864; } #page-WelcomePage .content { background-image: radial-gradient(circle, #ED5864, #ED5864, #ED5864, #ED5864, #ED5864); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea { border-color: #d66a34 !important; } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #ED5864 !important; } .btn-primary, button.primary { background-color: #ED5864 !important; border: 1px solid #ED5864 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #ED5864 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #ED5864 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #ED5864 !important; } div[type='info-tile-component'] button { background-color: #ED5864 !important; } #page-DocumentsRepositoryPage .box-info .title-row { color: #ed5864  !important; }"
+      },
+      {
+        "conditions": { "company": "vericoconnect" },
+        "css": "#page-login #login { background-color: #22386E; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #22386E !important;} .theme-accent-bg{background-color: #22386E !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #22386E !important; background-color:white !important; } .theme-accent-fg{color: #22386E !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #22386E !important; color:white !important; } .page-HeaderPage>.header {background-color: #22386E !important;} div[page].page-Menu .menu-body {background-color: #22386E;} #page-WelcomePage .content{background-image: radial-gradient(circle, #76c70b, #85c72e, #84ca2a, #7ac716, #72c702);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea { border-color: #22386E !important;} .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #22386E !important; } .btn-primary, button.primary { background-color: #22386E !important; border: 1px solid #22386E !important;} button.primary:active { background-color: #649623 !important; border-color: #22386E !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #22386E !important; }.fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #22386E !important; } div[type='info-tile-component'] button { background-color: #22386E !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #517325 !important;}"
       }
     ],
     "UserTypePermissions": [
@@ -523,37 +393,47 @@
     },
     "concieregeServicesPages": [
       {
-        "title": "Concierge Services",
+        "title": "Property Services",
         "conditions": {
-          "title": "Concierge Services"
+          "title": "Property Services"
         },
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {
-            "title": "Property Services",
+            "title": "Lawn/Garden Care",
             "icon": "",
-            "serviceProvider_id": ""
+            "serviceProvider_id": "111"
+          },
+          {
+            "title": "Property Management",
+            "icon": "",
+            "serviceProvider_id": "112"
+          },
+          {
+            "title": "Home Renovation",
+            "icon": "",
+            "serviceProvider_id": "113"
+          },
+          {
+            "title": "Pest Control",
+            "icon": "",
+            "serviceProvider_id": "114"
+          },
+          {
+            "title": "Locksmith",
+            "icon": "",
+            "serviceProvider_id": "115"
+          },
+          {
+            "title": "Cleaning Services",
+            "icon": "",
+            "serviceProvider_id": "116"
           },
           {
             "title": "Junk Removal",
             "icon": "",
             "serviceProvider_id": "117"
-          },
-          {
-            "title": "Change Address",
-            "icon": "",
-            "serviceProvider_id": "118"
-          },
-          {
-            "title": "Utilities",
-            "icon": "",
-            "serviceProvider_id": ""
-          },
-          {
-            "title": "Water Heater/Furnace Replacement",
-            "icon": "",
-            "serviceProvider_id": "125"
           },
           {
             "title": "Smart Home/Home Security",
@@ -563,9 +443,9 @@
         ]
       },
       {
-        "title": "Property Services",
+        "title": "Property Services_back",
         "conditions": {
-          "title": "Property Services"
+          "title": "Property Services_back"
         },
         "parent": "Concierge Services",
         "buttons": [
@@ -866,9 +746,9 @@
         ]
       },
       {
-        "title": "Insurance & Warranty Products",
+        "title": "Insurance Products",
         "conditions": {
-          "title": "Insurance & Warranty Products",
+          "title": "Insurance Products",
           "company": "*",
           "province": "*"
         },
@@ -887,14 +767,14 @@
           {
             "title": "Life Insurance",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "106"
+            "serviceProvider_id": "107"
           }
         ]
       },
       {
-        "title": "Insurance & Warranty Products",
+        "title": "Insurance Products",
         "conditions": {
-          "title": "Insurance & Warranty Products",
+          "title": "Insurance Products",
           "company": "*",
           "province": "BC"
         },
@@ -918,9 +798,9 @@
         ]
       },
       {
-        "title": "Insurance & Warranty Products",
+        "title": "Insurance Products",
         "conditions": {
-          "title": "Insurance & Warranty Products",
+          "title": "Insurance Products",
           "company": "oriana",
           "province": "*"
         },
@@ -934,7 +814,7 @@
           {
             "title": "Life Insurance",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "106"
+            "serviceProvider_id": "107"
           }
         ]
       },
@@ -1119,7 +999,7 @@
           ]
         },
         "parent": "Insurance Products",
-        "serviceProvider_id": "106",
+        "serviceProvider_id": "107",
         "items": [
           {
             "type": "div",
@@ -1895,6 +1775,21 @@
             "title": "Arrange Storage",
             "icon": "",
             "serviceProvider_id": "110"
+          },
+          {
+            "title": "Change Address",
+            "icon": "",
+            "serviceProvider_id": "118"
+          },
+          {
+            "title": "Utilities",
+            "icon": "",
+            "serviceProvider_id": ""
+          },
+          {
+            "title": "Water Heater/Furnace Replacement",
+            "icon": "",
+            "serviceProvider_id": "125"
           },
           {
             "title": "Moving Tips",
