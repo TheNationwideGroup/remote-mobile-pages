@@ -7,7 +7,7 @@
         "ON",
         "BC"
       ],
-      "US": [
+      "US_disabled": [
         "AZ"
       ]
     },
@@ -126,7 +126,8 @@
       { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "BC" },
       { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Open Doors Mortgage", "brokerHouse": "DLC", "defaultProvince": "BC" },
       { "conditions": { "company": "thrivemortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Thrive Mortgage", "brokerHouse": "DLC" },
-      { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Tribe Financial", "brokerHouse": "TBD" }
+      { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Tribe Financial", "brokerHouse": "TBD" },
+      { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico", "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK"]}}
     ],
     "WhitelabelCSS": [
       {
