@@ -2204,9 +2204,9 @@
       },
       {
         "title": "Disabled",
-        "_coment": "Disable services for vericoconnect for Insurance Products",
+        "_coment": "Disable services for vericoconnect for Home/Auto Insurance",
         "conditions": {
-          "title": ["Insurance Products"],
+          "title": ["Home/Auto Insurance"],
           "company": "vericoconnect",
           "province": "*"
         },
