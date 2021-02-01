@@ -150,160 +150,48 @@
     ],
     "UserTypePermissions": [
       {
-        "conditions": {
-          "userType": "HOMEOWNER",
-          "serviceProvider_id": [
-            "100"
-          ],
-          "isParticipant": false
-        },
-        "permissions": [
-          "CREATE_ORDER"
-        ]
+        "conditions": { "company": "*", "province": "*", "userType": "HOMEOWNER", "serviceProvider_id": [ "100" ], "isParticipant": false },
+        "permissions": [ "CREATE_ORDER" ]
       },
       {
-        "conditions": {
-          "userType": "*",
-          "serviceProvider_id": [
-            "100"
-          ],
-          "isParticipant": true,
-          "participantType": [
-            "APPLICANT",
-            "COAPPLICANT"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER"
-        ]
+        "conditions": { "company": "*", "province": "*",  "userType": "*", "serviceProvider_id": [ "100" ], "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
+        "permissions": [ "CREATE_ORDER" ]
       },
       {
-        "conditions": {
-          "userType": "HOMEOWNER",
-          "serviceProvider_id": [
-            "103",
-            "104"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER",
-          "CREATE_ORDER_NOT_FIRST"
-        ]
+        "conditions": { "company": "*", "province": "*",  "userType": "HOMEOWNER", "serviceProvider_id": [ "103", "104" ] },
+        "permissions": [ "CREATE_ORDER", "CREATE_ORDER_NOT_FIRST" ]
       },
       {
-        "conditions": {
-          "userType": "REALTOR",
-          "serviceProvider_id": [
-            "103",
-            "104"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER",
-          "CREATE_ORDER_NOT_FIRST"
-        ]
+        "conditions": { "company": "*", "province": "*",  "userType": "REALTOR", "serviceProvider_id": [ "103", "104" ] },
+        "permissions": [ "CREATE_ORDER", "CREATE_ORDER_NOT_FIRST" ]
       },
       {
-        "conditions": {
-          "userType": "BROKER",
-          "serviceProvider_id": [
-            "103",
-            "104"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER",
-          "CREATE_ORDER_NOT_FIRST"
-        ]
+        "conditions": { "company": "*", "province": "*",  "userType": "BROKER", "serviceProvider_id": [ "103", "104" ] },
+        "permissions": [ "CREATE_ORDER", "CREATE_ORDER_NOT_FIRST" ]
       },
       {
-        "conditions": {
-          "userType": "LENDER",
-          "serviceProvider_id": [
-            "103",
-            "104"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER",
-          "CREATE_ORDER_NOT_FIRST"
-        ]
+        "conditions": { "company": "*", "province": "*",  "userType": "LENDER", "serviceProvider_id": [ "103", "104" ] },
+        "permissions": [ "CREATE_ORDER", "CREATE_ORDER_NOT_FIRST" ]
       },
       {
-        "conditions": {
-          "userType": "*",
-          "serviceProvider_id": [
-            "105",
-            "106",
-            "107",
-            "108",
-            "109",
-            "110",
-            "111",
-            "112",
-            "113",
-            "114",
-            "115",
-            "116",
-            "117",
-            "118",
-            "119",
-            "120",
-            "121",
-            "122",
-            "123",
-            "124",
-            "125",
-            "126"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER",
-          "CREATE_ORDER_NOT_FIRST"
-        ]
+        "conditions": { "company": "*", "province": "*",  "userType": "*", "serviceProvider_id": [ "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126" ] },
+        "permissions": [ "CREATE_ORDER", "CREATE_ORDER_NOT_FIRST" ]
       },
       {
-        "conditions": {
-          "userType": "*",
-          "serviceProvider_id": [
-            "MASTERCHECKLIST"
-          ],
-          "isParticipant": false
-        },
-        "permissions": [
-          "VIEW_CHECKLIST",
-          "EDIT_CHECKLIST"
-        ]
+        "conditions": { "company": "*", "province": "*",  "userType": "*", "serviceProvider_id": [ "MASTERCHECKLIST" ], "isParticipant": false },
+        "permissions": [ "VIEW_CHECKLIST", "EDIT_CHECKLIST" ]
       },
       {
-        "conditions": {
-          "userType": "*",
-          "serviceProvider_id": [
-            "MASTERCHECKLIST"
-          ],
-          "isParticipant": true,
-          "participantType": [
-            "APPLICANT",
-            "COAPPLICANT"
-          ]
-        },
-        "permissions": [
-          "VIEW_CHECKLIST",
-          "EDIT_CHECKLIST"
-        ]
+        "conditions": { "company": "*", "province": "*",  "userType": "*", "serviceProvider_id": [ "MASTERCHECKLIST" ], "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
+        "permissions": [ "VIEW_CHECKLIST", "EDIT_CHECKLIST" ]
       },
       {
-        "conditions": {
-          "userType": "*",
-          "serviceProvider_id": [
-            "MASTERCHECKLIST"
-          ],
-          "isParticipant": true,
-          "participantType": "*"
-        },
-        "permissions": [
-          "VIEW_CHECKLIST"
-        ]
+        "conditions": { "company": "*", "province": "*",  "userType": "*", "serviceProvider_id": [ "MASTERCHECKLIST" ], "isParticipant": true, "participantType": "*" },
+        "permissions": [ "VIEW_CHECKLIST" ]
+      },
+      {
+        "conditions": { "company": "vericoconnect", "province": ["ON","BC"],  "userType": "*", "serviceProvider_id": [ "103", "104" ] },
+        "permissions": []
       }
     ],
     "selectOptions": {
