@@ -2280,6 +2280,17 @@
       },
       {
         "title": "Credit Score",
+        "_coment": "Disable Credit score for vericoconnect by default",
+        "conditions": {
+          "title": "Credit Score",
+          "company": "vericoconnect",
+          "province": "*"
+        },
+        "disabled":true,
+        "items": null
+      },
+      {
+        "title": "Credit Score",
         "conditions": {
           "title": "Credit Score",
           "company": "vericoconnect",
