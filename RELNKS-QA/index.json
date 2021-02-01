@@ -196,7 +196,7 @@
         "permissions": [ ]
       },
       {
-        "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": ["ON"],  "userType": "*" },
+        "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": ["ON","BC"],  "userType": "*" },
         "permissions": [ "CREATE_ORDER", "CREATE_ORDER_NOT_FIRST" ]
       },
       {
