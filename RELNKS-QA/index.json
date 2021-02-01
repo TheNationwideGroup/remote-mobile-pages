@@ -191,7 +191,8 @@
         "permissions": [ "VIEW_CHECKLIST" ]
       },
       {
-        "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": "*",  "userType": "*" },
+        "conditions": { "company": "vericoconnect"},
+        "_comment": "Capture default vericoconnect users: no permissions",  
         "permissions": [ ]
       },
       {
