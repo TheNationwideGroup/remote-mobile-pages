@@ -191,6 +191,10 @@
         "permissions": [ "VIEW_CHECKLIST" ]
       },
       {
+        "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": "*",  "userType": "*" },
+        "permissions": [ ]
+      },
+      {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": ["ON"],  "userType": "*" },
         "permissions": [ "CREATE_ORDER", "CREATE_ORDER_NOT_FIRST" ]
       },
