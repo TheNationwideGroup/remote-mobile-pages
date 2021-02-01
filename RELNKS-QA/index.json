@@ -2181,54 +2181,37 @@
         ]
       },
       {
-        "title": "Credit Score",
-        "_coment": "Disable Credit score for vericoconnect by default",
+        "title": "Disabled",
+        "_coment": "Disable services for vericoconnect by default for NB,NL",
         "conditions": {
-          "title": "Credit Score",
+          "title": ["Moving Companies","Truck Rental","Arrange Storage","Junk Removal","Utilities","Cable","Internet","Moving Tips","Cleaning Services","Smart Home/Home Security","Locksmith","Pest Control"],
           "company": "vericoconnect",
-          "province": "*"
+          "province": ["NB","NL"]
         },
         "disabled":true,
         "items": null
       },
       {
-        "title": "Credit Score",
+        "title": "Disabled",
+        "_coment": "Disable services for vericoconnect by default for AB,SK,MB,NB,NS,NL",
         "conditions": {
-          "title": "Credit Score",
+          "title": ["Locksmith"],
           "company": "vericoconnect",
-          "province": ["BC"]
+          "province": ["AB","SK","MB","NB","NS","NL"]
         },
-        "items": [
-          {
-            "type": "p",
-            "text": "<!--Just a whitespace-->"
-          },
-          {
-            "type": "logo mb-4",
-            "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/Transunion.svg"
-          },
-          {
-            "type": "p-bold",
-            "text": "Consumer Disclosure"
-          },
-          {
-            "type": "p",
-            "text": "Access to your free monthly Consumer Disclosure report. This lists all inquiries made to your credit information, including account management inquiries, non-credit-related inquires, and your own inquires."
-          },
-          {
-            "type": "p-bold",
-            "text": "Credit Report"
-          },
-          {
-            "type": "p",
-            "text": "Access a snapshot of your financial history. It’s the primary tool that credit grantors, like banks and credit card companies, use to decide whether to grant you credit."
-          },
-          {
-            "type": "button primary",
-            "text": "Go to TransUnion",
-            "onClickUrl": "https://secure-ocs.transunion.ca/secureocs/credit-agree.html?lang=en"
-          }
-        ]
+        "disabled":true,
+        "items": null
+      },
+      {
+        "title": "Disabled",
+        "_coment": "Disable services for vericoconnect for Insurance Products",
+        "conditions": {
+          "title": ["Insurance Products"],
+          "company": "vericoconnect",
+          "province": "*"
+        },
+        "disabled":true,
+        "items": null
       }
     ]
   }
