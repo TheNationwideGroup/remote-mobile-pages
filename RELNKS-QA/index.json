@@ -201,11 +201,11 @@
       },
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
-        "permissions": [ "CREATE_ORDER" ]
+        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_NOT_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
-        "permissions": [ "CREATE_ORDER" ]
+        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_NOT_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       }
     ],
     "selectOptions": {
