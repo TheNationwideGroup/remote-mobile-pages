@@ -180,11 +180,11 @@
       },
       {
         "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": false },
-        "permissions": [ "VIEW_CHECKLIST"]
+        "permissions": [ "VIEW_CHECKLIST","EDIT_CHECKLIST"]
       },
       {
         "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
-        "permissions": [ "VIEW_CHECKLIST"]
+        "permissions": [ "VIEW_CHECKLIST","EDIT_CHECKLIST"]
       },
       {
         "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": "*" },
@@ -308,11 +308,7 @@
       ]
     },
     "concieregeServicesPages": [
-      {
-        "title": "Property Services",
-        "conditions": {
-          "title": "Property Services"
-        },
+      { "title": "Property Services", "conditions": { "title": "Property Services" },
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -358,50 +354,7 @@
           }
         ]
       },
-      {
-        "title": "Property Services_back",
-        "conditions": {
-          "title": "Property Services_back"
-        },
-        "parent": "Concierge Services",
-        "buttons": [
-          {
-            "title": "Lawn/Garden Care",
-            "icon": "",
-            "serviceProvider_id": "111"
-          },
-          {
-            "title": "Property Management",
-            "icon": "",
-            "serviceProvider_id": "112"
-          },
-          {
-            "title": "Home Renovation",
-            "icon": "",
-            "serviceProvider_id": "113"
-          },
-          {
-            "title": "Pest Control",
-            "icon": "",
-            "serviceProvider_id": "114"
-          },
-          {
-            "title": "Locksmith",
-            "icon": "",
-            "serviceProvider_id": "115"
-          },
-          {
-            "title": "Cleaning Services",
-            "icon": "",
-            "serviceProvider_id": "116"
-          }
-        ]
-      },
-      {
-        "title": "Lawn/Garden Care",
-        "conditions": {
-          "title": "Lawn/Garden Care"
-        },
+      { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care" },
         "parent": "Property Services",
         "serviceProvider_id": "111",
         "items": [
@@ -440,11 +393,7 @@
           }
         ]
       },
-      {
-        "title": "Property Management",
-        "conditions": {
-          "title": "Property Management"
-        },
+      { "title": "Property Management", "conditions": { "title": "Property Management" },
         "parent": "Property Services",
         "serviceProvider_id": "112",
         "items": [
@@ -475,11 +424,7 @@
           }
         ]
       },
-      {
-        "title": "Home Renovation",
-        "conditions": {
-          "title": "Home Renovation"
-        },
+      { "title": "Home Renovation", "conditions": { "title": "Home Renovation" },
         "parent": "Property Management",
         "serviceProvider_id": "113",
         "items": [
@@ -502,11 +447,7 @@
           }
         ]
       },
-      {
-        "title": "Locksmith",
-        "conditions": {
-          "title": "Locksmith"
-        },
+      { "title": "Locksmith", "conditions": { "title": "Locksmith" },
         "parent": "Property Services",
         "serviceProvider_id": "115",
         "items": [
@@ -529,11 +470,7 @@
           }
         ]
       },
-      {
-        "title": "Cleaning Services",
-        "conditions": {
-          "title": "Cleaning Services"
-        },
+      { "title": "Cleaning Services", "conditions": { "title": "Cleaning Services" },
         "parent": "Property Services",
         "serviceProvider_id": "116",
         "items": [
@@ -572,10 +509,7 @@
           }
         ]
       },
-      {
-        "title": "Pest Control",
-        "conditions": {
-          "title": "Pest Control"
+      { "title": "Pest Control", "conditions": { "title": "Pest Control"
         },
         "parent": "Property Services",
         "serviceProvider_id": "114",
@@ -615,14 +549,7 @@
           }
         ]
       },
-      {
-        "title": "Pest Control",
-        "conditions": {
-          "title": "Pest Control",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Pest Control", "conditions": { "title": "Pest Control", "province": [ "BC" ] },
         "parent": "Property Services",
         "serviceProvider_id": "114",
         "items": [
@@ -661,86 +588,37 @@
           }
         ]
       },
-      {
-        "title": "Insurance Products",
-        "conditions": {
-          "title": "Insurance Products",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "*", "province": "*" },
         "parent": null,
         "buttons": [
-          {
-            "title": "Home Warranty",
-            "icon": "fas fa-umbrella",
-            "serviceProvider_id": "105"
-          },
-          {
-            "title": "Home/Auto Insurance",
-            "icon": "fas fa-car-crash",
-            "serviceProvider_id": "106"
-          },
-          {
-            "title": "Life Insurance",
-            "icon": "fas fa-umbrella",
-            "serviceProvider_id": "107"
-          }
+          { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
+          { "title": "Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106" },
+          { "title": "Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107" }
         ]
       },
-      {
-        "title": "Insurance Products",
-        "conditions": {
-          "title": "Insurance Products",
-          "company": "*",
-          "province": "BC"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "*", "province": "BC" },
         "parent": null,
         "buttons": [
-          {
-            "title": "Home Warranty",
-            "icon": "fas fa-umbrella",
-            "serviceProvider_id": "105"
-          },
-          {
-            "title": "Home Insurance",
-            "icon": "fas fa-home",
-            "serviceProvider_id": "106"
-          },
-          {
-            "title": "Auto Insurance",
-            "icon": "fas fa-car-crash",
-            "serviceProvider_id": "106"
-          }
+          { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
+          { "title": "Home Insurance", "icon": "fas fa-home", "serviceProvider_id": "106" },
+          { "title": "Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106" }
         ]
       },
-      {
-        "title": "Insurance Products",
-        "conditions": {
-          "title": "Insurance Products",
-          "company": "oriana",
-          "province": "*"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "oriana", "province": "*" },
         "parent": null,
         "buttons": [
-          {
-            "title": "Home/Auto Insurance",
-            "icon": "fas fa-car-crash",
-            "serviceProvider_id": "106"
-          },
-          {
-            "title": "Life Insurance",
-            "icon": "fas fa-umbrella",
-            "serviceProvider_id": "107"
-          }
+          { "title": "Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106" },
+          { "title": "Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107" }
         ]
       },
-      {
-        "title": "Home Warranty",
-        "conditions": {
-          "title": "Home Warranty",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "vericoconnect", "province": "*" },
+        "parent": null,
+        "buttons": [
+          { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
+          { "title": "Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107" }
+        ]
+      },
+      { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
         "items": [
@@ -774,13 +652,7 @@
           }
         ]
       },
-      {
-        "title": "Home/Auto Insurance",
-        "conditions": {
-          "title": "Home/Auto Insurance",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "items": [
@@ -814,15 +686,7 @@
           }
         ]
       },
-      {
-        "title": "Home Insurance",
-        "conditions": {
-          "title": "Home Insurance",
-          "company": "*",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Home Insurance", "conditions": { "title": "Home Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "items": [
@@ -845,15 +709,7 @@
           }
         ]
       },
-      {
-        "title": "Auto Insurance",
-        "conditions": {
-          "title": "Auto Insurance",
-          "company": "*",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Auto Insurance", "conditions": { "title": "Auto Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "items": [
@@ -876,13 +732,7 @@
           }
         ]
       },
-      {
-        "title": "Home/Auto Insurance",
-        "conditions": {
-          "title": "Home/Auto Insurance",
-          "company": "oriana",
-          "province": "*"
-        },
+      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "oriana", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "items": [
@@ -905,15 +755,7 @@
           }
         ]
       },
-      {
-        "title": "Life Insurance",
-        "conditions": {
-          "title": "Life Insurance",
-          "company": "*",
-          "province": [
-            "ON"
-          ]
-        },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "*", "province": [ "ON" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -936,12 +778,7 @@
           }
         ]
       },
-      {
-        "title": "Junk Removal",
-        "conditions": {
-          "title": "Junk Removal",
-          "province": "*"
-        },
+      { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "province": "*" },
         "parent": "Concierge Services",
         "serviceProvider_id": "117",
         "type": "button",
@@ -981,14 +818,7 @@
           }
         ]
       },
-      {
-        "title": "Junk Removal",
-        "conditions": {
-          "title": "Junk Removal",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "province": [ "BC" ] },
         "parent": "Concierge Services",
         "serviceProvider_id": "117",
         "type": "button",
@@ -1028,13 +858,7 @@
           }
         ]
       },
-      {
-        "title": "Change Address",
-        "conditions": {
-          "title": "Change Address",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "*", "province": "*" },
         "parent": "Concierge Services",
         "serviceProvider_id": "118",
         "items": [
@@ -1073,14 +897,7 @@
           }
         ]
       },
-      {
-        "title": "Change Address",
-        "conditions": {
-          "title": "Change Address",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "province": [ "BC" ] },
         "parent": "Concierge Services",
         "serviceProvider_id": "118",
         "items": [
@@ -1127,11 +944,7 @@
           }
         ]
       },
-      {
-        "title": "Electric Companies",
-        "conditions": {
-          "title": "Electric Companies"
-        },
+      { "title": "Electric Companies", "conditions": { "title": "Electric Companies" },
         "serviceProvider_id": "119",
         "items": [
           {
@@ -1177,14 +990,7 @@
           }
         ]
       },
-      {
-        "title": "Electric Companies",
-        "conditions": {
-          "title": "Electric Companies",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Electric Companies", "conditions": { "title": "Electric Companies", "province": [ "BC" ] },
         "serviceProvider_id": "119",
         "items": [
           {
@@ -1214,11 +1020,7 @@
           }
         ]
       },
-      {
-        "title": "Gas",
-        "conditions": {
-          "title": "Gas"
-        },
+      { "title": "Gas", "conditions": { "title": "Gas" },
         "serviceProvider_id": "120",
         "items": [
           {
@@ -1240,14 +1042,7 @@
           }
         ]
       },
-      {
-        "title": "Gas",
-        "conditions": {
-          "title": "Gas",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Gas", "conditions": { "title": "Gas", "province": [ "BC" ] },
         "serviceProvider_id": "120",
         "items": [
           {
@@ -1269,11 +1064,7 @@
           }
         ]
       },
-      {
-        "title": "Phone",
-        "conditions": {
-          "title": "Phone"
-        },
+      { "title": "Phone", "conditions": { "title": "Phone" },
         "serviceProvider_id": "122",
         "items": [
           {
@@ -1311,14 +1102,7 @@
           }
         ]
       },
-      {
-        "title": "Phone",
-        "conditions": {
-          "title": "Phone",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Phone", "conditions": { "title": "Phone", "province": [ "BC" ] },
         "serviceProvider_id": "122",
         "items": [
           {
@@ -1364,11 +1148,7 @@
           }
         ]
       },
-      {
-        "title": "Cable",
-        "conditions": {
-          "title": "Cable"
-        },
+      { "title": "Cable", "conditions": { "title": "Cable" },
         "serviceProvider_id": "124",
         "items": [
           {
@@ -1406,14 +1186,7 @@
           }
         ]
       },
-      {
-        "title": "Cable",
-        "conditions": {
-          "title": "Cable",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Cable", "conditions": { "title": "Cable", "province": [ "BC" ] },
         "serviceProvider_id": "124",
         "items": [
           {
@@ -1459,11 +1232,7 @@
           }
         ]
       },
-      {
-        "title": "Internet",
-        "conditions": {
-          "title": "Internet"
-        },
+      { "title": "Internet", "conditions": { "title": "Internet" },
         "serviceProvider_id": "123",
         "items": [
           {
@@ -1501,14 +1270,7 @@
           }
         ]
       },
-      {
-        "title": "Internet",
-        "conditions": {
-          "title": "Internet",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Internet", "conditions": { "title": "Internet", "province": [ "BC" ] },
         "serviceProvider_id": "123",
         "items": [
           {
@@ -1554,12 +1316,7 @@
           }
         ]
       },
-      {
-        "title": "Smart Home/Home Security",
-        "conditions": {
-          "title": "Smart Home/Home Security",
-          "province": "*"
-        },
+      { "title": "Smart Home/Home Security", "conditions": { "title": "Smart Home/Home Security", "province": "*" },
         "serviceProvider_id": "126",
         "items": [
           {
@@ -1597,11 +1354,7 @@
           }
         ]
       },
-      {
-        "title": "Water Heater/Furnace Replacement",
-        "conditions": {
-          "title": "Water Heater/Furnace Replacement"
-        },
+      { "title": "Water Heater/Furnace Replacement", "conditions": { "title": "Water Heater/Furnace Replacement" },
         "serviceProvider_id": "125",
         "items": [
           {
@@ -1631,14 +1384,7 @@
           }
         ]
       },
-      {
-        "title": "Water Heater/Furnace Replacement",
-        "conditions": {
-          "title": "Water Heater/Furnace Replacement",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Water Heater/Furnace Replacement", "conditions": { "title": "Water Heater/Furnace Replacement", "province": [ "BC" ] },
         "serviceProvider_id": "125",
         "items": [
           {
@@ -1668,59 +1414,19 @@
           }
         ]
       },
-      {
-        "title": "Moving Services",
-        "conditions": {
-          "title": "Moving Services",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "*", "province": "*" },
         "parent": null,
         "buttons": [
-          {
-            "title": "Moving Companies",
-            "icon": "",
-            "serviceProvider_id": "108"
-          },
-          {
-            "title": "Truck Rental",
-            "icon": "",
-            "serviceProvider_id": "109"
-          },
-          {
-            "title": "Arrange Storage",
-            "icon": "",
-            "serviceProvider_id": "110"
-          },
-          {
-            "title": "Change Address",
-            "icon": "",
-            "serviceProvider_id": "118"
-          },
-          {
-            "title": "Utilities",
-            "icon": "",
-            "serviceProvider_id": ""
-          },
-          {
-            "title": "Water Heater/Furnace Replacement",
-            "icon": "",
-            "serviceProvider_id": "125"
-          },
-          {
-            "title": "Moving Tips",
-            "icon": "",
-            "serviceProvider_id": ""
-          }
+          { "title": "Moving Companies", "icon": "", "serviceProvider_id": "108" },
+          { "title": "Truck Rental", "icon": "", "serviceProvider_id": "109" },
+          { "title": "Arrange Storage", "icon": "", "serviceProvider_id": "110" },
+          { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
+          { "title": "Utilities", "icon": "", "serviceProvider_id": "" },
+          { "title": "Water Heater/Furnace Replacement", "icon": "", "serviceProvider_id": "125" },
+          { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
         ]
       },
-      {
-        "title": "Moving Companies",
-        "conditions": {
-          "title": "Moving Companies",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Moving Companies", "conditions": { "title": "Moving Companies", "company": "*", "province": "*" },
         "parent": "Moving Services",
         "serviceProvider_id": "108",
         "items": [
@@ -1751,13 +1457,7 @@
           }
         ]
       },
-      {
-        "title": "Truck Rental",
-        "conditions": {
-          "title": "Truck Rental",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Truck Rental", "conditions": { "title": "Truck Rental", "company": "*", "province": "*" },
         "parent": "Moving Services",
         "serviceProvider_id": "109",
         "items": [
@@ -1796,13 +1496,7 @@
           }
         ]
       },
-      {
-        "title": "Arrange Storage",
-        "conditions": {
-          "title": "Arrange Storage",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Arrange Storage", "conditions": { "title": "Arrange Storage", "company": "*", "province": "*" },
         "parent": "Moving Services",
         "serviceProvider_id": "110",
         "items": [
@@ -1841,13 +1535,7 @@
           }
         ]
       },
-      {
-        "title": "Utilities",
-        "conditions": {
-          "title": "Utilities",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Utilities", "conditions": { "title": "Utilities", "company": "*", "province": "*" },
         "buttons": [
           {
             "title": "Electric Companies",
@@ -1875,12 +1563,7 @@
           }
         ]
       },
-      { "title": "Electric Companies",
-        "conditions": {
-          "title": "Electric Companies",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Electric Companies", "conditions": { "title": "Electric Companies", "company": "*", "province": "*" },
         "serviceProvider_id": "119",
         "items": [
           {
@@ -1921,12 +1604,7 @@
           }
         ]
       },
-      { "title": "Gas",
-        "conditions": {
-          "title": "Gas",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Gas", "conditions": { "title": "Gas", "company": "*", "province": "*" },
         "serviceProvider_id": "120",
         "items": [
           {
@@ -1948,12 +1626,7 @@
           }
         ]
       },
-      { "title": "Water",
-        "conditions": {
-          "title": "Water",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Water", "conditions": { "title": "Water", "company": "*", "province": "*" },
         "serviceProvider_id": "121",
         "items": [
           {
@@ -1962,12 +1635,7 @@
           }
         ]
       },
-      { "title": "Phone",
-        "conditions": {
-          "title": "Phone",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Phone", "conditions": { "title": "Phone", "company": "*", "province": "*" },
         "serviceProvider_id": "122",
         "items": [
           {
@@ -2000,12 +1668,7 @@
           }
         ]
       },
-      { "title": "Internet",
-        "conditions": {
-          "title": "Internet",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Internet", "conditions": { "title": "Internet", "company": "*", "province": "*" },
         "serviceProvider_id": "123",
         "items": [
           {
@@ -2038,12 +1701,7 @@
           }
         ]
       },
-      { "title": "Cable",
-        "conditions": {
-          "title": "Cable",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Cable", "conditions": { "title": "Cable", "company": "*", "province": "*" },
         "serviceProvider_id": "124",
         "items": [
           {
@@ -2081,13 +1739,7 @@
           }
         ]
       },
-      {
-        "title": "Mortgage Application",
-        "conditions": {
-          "title": "Mortgage Application",
-          "company": "opendoorsmortgage",
-          "province": "*"
-        },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "opendoorsmortgage", "province": "*" },
         "items": [
           {
             "type": "card",
@@ -2109,13 +1761,7 @@
           }
         ]
       },
-      {
-        "title": "Mortgage Application",
-        "conditions": {
-          "title": "Mortgage Application",
-          "company": "thrivemortgage",
-          "province": "*"
-        },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "thrivemortgage", "province": "*" },
         "items": [
           {
             "type": "p",
@@ -2141,13 +1787,7 @@
           }
         ]
       },
-      {
-        "title": "Credit Score",
-        "conditions": {
-          "title": "Credit Score",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Credit Score", "conditions": { "title": "Credit Score", "company": "*", "province": "*" },
         "items": [
           {
             "type": "p",
@@ -2180,36 +1820,15 @@
           }
         ]
       },
-      {
-        "title": "Disabled",
-        "_coment": "Disable services for vericoconnect by default for NB,NL",
-        "conditions": {
-          "title": ["Moving Companies","Truck Rental","Arrange Storage","Junk Removal","Utilities","Cable","Internet","Moving Tips","Cleaning Services","Smart Home/Home Security","Locksmith","Pest Control"],
-          "company": "vericoconnect",
-          "province": ["NB","NL"]
-        },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for NB,NL", "conditions": { "title": ["Moving Companies","Truck Rental","Arrange Storage","Junk Removal","Utilities","Cable","Internet","Moving Tips","Cleaning Services","Smart Home/Home Security","Locksmith","Pest Control"], "company": "vericoconnect", "province": ["NB","NL"] },
         "disabled":true,
         "items": null
       },
-      {
-        "title": "Disabled",
-        "_coment": "Disable services for vericoconnect by default for AB,SK,MB,NB,NS,NL",
-        "conditions": {
-          "title": ["Locksmith"],
-          "company": "vericoconnect",
-          "province": ["AB","SK","MB","NB","NS","NL"]
-        },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for AB,SK,MB,NB,NS,NL", "conditions": { "title": ["Locksmith"], "company": "vericoconnect", "province": ["AB","SK","MB","NB","NS","NL"] },
         "disabled":true,
         "items": null
       },
-      {
-        "title": "Disabled",
-        "_coment": "Disable services for vericoconnect for Home/Auto Insurance",
-        "conditions": {
-          "title": ["Home/Auto Insurance"],
-          "company": "vericoconnect",
-          "province": "*"
-        },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect for Home/Auto Insurance", "conditions": { "title": ["Home/Auto Insurance"], "company": "vericoconnect", "province": "*" },
         "disabled":true,
         "items": null
       }
