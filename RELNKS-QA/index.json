@@ -180,11 +180,11 @@
       },
       {
         "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": false },
-        "permissions": [ "VIEW_CHECKLIST","EDIT_CHECKLIST"]
+        "permissions": [ "VIEW_CHECKLIST", "EDIT_CHECKLIST" ]
       },
       {
         "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
-        "permissions": [ "VIEW_CHECKLIST","EDIT_CHECKLIST"]
+        "permissions": [ "VIEW_CHECKLIST", "EDIT_CHECKLIST" ]
       },
       {
         "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": "*" },
