@@ -196,9 +196,14 @@
         "permissions": [ "VIEW_CHECKLIST" ]
       },
       {
-        "conditions": { "serviceProvider_id": ["100","103","104"],"company": "vericoconnect",  "province": "*",  "userType": "*" },
+        "conditions": { "serviceProvider_id": ["100","103"],"company": "vericoconnect",  "province": "*",  "userType": "*" },
         "_comment": "Capture default vericoconnect province: no create order permissions",  
         "permissions": [ ]
+      },
+      {
+        "conditions": { "serviceProvider_id": ["104"],"company": "vericoconnect",  "province": "*",  "userType": "*" },
+        "_comment": "Hide HCS item for default provinces.",  
+        "permissions": [ ], "requirements": ["HIDDEN"]
       },
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
@@ -207,11 +212,6 @@
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
         "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
-      },
-      {
-        "conditions": { "serviceProvider_id": ["104"],"company": "vericoconnect",  "province": "*",  "userType": "*" },
-        "_comment": "Hide HCS item for default provinces.",  
-        "permissions": [ ], "requirements": ["HIDDEN"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": ["ON","BC"],  "userType": "*" },
