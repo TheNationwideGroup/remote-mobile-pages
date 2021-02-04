@@ -1675,7 +1675,6 @@
         "parent": null,
         "buttons": [
           { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
-          { "title": "Utilities", "icon": "", "serviceProvider_id": "" },
           { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
         ]
       },
