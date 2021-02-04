@@ -45,7 +45,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png",
-        "imageSize": "auto 55%",
+        "imageSize": "55%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/poweredby.png"
       },
@@ -61,7 +61,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "opendoorsmortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png",
-        "imageSize": "auto 45%",
+        "imageSize": "45%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/poweredby.png"
       },
@@ -77,7 +77,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "thrivemortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png",
-        "imageSize": "auto 45%",
+        "imageSize": "45%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/poweredby.png"
       },
@@ -93,7 +93,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "tribefinancial" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/tribefinancial/logo.png",
-        "imageSize": "auto 45%",
+        "imageSize": "45%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/tribefinancial/poweredby.png"
       },
@@ -110,7 +110,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "vericoconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/logo.png",
-        "imageSize": "auto 20%",
+        "imageSize": "20%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/poweredby.png"
       },
