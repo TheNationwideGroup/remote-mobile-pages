@@ -118,6 +118,11 @@
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "vericoconnect" },
         "pageTitle": "Verico Connect",
         "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "vericoconnect" },
+        "pageTitle": "Verico Connect",
+        "imageURL": ""
       }
     ],
     "WhitelabelData": [
