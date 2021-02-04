@@ -38,6 +38,7 @@
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "whitelabel" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/whitelabel/logo.png"
       },
+      
       {
         "conditions": { "page": [ "MenuPage" ], "company": "oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
@@ -55,6 +56,12 @@
         "imageURL": ""
       },
       {
+        "conditions": { "page": [ "RegisterPage" ], "company": "oriana" },
+        "pageTitle": "Oriana Financial",
+        "imageURL": ""
+      },
+
+      {
         "conditions": { "page": [ "MenuPage" ], "company": "opendoorsmortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png"
       },
@@ -70,6 +77,12 @@
         "pageTitle": "Open Doors Mortgage",
         "imageURL": ""
       },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "opendoorsmortgage" },
+        "pageTitle": "Open Doors Mortgage",
+        "imageURL": ""
+      },
+
       {
         "conditions": { "page": [ "MenuPage" ], "company": "thrivemortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png"
@@ -87,6 +100,12 @@
         "imageURL": ""
       },
       {
+        "conditions": { "page": [ "RegisterPage" ], "company": "thrivemortgage" },
+        "pageTitle": "Thrive Connect",
+        "imageURL": ""
+      },
+
+      {
         "conditions": { "page": [ "MenuPage" ], "company": "tribefinancial" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/tribefinancial/logo.png"
       },
@@ -99,6 +118,11 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "tribefinancial" },
+        "pageTitle": "Tribe Financial",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "tribefinancial" },
         "pageTitle": "Tribe Financial",
         "imageURL": ""
       },
