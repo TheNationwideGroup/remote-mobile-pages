@@ -732,8 +732,7 @@
         "parent": null,
         "buttons": [
           { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
-          { "title": "Home Insurance", "icon": "fas fa-home", "serviceProvider_id": "106" },
-          { "title": "Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106" }
+          { "title": "Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106" }
         ]
       },
       { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "oriana", "province": "*" },
@@ -815,6 +814,37 @@
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/belairdirect.png",
             "url": "https://www.belairdirect.com/",
             "phone": "1-888-280-8549"
+          }
+        ]
+      },
+      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "province": [ "BC" ] },
+        "parent": "Insurance Products",
+        "serviceProvider_id": "106",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Home Insurance is required to close on your home. Find the right fit for your needs here."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Magnes",
+                "text": "With effort and care, we deliver the very best personalized insurance coverage and risk management advice. ",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/magnes.png",
+                "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
+                "phone": "1-800-650-3435"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "ICBC",
+                "text": "Buy, renew, or update your auto insurance through the Insurance Corporation of British Columbia.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/icbc.png",
+                "url": "https://www.icbc.com/insurance/buy-renew-cancel/Pages/buy-or-renew.aspx",
+                "phone": "1-800-910-4222"
+              }
+            ]
           }
         ]
       },
