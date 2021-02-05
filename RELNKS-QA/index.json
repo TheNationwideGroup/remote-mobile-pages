@@ -235,7 +235,7 @@
       },
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
-        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
+        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": ["ON","BC"],  "userType": "*" },
