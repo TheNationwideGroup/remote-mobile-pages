@@ -7,7 +7,7 @@
         "ON",
         "BC"
       ],
-      "US": [
+      "US_disabled": [
         "AZ"
       ]
     },
@@ -15,7 +15,8 @@
       "oriana",
       "opendoorsmortgage",
       "thrivemortgage",
-      "tribefinancial"
+      "tribefinancial",
+      "vericoconnect"
     ],
     "WhitelabelAssets": [
       {
@@ -36,6 +37,7 @@
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "whitelabel" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/whitelabel/logo.png"
       },
+
       {
         "conditions": { "page": [ "MenuPage" ], "company": "oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
@@ -43,7 +45,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png",
-        "imageSize": "auto 55%",
+        "imageSize": "55%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/poweredby.png"
       },
@@ -53,13 +55,19 @@
         "imageURL": ""
       },
       {
+        "conditions": { "page": [ "RegisterPage" ], "company": "oriana" },
+        "pageTitle": "Oriana Financial",
+        "imageURL": ""
+      },
+
+      {
         "conditions": { "page": [ "MenuPage" ], "company": "opendoorsmortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png"
       },
       {
         "conditions": { "page": [ "LoginPage" ], "company": "opendoorsmortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png",
-        "imageSize": "auto 45%",
+        "imageSize": "45%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/poweredby.png"
       },
@@ -69,13 +77,19 @@
         "imageURL": ""
       },
       {
+        "conditions": { "page": [ "RegisterPage" ], "company": "opendoorsmortgage" },
+        "pageTitle": "Open Doors Mortgage",
+        "imageURL": ""
+      },
+
+      {
         "conditions": { "page": [ "MenuPage" ], "company": "thrivemortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png"
       },
       {
         "conditions": { "page": [ "LoginPage" ], "company": "thrivemortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png",
-        "imageSize": "auto 45%",
+        "imageSize": "45%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/poweredby.png"
       },
@@ -85,19 +99,52 @@
         "imageURL": ""
       },
       {
+        "conditions": { "page": [ "RegisterPage" ], "company": "thrivemortgage" },
+        "pageTitle": "Thrive Connect",
+        "imageURL": ""
+      },
+
+      {
         "conditions": { "page": [ "MenuPage" ], "company": "tribefinancial" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/tribefinancial/logo.png"
       },
       {
         "conditions": { "page": [ "LoginPage" ], "company": "tribefinancial" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/tribefinancial/logo.png",
-        "imageSize": "auto 45%",
+        "imageSize": "45%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/tribefinancial/poweredby.png"
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "tribefinancial" },
         "pageTitle": "Tribe Financial",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "tribefinancial" },
+        "pageTitle": "Tribe Financial",
+        "imageURL": ""
+      },
+
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "vericoconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "vericoconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/logo.png",
+        "imageSize": "20%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "vericoconnect" },
+        "pageTitle": "Verico Connect",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "vericoconnect" },
+        "pageTitle": "VERICO CONNECT",
         "imageURL": ""
       }
     ],
@@ -107,182 +154,91 @@
       { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "BC" },
       { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Open Doors Mortgage", "brokerHouse": "DLC", "defaultProvince": "BC" },
       { "conditions": { "company": "thrivemortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Thrive Mortgage", "brokerHouse": "DLC" },
-      { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Tribe Financial", "brokerHouse": "TBD" }
+      { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Tribe Financial", "brokerHouse": "TBD" },
+      { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}},
+      { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico", "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}}
     ],
     "WhitelabelCSS": [
       {
         "conditions": { "company": "opendoorsmortgage" },
-        "css": "#page-login #login { background-color: #8cc542; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #8cc542 !important;} .theme-accent-bg{background-color: #8cc542 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #8cc542 !important; background-color:white !important; } .theme-accent-fg{color: #8cc542 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #8cc542 !important; color:white !important; } .page-HeaderPage>.header {background-color: #8cc542 !important;} div[page].page-Menu .menu-body {background-color: #8cc542;} #page-WelcomePage .content{background-image: radial-gradient(circle, #76c70b, #85c72e, #84ca2a, #7ac716, #72c702);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #8cc542 !important; } .btn-primary, button.primary { background-color: #8cc542 !important; border: 1px solid #8cc542 !important;} button.primary:active { background-color: #649623 !important; border-color: #8cc542 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #8cc542 !important; }.fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #8cc542 !important; } div[type='info-tile-component'] button { background-color: #8cc542 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #517325 !important;}"
+        "css": "#page-login #login { background-color: #8cc542; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #8cc542 !important;} .theme-accent-bg{background-color: #8cc542 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #8cc542 !important; background-color:white !important; } .theme-accent-fg{color: #8cc542 !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #8cc542 !important; color:white !important; } .page-HeaderPage>.header {background-color: #8cc542 !important;} div[page].page-Menu .menu-body {background-color: #8cc542;} #page-WelcomePage .content{background-image: radial-gradient(circle, #76c70b, #85c72e, #84ca2a, #7ac716, #72c702);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #8cc542 !important; } .btn-primary, button.primary { background-color: #8cc542 !important; border: 1px solid #8cc542 !important;} button.primary:active { background-color: #649623 !important; border-color: #8cc542 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #8cc542 !important; }.fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #8cc542 !important; } div[type='info-tile-component'] button { background-color: #8cc542 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #517325 !important;}"
       },
       {
         "conditions": { "company": "thrivemortgage" },
-        "css": "#page-login #login { background-color: #FF7F40; } .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #FF7F40 !important;} .theme-accent-bg{background-color: #FF7F40 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #FF7F40 !important; background-color:white !important; } .theme-accent-fg{color: #FF7F40 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #FF7F40 !important; color:white !important; }.page-HeaderPage>.header { background-color: #FF7F40 !important;} div[page].page-Menu .menu-body { background-color: #FF7F40; } #page-WelcomePage .content { background-image: radial-gradient(circle, #FF7F40, #FF7F40, #FF7F40, #FF7F40, #FF7F40); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #FF7F40 !important; } .btn-primary, button.primary { background-color: #FF7F40 !important; border: 1px solid #FF7F40 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #FF7F40 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #FF7F40 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #FF7F40 !important; } div[type='info-tile-component'] button { background-color: #FF7F40 !important; } #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; }"
+        "css": "#page-login #login { background-color: #FF7F40; } .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #FF7F40 !important;} .theme-accent-bg{background-color: #FF7F40 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #FF7F40 !important; background-color:white !important; } .theme-accent-fg{color: #FF7F40 !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #FF7F40 !important; color:white !important; }.page-HeaderPage>.header { background-color: #FF7F40 !important;} div[page].page-Menu .menu-body { background-color: #FF7F40; } #page-WelcomePage .content { background-image: radial-gradient(circle, #FF7F40, #FF7F40, #FF7F40, #FF7F40, #FF7F40); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #FF7F40 !important; } .btn-primary, button.primary { background-color: #FF7F40 !important; border: 1px solid #FF7F40 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #FF7F40 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #FF7F40 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #FF7F40 !important; } div[type='info-tile-component'] button { background-color: #FF7F40 !important; } #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; }"
       },
       {
         "conditions": { "company": "tribefinancial" },
-        "css": "#page-login #login { background-color: #ED5864; } .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #ED5864 !important;} .theme-accent-bg{background-color: #ED5864 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #ED5864 !important; background-color:white !important; } .theme-accent-fg{color: #ED5864 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #ED5864 !important; color:white !important; }.page-HeaderPage>.header { background-color: #ED5864 !important;} div[page].page-Menu .menu-body { background-color: #ED5864; } #page-WelcomePage .content { background-image: radial-gradient(circle, #ED5864, #ED5864, #ED5864, #ED5864, #ED5864); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #ED5864 !important; } .btn-primary, button.primary { background-color: #ED5864 !important; border: 1px solid #ED5864 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #ED5864 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #ED5864 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #ED5864 !important; } div[type='info-tile-component'] button { background-color: #ED5864 !important; } #page-DocumentsRepositoryPage .box-info .title-row { color: #ed5864  !important; }"
+        "css": "#page-login #login { background-color: #ED5864; } .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #ED5864 !important;} .theme-accent-bg{background-color: #ED5864 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #ED5864 !important; background-color:white !important; } .theme-accent-fg{color: #ED5864 !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #ED5864 !important; color:white !important; }.page-HeaderPage>.header { background-color: #ED5864 !important;} div[page].page-Menu .menu-body { background-color: #ED5864; } #page-WelcomePage .content { background-image: radial-gradient(circle, #ED5864, #ED5864, #ED5864, #ED5864, #ED5864); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #ED5864 !important; } .btn-primary, button.primary { background-color: #ED5864 !important; border: 1px solid #ED5864 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #ED5864 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #ED5864 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #ED5864 !important; } div[type='info-tile-component'] button { background-color: #ED5864 !important; } #page-DocumentsRepositoryPage .box-info .title-row { color: #ed5864  !important; }"
       },
       {
         "conditions": { "company": "vericoconnect" },
-        "css": "#page-login #login { background-color: #22386E; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #22386E !important;} .theme-accent-bg{background-color: #22386E !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #22386E !important; background-color:white !important; } .theme-accent-fg{color: #22386E !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #22386E !important; color:white !important; } .page-HeaderPage>.header {background-color: #22386E !important;} div[page].page-Menu .menu-body {background-color: #22386E;} #page-WelcomePage .content{background-image: radial-gradient(circle, #76c70b, #85c72e, #84ca2a, #7ac716, #72c702);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #22386E !important; } .btn-primary, button.primary { background-color: #22386E !important; border: 1px solid #22386E !important;} button.primary:active { background-color: #649623 !important; border-color: #22386E !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #22386E !important; }.fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #22386E !important; } div[type='info-tile-component'] button { background-color: #22386E !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #517325 !important;}"
+        "css": "#page-login #login { background-color: #22386E; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #22386E !important;} .theme-accent-bg{background-color: #22386E !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #22386E !important; background-color:white !important; } .theme-accent-fg{color: #22386E !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #22386E !important; color:white !important; } .page-HeaderPage>.header {background-color: #22386E !important;} div[page].page-Menu .menu-body {background-color: #22386E;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #22386E !important; } .btn-primary, button.primary { background-color: #22386E !important; border: 1px solid #22386E !important;} button.primary:active { background-color: #649623 !important; border-color: #22386E !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #22386E !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #22386E !important; } div[type='info-tile-component'] button { background-color: #22386E !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #22386e !important;}"
       }
     ],
     "UserTypePermissions": [
       {
-        "conditions": {
-          "userType": "HOMEOWNER",
-          "serviceProvider_id": [
-            "100"
-          ],
-          "isParticipant": false
-        },
-        "permissions": [
-          "CREATE_ORDER"
-        ]
+        "conditions": { "serviceProvider_id": [ "100" ], "company": "*", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
+        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
-        "conditions": {
-          "userType": "*",
-          "serviceProvider_id": [
-            "100"
-          ],
-          "isParticipant": true,
-          "participantType": [
-            "APPLICANT",
-            "COAPPLICANT"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER"
-        ]
+        "conditions": { "serviceProvider_id": [ "100" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
+        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
-        "conditions": {
-          "userType": "HOMEOWNER",
-          "serviceProvider_id": [
-            "103",
-            "104"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER",
-          "CREATE_ORDER_NOT_FIRST"
-        ]
+        "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "HOMEOWNER" },
+        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST" ]
       },
       {
-        "conditions": {
-          "userType": "REALTOR",
-          "serviceProvider_id": [
-            "103",
-            "104"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER",
-          "CREATE_ORDER_NOT_FIRST"
-        ]
+        "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "REALTOR" },
+        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST" ]
       },
       {
-        "conditions": {
-          "userType": "BROKER",
-          "serviceProvider_id": [
-            "103",
-            "104"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER",
-          "CREATE_ORDER_NOT_FIRST"
-        ]
+        "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "BROKER" },
+        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST"]
       },
       {
-        "conditions": {
-          "userType": "LENDER",
-          "serviceProvider_id": [
-            "103",
-            "104"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER",
-          "CREATE_ORDER_NOT_FIRST"
-        ]
+        "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "LENDER" },
+        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST"]
       },
       {
-        "conditions": {
-          "userType": "*",
-          "serviceProvider_id": [
-            "105",
-            "106",
-            "107",
-            "108",
-            "109",
-            "110",
-            "111",
-            "112",
-            "113",
-            "114",
-            "115",
-            "116",
-            "117",
-            "118",
-            "119",
-            "120",
-            "121",
-            "122",
-            "123",
-            "124",
-            "125",
-            "126"
-          ]
-        },
-        "permissions": [
-          "CREATE_ORDER",
-          "CREATE_ORDER_NOT_FIRST"
-        ]
+        "conditions": {  "serviceProvider_id": [ "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126" ],
+          "company": "*", "province": "*",  "userType": "*"},
+        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST"]
       },
       {
-        "conditions": {
-          "userType": "*",
-          "serviceProvider_id": [
-            "MASTERCHECKLIST"
-          ],
-          "isParticipant": false
-        },
-        "permissions": [
-          "VIEW_CHECKLIST",
-          "EDIT_CHECKLIST"
-        ]
+        "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": false },
+        "permissions": [ "VIEW_CHECKLIST", "EDIT_CHECKLIST" ]
       },
       {
-        "conditions": {
-          "userType": "*",
-          "serviceProvider_id": [
-            "MASTERCHECKLIST"
-          ],
-          "isParticipant": true,
-          "participantType": [
-            "APPLICANT",
-            "COAPPLICANT"
-          ]
-        },
-        "permissions": [
-          "VIEW_CHECKLIST",
-          "EDIT_CHECKLIST"
-        ]
+        "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
+        "permissions": [ "VIEW_CHECKLIST", "EDIT_CHECKLIST" ]
       },
       {
-        "conditions": {
-          "userType": "*",
-          "serviceProvider_id": [
-            "MASTERCHECKLIST"
-          ],
-          "isParticipant": true,
-          "participantType": "*"
-        },
-        "permissions": [
-          "VIEW_CHECKLIST"
-        ]
+        "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": "*" },
+        "permissions": [ "VIEW_CHECKLIST" ]
+      },
+      {
+        "conditions": { "serviceProvider_id": ["100","103"],"company": "vericoconnect",  "province": "*",  "userType": "*" },
+        "_comment": "Capture default vericoconnect province: no create order permissions",  
+        "permissions": [ ]
+      },
+      {
+        "conditions": { "serviceProvider_id": ["104"],"company": "vericoconnect",  "province": "*",  "userType": "*" },
+        "_comment": "Hide HCS item for default provinces.",  
+        "permissions": [ ], "requirements": ["HIDDEN"]
+      },
+      {
+        "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
+        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
+      },
+      {
+        "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
+        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST"]
+      },
+      {
+        "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": ["ON","BC"],  "userType": "*" },
+        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST"]
       }
     ],
     "selectOptions": {
@@ -392,11 +348,7 @@
       ]
     },
     "concieregeServicesPages": [
-      {
-        "title": "Property Services",
-        "conditions": {
-          "title": "Property Services"
-        },
+      { "title": "Property Services", "conditions": { "title": "Property Services" },
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -442,12 +394,9 @@
           }
         ]
       },
-      {
-        "title": "Property Services_back",
-        "conditions": {
-          "title": "Property Services_back"
-        },
-        "parent": "Concierge Services",
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company":"vericoconnect", "province":["AB","BC","ON","NS"] },
+        "parent": null,
+        "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {
             "title": "Lawn/Garden Care",
@@ -478,14 +427,72 @@
             "title": "Cleaning Services",
             "icon": "",
             "serviceProvider_id": "116"
+          },
+          {
+            "title": "Junk Removal",
+            "icon": "",
+            "serviceProvider_id": "117"
+          },
+          {
+            "title": "Smart Home/Home Security",
+            "icon": "",
+            "serviceProvider_id": "126"
           }
         ]
       },
-      {
-        "title": "Lawn/Garden Care",
-        "conditions": {
-          "title": "Lawn/Garden Care"
-        },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company":"vericoconnect", "province":["SK","MB"] },
+        "parent": null,
+        "serviceProvider_id": "CONCIERGE_SERVICES",
+        "buttons": [
+          {
+            "title": "Lawn/Garden Care",
+            "icon": "",
+            "serviceProvider_id": "111"
+          },
+          {
+            "title": "Property Management",
+            "icon": "",
+            "serviceProvider_id": "112"
+          },
+          {
+            "title": "Home Renovation",
+            "icon": "",
+            "serviceProvider_id": "113"
+          },
+          {
+            "title": "Pest Control",
+            "icon": "",
+            "serviceProvider_id": "114"
+          },
+          {
+            "title": "Cleaning Services",
+            "icon": "",
+            "serviceProvider_id": "116"
+          },
+          {
+            "title": "Junk Removal",
+            "icon": "",
+            "serviceProvider_id": "117"
+          },
+          {
+            "title": "Smart Home/Home Security",
+            "icon": "",
+            "serviceProvider_id": "126"
+          }
+        ]
+      },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company":"vericoconnect", "province":["NB","NL"] },
+        "parent": null,
+        "serviceProvider_id": "CONCIERGE_SERVICES",
+        "buttons": [
+          {
+            "title": "Home Renovation",
+            "icon": "",
+            "serviceProvider_id": "113"
+          }
+        ]
+      },
+      { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care" },
         "parent": "Property Services",
         "serviceProvider_id": "111",
         "items": [
@@ -524,11 +531,7 @@
           }
         ]
       },
-      {
-        "title": "Property Management",
-        "conditions": {
-          "title": "Property Management"
-        },
+      { "title": "Property Management", "conditions": { "title": "Property Management" },
         "parent": "Property Services",
         "serviceProvider_id": "112",
         "items": [
@@ -559,11 +562,7 @@
           }
         ]
       },
-      {
-        "title": "Home Renovation",
-        "conditions": {
-          "title": "Home Renovation"
-        },
+      { "title": "Home Renovation", "conditions": { "title": "Home Renovation" },
         "parent": "Property Management",
         "serviceProvider_id": "113",
         "items": [
@@ -586,11 +585,7 @@
           }
         ]
       },
-      {
-        "title": "Locksmith",
-        "conditions": {
-          "title": "Locksmith"
-        },
+      { "title": "Locksmith", "conditions": { "title": "Locksmith" },
         "parent": "Property Services",
         "serviceProvider_id": "115",
         "items": [
@@ -613,11 +608,7 @@
           }
         ]
       },
-      {
-        "title": "Cleaning Services",
-        "conditions": {
-          "title": "Cleaning Services"
-        },
+      { "title": "Cleaning Services", "conditions": { "title": "Cleaning Services" },
         "parent": "Property Services",
         "serviceProvider_id": "116",
         "items": [
@@ -656,10 +647,7 @@
           }
         ]
       },
-      {
-        "title": "Pest Control",
-        "conditions": {
-          "title": "Pest Control"
+      { "title": "Pest Control", "conditions": { "title": "Pest Control"
         },
         "parent": "Property Services",
         "serviceProvider_id": "114",
@@ -699,14 +687,7 @@
           }
         ]
       },
-      {
-        "title": "Pest Control",
-        "conditions": {
-          "title": "Pest Control",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Pest Control", "conditions": { "title": "Pest Control", "province": [ "BC" ] },
         "parent": "Property Services",
         "serviceProvider_id": "114",
         "items": [
@@ -745,86 +726,36 @@
           }
         ]
       },
-      {
-        "title": "Insurance Products",
-        "conditions": {
-          "title": "Insurance Products",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "*", "province": "*" },
         "parent": null,
         "buttons": [
-          {
-            "title": "Home Warranty",
-            "icon": "fas fa-umbrella",
-            "serviceProvider_id": "105"
-          },
-          {
-            "title": "Home/Auto Insurance",
-            "icon": "fas fa-car-crash",
-            "serviceProvider_id": "106"
-          },
-          {
-            "title": "Life Insurance",
-            "icon": "fas fa-umbrella",
-            "serviceProvider_id": "107"
-          }
+          { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
+          { "title": "Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106" },
+          { "title": "Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107" }
         ]
       },
-      {
-        "title": "Insurance Products",
-        "conditions": {
-          "title": "Insurance Products",
-          "company": "*",
-          "province": "BC"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "*", "province": "BC" },
         "parent": null,
         "buttons": [
-          {
-            "title": "Home Warranty",
-            "icon": "fas fa-umbrella",
-            "serviceProvider_id": "105"
-          },
-          {
-            "title": "Home Insurance",
-            "icon": "fas fa-home",
-            "serviceProvider_id": "106"
-          },
-          {
-            "title": "Auto Insurance",
-            "icon": "fas fa-car-crash",
-            "serviceProvider_id": "106"
-          }
+          { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
+          { "title": "Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106" }
         ]
       },
-      {
-        "title": "Insurance Products",
-        "conditions": {
-          "title": "Insurance Products",
-          "company": "oriana",
-          "province": "*"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "oriana", "province": "*" },
         "parent": null,
         "buttons": [
-          {
-            "title": "Home/Auto Insurance",
-            "icon": "fas fa-car-crash",
-            "serviceProvider_id": "106"
-          },
-          {
-            "title": "Life Insurance",
-            "icon": "fas fa-umbrella",
-            "serviceProvider_id": "107"
-          }
+          { "title": "Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106" },
+          { "title": "Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107" }
         ]
       },
-      {
-        "title": "Home Warranty",
-        "conditions": {
-          "title": "Home Warranty",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "vericoconnect", "province": "*" },
+        "parent": null,
+        "buttons": [
+          { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
+          { "title": "Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107" }
+        ]
+      },
+      { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
         "items": [
@@ -858,13 +789,7 @@
           }
         ]
       },
-      {
-        "title": "Home/Auto Insurance",
-        "conditions": {
-          "title": "Home/Auto Insurance",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "items": [
@@ -898,15 +823,38 @@
           }
         ]
       },
-      {
-        "title": "Home Insurance",
-        "conditions": {
-          "title": "Home Insurance",
-          "company": "*",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "province": [ "BC" ] },
+        "parent": "Insurance Products",
+        "serviceProvider_id": "106",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Home Insurance is required to close on your home. Find the right fit for your needs here."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Magnes",
+                "text": "With effort and care, we deliver the very best personalized insurance coverage and risk management advice. ",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/magnes.png",
+                "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
+                "phone": "1-800-650-3435"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "ICBC",
+                "text": "Buy, renew, or update your auto insurance through the Insurance Corporation of British Columbia.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/icbc.png",
+                "url": "https://www.icbc.com/insurance/buy-renew-cancel/Pages/buy-or-renew.aspx",
+                "phone": "1-800-910-4222"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Home Insurance", "conditions": { "title": "Home Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "items": [
@@ -929,15 +877,7 @@
           }
         ]
       },
-      {
-        "title": "Auto Insurance",
-        "conditions": {
-          "title": "Auto Insurance",
-          "company": "*",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Auto Insurance", "conditions": { "title": "Auto Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "items": [
@@ -960,13 +900,7 @@
           }
         ]
       },
-      {
-        "title": "Home/Auto Insurance",
-        "conditions": {
-          "title": "Home/Auto Insurance",
-          "company": "oriana",
-          "province": "*"
-        },
+      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "oriana", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "items": [
@@ -989,15 +923,7 @@
           }
         ]
       },
-      {
-        "title": "Life Insurance",
-        "conditions": {
-          "title": "Life Insurance",
-          "company": "*",
-          "province": [
-            "ON"
-          ]
-        },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "*", "province": [ "ON" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -1020,12 +946,30 @@
           }
         ]
       },
-      {
-        "title": "Junk Removal",
-        "conditions": {
-          "title": "Junk Removal",
-          "province": "*"
-        },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "vericoconnect", "province": "*" },
+        "parent": "Insurance Products",
+        "serviceProvider_id": "107",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Bold Financial",
+                "text": "Life insurance, group benefits and investment solutions for business owners and professionals.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bold-financial.png",
+                "url": "https://www.boldfinancial.ca/",
+                "phone": "416-727-7071"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "province": "*" },
         "parent": "Concierge Services",
         "serviceProvider_id": "117",
         "type": "button",
@@ -1065,14 +1009,7 @@
           }
         ]
       },
-      {
-        "title": "Junk Removal",
-        "conditions": {
-          "title": "Junk Removal",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "province": [ "BC" ] },
         "parent": "Concierge Services",
         "serviceProvider_id": "117",
         "type": "button",
@@ -1112,13 +1049,7 @@
           }
         ]
       },
-      {
-        "title": "Change Address",
-        "conditions": {
-          "title": "Change Address",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "*", "province": "*" },
         "parent": "Concierge Services",
         "serviceProvider_id": "118",
         "items": [
@@ -1157,14 +1088,7 @@
           }
         ]
       },
-      {
-        "title": "Change Address",
-        "conditions": {
-          "title": "Change Address",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "province": [ "BC" ] },
         "parent": "Concierge Services",
         "serviceProvider_id": "118",
         "items": [
@@ -1211,11 +1135,241 @@
           }
         ]
       },
-      {
-        "title": "Electric Companies",
-        "conditions": {
-          "title": "Electric Companies"
-        },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "vericoconnect", "province": "AB" },
+        "parent": "Concierge Services",
+        "serviceProvider_id": "118",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Canada Post",
+                "text": "Direct all your mail from your current address to your new home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
+                "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
+                "phone": "1-800-267-1177"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Canada",
+                "text": "Update your address with Federal government departments.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
+                "url": "https://www.canada.ca/en/government/change-address.html",
+                "phone": "1-800-622-6232"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Alberta",
+                "text": "The online service to change your address, quickly and easily!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/alberta_gov.png",
+                "url": "https://www.alberta.ca/update-driving-documents.aspx",
+                "phone": "780-427-2711"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "vericoconnect", "province": "SK" },
+        "parent": "Concierge Services",
+        "serviceProvider_id": "118",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Canada Post",
+                "text": "Direct all your mail from your current address to your new home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
+                "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
+                "phone": "1-800-267-1177"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Canada",
+                "text": "Update your address with Federal government departments.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
+                "url": "https://www.canada.ca/en/government/change-address.html",
+                "phone": "1-800-622-6232"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Saskatchewan",
+                "text": "The online service to change your address, quickly and easily!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/saskatchevan_gov.png",
+                "url": "https://www.expressaddress.com/apex/f?p=132:9999:12292926314942::::P9999_PAGE_ID:40818",
+                "phone": ""
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "vericoconnect", "province": "MB" },
+        "parent": "Concierge Services",
+        "serviceProvider_id": "118",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Canada Post",
+                "text": "Direct all your mail from your current address to your new home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
+                "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
+                "phone": "1-800-267-1177"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Canada",
+                "text": "Update your address with Federal government departments.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
+                "url": "https://www.canada.ca/en/government/change-address.html",
+                "phone": "1-800-622-6232"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Manitoba",
+                "text": "The online service to change your address, quickly and easily!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/manitoba_gov.png",
+                "url": "https://www.manitobaaddresschange.ca/",
+                "phone": "204-945-2581"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "vericoconnect", "province": "NS" },
+        "parent": "Concierge Services",
+        "serviceProvider_id": "118",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Canada Post",
+                "text": "Direct all your mail from your current address to your new home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
+                "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
+                "phone": "1-800-267-1177"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Canada",
+                "text": "Update your address with Federal government departments.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
+                "url": "https://www.canada.ca/en/government/change-address.html",
+                "phone": "1-800-622-6232"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Nova Scotia",
+                "text": "The online service to change your address, quickly and easily!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/nova-scotia_gov.png",
+                "url": "https://isd.acol.ca/isd/rmv/ChangeAddress/Start.do",
+                "phone": "1-800-898-7668"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "vericoconnect", "province": "NB" },
+        "parent": "Concierge Services",
+        "serviceProvider_id": "118",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Canada Post",
+                "text": "Direct all your mail from your current address to your new home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
+                "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
+                "phone": "1-800-267-1177"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Canada",
+                "text": "Update your address with Federal government departments.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
+                "url": "https://www.canada.ca/en/government/change-address.html",
+                "phone": "1-800-622-6232"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of New Brunswick",
+                "text": "The online service to change your address, quickly and easily!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/new-brunswick_gov.png",
+                "url": "https://www2.gnb.ca/content/gnb/en/services/services_renderer.201491.Driver_s_Licences.html",
+                "phone": "1-888-762-8600"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "vericoconnect", "province": "NL" },
+        "parent": "Concierge Services",
+        "serviceProvider_id": "118",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Canada Post",
+                "text": "Direct all your mail from your current address to your new home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
+                "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
+                "phone": "1-800-267-1177"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Canada",
+                "text": "Update your address with Federal government departments.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
+                "url": "https://www.canada.ca/en/government/change-address.html",
+                "phone": "1-800-622-6232"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Newfoundland",
+                "text": "The online service to change your address, quickly and easily!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/newfoundland_gov.png",
+                "url": "https://www.gov.nl.ca/dgsnl/drivers/driversandvehicles/driverlicensing/nameaddresschange/",
+                "phone": "1-877-636-6867"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Electric Companies", "conditions": { "title": "Electric Companies" },
         "serviceProvider_id": "119",
         "items": [
           {
@@ -1261,14 +1415,7 @@
           }
         ]
       },
-      {
-        "title": "Electric Companies",
-        "conditions": {
-          "title": "Electric Companies",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Electric Companies", "conditions": { "title": "Electric Companies", "province": [ "BC" ] },
         "serviceProvider_id": "119",
         "items": [
           {
@@ -1298,11 +1445,7 @@
           }
         ]
       },
-      {
-        "title": "Gas",
-        "conditions": {
-          "title": "Gas"
-        },
+      { "title": "Gas", "conditions": { "title": "Gas" },
         "serviceProvider_id": "120",
         "items": [
           {
@@ -1324,14 +1467,7 @@
           }
         ]
       },
-      {
-        "title": "Gas",
-        "conditions": {
-          "title": "Gas",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Gas", "conditions": { "title": "Gas", "province": [ "BC" ] },
         "serviceProvider_id": "120",
         "items": [
           {
@@ -1353,11 +1489,7 @@
           }
         ]
       },
-      {
-        "title": "Phone",
-        "conditions": {
-          "title": "Phone"
-        },
+      { "title": "Phone", "conditions": { "title": "Phone" },
         "serviceProvider_id": "122",
         "items": [
           {
@@ -1395,14 +1527,7 @@
           }
         ]
       },
-      {
-        "title": "Phone",
-        "conditions": {
-          "title": "Phone",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Phone", "conditions": { "title": "Phone", "province": [ "BC" ] },
         "serviceProvider_id": "122",
         "items": [
           {
@@ -1448,11 +1573,7 @@
           }
         ]
       },
-      {
-        "title": "Cable",
-        "conditions": {
-          "title": "Cable"
-        },
+      { "title": "Cable", "conditions": { "title": "Cable" },
         "serviceProvider_id": "124",
         "items": [
           {
@@ -1490,14 +1611,7 @@
           }
         ]
       },
-      {
-        "title": "Cable",
-        "conditions": {
-          "title": "Cable",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Cable", "conditions": { "title": "Cable", "province": [ "BC" ] },
         "serviceProvider_id": "124",
         "items": [
           {
@@ -1543,11 +1657,7 @@
           }
         ]
       },
-      {
-        "title": "Internet",
-        "conditions": {
-          "title": "Internet"
-        },
+      { "title": "Internet", "conditions": { "title": "Internet" },
         "serviceProvider_id": "123",
         "items": [
           {
@@ -1585,14 +1695,7 @@
           }
         ]
       },
-      {
-        "title": "Internet",
-        "conditions": {
-          "title": "Internet",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Internet", "conditions": { "title": "Internet", "province": [ "BC" ] },
         "serviceProvider_id": "123",
         "items": [
           {
@@ -1638,12 +1741,7 @@
           }
         ]
       },
-      {
-        "title": "Smart Home/Home Security",
-        "conditions": {
-          "title": "Smart Home/Home Security",
-          "province": "*"
-        },
+      { "title": "Smart Home/Home Security", "conditions": { "title": "Smart Home/Home Security", "province": "*" },
         "serviceProvider_id": "126",
         "items": [
           {
@@ -1681,11 +1779,7 @@
           }
         ]
       },
-      {
-        "title": "Water Heater/Furnace Replacement",
-        "conditions": {
-          "title": "Water Heater/Furnace Replacement"
-        },
+      { "title": "Water Heater/Furnace Replacement", "conditions": { "title": "Water Heater/Furnace Replacement" },
         "serviceProvider_id": "125",
         "items": [
           {
@@ -1715,14 +1809,7 @@
           }
         ]
       },
-      {
-        "title": "Water Heater/Furnace Replacement",
-        "conditions": {
-          "title": "Water Heater/Furnace Replacement",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Water Heater/Furnace Replacement", "conditions": { "title": "Water Heater/Furnace Replacement", "province": [ "BC" ] },
         "serviceProvider_id": "125",
         "items": [
           {
@@ -1752,59 +1839,37 @@
           }
         ]
       },
-      {
-        "title": "Moving Services",
-        "conditions": {
-          "title": "Moving Services",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "*", "province": "*" },
         "parent": null,
         "buttons": [
-          {
-            "title": "Moving Companies",
-            "icon": "",
-            "serviceProvider_id": "108"
-          },
-          {
-            "title": "Truck Rental",
-            "icon": "",
-            "serviceProvider_id": "109"
-          },
-          {
-            "title": "Arrange Storage",
-            "icon": "",
-            "serviceProvider_id": "110"
-          },
-          {
-            "title": "Change Address",
-            "icon": "",
-            "serviceProvider_id": "118"
-          },
-          {
-            "title": "Utilities",
-            "icon": "",
-            "serviceProvider_id": ""
-          },
-          {
-            "title": "Water Heater/Furnace Replacement",
-            "icon": "",
-            "serviceProvider_id": "125"
-          },
-          {
-            "title": "Moving Tips",
-            "icon": "",
-            "serviceProvider_id": ""
-          }
+          { "title": "Moving Companies", "icon": "", "serviceProvider_id": "108" },
+          { "title": "Truck Rental", "icon": "", "serviceProvider_id": "109" },
+          { "title": "Arrange Storage", "icon": "", "serviceProvider_id": "110" },
+          { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
+          { "title": "Utilities", "icon": "", "serviceProvider_id": "" },
+          { "title": "Water Heater/Furnace Replacement", "icon": "", "serviceProvider_id": "125" },
+          { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
         ]
       },
-      {
-        "title": "Moving Companies",
-        "conditions": {
-          "title": "Moving Companies",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "*", "province": ["AB"] },
+        "parent": null,
+        "buttons": [
+          { "title": "Moving Companies", "icon": "", "serviceProvider_id": "108" },
+          { "title": "Truck Rental", "icon": "", "serviceProvider_id": "109" },
+          { "title": "Arrange Storage", "icon": "", "serviceProvider_id": "110" },
+          { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
+          { "title": "Utilities", "icon": "", "serviceProvider_id": "" },
+          { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
+        ]
+      },
+      { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "vericoconnect", "province": ["NB","NL"]},
+        "parent": null,
+        "buttons": [
+          { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
+          { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
+        ]
+      },
+      { "title": "Moving Companies", "conditions": { "title": "Moving Companies", "company": "*", "province": "*" },
         "parent": "Moving Services",
         "serviceProvider_id": "108",
         "items": [
@@ -1835,13 +1900,7 @@
           }
         ]
       },
-      {
-        "title": "Truck Rental",
-        "conditions": {
-          "title": "Truck Rental",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Truck Rental", "conditions": { "title": "Truck Rental", "company": "*", "province": "*" },
         "parent": "Moving Services",
         "serviceProvider_id": "109",
         "items": [
@@ -1880,13 +1939,7 @@
           }
         ]
       },
-      {
-        "title": "Arrange Storage",
-        "conditions": {
-          "title": "Arrange Storage",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Arrange Storage", "conditions": { "title": "Arrange Storage", "company": "*", "province": "*" },
         "parent": "Moving Services",
         "serviceProvider_id": "110",
         "items": [
@@ -1925,46 +1978,25 @@
           }
         ]
       },
-      {
-        "title": "Utilities",
-        "conditions": {
-          "title": "Utilities",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Utilities", "conditions": { "title": "Utilities", "company": "*", "province": "*" },
         "buttons": [
-          {
-            "title": "Electric Companies",
-            "serviceProvider_id": "119"
-          },
-          {
-            "title": "Gas",
-            "serviceProvider_id": "120"
-          },
-          {
-            "title": "Water",
-            "serviceProvider_id": "121"
-          },
-          {
-            "title": "Phone",
-            "serviceProvider_id": "122"
-          },
-          {
-            "title": "Internet",
-            "serviceProvider_id": "123"
-          },
-          {
-            "title": "Cable",
-            "serviceProvider_id": "124"
-          }
+          { "title": "Electric Companies", "serviceProvider_id": "119" },
+          { "title": "Gas", "serviceProvider_id": "120" },
+          { "title": "Water", "serviceProvider_id": "121" },
+          { "title": "Phone", "serviceProvider_id": "122" },
+          { "title": "Internet", "serviceProvider_id": "123" },
+          { "title": "Cable", "serviceProvider_id": "124" }
         ]
       },
-      { "title": "Electric Companies",
-        "conditions": {
-          "title": "Electric Companies",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Utilities", "conditions": { "title": "Utilities", "company": "vericoconnect", "province": ["AB","SK","MB","NS"] },
+        "buttons": [
+          { "title": "Water", "serviceProvider_id": "121" },
+          { "title": "Phone", "serviceProvider_id": "122" },
+          { "title": "Internet", "serviceProvider_id": "123" },
+          { "title": "Cable", "serviceProvider_id": "124" }
+        ]
+      },
+      { "title": "Electric Companies", "conditions": { "title": "Electric Companies", "company": "*", "province": "*" },
         "serviceProvider_id": "119",
         "items": [
           {
@@ -2005,12 +2037,7 @@
           }
         ]
       },
-      { "title": "Gas",
-        "conditions": {
-          "title": "Gas",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Gas", "conditions": { "title": "Gas", "company": "*", "province": "*" },
         "serviceProvider_id": "120",
         "items": [
           {
@@ -2032,12 +2059,7 @@
           }
         ]
       },
-      { "title": "Water",
-        "conditions": {
-          "title": "Water",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Water", "conditions": { "title": "Water", "company": "*", "province": "*" },
         "serviceProvider_id": "121",
         "items": [
           {
@@ -2046,12 +2068,7 @@
           }
         ]
       },
-      { "title": "Phone",
-        "conditions": {
-          "title": "Phone",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Phone", "conditions": { "title": "Phone", "company": "*", "province": "*" },
         "serviceProvider_id": "122",
         "items": [
           {
@@ -2084,12 +2101,120 @@
           }
         ]
       },
-      { "title": "Internet",
-        "conditions": {
-          "title": "Internet",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Phone", "conditions": { "title": "Phone", "company": "vericoconnect", "province": ["AB"] },
+        "_comment":"Copy from generic BC",
+        "serviceProvider_id": "122",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional phone providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Rogers",
+                "text": "With Rogers Home Phone, you can choose the calling features that suit your needs.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
+                "url": "https://www.rogers.com/consumer/home-phone",
+                "phone": "1-866-210-4059"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Bell",
+                "text": "The Home phone the most Canadians count on.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
+                "url": "https://www.bell.ca/Home_phone",
+                "phone": "1-866-778-5529"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Telus",
+                "text": "Whether you’re working at home or connecting with loved ones, feel confident in your home phone connection.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
+                "url": "https://www.telus.com/en/home-phone?linktype=ge-meganav",
+                "phone": "1-888-811-2323"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Shaw",
+                "text": "We make it easier than ever to connect with the people that matter most in your life.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
+                "url": "https://www.shaw.ca/home-phone#plansOverview",
+                "phone": "1-888-472-2222"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Phone", "conditions": { "title": "Phone", "company": "vericoconnect", "province": ["SK"] },
+        "serviceProvider_id": "122",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional phone providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "SaskTel",
+                "text": "Unlimited calling in Canada and the US.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/sasktel.jpg",
+                "url": "https://www.sasktel.com/store/browse/Personal/Home-Phone/_/N-26vk",
+                "phone": "1-800-727-5835"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Phone", "conditions": { "title": "Phone", "company": "vericoconnect", "province": ["MB"] },
+        "serviceProvider_id": "122",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional phone providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "VMEDIA",
+                "text": "Save more. Talk more.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/vmedia.jpg",
+                "url": "https://www.vmedia.ca/en/phone",
+                "phone": "1-844-872-8269"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Phone", "conditions": { "title": "Phone", "company": "vericoconnect", "province": ["NS"] },
+        "serviceProvider_id": "122",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional phone providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "EastLink",
+                "text": "Home Phone plans you’ll want to talk about.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/eastlink.jpg",
+                "url": "https://www.eastlink.ca/telephone",
+                "phone": "1-888-345-1111"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Internet", "conditions": { "title": "Internet", "company": "*", "province": "*" },
         "serviceProvider_id": "123",
         "items": [
           {
@@ -2122,12 +2247,119 @@
           }
         ]
       },
-      { "title": "Cable",
-        "conditions": {
-          "title": "Cable",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Internet", "conditions": { "title": "Internet", "company":"vericoconnect", "province": [ "AB" ] },
+        "serviceProvider_id": "123",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional internet providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Rogers",
+                "text": "Get a fibre-powered connection for all the speed you need throughout your home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
+                "url": "https://www.rogers.com/consumer/internet",
+                "phone": "1-866-210-4059"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Bell",
+                "text": "Get on Canada’s largest fibre optic network.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
+                "url": "https://www.bell.ca/Bell_Internet/Internet_access",
+                "phone": "1-866-778-5529"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Telus",
+                "text": "The fastest Wi-Fi in every corner of your home, connect with a direct, 100% fibre optic internet connection.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
+                "url": "https://www.telus.com/en/internet",
+                "phone": "1-888-811-2323"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Shaw",
+                "text": "Connecting millions of Western Canadian homes and businesses with access to Fibre+ Gig speeds.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
+                "url": "https://www.shaw.ca/internet/plans",
+                "phone": "1-888-472-2222"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Internet", "conditions": { "title": "Internet", "company": "vericoconnect", "province": ["SK"] },
+        "serviceProvider_id": "123",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional internet providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "SaskTel",
+                "text": "Game changing speeds, that’s what’s up.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/sasktel.jpg",
+                "url": "https://www.sasktel.com/store/browse/Personal/Internet/_/N-26vj",
+                "phone": "1-800-727-5835"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Internet", "conditions": { "title": "Internet", "company": "vericoconnect", "province": ["MB"] },
+        "serviceProvider_id": "123",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional internet providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "VMEDIA",
+                "text": "Unlimited home internet deals – browse today!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/vmedia.jpg",
+                "url": "https://www.vmedia.ca/en/internet/manitoba",
+                "phone": "1-844-872-8269"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Internet", "conditions": { "title": "Internet", "company": "vericoconnect", "province": ["NS"] },
+        "serviceProvider_id": "123",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional internet providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "EastLink",
+                "text": "Get fast and secure internet everywhere in your home!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/eastlink.jpg",
+                "url": "https://www.eastlink.ca/internet",
+                "phone": "1-888-345-1111"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Cable", "conditions": { "title": "Cable", "company": "*", "province": "*" },
         "serviceProvider_id": "124",
         "items": [
           {
@@ -2165,13 +2397,119 @@
           }
         ]
       },
-      {
-        "title": "Mortgage Application",
-        "conditions": {
-          "title": "Mortgage Application",
-          "company": "opendoorsmortgage",
-          "province": "*"
-        },
+      { "title": "Cable", "conditions": { "title": "Cable", "company":"vericoconnect", "province": [ "AB" ] },
+        "serviceProvider_id": "124",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional cable providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Rogers",
+                "text": "Your entertainment, your way.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
+                "url": "https://www.rogers.com/web/consumer/ignite-bundles/tv-internet",
+                "phone": "1-866-210-4059"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Bell",
+                "text": "Fibe TV is the best TV service.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
+                "url": "https://www.bell.ca/Fibe-TV",
+                "phone": "1-866-778-5529"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Telus",
+                "text": "More channels, more movies, more sports, more yes!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
+                "url": " https://www.telus.com/en/home-phone?linktype=ge-meganav",
+                "phone": "1-888-811-2323"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Shaw",
+                "text": "All the action, drama, reality, news, sports, and steaming you love.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
+                "url": "https://www.shaw.ca/tv/plans",
+                "phone": "1-888-472-2222"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Cable", "conditions": { "title": "Cable", "company": "vericoconnect", "province": ["SK"] },
+        "serviceProvider_id": "124",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional cable providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "SaskTel",
+                "text": "Ditch the dish and get endless entertainment.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/sasktel.jpg",
+                "url": "https://www.sasktel.com/store/browse/Personal/TV/_/N-18b935j",
+                "phone": "1-800-727-5835"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Cable", "conditions": { "title": "Cable", "company": "vericoconnect", "province": ["MB"] },
+        "serviceProvider_id": "124",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional cable providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "VMEDIA",
+                "text": "Get the exceptional TV experience",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/vmedia.jpg",
+                "url": "https://www.vmedia.ca/en/tv",
+                "phone": "1-844-872-8269"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Cable", "conditions": { "title": "Cable", "company": "vericoconnect", "province": ["NS"] },
+        "serviceProvider_id": "124",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional cable providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "EastLink",
+                "text": "Spend less time searching and more time watching.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/eastlink.jpg",
+                "url": "https://www.eastlink.ca/cable-digital-tv/tv-packages",
+                "phone": "1-888-345-1111"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "opendoorsmortgage", "province": "*" },
         "items": [
           {
             "type": "card",
@@ -2193,13 +2531,7 @@
           }
         ]
       },
-      {
-        "title": "Mortgage Application",
-        "conditions": {
-          "title": "Mortgage Application",
-          "company": "thrivemortgage",
-          "province": "*"
-        },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "thrivemortgage", "province": "*" },
         "items": [
           {
             "type": "p",
@@ -2225,13 +2557,7 @@
           }
         ]
       },
-      {
-        "title": "Credit Score",
-        "conditions": {
-          "title": "Credit Score",
-          "company": "*",
-          "province": "*"
-        },
+      { "title": "Credit Score", "conditions": { "title": "Credit Score", "company": "*", "province": "*" },
         "items": [
           {
             "type": "p",
@@ -2263,6 +2589,21 @@
             "onClickUrl": "https://secure-ocs.transunion.ca/secureocs/credit-agree.html?lang=en"
           }
         ]
+      },
+      { "title": "Moving Tips", "conditions": { "title": "Moving Tips", "company": "*", "province": "*" },
+        "items": [ ]
+      },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for NB,NL", "conditions": { "title": ["Moving Companies","Truck Rental","Arrange Storage","Junk Removal","Utilities","Cable","Internet","Moving Tips","Cleaning Services","Smart Home/Home Security","Locksmith","Pest Control"], "company": "vericoconnect", "province": ["NB","NL"] },
+        "disabled":true,
+        "items": null
+      },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for AB,SK,MB,NB,NS,NL", "conditions": { "title": ["Locksmith"], "company": "vericoconnect", "province": ["AB","SK","MB","NB","NS","NL"] },
+        "disabled":true,
+        "items": null
+      },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect for Home/Auto Insurance", "conditions": { "title": ["Home/Auto Insurance"], "company": "vericoconnect", "province": "*" },
+        "disabled":true,
+        "items": null
       }
     ]
   }
