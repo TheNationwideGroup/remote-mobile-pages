@@ -38,7 +38,7 @@
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "whitelabel" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/whitelabel/logo.png"
       },
-      
+
       {
         "conditions": { "page": [ "MenuPage" ], "company": "oriana" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
@@ -790,6 +790,29 @@
         ]
       },
       { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "*", "province": [ "ON" ] },
+        "parent": "Insurance Products",
+        "serviceProvider_id": "107",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Bold Financial",
+                "text": "Life insurance, group benefits and investment solutions for business owners and professionals.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bold-financial.png",
+                "url": "https://www.boldfinancial.ca/",
+                "phone": "416-727-7071"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "vericoconnect", "province": [ "AB","BC","ON" ,"SK","MB","NB","NS"] },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -2432,6 +2455,9 @@
             "onClickUrl": "https://secure-ocs.transunion.ca/secureocs/credit-agree.html?lang=en"
           }
         ]
+      },
+      { "title": "Moving Tips", "conditions": { "title": "Moving Tips", "company": "*", "province": "*" },
+        "items": [ ]
       },
       { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for NB,NL", "conditions": { "title": ["Moving Companies","Truck Rental","Arrange Storage","Junk Removal","Utilities","Cable","Internet","Moving Tips","Cleaning Services","Smart Home/Home Security","Locksmith","Pest Control"], "company": "vericoconnect", "province": ["NB","NL"] },
         "disabled":true,
