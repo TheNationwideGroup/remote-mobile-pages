@@ -812,7 +812,7 @@
           }
         ]
       },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "vericoconnect", "province": [ "AB","BC","ON" ,"SK","MB","NB","NS"] },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "vericoconnect", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
