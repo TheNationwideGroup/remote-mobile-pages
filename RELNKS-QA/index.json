@@ -188,24 +188,24 @@
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "HOMEOWNER" },
-        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST" ]
+        "permissions": [ "CREATE_ORDER" ]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "REALTOR" },
-        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST" ]
+        "permissions": [ "CREATE_ORDER" ]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "BROKER" },
-        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST"]
+        "permissions": [ "CREATE_ORDER"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "LENDER" },
-        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST"]
+        "permissions": [ "CREATE_ORDER"]
       },
       {
         "conditions": {  "serviceProvider_id": [ "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126" ],
           "company": "*", "province": "*",  "userType": "*"},
-        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST"]
+        "permissions": [ "CREATE_ORDER"]
       },
       {
         "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": false },
@@ -239,7 +239,11 @@
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": ["ON","BC"],  "userType": "*" },
-        "permissions": [ "CREATE_ORDER","CREATE_ORDER_NOT_FIRST"]
+        "permissions": [ "CREATE_ORDER"]
+      },
+      {
+        "conditions": { "serviceProvider_id": [ "103" ], "company": "vericoconnect", "province": ["AB"],  "userType": "*" },
+        "permissions": [ "CREATE_ORDER"]
       }
     ],
     "selectOptions": {
@@ -388,7 +392,7 @@
           }
         ]
       },
-      { "title": "Property Services", "conditions": { "title": "Property Services", "company":"vericoconnect", "province":["AB","BC","ON","NS"] },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company":"vericoconnect", "province":["AB","BC","ON"] },
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -416,6 +420,47 @@
             "title": "Locksmith",
             "icon": "",
             "serviceProvider_id": "115"
+          },
+          {
+            "title": "Cleaning Services",
+            "icon": "",
+            "serviceProvider_id": "116"
+          },
+          {
+            "title": "Junk Removal",
+            "icon": "",
+            "serviceProvider_id": "117"
+          },
+          {
+            "title": "Smart Home/Home Security",
+            "icon": "",
+            "serviceProvider_id": "126"
+          }
+        ]
+      },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company":"vericoconnect", "province":["NS"] },
+        "parent": null,
+        "serviceProvider_id": "CONCIERGE_SERVICES",
+        "buttons": [
+          {
+            "title": "Lawn/Garden Care",
+            "icon": "",
+            "serviceProvider_id": "111"
+          },
+          {
+            "title": "Property Management",
+            "icon": "",
+            "serviceProvider_id": "112"
+          },
+          {
+            "title": "Home Renovation",
+            "icon": "",
+            "serviceProvider_id": "113"
+          },
+          {
+            "title": "Pest Control",
+            "icon": "",
+            "serviceProvider_id": "114"
           },
           {
             "title": "Cleaning Services",
@@ -2591,7 +2636,7 @@
         "disabled":true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for AB,SK,MB,NB,NS,NL", "conditions": { "title": ["Locksmith"], "company": "vericoconnect", "province": ["AB","SK","MB","NB","NS","NL"] },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for AB,SK,MB,NB,NS,NL", "conditions": { "title": ["Locksmith"], "company": "vericoconnect", "province": ["SK","MB","NB","NS","NL"] },
         "disabled":true,
         "items": null
       },
