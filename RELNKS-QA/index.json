@@ -151,6 +151,44 @@
       }
     ],
     "WhitelabelData": [
+      { "conditions": { "page": "FilterPropertiesPage", "region":"US" },
+        "propertyTypes":[
+          { "value": null, "title": "Any" },
+          { "value": "Single Family Residence", "title": "Single Family Residence" },
+          { "value": "Apartment", "title": "Apartment" },
+          { "value": "Townhouse", "title": "Townhouse" },
+          { "value": "Duplex", "title": "Duplex" },
+          { "value": "Quadruplex", "title": "Quadruplex" },
+          { "value": "Farm", "title": "Farm" },
+          { "value": "Manufactured Home", "title": "Manufactured Home" },
+          { "value": "Other", "title": "Other" }
+        ],
+        "transactionTypes":[
+          { "value": null, "title": "Any" },
+          { "value": "Residential Lease", "title": "Residential Lease" },
+          { "value": "Residential", "title": "Residential" },
+          { "value": "Residential Multi Family", "title": "Residential Multi Family" },
+          { "value": "Commercial Lease", "title": "Commercial Lease" },
+          { "value": "Commercial Sale", "title": "Commercial Sale" },
+          { "value": "Land", "title": "Land" }
+        ]
+      },
+      { "conditions": { "page": "FilterPropertiesPage", "region":"CA" },
+        "propertyTypes":[
+          { "value": null, "title": "Any" },
+          { "value": "Single Family", "title": "Residential" },
+          { "value": "Multi-family", "title": "Multi-Family" },
+          { "value": "Recreational", "title": "Recreational" },
+          { "value": "Agricultural", "title": "Agriculture" },
+          { "value": "Parking", "title": "Parking" },
+          { "value": "Vacant Land", "title": "Vacant Land" }
+        ],
+        "transactionTypes":[
+          { "value": null, "title": "Any" },
+          { "value": "For sale", "title": "For sale" },
+          { "value": "For rent", "title": "For rent" }
+        ]
+      },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "ON" },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "defaultProvince": "ON" },
       { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "BC" },
