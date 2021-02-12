@@ -4,8 +4,9 @@
   "config": {
     "SupportedRegions": {
       "CA": [
-        "ON",
-        "BC"
+        "AB",
+        "BC",
+        "ON"
       ],
       "US_disabled": [
         "AZ"
