@@ -2933,7 +2933,7 @@
       { "title": "Moving Tips", "conditions": { "title": "Moving Tips", "company": "*", "province": "*" },
         "items": [ ]
       },
-      { "title": "Disabled", "_coment": "Disable services for RELNKS by default in AB", "conditions": { "title": ["Locksmith","Home/Auto Insurance"], "company": "*", "province": ["AB"] },
+      { "title": "Disabled", "_coment": "Disable services for RELNKS by default in AB", "conditions": { "title": ["Home/Auto Insurance"], "company": "*", "province": ["AB"] },
         "disabled":true,
         "items": null
       },
@@ -2941,7 +2941,7 @@
         "disabled":true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for AB,SK,MB,NB,NS,NL", "conditions": { "title": ["Locksmith"], "company": "vericoconnect", "province": ["SK","MB","NB","NS","NL"] },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for SK,MB,NB,NS,NL", "conditions": { "title": ["Locksmith"], "company": "vericoconnect", "province": ["SK","MB","NB","NS","NL"] },
         "disabled":true,
         "items": null
       },
