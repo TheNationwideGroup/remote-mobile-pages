@@ -4,10 +4,11 @@
   "config": {
     "SupportedRegions": {
       "CA": [
+        "AB",
         "ON",
         "BC"
       ],
-      "US_disabled": [
+      "US": [
         "AZ"
       ]
     },
@@ -149,6 +150,44 @@
       }
     ],
     "WhitelabelData": [
+      { "conditions": { "page": "FilterPropertiesPage", "region":"US" },
+        "propertyTypes":[
+          { "value": null, "title": "Any" },
+          { "value": "Single Family Residence", "title": "Single Family Residence" },
+          { "value": "Apartment", "title": "Apartment" },
+          { "value": "Townhouse", "title": "Townhouse" },
+          { "value": "Duplex", "title": "Duplex" },
+          { "value": "Quadruplex", "title": "Quadruplex" },
+          { "value": "Farm", "title": "Farm" },
+          { "value": "Manufactured Home", "title": "Manufactured Home" },
+          { "value": "Other", "title": "Other" }
+        ],
+        "transactionTypes":[
+          { "value": null, "title": "Any" },
+          { "value": "Residential Lease", "title": "Residential Lease" },
+          { "value": "Residential", "title": "Residential" },
+          { "value": "Residential Multi Family", "title": "Residential Multi Family" },
+          { "value": "Commercial Lease", "title": "Commercial Lease" },
+          { "value": "Commercial Sale", "title": "Commercial Sale" },
+          { "value": "Land", "title": "Land" }
+        ]
+      },
+      { "conditions": { "page": "FilterPropertiesPage", "region":"CA" },
+        "propertyTypes":[
+          { "value": null, "title": "Any" },
+          { "value": "Single Family", "title": "Residential" },
+          { "value": "Multi-family", "title": "Multi-Family" },
+          { "value": "Recreational", "title": "Recreational" },
+          { "value": "Agricultural", "title": "Agriculture" },
+          { "value": "Parking", "title": "Parking" },
+          { "value": "Vacant Land", "title": "Vacant Land" }
+        ],
+        "transactionTypes":[
+          { "value": null, "title": "Any" },
+          { "value": "For sale", "title": "For sale" },
+          { "value": "For rent", "title": "For rent" }
+        ]
+      },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "ON" },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "defaultProvince": "ON" },
       { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "BC" },
@@ -353,6 +392,52 @@
     },
     "concieregeServicesPages": [
       { "title": "Property Services", "conditions": { "title": "Property Services" },
+        "parent": null,
+        "serviceProvider_id": "CONCIERGE_SERVICES",
+        "buttons": [
+          {
+            "title": "Lawn/Garden Care",
+            "icon": "",
+            "serviceProvider_id": "111"
+          },
+          {
+            "title": "Property Management",
+            "icon": "",
+            "serviceProvider_id": "112"
+          },
+          {
+            "title": "Home Renovation",
+            "icon": "",
+            "serviceProvider_id": "113"
+          },
+          {
+            "title": "Pest Control",
+            "icon": "",
+            "serviceProvider_id": "114"
+          },
+          {
+            "title": "Locksmith",
+            "icon": "",
+            "serviceProvider_id": "115"
+          },
+          {
+            "title": "Cleaning Services",
+            "icon": "",
+            "serviceProvider_id": "116"
+          },
+          {
+            "title": "Junk Removal",
+            "icon": "",
+            "serviceProvider_id": "117"
+          },
+          {
+            "title": "Smart Home/Home Security",
+            "icon": "",
+            "serviceProvider_id": "126"
+          }
+        ]
+      },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company":"*", "province":["AB"] },
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -653,6 +738,29 @@
           }
         ]
       },
+      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company":"vericoconnect", "province":["AB"] },
+        "parent": "Property Services",
+        "serviceProvider_id": "115",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Pop-A-Lock",
+                "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
+                "url": "http://www.popalock.ca/locksmith/relnks",
+                "phone": "905-891-9888"
+              }
+            ]
+          }
+        ]
+      },
       { "title": "Cleaning Services", "conditions": { "title": "Cleaning Services" },
         "parent": "Property Services",
         "serviceProvider_id": "116",
@@ -784,6 +892,13 @@
         "buttons": [
           { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
           { "title": "Home/Auto Insurance", "icon": "fas fa-car-crash", "serviceProvider_id": "106" }
+        ]
+      },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "*", "province": "AB" },
+        "parent": null,
+        "buttons": [
+          { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
+          { "title": "Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107" }
         ]
       },
       { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "oriana", "province": "*" },
@@ -968,7 +1083,7 @@
           }
         ]
       },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "*", "province": [ "ON" ] },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "*", "province": [ "ON", "AB" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -1133,7 +1248,46 @@
           }
         ]
       },
-      { "title": "Change Address", "conditions": { "title": "Change Address", "province": [ "BC" ] },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "*", "province": ["AB"] },
+        "parent": "Concierge Services",
+        "serviceProvider_id": "118",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Canada Post",
+                "text": "Direct all your mail from your current address to your new home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
+                "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
+                "phone": "1-800-267-1177"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Canada",
+                "text": "Update your address with Federal government departments.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
+                "url": "https://www.canada.ca/en/government/change-address.html",
+                "phone": "1-800-622-6232"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Government of Alberta",
+                "text": "The online service to change your address, quickly and easily!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/alberta_gov.png",
+                "url": "https://www.alberta.ca/update-driving-documents.aspx",
+                "phone": "780-427-2711"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "*", "province": [ "BC" ] },
         "parent": "Concierge Services",
         "serviceProvider_id": "118",
         "items": [
@@ -2033,6 +2187,14 @@
           { "title": "Cable", "serviceProvider_id": "124" }
         ]
       },
+      { "title": "Utilities", "conditions": { "title": "Utilities", "company": "*", "province": ["AB"] },
+        "buttons": [
+          { "title": "Water", "serviceProvider_id": "121" },
+          { "title": "Phone", "serviceProvider_id": "122" },
+          { "title": "Internet", "serviceProvider_id": "123" },
+          { "title": "Cable", "serviceProvider_id": "124" }
+        ]
+      },
       { "title": "Utilities", "conditions": { "title": "Utilities", "company": "vericoconnect", "province": ["AB","SK","MB","NS"] },
         "buttons": [
           { "title": "Water", "serviceProvider_id": "121" },
@@ -2143,6 +2305,53 @@
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/cogeco.png",
             "url": "https://www.cogeco.ca/en/phone/packages",
             "phone": "1-866-261-4447"
+          }
+        ]
+      },
+      { "title": "Phone", "conditions": { "title": "Phone", "company": "*", "province": ["AB"] },
+        "_comment":"Copy from generic BC",
+        "serviceProvider_id": "122",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional phone providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Rogers",
+                "text": "With Rogers Home Phone, you can choose the calling features that suit your needs.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
+                "url": "https://www.rogers.com/consumer/home-phone",
+                "phone": "1-866-210-4059"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Bell",
+                "text": "The Home phone the most Canadians count on.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
+                "url": "https://www.bell.ca/Home_phone",
+                "phone": "1-866-778-5529"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Telus",
+                "text": "Whether you’re working at home or connecting with loved ones, feel confident in your home phone connection.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
+                "url": "https://www.telus.com/en/home-phone?linktype=ge-meganav",
+                "phone": "1-888-811-2323"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Shaw",
+                "text": "We make it easier than ever to connect with the people that matter most in your life.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
+                "url": "https://www.shaw.ca/home-phone#plansOverview",
+                "phone": "1-888-472-2222"
+              }
+            ]
           }
         ]
       },
@@ -2292,7 +2501,53 @@
           }
         ]
       },
-      { "title": "Internet", "conditions": { "title": "Internet", "company":"vericoconnect", "province": [ "AB" ] },
+      { "title": "Internet", "conditions": { "title": "Internet", "company": "*", "province": [ "AB" ] },
+        "serviceProvider_id": "123",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional internet providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Rogers",
+                "text": "Get a fibre-powered connection for all the speed you need throughout your home.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
+                "url": "https://www.rogers.com/consumer/internet",
+                "phone": "1-866-210-4059"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Bell",
+                "text": "Get on Canada’s largest fibre optic network.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
+                "url": "https://www.bell.ca/Bell_Internet/Internet_access",
+                "phone": "1-866-778-5529"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Telus",
+                "text": "The fastest Wi-Fi in every corner of your home, connect with a direct, 100% fibre optic internet connection.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
+                "url": "https://www.telus.com/en/internet",
+                "phone": "1-888-811-2323"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Shaw",
+                "text": "Connecting millions of Western Canadian homes and businesses with access to Fibre+ Gig speeds.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
+                "url": "https://www.shaw.ca/internet/plans",
+                "phone": "1-888-472-2222"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Internet", "conditions": { "title": "Internet", "company": "vericoconnect", "province": [ "AB" ] },
         "serviceProvider_id": "123",
         "items": [
           {
@@ -2442,7 +2697,53 @@
           }
         ]
       },
-      { "title": "Cable", "conditions": { "title": "Cable", "company":"vericoconnect", "province": [ "AB" ] },
+      { "title": "Cable", "conditions": { "title": "Cable", "company": "*", "province": [ "AB" ] },
+        "serviceProvider_id": "124",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "Regional cable providers all in one location for your convenience."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Rogers",
+                "text": "Your entertainment, your way.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
+                "url": "https://www.rogers.com/web/consumer/ignite-bundles/tv-internet",
+                "phone": "1-866-210-4059"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Bell",
+                "text": "Fibe TV is the best TV service.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
+                "url": "https://www.bell.ca/Fibe-TV",
+                "phone": "1-866-778-5529"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Telus",
+                "text": "More channels, more movies, more sports, more yes!",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
+                "url": " https://www.telus.com/en/home-phone?linktype=ge-meganav",
+                "phone": "1-888-811-2323"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Shaw",
+                "text": "All the action, drama, reality, news, sports, and steaming you love.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
+                "url": "https://www.shaw.ca/tv/plans",
+                "phone": "1-888-472-2222"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Cable", "conditions": { "title": "Cable", "company": "vericoconnect", "province": [ "AB" ] },
         "serviceProvider_id": "124",
         "items": [
           {
@@ -2638,11 +2939,15 @@
       { "title": "Moving Tips", "conditions": { "title": "Moving Tips", "company": "*", "province": "*" },
         "items": [ ]
       },
+      { "title": "Disabled", "_coment": "Disable services for RELNKS by default in AB", "conditions": { "title": ["Home/Auto Insurance"], "company": "*", "province": ["AB"] },
+        "disabled":true,
+        "items": null
+      },
       { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for NB,NL", "conditions": { "title": ["Moving Companies","Truck Rental","Arrange Storage","Junk Removal","Utilities","Cable","Internet","Moving Tips","Cleaning Services","Smart Home/Home Security","Locksmith","Pest Control"], "company": "vericoconnect", "province": ["NB","NL"] },
         "disabled":true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for AB,SK,MB,NB,NS,NL", "conditions": { "title": ["Locksmith"], "company": "vericoconnect", "province": ["SK","MB","NB","NS","NL"] },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for SK,MB,NB,NS,NL", "conditions": { "title": ["Locksmith"], "company": "vericoconnect", "province": ["SK","MB","NB","NS","NL"] },
         "disabled":true,
         "items": null
       },
