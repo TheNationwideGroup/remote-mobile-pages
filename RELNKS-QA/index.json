@@ -151,6 +151,8 @@
       }
     ],
     "WhitelabelData": [
+      { "conditions": { "company": null, "page": "RegisterPage", "userType": "*", "region": "CA" }, "defaultProvince": "ON", "askNASUsersToLogin": true },
+      { "conditions": { "company": null, "page": "RegisterPage", "userType": "*", "region": "US" }, "defaultProvince": "AZ", "askNASUsersToLogin": false },
       { "conditions": { "page": "FilterPropertiesPage", "region":"US" },
         "propertyTypes":[
           { "value": null, "title": "Any" },
