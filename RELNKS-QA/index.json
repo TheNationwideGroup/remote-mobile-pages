@@ -152,7 +152,7 @@
     ],
     "WhitelabelData": [
       { "conditions": { "company": null, "page": "RegisterPage", "userType": "*", "region": "CA" }, "defaultProvince": "ON", "askNASUsersToLogin": true },
-      { "conditions": { "company": null, "page": "RegisterPage", "userType": "*", "region": "US" }, "defaultProvince": "AZ", "askNASUsersToLogin": false },
+      { "conditions": { "company": null, "page": "RegisterPage", "userType": "*", "region": "US" }, "defaultProvince": "AZ", "askNASUsersToLogin": false, "brokerHouse": "OTHER" },
       { "conditions": { "page": "FilterPropertiesPage", "region":"US" },
         "propertyTypes":[
           { "value": null, "title": "Any" },
@@ -288,8 +288,8 @@
       }
     ],
     "selectOptions": [
-      {"conditions":{"page":"RegisterPage","region":"CA","company":"*"}, "items":[{"value":"","title":"None"}, { "value": "Axiom", "title": "Axiom" }, { "value": "Centum", "title": "Centum" }, { "value": "CML", "title": "CML" }, { "value": "DLC", "title": "DLC" }, { "value": "Invis/Mortgage", "title": "Invis/Mortgage" }, { "value": "Intelligence", "title": "Intelligence" }, { "value": "Monster Mortgage", "title": "Monster Mortgage" }, { "value": "Mortgage Architects", "title": "Mortgage Architects" }, { "value": "Mortgage Centre", "title": "Mortgage Centre" }, { "value": "Oriana", "title": "Oriana" }, { "value": "TMACC", "title": "TMACC" }, { "value": "TMG", "title": "TMG" }, { "value": "Verico", "title": "Verico" }, { "value": "OTHER", "title": "Other" } ]},
-      {"conditions":{"page":"RegisterPage","region":"US","company":"*"}, "items": null} 
+      { "conditions":{"page":"RegisterPage","region":"CA","company":"*", "name":"brokerHouse" }, "items":[{"value":"","title":"None"}, { "value": "Axiom", "title": "Axiom" }, { "value": "Centum", "title": "Centum" }, { "value": "CML", "title": "CML" }, { "value": "DLC", "title": "DLC" }, { "value": "Invis/Mortgage", "title": "Invis/Mortgage" }, { "value": "Intelligence", "title": "Intelligence" }, { "value": "Monster Mortgage", "title": "Monster Mortgage" }, { "value": "Mortgage Architects", "title": "Mortgage Architects" }, { "value": "Mortgage Centre", "title": "Mortgage Centre" }, { "value": "Oriana", "title": "Oriana" }, { "value": "TMACC", "title": "TMACC" }, { "value": "TMG", "title": "TMG" }, { "value": "Verico", "title": "Verico" }, { "value": "OTHER", "title": "Other" }] },
+      { "conditions":{"page":"RegisterPage","region":"US","company":"*", "name":"brokerHouse" }, "items": null } 
     ],
     "serviceOptions": {
       "104": [
