@@ -191,14 +191,14 @@
           { "value": "For rent", "title": "For rent" }
         ]
       },
-      { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "ON" },
-      { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "defaultProvince": "ON" },
-      { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "BC" },
-      { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Open Doors Mortgage", "brokerHouse": "DLC", "defaultProvince": "BC" },
-      { "conditions": { "company": "thrivemortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Thrive Mortgage", "brokerHouse": "DLC" },
-      { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Tribe Financial", "brokerHouse": "TBD" },
-      { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}},
-      { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico", "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}}
+      { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "ON", "askNASUsersToLogin": true },
+      { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "defaultProvince": "ON", "askNASUsersToLogin": true },
+      { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "BC", "askNASUsersToLogin": true },
+      { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Open Doors Mortgage", "brokerHouse": "DLC", "defaultProvince": "BC", "askNASUsersToLogin": true },
+      { "conditions": { "company": "thrivemortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Thrive Mortgage", "brokerHouse": "DLC", "askNASUsersToLogin": true },
+      { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Tribe Financial", "brokerHouse": "TBD", "askNASUsersToLogin": true },
+      { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico", "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}, "askNASUsersToLogin": true }
     ],
     "WhitelabelCSS": [
       {
