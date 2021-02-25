@@ -2822,7 +2822,7 @@
           }
         ]
       },
-      { "title": "Credit Score", "conditions": { "title": "Credit Score", "company": "*", "province": "*" },
+      { "title": "Credit Score", "conditions": { "title": "Credit Score", "company": "*", "province": "*", "region":"CA" },
         "items": [
           {
             "type": "p",
@@ -2852,6 +2852,39 @@
             "type": "button primary",
             "text": "Go to TransUnion",
             "onClickUrl": "https://secure-ocs.transunion.ca/secureocs/credit-agree.html?lang=en"
+          }
+        ]
+      },
+      { "title": "Credit Score", "conditions": { "title": "Credit Score", "company": "*", "province": "*", "region":"US" },
+        "items": [
+          {
+            "type": "p",
+            "text": "<!--Just a whitespace-->"
+          },
+          {
+            "type": "logo mb-4",
+            "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/Transunion.svg"
+          },
+          {
+            "type": "p-bold",
+            "text": "Consumer Disclosure"
+          },
+          {
+            "type": "p",
+            "text": "Access to your free monthly Consumer Disclosure report. This lists all inquiries made to your credit information, including account management inquiries, non-credit-related inquires, and your own inquires."
+          },
+          {
+            "type": "p-bold",
+            "text": "Credit Report"
+          },
+          {
+            "type": "p",
+            "text": "Access a snapshot of your financial history. It’s the primary tool that credit grantors, like banks and credit card companies, use to decide whether to grant you credit."
+          },
+          {
+            "type": "button primary",
+            "text": "Go to TransUnion",
+            "onClickUrl": "https://membership.tui.transunion.com/tucm/orderStep1_form.page?offer=3BM10246&PLACE_CTA=home:center:tu"
           }
         ]
       },
