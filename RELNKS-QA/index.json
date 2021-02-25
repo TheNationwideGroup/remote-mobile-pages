@@ -2822,6 +2822,32 @@
           }
         ]
       },
+      { "title": "HOME CLOSING", "conditions": { "title": "HOME CLOSING", "region":"US", "company": "*", "province": "*"},
+        "items": [
+          {
+            "type": "p",
+            "text": "<!--Just a whitespace-->"
+          },
+          {
+            "type": "card",
+            "items": [
+              {
+                "type": "image",
+                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png"
+              },
+              {
+                "type": "p",
+                "text": "Apply for a Mortgage with Thrive Mortgage Co."
+              },
+              {
+                "type": "button primary",
+                "text": "Apply",
+                "onClickUrl": "https://thrive-mortgage.mtg-app.com/signup"
+              }
+            ]
+          }
+        ]
+      },
       { "title": "Credit Score", "conditions": { "title": "Credit Score", "company": "*", "province": "*", "region":"CA" },
         "items": [
           {
