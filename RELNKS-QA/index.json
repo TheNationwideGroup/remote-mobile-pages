@@ -315,7 +315,7 @@
       ]
     },
     "concieregeServicesPages": [
-      { "conditions": {"title":"Dashboard" ,"region":"CA", "company":"*", "province":"*"}, 
+      { "conditions": {"title":"Dashboard", "company":"*", "region":"CA","province":"*"}, 
         "buttons":[
           {
             "title": "Master Checklist",
@@ -424,7 +424,7 @@
           }
         ]
       },
-      { "conditions": {"title":"Dashboard" ,"region":"US", "company":"*", "province":"*"}, 
+      { "conditions": {"title":"Dashboard","company":"*", "region":"US",  "province":"*"}, 
         "buttons":[
           {
             "title": "Master Checklist",
@@ -471,6 +471,22 @@
             "title": "My Personal Documents",
             "image": "./whitelabel/relnks/MY_DOCUMENTS.jpg",
             "serviceProvider_id": "DOCUMENT_REPOSITORY"
+          }
+        ]
+      },
+      { "conditions": {"title":"Inspection Services", "company":"*", "region":"US",  "province":"*"},
+        "buttons":[
+          {
+            "serviceProvider_id": "103",
+            "icon": "icon-homeinspection",
+            "title": "Home Inspection",
+            "action": "ConciergeServicePage"
+          },
+          {
+            "serviceProvider_id": "102",
+            "icon": "icon-realestateappraisals",
+            "title": "Real Estate Appraisal",
+            "action": "CreateService"
           }
         ]
       },
@@ -3828,7 +3844,7 @@
                 "type": "info-tile-component",
                 "title": "AJF Inspections and Engineering",
                 "text": "With over 45 years of inspection, engineering and construction experience, we’ve conducted tens of thousands of inspections in the Valley. All of our inspectors maintain their proficiency and knowledge through continuing professional education.",
-                "image": "./partners/lawyers-title.png",
+                "image": "./partners/ajf-engineering-inspections.jpg",
                 "url": "https://ajfengineering.com/order-an-inspection/",
                 "phone": "480-661-8888"
               },
@@ -3836,7 +3852,7 @@
                 "type": "info-tile-component",
                 "title": "Alliance Property Inspections",
                 "text": "Alliance Property Inspections is a full service home inspection company serving the Phoenix metropolitan area.",
-                "image": "./partners/chicago-title.png",
+                "image": "./partners/alliance-property-inspections.jpg",
                 "url": "https://goisn.net/alliancepropertyinspections/online-scheduler?t=c3ZiSUpML29zbG5nLg==",
                 "phone": "602-695-1319"
               },
@@ -3844,7 +3860,7 @@
                 "type": "info-tile-component",
                 "title": "Advantage Inspection Service",
                 "text": "Our Inspectors have a combined 200+ years of experience and have performed over 100,000 inspections.",
-                "image": "./partners/magnus-title.png",
+                "image": "./partners/advantage-inspection-service.png",
                 "url": "https://4isn.com/advantage/online-scheduler?t=aGx5YzlmVmxLL1ZwVQ==",
                 "phone": "602-864-8331"
               }
