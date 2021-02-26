@@ -1348,7 +1348,7 @@
           }
         ]
       },
-      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "region":"US", "province": [ "BC" ] },
+      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "region":"US" },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "items": [
