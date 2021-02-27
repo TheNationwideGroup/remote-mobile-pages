@@ -2846,22 +2846,6 @@
                 "image": "./partners/AirZona-HVAC.png",
                 "url": "https://www.airzonahvac.com/",
                 "phone": "623-295-1911"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "ChasRoberts",
-                "text": "Arizona's leader in A/C, heating, plumbing serving since 1942.",
-                "image": "./partners/Chas-Roberts.png",
-                "url": "https://www.chasroberts.com/",
-                "phone": "602-386-2732"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "George Brazil",
-                "text": "The Best Plumbing & Electrical Services in Phoenix, Arizona.",
-                "image": "./partners/George-Brazil.png",
-                "url": "https://georgebrazilhvac.com/",
-                "phone": "602-842-0009"
               }
             ]
           }
