@@ -442,9 +442,9 @@
             "serviceProvider_id": "APPLY_FOR_AMORTGAGE"
           },
           {
-            "title": "Inspection Services",
+            "title": "Home Inspection",
             "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
-            "serviceProvider_id": "INSPECTION_SERVICES",
+            "serviceProvider_id": "103",
             "action":"ConciergeServicePage"
           },
           {
