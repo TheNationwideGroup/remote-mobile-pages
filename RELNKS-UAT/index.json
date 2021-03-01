@@ -443,7 +443,8 @@
           {
             "title": "Inspection Services",
             "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
-            "serviceProvider_id": "INSPECTION_SERVICES"
+            "serviceProvider_id": "INSPECTION_SERVICES",
+            "action":"ConciergeServicePage"
           },
           {
             "title": "Insurance Products",
