@@ -736,7 +736,7 @@
               {
                 "type": "info-tile-component",
                 "title": "HomeStars",
-                "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews. ",
+                "text": "\"HomeStars\" is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews. ",
                 "url": "https://homestars.com/get-quotes?source=homepage&input_search=undefined&selected_category_hierarchy=undefined",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
                 "phone": "855-569-0690"
@@ -1517,7 +1517,7 @@
               {
                 "type": "info-tile-component",
                 "title": "Watermark",
-                "text": "We are here to put the <b><i>life</i></b> back in life insurance. ",
+                "text": "We are here to put the <b><i>life</i></b> back in life insurance.",
                 "image": "./partners/watermark.png",
                 "url": "https://watermarklife.com/",
                 "phone": "844-526-7210"
