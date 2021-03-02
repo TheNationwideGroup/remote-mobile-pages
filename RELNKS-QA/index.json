@@ -450,12 +450,13 @@
           {
             "title": "Apply for a Mortgage",
             "image": "./whitelabel/relnks/APPLY_FOR_A_MORTGAGE.jpg",
+            "icon": "icon-applyforamortgage",
             "serviceProvider_id": "APPLY_FOR_AMORTGAGE"
           },
           {
             "title": "Home Inspection",
             "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
-            "icon": "icon-applyforamortgage",
+            "icon": "icon-homeinspection",
             "serviceProvider_id": "103",
             "action":"ConciergeServicePage"
           },
@@ -481,6 +482,7 @@
           {
             "title": "Property Services",
             "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
+            "icon": "icon-property-services",
             "serviceProvider_id": "PROPERTY_SERVICES"
           },
           {
