@@ -453,7 +453,7 @@
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
-            "title": "Find a Real Estate Lawyer",
+            "title": "Title & Escrow Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
             "serviceProvider_id": "127",
             "action":"ConciergeServicePage"
@@ -3777,7 +3777,7 @@
       { "title": "Moving Tips", "conditions": { "title": "Moving Tips", "company": "*", "province": "*" },
         "items": [ ]
       },
-      { "title": "Find a Real Estate Lawyer", "conditions": { "title": "Find a Real Estate Lawyer", "company": "*", "region":"US", "province": "*" },
+      { "title": "Title & Escrow Services", "conditions": { "title": "Title & Escrow Services", "company": "*", "region":"US", "province": "*" },
         "serviceProvider_id": "127",
         "items": [
           {
