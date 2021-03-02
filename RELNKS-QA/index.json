@@ -1363,14 +1363,14 @@
               {
                 "type": "info-tile-component",
                 "title": "StateFarm",
-                "text": "State Farm helps you protect what matters most with home & car insurance, checking & savings accounts, loans, and more",
+                "text": "State Farm helps you protect what matters most with home & car insurance, checking & savings accounts, loans, and more.",
                 "image": "./partners/state-farm.png",
                 "url": "https://www.statefarm.com/",
                 "phone": "800-782-8332"
               },
               {
                 "type": "info-tile-component",
-                "title": "Farmers",
+                "title": "Farmers Insurance",
                 "text": "Farmers Insurance Group is an American insurer group of automobiles, homes and small businesses and also provides other insurance and financial services products.",
                 "image": "./partners/farmers.png",
                 "url": "https://www.farmers.com/",
@@ -1378,8 +1378,8 @@
               },
               {
                 "type": "info-tile-component",
-                "title": "Geico",
-                "text": "Geico provides the insurance savings you expect.  We offer competitive rates on coverage tailored to fit your needs.",
+                "title": "GEICO",
+                "text": "GEICO provides the insurance savings you expect.  We offer competitive rates on coverage tailored to fit your needs.",
                 "image": "./partners/geico.jpg",
                 "url": "https://www.geico.com/",
                 "phone": "800-841-2964"
