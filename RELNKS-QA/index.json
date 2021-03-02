@@ -221,32 +221,32 @@
     "UserTypePermissions": [
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "*", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
-        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
-        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "HOMEOWNER" },
-        "permissions": [ "CREATE_ORDER" ]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "REALTOR" },
-        "permissions": [ "CREATE_ORDER" ]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "BROKER" },
-        "permissions": [ "CREATE_ORDER"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "LENDER" },
-        "permissions": [ "CREATE_ORDER"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
         "conditions": {  "serviceProvider_id": [ "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126" ],
           "company": "*", "province": "*",  "userType": "*"},
-        "permissions": [ "CREATE_ORDER"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
         "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": false },
@@ -272,23 +272,23 @@
       },
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
-        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
-        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": ["ON","BC"],  "userType": "*" },
-        "permissions": [ "CREATE_ORDER"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103" ], "company": "vericoconnect", "province": ["AB"],  "userType": "*" },
-        "permissions": [ "CREATE_ORDER"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
-        "conditions": { "serviceProvider_id": ["104","103"], "region": "US", "company": "*",  "province": "*",  "userType": "*" },
-        "_comment": "Hide HCS item for default provinces.",  
+        "conditions": { "serviceProvider_id": ["102", "103", "104"], "region": "US", "company": "*",  "province": "*",  "userType": "*" },
+        "_comment": "Hide service items for US.",  
         "permissions": [ ]
       }
     ],
