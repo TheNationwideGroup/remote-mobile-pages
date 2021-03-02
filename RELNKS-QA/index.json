@@ -731,12 +731,12 @@
             "items": [
               {
                 "type": "p",
-                "text": "The \"outside\" of a property is your chance to make a great first impression. Shop trusted, local professionals to spruce up your yard."
+                "text": "The outside of a property is your chance to make a great first impression. Shop trusted, local professionals to spruce up your yard."
               },
               {
                 "type": "info-tile-component",
                 "title": "HomeStars",
-                "text": "\"HomeStars\" is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews. ",
+                "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews. ",
                 "url": "https://homestars.com/get-quotes?source=homepage&input_search=undefined&selected_category_hierarchy=undefined",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
                 "phone": "855-569-0690"
