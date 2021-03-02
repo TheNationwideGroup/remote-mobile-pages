@@ -320,46 +320,55 @@
           {
             "title": "Master Checklist",
             "image": "./whitelabel/relnks/MASTER_CHECKLIST.jpg",
+            "icon": "icon-masterchecklist",
             "serviceProvider_id": "MASTERCHECKLIST"
           },
           {
             "title": "Find Property",
             "image": "./whitelabel/relnks/FIND_YOUR_NEW_HOUSE.jpg",
+            "icon": "icon-neighbourhood-profiler",
             "serviceProvider_id": "NB_PROFILER"
           },
           {
             "title": "Apply for a Mortgage",
             "image": "./whitelabel/relnks/APPLY_FOR_A_MORTGAGE.jpg",
+            "icon": "icon-applyforamortgage",
             "serviceProvider_id": "APPLY_FOR_AMORTGAGE"
           },
           {
             "title": "Inspection Services",
             "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
+            "icon": "icon-homeinspection",
             "serviceProvider_id": "INSPECTION_SERVICES"
           },
           {
             "title": "Insurance Products",
             "image": "./whitelabel/relnks/INSURANCE_AND_WARRANTY_PRODUCTS.jpg",
+            "icon": "icon-insuranceproducts",
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
             "title": "Find a Real Estate Lawyer",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
+            "icon": "icon-homeclosingservices",
             "serviceProvider_id": "104"
           },
           {
             "title": "Moving Services",
             "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
+            "icon": "icon-movingcompanies",
             "serviceProvider_id": "MOVING_SERVICES"
           },
           {
             "title": "Property Services",
             "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
+            "icon": "icon-property-services",
             "serviceProvider_id": "PROPERTY_SERVICES"
           },
           {
             "title": "My Personal Documents",
             "image": "./whitelabel/relnks/MY_DOCUMENTS.jpg",
+            "icon": "icon-my-personal-documents",
             "serviceProvider_id": "DOCUMENT_REPOSITORY"
           }
         ]
@@ -429,11 +438,13 @@
           {
             "title": "Master Checklist",
             "image": "./whitelabel/relnks/MASTER_CHECKLIST.jpg",
+            "icon": "icon-masterchecklist",
             "serviceProvider_id": "MASTERCHECKLIST"
           },
           {
             "title": "Find Property",
             "image": "./whitelabel/relnks/FIND_YOUR_NEW_HOUSE.jpg",
+            "icon": "icon-neighbourhood-profiler",
             "serviceProvider_id": "NB_PROFILER"
           },
           {
@@ -444,23 +455,27 @@
           {
             "title": "Home Inspection",
             "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
+            "icon": "icon-applyforamortgage",
             "serviceProvider_id": "103",
             "action":"ConciergeServicePage"
           },
           {
             "title": "Insurance Products",
             "image": "./whitelabel/relnks/INSURANCE_AND_WARRANTY_PRODUCTS.jpg",
+            "icon": "icon-insuranceproducts",
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
             "title": "Title & Escrow Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
+            "icon": "icon-homeclosingservices",
             "serviceProvider_id": "127",
             "action":"ConciergeServicePage"
           },
           {
             "title": "Moving Services",
             "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
+            "icon": "icon-property-services",
             "serviceProvider_id": "MOVING_SERVICES"
           },
           {
@@ -471,6 +486,7 @@
           {
             "title": "My Personal Documents",
             "image": "./whitelabel/relnks/MY_DOCUMENTS.jpg",
+            "icon": "icon-my-personal-documents",
             "serviceProvider_id": "DOCUMENT_REPOSITORY"
           }
         ]
