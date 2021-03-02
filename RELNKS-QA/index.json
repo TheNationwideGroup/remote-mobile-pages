@@ -2018,7 +2018,7 @@
               },
               {
                 "type": "info-tile-component",
-                "title": "USPS.Com",
+                "title": "United States Postal Service",
                 "text": "The U.S. Postal Service is the only delivery service that reaches every address in the nation: 160 million residences, businesses and Post Office Boxes.",
                 "image": "./partners/USPS.png",
                 "url": "https://moversguide.usps.com/mgo/disclaimer?referral=MG80",
@@ -2689,7 +2689,7 @@
                 "type": "info-tile-component",
                 "title": "Public Storage",
                 "text": "As the pioneer brand in self-storage since 1979, this is what we’ve been doing best to help you get the right solution for your storage needs across Canada.",
-                "url": "https://publicstoragecanada.com/",
+                "url": "https://www.publicstorage.com/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/publicstorage.png",
                 "phone": "877-777-8672"
               },
@@ -2838,7 +2838,7 @@
             "items": [
               {
                 "type": "p",
-                "text": "If you need a new furnace or water heater, you can access the vendors provided here."
+                "text": "Your home’s comfort is essential, no matter what season. When your HVAC system can’t keep up or it breaks down, find an expert HVAC contractor who can help you."
               },
               {
                 "type": "info-tile-component",
@@ -2847,6 +2847,22 @@
                 "image": "./partners/AirZona-HVAC.png",
                 "url": "https://www.airzonahvac.com/",
                 "phone": "623-295-1911"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "ChasRoberts",
+                "text": "Arizona's leader in A/C, heating, plumbing serving since 1942.",
+                "image": "./partners/Chas-Roberts.png",
+                "url": "https://www.chasroberts.com/",
+                "phone": "602-386-2732"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "George Brazil",
+                "text": "The Best Plumbing & Electrical Services in Phoenix, Arizona.",
+                "image": "./partners/George-Brazil.png",
+                "url": "https://georgebrazilhvac.com/",
+                "phone": "602-842-0009"
               }
             ]
           }
