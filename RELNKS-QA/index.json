@@ -1628,14 +1628,6 @@
               },
               {
                 "type": "info-tile-component",
-                "title": "Just Junk",
-                "text": "We can remove virtually anything (except hazardous waste). Just point and we do the rest.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/justjunk.png",
-                "url": "https://justjunk.com/",
-                "phone": "888-586-5888"
-              },
-              {
-                "type": "info-tile-component",
                 "title": "Happy Junk Removal",
                 "text": "Got JUNK?? No Problem! We are Phoenix Arizona's Number one FULL SERVICE Junk Removal Company.",
                 "image": "./partners/happy-junk-removal.png",
