@@ -220,32 +220,32 @@
     "UserTypePermissions": [
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "*", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
-        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
-        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "HOMEOWNER" },
-        "permissions": [ "CREATE_ORDER" ]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "REALTOR" },
-        "permissions": [ "CREATE_ORDER" ]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "BROKER" },
-        "permissions": [ "CREATE_ORDER"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "LENDER" },
-        "permissions": [ "CREATE_ORDER"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
         "conditions": {  "serviceProvider_id": [ "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126" ],
           "company": "*", "province": "*",  "userType": "*"},
-        "permissions": [ "CREATE_ORDER"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
         "conditions": { "serviceProvider_id": [ "MASTERCHECKLIST" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": false },
@@ -271,23 +271,23 @@
       },
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
-        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
-        "permissions": [ "CREATE_ORDER" ], "requirements":["CREATE_ORDER_FIRST"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "vericoconnect", "province": ["ON","BC"],  "userType": "*" },
-        "permissions": [ "CREATE_ORDER"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
         "conditions": { "serviceProvider_id": [ "103" ], "company": "vericoconnect", "province": ["AB"],  "userType": "*" },
-        "permissions": [ "CREATE_ORDER"]
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
-        "conditions": { "serviceProvider_id": ["104","103"], "region": "US", "company": "*",  "province": "*",  "userType": "*" },
-        "_comment": "Hide HCS item for default provinces.",  
+        "conditions": { "serviceProvider_id": ["102", "103", "104"], "region": "US", "company": "*",  "province": "*",  "userType": "*" },
+        "_comment": "Hide service items for US.",  
         "permissions": [ ]
       }
     ],
@@ -319,46 +319,55 @@
           {
             "title": "Master Checklist",
             "image": "./whitelabel/relnks/MASTER_CHECKLIST.jpg",
+            "icon": "icon-masterchecklist",
             "serviceProvider_id": "MASTERCHECKLIST"
           },
           {
             "title": "Find Property",
             "image": "./whitelabel/relnks/FIND_YOUR_NEW_HOUSE.jpg",
+            "icon": "icon-neighbourhood-profiler",
             "serviceProvider_id": "NB_PROFILER"
           },
           {
             "title": "Apply for a Mortgage",
             "image": "./whitelabel/relnks/APPLY_FOR_A_MORTGAGE.jpg",
+            "icon": "icon-applyforamortgage",
             "serviceProvider_id": "APPLY_FOR_AMORTGAGE"
           },
           {
             "title": "Inspection Services",
             "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
+            "icon": "icon-homeinspection",
             "serviceProvider_id": "INSPECTION_SERVICES"
           },
           {
             "title": "Insurance Products",
             "image": "./whitelabel/relnks/INSURANCE_AND_WARRANTY_PRODUCTS.jpg",
+            "icon": "icon-insuranceproducts",
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
             "title": "Find a Real Estate Lawyer",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
+            "icon": "icon-homeclosingservices",
             "serviceProvider_id": "104"
           },
           {
             "title": "Moving Services",
             "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
+            "icon": "icon-movingcompanies",
             "serviceProvider_id": "MOVING_SERVICES"
           },
           {
             "title": "Property Services",
             "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
+            "icon": "icon-property-services",
             "serviceProvider_id": "PROPERTY_SERVICES"
           },
           {
             "title": "My Personal Documents",
             "image": "./whitelabel/relnks/MY_DOCUMENTS.jpg",
+            "icon": "icon-my-personal-documents",
             "serviceProvider_id": "DOCUMENT_REPOSITORY"
           }
         ]
@@ -428,49 +437,74 @@
           {
             "title": "Master Checklist",
             "image": "./whitelabel/relnks/MASTER_CHECKLIST.jpg",
+            "icon": "icon-masterchecklist",
             "serviceProvider_id": "MASTERCHECKLIST"
           },
           {
             "title": "Find Property",
             "image": "./whitelabel/relnks/FIND_YOUR_NEW_HOUSE.jpg",
+            "icon": "icon-neighbourhood-profiler",
             "serviceProvider_id": "NB_PROFILER"
           },
           {
             "title": "Apply for a Mortgage",
             "image": "./whitelabel/relnks/APPLY_FOR_A_MORTGAGE.jpg",
+            "icon": "icon-applyforamortgage",
             "serviceProvider_id": "APPLY_FOR_AMORTGAGE"
           },
           {
             "title": "Home Inspection",
             "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
+            "icon": "icon-homeinspection",
             "serviceProvider_id": "103",
             "action":"ConciergeServicePage"
           },
           {
             "title": "Insurance Products",
             "image": "./whitelabel/relnks/INSURANCE_AND_WARRANTY_PRODUCTS.jpg",
+            "icon": "icon-insuranceproducts",
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
-            "title": "Find a Real Estate Lawyer",
+            "title": "Title & Escrow Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
+            "icon": "icon-homeclosingservices",
             "serviceProvider_id": "127",
             "action":"ConciergeServicePage"
           },
           {
             "title": "Moving Services",
             "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
+            "icon": "icon-property-services",
             "serviceProvider_id": "MOVING_SERVICES"
           },
           {
             "title": "Property Services",
             "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
+            "icon": "icon-property-services",
             "serviceProvider_id": "PROPERTY_SERVICES"
           },
           {
             "title": "My Personal Documents",
             "image": "./whitelabel/relnks/MY_DOCUMENTS.jpg",
+            "icon": "icon-my-personal-documents",
             "serviceProvider_id": "DOCUMENT_REPOSITORY"
+          }
+        ]
+      },
+      { "conditions": {"title":"Find Property", "region":"US",  "province":"*"},
+        "buttons":[
+          {
+            "serviceProvider_id": "NB_PROFILER_LOCAL",
+            "icon": "fas fa-map-marked-alt",
+            "title": "Local Data",
+            "action":"NeighborhoodProfilerLocalVuePage"
+          },
+          {
+            "serviceProvider_id": "NB_PROFILER_DEMOGRAPHIC",
+            "icon": "fas fa-users",
+            "title": "Demographic Data",
+            "action":"NeighborhoodProfilerDemographicVuePage"
           }
         ]
       },
@@ -730,7 +764,7 @@
             "items": [
               {
                 "type": "p",
-                "text": "Thinking of leasing your property? Connect to a list of expert rental managers here to put your investment in the right hands."
+                "text": "The outside of a property is your chance to make a great first impression. Shop trusted, local professionals to spruce up your yard."
               },
               {
                 "type": "info-tile-component",
@@ -738,7 +772,7 @@
                 "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews. ",
                 "url": "https://homestars.com/get-quotes?source=homepage&input_search=undefined&selected_category_hierarchy=undefined",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
-                "phone": "1-855-569-0690"
+                "phone": "855-569-0690"
               },
               {
                 "type": "info-tile-component",
@@ -746,7 +780,7 @@
                 "text": "Richmond Advisory Services provides residential and commercial property management services across Canada.",
                 "url": "http://www.raspropertymanagement.com/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ras.png",
-                "phone": "1-855-547-2122"
+                "phone": "855-547-2122"
               },
               {
                 "type": "info-tile-component",
@@ -754,7 +788,7 @@
                 "text": "Serving the nation’s largest enterprises, lenders, law firms, property investors and real estate brokerages we’re Canada’s trusted partner in property management, real estate asset management and legal support services. ",
                 "url": "https://www.veranova.ca/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/veranova.png",
-                "phone": "1-800-667-3626"
+                "phone": "800-667-3626"
               }
             ]
           }
@@ -769,7 +803,7 @@
             "items": [
               {
                 "type": "p",
-                "text": "Thinking of leasing your property? Connect to a list of expert rental managers here to put your investment in the right hands."
+                "text": "The outside of a property is your chance to make a great first impression. Shop trusted, local professionals to spruce up your yard."
               },
               {
                 "type": "info-tile-component",
@@ -808,7 +842,7 @@
                 "text": "Richmond Advisory Services provides residential and commercial property management services across Canada.",
                 "url": "http://www.raspropertymanagement.com/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ras.png",
-                "phone": "1-855-547-2122"
+                "phone": "855-547-2122"
               },
               {
                 "type": "info-tile-component",
@@ -816,7 +850,7 @@
                 "text": "Serving the nation’s largest enterprises, lenders, law firms, property investors and real estate brokerages we’re Canada’s trusted partner in property management, real estate asset management and legal support services. ",
                 "url": "https://www.veranova.ca/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/veranova.png",
-                "phone": "1-800-667-3626"
+                "phone": "800-667-3626"
               }
             ]
           }
@@ -878,7 +912,7 @@
                 "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
                 "url": "https://homestars.com/",
-                "phone": "1-855-569-0690"
+                "phone": "855-569-0690"
               }
             ]
           }
@@ -970,7 +1004,7 @@
                 "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
                 "image": "./partners/popalock.png",
                 "url": "https://www.popalock.com/",
-                "phone": "1-800-767-25625"
+                "phone": "800-767-25625"
               },
               {
                 "type": "info-tile-component",
@@ -1001,7 +1035,7 @@
                 "text": "We're obsessed with making sure you're satisfied with your cleaning experience.",
                 "url": "https://mopify.com/signup/home",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mopify.png",
-                "phone": "1-866-743-9341"
+                "phone": "866-743-9341"
               },
               {
                 "type": "info-tile-component",
@@ -1009,7 +1043,7 @@
                 "text": "Our cleaning services could be exactly what you're looking for to make your life a little easier",
                 "url": "https://merrymaids.ca/locations",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/merrymaids.png",
-                "phone": "1-877-782-9201"
+                "phone": "877-782-9201"
               },
               {
                 "type": "info-tile-component",
@@ -1017,7 +1051,7 @@
                 "text": "We know you’ll enjoy the premium quality of your MOLLY MAID cleaning service, so we offer a 100% Guarantee of Service!",
                 "url": "https://mollymaid.ca/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/mollymaid.png",
-                "phone": "1-855-223-5851"
+                "phone": "855-223-5851"
               }
             ]
           }
@@ -1040,15 +1074,15 @@
                 "text": "We know you’ll enjoy the premium quality of your MOLLY MAID cleaning service, so we offer a 100% Guarantee of Service!",
                 "url": "https://mollymaid.com/",
                 "image": "./partners/mollymaid.png",
-                "phone": "1-800-654-9647"
+                "phone": "800-654-9647"
               },
               {
                 "type": "info-tile-component",
                 "title": "Merry Maids",
                 "text": "Our cleaning services could be exactly what you're looking for to make your life a little easier",
-                "url": "https://merrymaid.com/",
+                "url": "https://www.merrymaids.com/ ",
                 "image": "./partners/merrymaids.png",
-                "phone": "1-888-490-4227"
+                "phone": "888-490-4227"
               },
               {
                 "type": "info-tile-component",
@@ -1079,7 +1113,7 @@
                 "text": "Orkin Canada's pest control technicians can give you peace of mind by expertly helping you remove unwanted pests from your home – and making sure they don't come back.",
                 "url": "https://www.orkincanada.ca/contact/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/orkin.png",
-                "phone": "1-844-243-5772"
+                "phone": "844-243-5772"
               },
               {
                 "type": "info-tile-component",
@@ -1087,7 +1121,7 @@
                 "text": "Rentokil is backed by over 30 years of local pest control expertise across Canada.",
                 "url": "https://www.rentokil.com/ca/contact-us/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rentokil.jpg",
-                "phone": "1-877-592-0784"
+                "phone": "877-592-0784"
               },
               {
                 "type": "info-tile-component",
@@ -1095,7 +1129,7 @@
                 "text": "Abell Pest Control is a family owned Canadian company dedicated to providing effective, professional and courteous service in pest management.",
                 "url": "https://www.abellpestcontrol.com/en-ca",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/abell.png",
-                "phone": "1-877-837-6464"
+                "phone": "877-837-6464"
               }
             ]
           }
@@ -1118,7 +1152,7 @@
                 "text": "Orkin Canada's pest control technicians can give you peace of mind by expertly helping you remove unwanted pests from your home – and making sure they don't come back.",
                 "url": "https://www.orkincanada.ca/contact/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/orkin.png",
-                "phone": "1-844-243-5772"
+                "phone": "844-243-5772"
               },
               {
                 "type": "info-tile-component",
@@ -1126,7 +1160,7 @@
                 "text": "Rentokil is backed by over 30 years of local pest control expertise across Canada.",
                 "url": "https://www.rentokil.com/ca/contact-us/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rentokill.png",
-                "phone": "1-877-592-0784"
+                "phone": "877-592-0784"
               },
               {
                 "type": "info-tile-component",
@@ -1164,8 +1198,8 @@
                 "title": "Rentokil",
                 "text": "Rentokil is backed by over 30 years of local pest control expertise across US.",
                 "image": "./partners/rentokill.png",
-                "url": "https://www.rentokill.com",
-                "phone": "1-866-376-5459"
+                "url": "https://www.rentokil.com/us/",
+                "phone": "866-376-5459"
               },
               {
                 "type": "info-tile-component",
@@ -1237,7 +1271,7 @@
             "text": "Complete Protection™ (CP™) is unlike any other home warranty on the market. In business since 1998, we have become the industry leader in Customer Service.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/completeprotection.png",
             "url": "https://www.completehomewarranty.com/request-a-quote/",
-            "phone": "1-800-978-2022"
+            "phone": "800-978-2022"
           },
           {
             "type": "info-tile-component",
@@ -1245,7 +1279,7 @@
             "text": "Blanket Universal Home Warranty provides Canada’s best coverage against unexpected repairs or breakdowns that can cost homeowners thousands of dollars, whether it’s a new or pre-owned home.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/blanket.png",
             "url": "https://portal.buhw.ca/register",
-            "phone": "1-855-587-4792"
+            "phone": "855-587-4792"
           }
         ]
       },
@@ -1297,7 +1331,7 @@
             "text": "With effort and care, we deliver the very best personalized insurance coverage and risk management advice. ",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/magnes.png",
             "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
-            "phone": "1-800-650-3435"
+            "phone": "800-650-3435"
           },
           {
             "type": "info-tile-component",
@@ -1305,7 +1339,7 @@
             "text": "At Sonnet, we offer customized coverage, in language you can understand, at a competitive price – and we do it all online.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/sonnet.png",
             "url": "https://www.sonnet.ca",
-            "phone": "1-844-766-6374"
+            "phone": "844-766-6374"
           },
           {
             "type": "info-tile-component",
@@ -1313,7 +1347,7 @@
             "text": "A true ally is someone you trust. At belairdirect, we’ve offered car and home insurance to nearly 1 million customers over the last 60 years.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/belairdirect.png",
             "url": "https://www.belairdirect.com/",
-            "phone": "1-888-280-8549"
+            "phone": "888-280-8549"
           }
         ]
       },
@@ -1334,7 +1368,7 @@
                 "text": "With effort and care, we deliver the very best personalized insurance coverage and risk management advice. ",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/magnes.png",
                 "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
-                "phone": "1-800-650-3435"
+                "phone": "800-650-3435"
               },
               {
                 "type": "info-tile-component",
@@ -1342,7 +1376,7 @@
                 "text": "Buy, renew, or update your auto insurance through the Insurance Corporation of British Columbia.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/icbc.png",
                 "url": "https://www.icbc.com/insurance/buy-renew-cancel/Pages/buy-or-renew.aspx",
-                "phone": "1-800-910-4222"
+                "phone": "800-910-4222"
               }
             ]
           }
@@ -1361,15 +1395,15 @@
               },
               {
                 "type": "info-tile-component",
-                "title": "StateFarm",
-                "text": "State Farm helps you protect what matters most with home & car insurance, checking & savings accounts, loans, and more",
+                "title": "State Farm",
+                "text": "State Farm helps you protect what matters most with home & car insurance, checking & savings accounts, loans, and more.",
                 "image": "./partners/state-farm.png",
                 "url": "https://www.statefarm.com/",
                 "phone": "800-782-8332"
               },
               {
                 "type": "info-tile-component",
-                "title": "Farmers",
+                "title": "Farmers Insurance",
                 "text": "Farmers Insurance Group is an American insurer group of automobiles, homes and small businesses and also provides other insurance and financial services products.",
                 "image": "./partners/farmers.png",
                 "url": "https://www.farmers.com/",
@@ -1377,8 +1411,8 @@
               },
               {
                 "type": "info-tile-component",
-                "title": "Geico",
-                "text": "Geico provides the insurance savings you expect.  We offer competitive rates on coverage tailored to fit your needs.",
+                "title": "GEICO",
+                "text": "GEICO provides the insurance savings you expect.  We offer competitive rates on coverage tailored to fit your needs.",
                 "image": "./partners/geico.jpg",
                 "url": "https://www.geico.com/",
                 "phone": "800-841-2964"
@@ -1404,7 +1438,7 @@
                 "text": "With effort and care, we deliver the very best personalized insurance coverage and risk management advice. ",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/magnes.png",
                 "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
-                "phone": "1-800-650-3435"
+                "phone": "800-650-3435"
               }
             ]
           }
@@ -1427,7 +1461,7 @@
                 "text": "Buy, renew, or update your auto insurance through the Insurance Corporation of British Columbia.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/icbc.png",
                 "url": "https://www.icbc.com/insurance/buy-renew-cancel/Pages/buy-or-renew.aspx",
-                "phone": "1-800-910-4222"
+                "phone": "800-910-4222"
               }
             ]
           }
@@ -1516,7 +1550,7 @@
               {
                 "type": "info-tile-component",
                 "title": "Watermark",
-                "text": "We are here to put the <b><i>life</i></b> back in life insurance. ",
+                "text": "We are here to put the <b><i>life</i></b> back in life insurance.",
                 "image": "./partners/watermark.png",
                 "url": "https://watermarklife.com/",
                 "phone": "844-526-7210"
@@ -1543,7 +1577,7 @@
                 "text": "1-800-GOT-JUNK? Is a full-service junk removal company serving areas across Canada.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/gotjunk.png",
                 "url": "https://request.1800gotjunk.com/ca_en/onlinebooking?_ga=2.116313093.2060181575.1591233719-669800212.1591233719",
-                "phone": "1-866-674-1573"
+                "phone": "866-674-1573"
               },
               {
                 "type": "info-tile-component",
@@ -1559,7 +1593,7 @@
                 "text": "Canada Junk is a locally owned and operated Toronto junk disposal and recycling company.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadajunk.png",
                 "url": "https://booknow.appointment-plus.com/36jqyn1k/10",
-                "phone": "1-888-979-5865"
+                "phone": "888-979-5865"
               }
             ]
           }
@@ -1583,7 +1617,7 @@
                 "text": "1-800-GOT-JUNK? Is a full-service junk removal company serving areas across Canada.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/gotjunk.png",
                 "url": "https://request.1800gotjunk.com/ca_en/onlinebooking?_ga=2.116313093.2060181575.1591233719-669800212.1591233719",
-                "phone": "1-866-674-1573"
+                "phone": "866-674-1573"
               },
               {
                 "type": "info-tile-component",
@@ -1599,7 +1633,7 @@
                 "text": "Experts in the removal of residential & commercial garbage and junk!",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/joeysjunk.png",
                 "url": "https://www.joeysjunk.ca/",
-                "phone": "1-778-881-5865"
+                "phone": "778-881-5865"
               }
             ]
           }
@@ -1623,15 +1657,7 @@
                 "text": "1-800-GOT-JUNK? Is a full-service junk removal company serving areas across US.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/gotjunk.png",
                 "url": "https://www.1800gotjunk.com/",
-                "phone": "1-866-674-1573"
-              },
-              {
-                "type": "info-tile-component",
-                "title": "Just Junk",
-                "text": "We can remove virtually anything (except hazardous waste). Just point and we do the rest.",
-                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/justjunk.png",
-                "url": "https://justjunk.com/",
-                "phone": "1-888-586-5888"
+                "phone": "866-674-1573"
               },
               {
                 "type": "info-tile-component",
@@ -1662,7 +1688,7 @@
                 "text": "Direct all your mail from your current address to your new home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
                 "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
-                "phone": "1-800-267-1177"
+                "phone": "800-267-1177"
               },
               {
                 "type": "info-tile-component",
@@ -1670,7 +1696,7 @@
                 "text": "Update your address with Federal government departments.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
                 "url": "https://www.canada.ca/en/government/change-address.html",
-                "phone": "1-800-622-6232"
+                "phone": "800-622-6232"
               },
               {
                 "type": "info-tile-component",
@@ -1678,7 +1704,7 @@
                 "text": "Update your address on all documents issued by the province of Ontario (i.e. Driver's License and Health Card).",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ontario_gov.png",
                 "url": "https://www.ontario.ca/page/change-my-address-ontario-services",
-                "phone": "1-800-267-8097"
+                "phone": "800-267-8097"
               }
             ]
           }
@@ -1701,7 +1727,7 @@
                 "text": "Direct all your mail from your current address to your new home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
                 "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
-                "phone": "1-800-267-1177"
+                "phone": "800-267-1177"
               },
               {
                 "type": "info-tile-component",
@@ -1709,7 +1735,7 @@
                 "text": "Update your address with Federal government departments.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
                 "url": "https://www.canada.ca/en/government/change-address.html",
-                "phone": "1-800-622-6232"
+                "phone": "800-622-6232"
               },
               {
                 "type": "info-tile-component",
@@ -1740,7 +1766,7 @@
                 "text": "Direct all your mail from your current address to your new home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
                 "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
-                "phone": "1-800-267-1177"
+                "phone": "800-267-1177"
               },
               {
                 "type": "info-tile-component",
@@ -1748,7 +1774,7 @@
                 "text": "Update your address with Federal government departments.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
                 "url": "https://www.canada.ca/en/government/change-address.html",
-                "phone": "1-800-622-6232"
+                "phone": "800-622-6232"
               },
               {
                 "type": "info-tile-component",
@@ -1756,7 +1782,7 @@
                 "text": "The online service to change your address, quickly and easily!",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/british-columbia.png",
                 "url": "https://www.addresschange.gov.bc.ca/",
-                "phone": "1-800-663-7867"
+                "phone": "800-663-7867"
               },
               {
                 "type": "info-tile-component",
@@ -1764,7 +1790,7 @@
                 "text": "Renew your driver’s licence or ID via ICBC.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/icbc.png",
                 "url": "https://www.icbc.com/driver-licensing/getting-licensed/Pages/Renew-your-licence-or-ID.aspx ",
-                "phone": "1-800-663-7867"
+                "phone": "800-663-7867"
               }
             ]
           }
@@ -1787,7 +1813,7 @@
                 "text": "Direct all your mail from your current address to your new home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
                 "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
-                "phone": "1-800-267-1177"
+                "phone": "800-267-1177"
               },
               {
                 "type": "info-tile-component",
@@ -1795,7 +1821,7 @@
                 "text": "Update your address with Federal government departments.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
                 "url": "https://www.canada.ca/en/government/change-address.html",
-                "phone": "1-800-622-6232"
+                "phone": "800-622-6232"
               },
               {
                 "type": "info-tile-component",
@@ -1826,7 +1852,7 @@
                 "text": "Direct all your mail from your current address to your new home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
                 "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
-                "phone": "1-800-267-1177"
+                "phone": "800-267-1177"
               },
               {
                 "type": "info-tile-component",
@@ -1834,7 +1860,7 @@
                 "text": "Update your address with Federal government departments.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
                 "url": "https://www.canada.ca/en/government/change-address.html",
-                "phone": "1-800-622-6232"
+                "phone": "800-622-6232"
               },
               {
                 "type": "info-tile-component",
@@ -1865,7 +1891,7 @@
                 "text": "Direct all your mail from your current address to your new home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
                 "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
-                "phone": "1-800-267-1177"
+                "phone": "800-267-1177"
               },
               {
                 "type": "info-tile-component",
@@ -1873,7 +1899,7 @@
                 "text": "Update your address with Federal government departments.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
                 "url": "https://www.canada.ca/en/government/change-address.html",
-                "phone": "1-800-622-6232"
+                "phone": "800-622-6232"
               },
               {
                 "type": "info-tile-component",
@@ -1904,7 +1930,7 @@
                 "text": "Direct all your mail from your current address to your new home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
                 "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
-                "phone": "1-800-267-1177"
+                "phone": "800-267-1177"
               },
               {
                 "type": "info-tile-component",
@@ -1912,7 +1938,7 @@
                 "text": "Update your address with Federal government departments.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
                 "url": "https://www.canada.ca/en/government/change-address.html",
-                "phone": "1-800-622-6232"
+                "phone": "800-622-6232"
               },
               {
                 "type": "info-tile-component",
@@ -1920,7 +1946,7 @@
                 "text": "The online service to change your address, quickly and easily!",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/nova-scotia_gov.png",
                 "url": "https://isd.acol.ca/isd/rmv/ChangeAddress/Start.do",
-                "phone": "1-800-898-7668"
+                "phone": "800-898-7668"
               }
             ]
           }
@@ -1943,7 +1969,7 @@
                 "text": "Direct all your mail from your current address to your new home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
                 "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
-                "phone": "1-800-267-1177"
+                "phone": "800-267-1177"
               },
               {
                 "type": "info-tile-component",
@@ -1951,7 +1977,7 @@
                 "text": "Update your address with Federal government departments.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
                 "url": "https://www.canada.ca/en/government/change-address.html",
-                "phone": "1-800-622-6232"
+                "phone": "800-622-6232"
               },
               {
                 "type": "info-tile-component",
@@ -1959,7 +1985,7 @@
                 "text": "The online service to change your address, quickly and easily!",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/new-brunswick_gov.png",
                 "url": "https://www2.gnb.ca/content/gnb/en/services/services_renderer.201491.Driver_s_Licences.html",
-                "phone": "1-888-762-8600"
+                "phone": "888-762-8600"
               }
             ]
           }
@@ -1982,7 +2008,7 @@
                 "text": "Direct all your mail from your current address to your new home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
                 "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
-                "phone": "1-800-267-1177"
+                "phone": "800-267-1177"
               },
               {
                 "type": "info-tile-component",
@@ -1990,7 +2016,7 @@
                 "text": "Update your address with Federal government departments.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
                 "url": "https://www.canada.ca/en/government/change-address.html",
-                "phone": "1-800-622-6232"
+                "phone": "800-622-6232"
               },
               {
                 "type": "info-tile-component",
@@ -1998,7 +2024,7 @@
                 "text": "The online service to change your address, quickly and easily!",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/newfoundland_gov.png",
                 "url": "https://www.gov.nl.ca/dgsnl/drivers/driversandvehicles/driverlicensing/nameaddresschange/",
-                "phone": "1-877-636-6867"
+                "phone": "877-636-6867"
               }
             ]
           }
@@ -2017,7 +2043,7 @@
               },
               {
                 "type": "info-tile-component",
-                "title": "USPS.Com",
+                "title": "United States Postal Service",
                 "text": "The U.S. Postal Service is the only delivery service that reaches every address in the nation: 160 million residences, businesses and Post Office Boxes.",
                 "image": "./partners/USPS.png",
                 "url": "https://moversguide.usps.com/mgo/disclaimer?referral=MG80",
@@ -2043,7 +2069,7 @@
                 "text": "Hydro One is Ontario’s largest electricity transmission and distribution service provider.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/hydroone.png",
                 "url": "https://www.hydroone.com/",
-                "phone": "1-888-664-9376"
+                "phone": "888-664-9376"
               },
               {
                 "type": "info-tile-component",
@@ -2051,7 +2077,7 @@
                 "text": "With Bullfrog Power, you can reduce your emissions footprint and support the growth of renewable energy in Canada.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bullfrog.png",
                 "url": "https://www.bullfrogpower.com",
-                "phone": "1-877-360-3464"
+                "phone": "877-360-3464"
               },
               {
                 "type": "info-tile-component",
@@ -2059,7 +2085,7 @@
                 "text": "Alectra Inc., through its subsidiary Alectra Utilities Corporation, serves approximately one million homes and businesses across an 1,800 square kilometre service territory comprising 17 communities.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/alectra.png",
                 "url": "https://alectrautilities.com/",
-                "phone": "1-833-253-2872"
+                "phone": "833-253-2872"
               },
               {
                 "type": "info-tile-component",
@@ -2089,7 +2115,7 @@
                 "text": "Providing customers with reliable, affordable, and clean electricity throughout the province.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bchydro-logo.png",
                 "url": "https://www.bchydro.com",
-                "phone": "1-800-224-9376"
+                "phone": "800-224-9376"
               },
               {
                 "type": "info-tile-component",
@@ -2097,7 +2123,7 @@
                 "text": "BC’s largest energy provider delivering natural gas, electricity, and innovative energy solutions to customers throughout the province.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/fortis-bc.png",
                 "url": "https://www.fortisbc.com",
-                "phone": "1-866-436-7847"
+                "phone": "866-436-7847"
               }
             ]
           }
@@ -2119,7 +2145,7 @@
                 "text": "We exist to deliver the energy that enhances peoples quality of life, drawing on a 170-year history of providing safe and reliable service to customers.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/enbridge-union.jpg",
                 "url": "https://www.enbridgegas.com/",
-                "phone": "1-866-763-5427"
+                "phone": "866-763-5427"
               }
             ]
           }
@@ -2141,7 +2167,7 @@
                 "text": "BC’s largest energy provider delivering natural gas, electricity, and innovative energy solutions to customers throughout the province.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/fortis-bc.png",
                 "url": "https://www.fortisbc.com",
-                "phone": "1-888-224-2710"
+                "phone": "888-224-2710"
               }
             ]
           }
@@ -2163,7 +2189,7 @@
                 "text": "With Rogers Home Phone, you can choose the calling features that suit your needs.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/consumer/home-phone",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -2171,7 +2197,7 @@
                 "text": "The Home phone the most Canadians count on.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Home_phone",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -2179,7 +2205,7 @@
                 "text": "Choose a reliable Home Phone package that suits your needs perfectly.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/cogeco.png",
                 "url": "https://www.cogeco.ca/en/phone/packages",
-                "phone": "1-866-261-4447"
+                "phone": "866-261-4447"
               }
             ]
           }
@@ -2201,7 +2227,7 @@
                 "text": "With Rogers Home Phone, you can choose the calling features that suit your needs.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/consumer/home-phone",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -2209,7 +2235,7 @@
                 "text": "The Home phone the most Canadians count on.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Home_phone",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -2217,7 +2243,7 @@
                 "text": "Whether you’re working at home or connecting with loved ones, feel confident in your home phone connection.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": "https://www.telus.com/en/home-phone?linktype=ge-meganav",
-                "phone": "1-888-811-2323"
+                "phone": "888-811-2323"
               },
               {
                 "type": "info-tile-component",
@@ -2225,7 +2251,7 @@
                 "text": "We make it easier than ever to connect with the people that matter most in your life.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
                 "url": "https://www.shaw.ca/home-phone#plansOverview",
-                "phone": "1-888-472-2222"
+                "phone": "888-472-2222"
               }
             ]
           }
@@ -2247,7 +2273,7 @@
                 "text": "Your entertainment, your way.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/web/consumer/ignite-bundles/tv-internet",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -2255,7 +2281,7 @@
                 "text": "Fibe TV is the best TV service.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Fibe-TV",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -2263,7 +2289,7 @@
                 "text": "Switch to a personalized TV experience.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/cogeco.png",
                 "url": "https://www.cogeco.ca/en/tv/packages",
-                "phone": "1-866-261-4447"
+                "phone": "866-261-4447"
               }
             ]
           }
@@ -2285,7 +2311,7 @@
                 "text": "Your entertainment, your way.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/web/consumer/ignite-bundles/tv-internet",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -2293,7 +2319,7 @@
                 "text": "Fibe TV is the best TV service.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Fibe-TV",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -2301,7 +2327,7 @@
                 "text": "More channels, more movies, more sports, more yes!",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": " https://www.telus.com/en/home-phone?linktype=ge-meganav",
-                "phone": "1-888-811-2323"
+                "phone": "888-811-2323"
               },
               {
                 "type": "info-tile-component",
@@ -2309,7 +2335,7 @@
                 "text": "All the action, drama, reality, news, sports, and steaming you love.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
                 "url": "https://www.shaw.ca/tv/plans",
-                "phone": "1-888-472-2222"
+                "phone": "888-472-2222"
               }
             ]
           }
@@ -2331,7 +2357,7 @@
                 "text": "Get a fibre-powered connection for all the speed you need throughout your home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/consumer/internet",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -2339,7 +2365,7 @@
                 "text": "Get on Canada’s largest fibre optic network.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Bell_Internet/Internet_access",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -2347,7 +2373,7 @@
                 "text": "Discover the Internet package that's perfect for your home",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/cogeco.png",
                 "url": "https://www.cogeco.ca/en/internet/packages",
-                "phone": "1-866-261-4447"
+                "phone": "866-261-4447"
               }
             ]
           }
@@ -2369,7 +2395,7 @@
                 "text": "Get a fibre-powered connection for all the speed you need throughout your home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/consumer/internet",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -2377,7 +2403,7 @@
                 "text": "Get on Canada’s largest fibre optic network.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Bell_Internet/Internet_access",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -2385,7 +2411,7 @@
                 "text": "The fastest Wi-Fi in every corner of your home, connect with a direct, 100% fibre optic internet connection.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": "https://www.telus.com/en/internet",
-                "phone": "1-888-811-2323"
+                "phone": "888-811-2323"
               },
               {
                 "type": "info-tile-component",
@@ -2393,7 +2419,7 @@
                 "text": "Connecting millions of Western Canadian homes and businesses with access to Fibre+ Gig speeds.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
                 "url": "https://www.shaw.ca/internet/plans",
-                "phone": "1-888-472-2222"
+                "phone": "888-472-2222"
               }
             ]
           }
@@ -2415,7 +2441,7 @@
                 "text": "We believe that stronger communities are the key to safer neighborhoods. ",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ring.png",
                 "url": "https://ring.com/",
-                "phone": "1-855-300-7289"
+                "phone": "855-300-7289"
               },
               {
                 "type": "info-tile-component",
@@ -2423,7 +2449,7 @@
                 "text": "Protect your home the smart way with Bell Smart Home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell_smart_home.png",
                 "url": "https://www.bell.ca/Smart-Home",
-                "phone": "1-800-267-2001"
+                "phone": "800-267-2001"
               },
               {
                 "type": "info-tile-component",
@@ -2431,7 +2457,7 @@
                 "text": "Secure and control your home from anywhere with a Smart Home Monitoring plan.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/consumer/home-monitoring",
-                "phone": "1-855-399-3128"
+                "phone": "855-399-3128"
               }
             ]
           }
@@ -2534,7 +2560,7 @@
                 "text": "Atlas Canada is the 'national mover of choice' for families and companies due to our ethical business practices, quality service and our ability to provide customers with a positive moving experience for over 55 years.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/AtlasVanLines_logo.png",
                 "url": "https://www.atlasvanlines.ca/moving-estimate/",
-                "phone": "1-877-505-8527"
+                "phone": "877-505-8527"
               },
               {
                 "type": "info-tile-component",
@@ -2542,7 +2568,7 @@
                 "text": "Get 10% off initial delivery, first month's container rental, and long-distance transportation. <b>PODS is a no-contact service</b> -- and the flexible, convenient way to move and store.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/pods_mss.png",
                 "url": "https://www.PODS.com/RELNKS",
-                "phone": "1-888-847-6680"
+                "phone": "888-847-6680"
               }
             ]
           }
@@ -2562,10 +2588,10 @@
               {
                 "type": "info-tile-component",
                 "title": "Atlas Van Lines",
-                "text": "Atlas Canada is the 'national mover of choice' for families and companies due to our ethical business practices, quality service and our ability to provide customers with a positive moving experience for over 55 years.",
-                "image": "./partners/AtlasVanLines_logo.png",
+                "text": "Atlas Van Lines is one of the largest household goods movers in the U.S. More than 430 Atlas Agents own and operate the equipment and warehouses to provide moving and storage services you expect.",
+                "image": "./partners/atlas-logo.jpg",
                 "url": "https://www.atlasvanlines.com",
-                "phone": "1-877-505-8527"
+                "phone": "877-505-8527"
               },
               {
                 "type": "info-tile-component",
@@ -2573,7 +2599,7 @@
                 "text": "Get 10% off initial delivery, first month's container rental, and long-distance transportation. <b>PODS is a no-contact service</b> -- and the flexible, convenient way to move and store.",
                 "image": "./partners/pods.png",
                 "url": "https://www.pods.com/partners/relnks",
-                "phone": "1-888-847-6680"
+                "phone": "888-847-6680"
               },
               {
                 "type": "info-tile-component",
@@ -2604,7 +2630,7 @@
                 "text": "Since 1945, U-Haul has been serving do-it-yourself movers and their households.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/uhaul.png",
                 "url": "https://www.uhaul.com/Home/",
-                "phone": "1-800-468-4285"
+                "phone": "800-468-4285"
               },
               {
                 "type": "info-tile-component",
@@ -2612,7 +2638,7 @@
                 "text": "Discount Car and Truck Rentals is proud to be one of Canada’s largest vehicle rental companies. We offer a variety of moving truck rentals that are reliable and safe. ",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/dicount.png",
                 "url": "https://www.discountcar.com/for-moving",
-                "phone": "1-888-310-2277"
+                "phone": "888-310-2277"
               },
               {
                 "type": "info-tile-component",
@@ -2620,7 +2646,7 @@
                 "text": "Enterprise Truck Rental can help you move with a variety of commercial-grade trucks, from box-style moving vans to pickup trucks.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/enterprise.png",
                 "url": "https://www.enterprisetrucks.ca/truckrental/en_CA.html",
-                "phone": "1-888-736-8287"
+                "phone": "888-736-8287"
               }
             ]
           }
@@ -2643,7 +2669,7 @@
                 "text": "Since 1945, U-Haul has been serving do-it-yourself movers and their households.",
                 "image": "./partners/uhaul.png",
                 "url": "https://www.uhaul.com/",
-                "phone": "1-800-468-4285"
+                "phone": "800-468-4285"
               },
               {
                 "type": "info-tile-component",
@@ -2651,7 +2677,7 @@
                 "text": "Enterprise Truck Rental can help you move with a variety of commercial-grade trucks, from box-style moving vans to pickup trucks.",
                 "image": "./partners/enterprise.png",
                 "url": "https://www.enterprisetrucks.com/",
-                "phone": "1-888-736-8287"
+                "phone": "888-736-8287"
               },
               {
                 "type": "info-tile-component",
@@ -2682,15 +2708,15 @@
                 "text": "Get 10% off initial delivery, first month's container rental, and long-distance transportation. <b>PODS is a no-contact service</b> -- and the flexible, convenient way to move and store.",
                 "url": "https://www.PODS.com/RELNKS",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/pods_mss.png",
-                "phone": "1-888-847-6680"
+                "phone": "888-847-6680"
               },
               {
                 "type": "info-tile-component",
                 "title": "Public Storage",
                 "text": "As the pioneer brand in self-storage since 1979, this is what we’ve been doing best to help you get the right solution for your storage needs across Canada.",
-                "url": "https://publicstoragecanada.com/",
+                "url": "https://www.publicstoragecanada.com/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/publicstorage.png",
-                "phone": "1-877-777-8672"
+                "phone": "877-777-8672"
               },
               {
                 "type": "info-tile-component",
@@ -2698,7 +2724,7 @@
                 "text": "We strive to make your storage experience as pleasant and convenient as possible by fulfilling our brand promise of easy, clean, and friendly service to every customer.",
                 "url": "https://www.storage-mart.com/",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/storage_mart.png",
-                "phone": "1-877-750-9565"
+                "phone": "877-750-9565"
               }
             ]
           }
@@ -2721,13 +2747,13 @@
                 "text": "Get 10% off initial delivery, first month's container rental, and long-distance transportation. <b>PODS is a no-contact service</b> -- and the flexible, convenient way to move and store.",
                 "url": "https://www.pods.com/partners/relnks",
                 "image": "./partners/pods_mss.png",
-                "phone": "1-888-847-6680"
+                "phone": "888-847-6680"
               },
               {
                 "type": "info-tile-component",
                 "title": "Public Storage",
                 "text": "Public Storage offers self-storage units in thousands of facilities across the US.",
-                "url": "https://publicstoragecanada.com/",
+                "url": "https://publicstorage.com/",
                 "image": "./partners/publicstorage.png",
                 "phone": "800-567-0759"
               },
@@ -2785,7 +2811,7 @@
                 "text": "Renting through Enercare Advantage is a hassle-free, convenient option for homeowners who don’t want to worry about any upfront payment, replacement or maintenance costs, or expensive service calls.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/enercare.png",
                 "url": "https://www.enercare.ca/",
-                "phone": "1-855-549-2385"
+                "phone": "855-549-2385"
               },
               {
                 "type": "info-tile-component",
@@ -2793,7 +2819,7 @@
                 "text": "A rental agreement with a company like Reliance Home Comfort means the cost of any repairs, regular yearly maintenance and replacement is covered in the affordable monthly fee.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/reliance.png",
                 "url": "https://reliancehomecomfort.com/",
-                "phone": "1-888-837-1451"
+                "phone": "888-837-1451"
               }
             ]
           }
@@ -2837,7 +2863,7 @@
             "items": [
               {
                 "type": "p",
-                "text": "If you need a new furnace or water heater, you can access the vendors provided here."
+                "text": "Your home’s comfort is essential, no matter what season. When your HVAC system can’t keep up or it breaks down, find an expert HVAC contractor who can help you."
               },
               {
                 "type": "info-tile-component",
@@ -2846,6 +2872,22 @@
                 "image": "./partners/AirZona-HVAC.png",
                 "url": "https://www.airzonahvac.com/",
                 "phone": "623-295-1911"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "ChasRoberts",
+                "text": "Arizona's leader in A/C, heating, plumbing serving since 1942.",
+                "image": "./partners/Chas-Roberts.png",
+                "url": "https://www.chasroberts.com/",
+                "phone": "602-386-2732"
+              },
+              {
+                "type": "info-tile-component",
+                "title": "George Brazil",
+                "text": "The Best Plumbing & Electrical Services in Phoenix, Arizona.",
+                "image": "./partners/George-Brazil.png",
+                "url": "https://georgebrazilhvac.com/",
+                "phone": "602-842-0009"
               }
             ]
           }
@@ -2864,7 +2906,7 @@
             "text": "Hydro One is Ontario’s largest electricity transmission and distribution service provider.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/hydroone.png",
             "url": "https://www.hydroone.com/",
-            "phone": "1-888-664-9376"
+            "phone": "888-664-9376"
           },
           {
             "type": "info-tile-component",
@@ -2872,7 +2914,7 @@
             "text": "With Bullfrog Power, you can reduce your emissions footprint and support the growth of renewable energy in Canada.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bullfrog.png",
             "url": "https://www.bullfrogpower.com",
-            "phone": "1-877-360-3464"
+            "phone": "877-360-3464"
           },
           {
             "type": "info-tile-component",
@@ -2880,7 +2922,7 @@
             "text": "Alectra Inc., through its subsidiary Alectra Utilities Corporation, serves approximately one million homes and businesses across an 1,800 square kilometre service territory comprising 17 communities.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/alectra.png",
             "url": "https://alectrautilities.com/",
-            "phone": "1-833-253-2872"
+            "phone": "833-253-2872"
           },
           {
             "type": "info-tile-component",
@@ -2933,7 +2975,7 @@
                 "text": "We exist to deliver the energy that enhances peoples quality of life, drawing on a 170-year history of providing safe and reliable service to customers.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/enbridge_union.png",
                 "url": "https://www.enbridgegas.com/",
-                "phone": "1-866-763-5427"
+                "phone": "866-763-5427"
               }
             ]
           }
@@ -2983,7 +3025,7 @@
             "text": "With Rogers Home Phone, you can choose the calling features that suit your needs.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
             "url": "https://www.rogers.com/consumer/home-phone",
-            "phone": "1-866-210-4059"
+            "phone": "866-210-4059"
           },
           {
             "type": "info-tile-component",
@@ -2991,7 +3033,7 @@
             "text": "The Home phone the most Canadians count on.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
             "url": "https://www.bell.ca/Home_phone",
-            "phone": "1-866-778-5529"
+            "phone": "866-778-5529"
           },
           {
             "type": "info-tile-component",
@@ -2999,7 +3041,7 @@
             "text": "Choose a reliable Home Phone package that suits your needs perfectly.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/cogeco.png",
             "url": "https://www.cogeco.ca/en/phone/packages",
-            "phone": "1-866-261-4447"
+            "phone": "866-261-4447"
           }
         ]
       },
@@ -3020,7 +3062,7 @@
                 "text": "With Rogers Home Phone, you can choose the calling features that suit your needs.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/consumer/home-phone",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -3028,7 +3070,7 @@
                 "text": "The Home phone the most Canadians count on.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Home_phone",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -3036,7 +3078,7 @@
                 "text": "Whether you’re working at home or connecting with loved ones, feel confident in your home phone connection.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": "https://www.telus.com/en/home-phone?linktype=ge-meganav",
-                "phone": "1-888-811-2323"
+                "phone": "888-811-2323"
               },
               {
                 "type": "info-tile-component",
@@ -3044,7 +3086,7 @@
                 "text": "We make it easier than ever to connect with the people that matter most in your life.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
                 "url": "https://www.shaw.ca/home-phone#plansOverview",
-                "phone": "1-888-472-2222"
+                "phone": "888-472-2222"
               }
             ]
           }
@@ -3092,7 +3134,7 @@
                 "text": "With Rogers Home Phone, you can choose the calling features that suit your needs.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/consumer/home-phone",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -3100,7 +3142,7 @@
                 "text": "The Home phone the most Canadians count on.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Home_phone",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -3108,7 +3150,7 @@
                 "text": "Whether you’re working at home or connecting with loved ones, feel confident in your home phone connection.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": "https://www.telus.com/en/home-phone?linktype=ge-meganav",
-                "phone": "1-888-811-2323"
+                "phone": "888-811-2323"
               },
               {
                 "type": "info-tile-component",
@@ -3116,7 +3158,7 @@
                 "text": "We make it easier than ever to connect with the people that matter most in your life.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
                 "url": "https://www.shaw.ca/home-phone#plansOverview",
-                "phone": "1-888-472-2222"
+                "phone": "888-472-2222"
               }
             ]
           }
@@ -3138,7 +3180,7 @@
                 "text": "Unlimited calling in Canada and the US.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/sasktel.jpg",
                 "url": "https://www.sasktel.com/store/browse/Personal/Home-Phone/_/N-26vk",
-                "phone": "1-800-727-5835"
+                "phone": "800-727-5835"
               }
             ]
           }
@@ -3160,7 +3202,7 @@
                 "text": "Save more. Talk more.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/vmedia.jpg",
                 "url": "https://www.vmedia.ca/en/phone",
-                "phone": "1-844-872-8269"
+                "phone": "844-872-8269"
               }
             ]
           }
@@ -3182,7 +3224,7 @@
                 "text": "Home Phone plans you’ll want to talk about.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/eastlink.jpg",
                 "url": "https://www.eastlink.ca/telephone",
-                "phone": "1-888-345-1111"
+                "phone": "888-345-1111"
               }
             ]
           }
@@ -3201,7 +3243,7 @@
             "text": "Get a fibre-powered connection for all the speed you need throughout your home.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
             "url": "https://www.rogers.com/consumer/internet",
-            "phone": "1-866-210-4059"
+            "phone": "866-210-4059"
           },
           {
             "type": "info-tile-component",
@@ -3209,7 +3251,7 @@
             "text": "Get on Canada’s largest fibre optic network.",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
             "url": "https://www.bell.ca/Bell_Internet/Internet_access",
-            "phone": "1-866-778-5529"
+            "phone": "866-778-5529"
           },
           {
             "type": "info-tile-component",
@@ -3217,7 +3259,7 @@
             "text": "Discover the Internet package that's perfect for your home",
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/cogeco.png",
             "url": "https://www.cogeco.ca/en/internet/packages",
-            "phone": "1-866-261-4447"
+            "phone": "866-261-4447"
           }
         ]
       },
@@ -3237,7 +3279,7 @@
                 "text": "Get a fibre-powered connection for all the speed you need throughout your home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/consumer/internet",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -3245,7 +3287,7 @@
                 "text": "Get on Canada’s largest fibre optic network.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Bell_Internet/Internet_access",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -3253,7 +3295,7 @@
                 "text": "The fastest Wi-Fi in every corner of your home, connect with a direct, 100% fibre optic internet connection.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": "https://www.telus.com/en/internet",
-                "phone": "1-888-811-2323"
+                "phone": "888-811-2323"
               },
               {
                 "type": "info-tile-component",
@@ -3261,7 +3303,7 @@
                 "text": "Connecting millions of Western Canadian homes and businesses with access to Fibre+ Gig speeds.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
                 "url": "https://www.shaw.ca/internet/plans",
-                "phone": "1-888-472-2222"
+                "phone": "888-472-2222"
               }
             ]
           }
@@ -3283,7 +3325,7 @@
                 "text": "Get a fibre-powered connection for all the speed you need throughout your home.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/consumer/internet",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -3291,7 +3333,7 @@
                 "text": "Get on Canada’s largest fibre optic network.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Bell_Internet/Internet_access",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -3299,7 +3341,7 @@
                 "text": "The fastest Wi-Fi in every corner of your home, connect with a direct, 100% fibre optic internet connection.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": "https://www.telus.com/en/internet",
-                "phone": "1-888-811-2323"
+                "phone": "888-811-2323"
               },
               {
                 "type": "info-tile-component",
@@ -3307,7 +3349,7 @@
                 "text": "Connecting millions of Western Canadian homes and businesses with access to Fibre+ Gig speeds.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
                 "url": "https://www.shaw.ca/internet/plans",
-                "phone": "1-888-472-2222"
+                "phone": "888-472-2222"
               }
             ]
           }
@@ -3329,7 +3371,7 @@
                 "text": "Game changing speeds, that’s what’s up.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/sasktel.jpg",
                 "url": "https://www.sasktel.com/store/browse/Personal/Internet/_/N-26vj",
-                "phone": "1-800-727-5835"
+                "phone": "800-727-5835"
               }
             ]
           }
@@ -3351,7 +3393,7 @@
                 "text": "Unlimited home internet deals – browse today!",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/vmedia.jpg",
                 "url": "https://www.vmedia.ca/en/internet/manitoba",
-                "phone": "1-844-872-8269"
+                "phone": "844-872-8269"
               }
             ]
           }
@@ -3373,7 +3415,7 @@
                 "text": "Get fast and secure internet everywhere in your home!",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/eastlink.jpg",
                 "url": "https://www.eastlink.ca/internet",
-                "phone": "1-888-345-1111"
+                "phone": "888-345-1111"
               }
             ]
           }
@@ -3420,7 +3462,7 @@
                 "text": "Your entertainment, your way.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/web/consumer/ignite-bundles/tv-internet",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -3428,7 +3470,7 @@
                 "text": "Fibe TV is the best TV service.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Fibe-TV",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -3436,7 +3478,7 @@
                 "text": "Switch to a personalized TV experience.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/cogeco.png",
                 "url": "https://www.cogeco.ca/en/tv/packages",
-                "phone": "1-866-261-4447"
+                "phone": "866-261-4447"
               }
             ]
           }
@@ -3458,7 +3500,7 @@
                 "text": "Your entertainment, your way.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/web/consumer/ignite-bundles/tv-internet",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -3466,7 +3508,7 @@
                 "text": "Fibe TV is the best TV service.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Fibe-TV",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -3474,7 +3516,7 @@
                 "text": "More channels, more movies, more sports, more yes!",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": " https://www.telus.com/en/home-phone?linktype=ge-meganav",
-                "phone": "1-888-811-2323"
+                "phone": "888-811-2323"
               },
               {
                 "type": "info-tile-component",
@@ -3482,7 +3524,7 @@
                 "text": "All the action, drama, reality, news, sports, and steaming you love.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
                 "url": "https://www.shaw.ca/tv/plans",
-                "phone": "1-888-472-2222"
+                "phone": "888-472-2222"
               }
             ]
           }
@@ -3505,7 +3547,7 @@
           },
           {
             "type": "info-tile-component",
-            "title": "DirecTV",
+            "title": "DIRECTV",
             "text": "DIRECTV delivers the best of Live TV, Movies & Sports. #1 in the Nation in Customer Satisfaction for TV service awarded to AT&T/DIRECTV by J.D. Power",
             "image": "./partners/directv.jpg",
             "url": "https://directv.com/",
@@ -3537,7 +3579,7 @@
                 "text": "Your entertainment, your way.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/rogers.png",
                 "url": "https://www.rogers.com/web/consumer/ignite-bundles/tv-internet",
-                "phone": "1-866-210-4059"
+                "phone": "866-210-4059"
               },
               {
                 "type": "info-tile-component",
@@ -3545,7 +3587,7 @@
                 "text": "Fibe TV is the best TV service.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bell.png",
                 "url": "https://www.bell.ca/Fibe-TV",
-                "phone": "1-866-778-5529"
+                "phone": "866-778-5529"
               },
               {
                 "type": "info-tile-component",
@@ -3553,7 +3595,7 @@
                 "text": "More channels, more movies, more sports, more yes!",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/telus.svg",
                 "url": " https://www.telus.com/en/home-phone?linktype=ge-meganav",
-                "phone": "1-888-811-2323"
+                "phone": "888-811-2323"
               },
               {
                 "type": "info-tile-component",
@@ -3561,7 +3603,7 @@
                 "text": "All the action, drama, reality, news, sports, and steaming you love.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/shaw.png",
                 "url": "https://www.shaw.ca/tv/plans",
-                "phone": "1-888-472-2222"
+                "phone": "888-472-2222"
               }
             ]
           }
@@ -3583,7 +3625,7 @@
                 "text": "Ditch the dish and get endless entertainment.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/sasktel.jpg",
                 "url": "https://www.sasktel.com/store/browse/Personal/TV/_/N-18b935j",
-                "phone": "1-800-727-5835"
+                "phone": "800-727-5835"
               }
             ]
           }
@@ -3605,7 +3647,7 @@
                 "text": "Get the exceptional TV experience",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/vmedia.jpg",
                 "url": "https://www.vmedia.ca/en/tv",
-                "phone": "1-844-872-8269"
+                "phone": "844-872-8269"
               }
             ]
           }
@@ -3627,7 +3669,7 @@
                 "text": "Spend less time searching and more time watching.",
                 "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/eastlink.jpg",
                 "url": "https://www.eastlink.ca/cable-digital-tv/tv-packages",
-                "phone": "1-888-345-1111"
+                "phone": "888-345-1111"
               }
             ]
           }
@@ -3776,7 +3818,7 @@
       { "title": "Moving Tips", "conditions": { "title": "Moving Tips", "company": "*", "province": "*" },
         "items": [ ]
       },
-      { "title": "Find a Real Estate Lawyer", "conditions": { "title": "Find a Real Estate Lawyer", "company": "*", "region":"US", "province": "*" },
+      { "title": "Title & Escrow Services", "conditions": { "title": "Title & Escrow Services", "company": "*", "region":"US", "province": "*" },
         "serviceProvider_id": "127",
         "items": [
           {
@@ -3837,7 +3879,7 @@
                 "title": "Alliance Property Inspections",
                 "text": "Alliance Property Inspections is a full service home inspection company serving the Phoenix metropolitan area.",
                 "image": "./partners/alliance-property-inspections.jpg",
-                "url": "https://goisn.net/alliancepropertyinspections/online-scheduler?t=c3ZiSUpML29zbG5nLg==",
+                "url": "https://www.alliancepropertyinspections.com/",
                 "phone": "602-695-1319"
               },
               {
@@ -3845,7 +3887,7 @@
                 "title": "Advantage Inspection Service",
                 "text": "Our Inspectors have a combined 200+ years of experience and have performed over 100,000 inspections.",
                 "image": "./partners/advantage-inspection-service.png",
-                "url": "https://4isn.com/advantage/online-scheduler?t=aGx5YzlmVmxLL1ZwVQ==",
+                "url": "https://azinspect.com/",
                 "phone": "602-864-8331"
               }
             ]
