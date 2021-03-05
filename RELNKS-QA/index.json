@@ -476,7 +476,7 @@
           {
             "title": "Moving Services",
             "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
-            "icon": "icon-property-services",
+            "icon": "icon-movingcompanies",
             "serviceProvider_id": "MOVING_SERVICES"
           },
           {
