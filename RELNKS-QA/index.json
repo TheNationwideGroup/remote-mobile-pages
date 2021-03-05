@@ -493,6 +493,22 @@
           }
         ]
       },
+      { "conditions": {"title":"Find Property", "region":"US",  "province":"*"},
+        "buttons":[
+          {
+            "serviceProvider_id": "NB_PROFILER_LOCAL",
+            "icon": "fas fa-map-marked-alt",
+            "title": "Local Data",
+            "action":"NeighborhoodProfilerLocalVuePage"
+          },
+          {
+            "serviceProvider_id": "NB_PROFILER_DEMOGRAPHIC",
+            "icon": "fas fa-users",
+            "title": "Demographic Data",
+            "action":"NeighborhoodProfilerDemographicVuePage"
+          }
+        ]
+      },
       { "conditions": {"title":"Inspection Services", "company":"*", "region":"US",  "province":"*"},
         "buttons":[
           {
