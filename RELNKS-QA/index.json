@@ -18,7 +18,8 @@
       "opendoorsmortgage",
       "thrivemortgage",
       "tribefinancial",
-      "vericoconnect"
+      "vericoconnect",
+      "northwoodconnect"
     ],
     "WhitelabelAssets": [
       {
@@ -148,6 +149,27 @@
         "conditions": { "page": [ "RegisterPage" ], "company": "vericoconnect" },
         "pageTitle": "VERICO CONNECT",
         "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "northwoodconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/northwoodconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "northwoodconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/northwoodconnect/logo.png",
+        "imageSize": "98%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "northwoodconnect" },
+        "imageURL": "",
+        "pageTitle": "NORTHWOOD MORTGAGE"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "northwoodconnect" },
+        "pageTitle": "NORTHWOOD MORTGAGE",
+        "imageURL": ""
       }
     ],
     "WhitelabelData": [
@@ -198,7 +220,9 @@
       { "conditions": { "company": "thrivemortgage", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Thrive Mortgage", "brokerHouse": "DLC", "askNASUsersToLogin": true },
       { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Tribe Financial", "brokerHouse": "TBD", "askNASUsersToLogin": true },
       { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico", "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}, "askNASUsersToLogin": true }
+      { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico", "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "northwoodconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "northwoodconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Northwood Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true }    
     ],
     "WhitelabelCSS": [
       {
@@ -216,6 +240,10 @@
       {
         "conditions": { "company": "vericoconnect" },
         "css": "#page-login #login { background-color: #22386E; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #22386E !important;} .theme-accent-bg{background-color: #22386E !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #22386E !important; background-color:white !important; } .theme-accent-fg{color: #22386E !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #22386E !important; color:white !important; } .page-HeaderPage>.header {background-color: #22386E !important;} div[page].page-Menu .menu-body {background-color: #22386E;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #22386E !important; } .btn-primary, button.primary { background-color: #22386E !important; border: 1px solid #22386E !important;} button.primary:active { background-color: #649623 !important; border-color: #22386E !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #22386E !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #22386E !important; } div[type='info-tile-component'] button { background-color: #22386E !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #22386e !important;}"
+      },
+      {
+        "conditions": { "company": "northwoodconnect" },
+        "css": "#page-login #logo {background-size: contain}  #page-login #login { background-color: #005844; } .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #005844 !important;} .theme-accent-bg{background-color: #005844 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #005844 !important; background-color:white !important; } .theme-accent-fg{color: #005844 !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #005844 !important; color:white !important; }.page-HeaderPage>.header { background-color: #005844 !important;} div[page].page-Menu .menu-body { background-color: #005844; } #page-WelcomePage .content { background-image: radial-gradient(circle, #005844, #005844, #005844, #005844, #005844); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #005844 !important; } .btn-primary, button.primary { background-color: #005844 !important; border: 1px solid #005844 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #005844 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #005844 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #005844 !important; } div[type='info-tile-component'] button { background-color: #005844 !important; } #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; }"
       }
     ],
     "UserTypePermissions": [
@@ -602,6 +630,52 @@
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company":"vericoconnect", "province":["AB","BC","ON"] },
+        "parent": null,
+        "serviceProvider_id": "CONCIERGE_SERVICES",
+        "buttons": [
+          {
+            "title": "Lawn/Garden Care",
+            "icon": "",
+            "serviceProvider_id": "111"
+          },
+          {
+            "title": "Property Management",
+            "icon": "",
+            "serviceProvider_id": "112"
+          },
+          {
+            "title": "Home Renovation",
+            "icon": "",
+            "serviceProvider_id": "113"
+          },
+          {
+            "title": "Pest Control",
+            "icon": "",
+            "serviceProvider_id": "114"
+          },
+          {
+            "title": "Locksmith",
+            "icon": "",
+            "serviceProvider_id": "115"
+          },
+          {
+            "title": "Cleaning Services",
+            "icon": "",
+            "serviceProvider_id": "116"
+          },
+          {
+            "title": "Junk Removal",
+            "icon": "",
+            "serviceProvider_id": "117"
+          },
+          {
+            "title": "Smart Home/Home Security",
+            "icon": "",
+            "serviceProvider_id": "126"
+          }
+        ]
+      },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company":"northwoodconnect", "province":["ON"] },
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -1227,7 +1301,7 @@
           { "title": "Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107" }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "vericoconnect", "province": "*" },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodconnect"], "province": "*" },
         "parent": null,
         "buttons": [
           { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
@@ -1498,7 +1572,7 @@
           }
         ]
       },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "vericoconnect", "province": "*" },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodconnect"], "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -3891,7 +3965,7 @@
         "disabled":true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect for Home/Auto Insurance", "conditions": { "title": ["Home/Auto Insurance"], "company": "vericoconnect", "province": "*" },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect and northwoodconnect for Home/Auto Insurance", "conditions": { "title": ["Home/Auto Insurance"], "company": ["vericoconnect","northwoodconnect"], "province": "*" },
         "disabled":true,
         "items": null
       }
