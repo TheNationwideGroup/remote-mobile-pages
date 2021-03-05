@@ -19,7 +19,8 @@
       "thrivemortgage",
       "tribefinancial",
       "vericoconnect",
-      "northwoodconnect"
+      "northwoodconnect",
+      "xevaconnect"
     ],
     "WhitelabelAssets": [
       {
@@ -170,6 +171,27 @@
         "conditions": { "page": [ "RegisterPage" ], "company": "northwoodconnect" },
         "pageTitle": "NORTHWOOD MORTGAGE",
         "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "xevaconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/xevaconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "xevaconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/xevaconnect/logo.png",
+        "imageSize": "98%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/xevaconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "xevaconnect" },
+        "imageURL": "",
+        "pageTitle": "XEVA CONNECT"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "xevaconnect" },
+        "pageTitle": "XEVA CONNECT",
+        "imageURL": ""
       }
     ],
     "WhitelabelData": [
@@ -222,7 +244,9 @@
       { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico", "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "northwoodconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "northwoodconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Northwood Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true }    
+      { "conditions": { "company": "northwoodconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Northwood Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "xevaconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["AB","BC"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "xevaconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "XEVA Mortgage", "SupportedRegions":{"CA":["AB","BC"]}, "askNASUsersToLogin": true }      
     ],
     "WhitelabelCSS": [
       {
@@ -244,6 +268,10 @@
       {
         "conditions": { "company": "northwoodconnect" },
         "css": "#page-login #logo {background-size: contain}  #page-login #login { background-color: #005844; } .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #005844 !important;} .theme-accent-bg{background-color: #005844 !important; color:white !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #005844 !important; background-color:white !important; } .theme-accent-fg{color: #005844 !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #005844 !important; color:white !important; }.page-HeaderPage>.header { background-color: #005844 !important;} div[page].page-Menu .menu-body { background-color: #005844; } #page-WelcomePage .content { background-image: radial-gradient(circle, #005844, #005844, #005844, #005844, #005844); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #005844 !important; } .btn-primary, button.primary { background-color: #005844 !important; border: 1px solid #005844 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #005844 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #005844 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #005844 !important; } div[type='info-tile-component'] button { background-color: #005844 !important; } #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; }"
+      },
+      {
+        "conditions": { "company": "xevaconnect" },
+        "css": ".title{color: black !important;} .header button{color: black !important;} .logo-container{border-bottom: 1px solid;} #page-login #logo {background-size: contain}  #page-login #login { background-color: #F5F7F6; } #page-login #login .fieldgroup label {color: black;} #page-login #login form .h2 {color: black} #page-login #login form { padding-top: 30px;} .fa-linkedin:before {color: black;} .fa-twitter-square:before { color: black; } .fa-facebook-square:before { color: black; } .fa-instagram-square:before {color: black; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #F5F7F6 !important;} .theme-accent-bg{background-color: #F5F7F6 !important; color:black !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #F5F7F6 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #F5F7F6 !important; color:black !important; }.page-HeaderPage>.header { background-color: #F5F7F6 !important;} div[page].page-Menu .menu-body { background-color: #F5F7F6;} #page-WelcomePage .content { background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #F5F7F6 !important; } .btn-primary, button.primary { background-color: #F5F7F6 !important; border: 1px solid #F5F7F6 !important; } button.primary:active { background-color: #d66a34 !important; border-color: #F5F7F6 !important; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #F5F7F6 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #F5F7F6 !important; } div[type='info-tile-component'] button { background-color: #F5F7F6 !important; color: black !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; } .page-HeaderPage>.header .headertitle, .page-HeaderPage>.header .logo { color: black; } div[page].page-Menu .menu-body ul li>span { color: black; } div[page].page-Menu .menu-body ul li>span:hover { color: black; font-weight: 700; }"
       }
     ],
     "UserTypePermissions": [
@@ -721,6 +749,52 @@
           }
         ]
       },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company":"xevaconnect", "province":["AB","BC"] },
+        "parent": null,
+        "serviceProvider_id": "CONCIERGE_SERVICES",
+        "buttons": [
+          {
+            "title": "Lawn/Garden Care",
+            "icon": "",
+            "serviceProvider_id": "111"
+          },
+          {
+            "title": "Property Management",
+            "icon": "",
+            "serviceProvider_id": "112"
+          },
+          {
+            "title": "Home Renovation",
+            "icon": "",
+            "serviceProvider_id": "113"
+          },
+          {
+            "title": "Pest Control",
+            "icon": "",
+            "serviceProvider_id": "114"
+          },
+          {
+            "title": "Locksmith",
+            "icon": "",
+            "serviceProvider_id": "115"
+          },
+          {
+            "title": "Cleaning Services",
+            "icon": "",
+            "serviceProvider_id": "116"
+          },
+          {
+            "title": "Junk Removal",
+            "icon": "",
+            "serviceProvider_id": "117"
+          },
+          {
+            "title": "Smart Home/Home Security",
+            "icon": "",
+            "serviceProvider_id": "126"
+          }
+        ]
+      },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company":"vericoconnect", "province":["NS"] },
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
@@ -1046,6 +1120,29 @@
           }
         ]
       },
+      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company":"xevaconnect", "province":["AB"] },
+        "parent": "Property Services",
+        "serviceProvider_id": "115",
+        "items": [
+          {
+            "type": "div",
+            "items": [
+              {
+                "type": "p",
+                "text": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered."
+              },
+              {
+                "type": "info-tile-component",
+                "title": "Pop-A-Lock",
+                "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
+                "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
+                "url": "http://www.popalock.ca/locksmith/relnks",
+                "phone": "905-891-9888"
+              }
+            ]
+          }
+        ]
+      },
       { "title": "Locksmith", "conditions": { "title": "Locksmith", "company":"*", "region":"US" },
         "parent": "Property Services",
         "serviceProvider_id": "115",
@@ -1301,7 +1398,7 @@
           { "title": "Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107" }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodconnect"], "province": "*" },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodconnect","xevaconnect"], "province": "*" },
         "parent": null,
         "buttons": [
           { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
@@ -1572,7 +1669,7 @@
           }
         ]
       },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodconnect"], "province": "*" },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodconnect","xevaconnect"], "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -1855,7 +1952,7 @@
           }
         ]
       },
-      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "vericoconnect", "province": "AB" },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": ["vericoconnect","xevaconnect"], "province": "AB" },
         "parent": "Concierge Services",
         "serviceProvider_id": "118",
         "items": [
@@ -2854,6 +2951,14 @@
           { "title": "Cable", "serviceProvider_id": "124" }
         ]
       },
+      { "title": "Utilities", "conditions": { "title": "Utilities", "company": "xevaconnect", "province": ["AB"] },
+        "buttons": [
+          { "title": "Water", "serviceProvider_id": "121" },
+          { "title": "Phone", "serviceProvider_id": "122" },
+          { "title": "Internet", "serviceProvider_id": "123" },
+          { "title": "Cable", "serviceProvider_id": "124" }
+        ]
+      },
       { "title": "Water Heater/Furnace Replacement", "conditions": { "title": "Water Heater/Furnace Replacement" },
         "serviceProvider_id": "125",
         "items": [
@@ -3176,7 +3281,7 @@
           }
         ]
       },
-      { "title": "Phone", "conditions": { "title": "Phone", "company": "vericoconnect", "province": ["AB"] },
+      { "title": "Phone", "conditions": { "title": "Phone", "company": ["vericoconnect","xevaconnect"], "province": ["AB"] },
         "_comment":"Copy from generic BC",
         "serviceProvider_id": "122",
         "items": [
@@ -3368,7 +3473,7 @@
           }
         ]
       },
-      { "title": "Internet", "conditions": { "title": "Internet", "company": "vericoconnect", "province": [ "AB" ] },
+      { "title": "Internet", "conditions": { "title": "Internet", "company": ["vericoconnect","xevaconnect"], "province": [ "AB" ] },
         "serviceProvider_id": "123",
         "items": [
           {
@@ -3622,7 +3727,7 @@
           }
         ]
       },
-      { "title": "Cable", "conditions": { "title": "Cable", "company": "vericoconnect", "province": [ "AB" ] },
+      { "title": "Cable", "conditions": { "title": "Cable", "company": ["vericoconnect","xevaconnect"], "province": [ "AB" ] },
         "serviceProvider_id": "124",
         "items": [
           {
@@ -3965,7 +4070,7 @@
         "disabled":true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect and northwoodconnect for Home/Auto Insurance", "conditions": { "title": ["Home/Auto Insurance"], "company": ["vericoconnect","northwoodconnect"], "province": "*" },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect and northwoodconnect for Home/Auto Insurance", "conditions": { "title": ["Home/Auto Insurance"], "company": ["vericoconnect","northwoodconnect","xevaconnect"], "province": "*" },
         "disabled":true,
         "items": null
       }
