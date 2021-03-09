@@ -4057,66 +4057,45 @@
       { "title": "Credit Score", "conditions": { "title": "Credit Score", "company": "*", "region":"CA", "province": "*" },
         "items": [
           {
-            "type": "p",
-            "text": "<!--Just a whitespace-->"
+            "type": "info-tile-component",
+            "title": "",
+            "text": "<b>Consumer Disclosure</b><p>Access to your free monthly Consumer Disclosure report. This lists all inquiries made to your credit information, including account management inquiries, non-credit-related inquires, and your own inquires.</p><b>Credit Report</b><p>Access a snapshot of your financial history. It’s the primary tool that credit grantors, like banks and credit card companies, use to decide whether to grant you credit.</p>",
+            "image": "./partners/Transunion.svg",
+            "url": "https://secure-ocs.transunion.ca/secureocs/credit-agree.html?lang=en"
           },
           {
-            "type": "logo mb-4",
-            "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/Transunion.svg"
-          },
-          {
-            "type": "p-bold",
-            "text": "Consumer Disclosure"
-          },
-          {
-            "type": "p",
-            "text": "Access to your free monthly Consumer Disclosure report. This lists all inquiries made to your credit information, including account management inquiries, non-credit-related inquires, and your own inquires."
-          },
-          {
-            "type": "p-bold",
-            "text": "Credit Report"
-          },
-          {
-            "type": "p",
-            "text": "Access a snapshot of your financial history. It’s the primary tool that credit grantors, like banks and credit card companies, use to decide whether to grant you credit."
-          },
-          {
-            "type": "button primary",
-            "text": "Go to TransUnion",
-            "onClickUrl": "https://secure-ocs.transunion.ca/secureocs/credit-agree.html?lang=en"
+            "type": "info-tile-component",
+            "title": "Equifax",
+            "text": "Monitor your credit and help better protect your identity.",
+            "image": "./partners/equifax.png",
+            "url": "https://www.econsumer.equifax.ca/canadaotc/landing.ehtml?^start=&companyName=CAWB2_caecsr&_ga=2.115889350.1159105449.1614362470-105015346.1614362470"
           }
+
         ]
       },
+
       { "title": "Credit Score", "conditions": { "title": "Credit Score", "company": "*", "region":"US", "province": "*" },
         "items": [
           {
-            "type": "p",
-            "text": "<!--Just a whitespace-->"
+            "type": "info-tile-component",
+            "title": "",
+            "text": "<b>Consumer Disclosure</b><p>Access to your free monthly Consumer Disclosure report. This lists all inquiries made to your credit information, including account management inquiries, non-credit-related inquires, and your own inquires.</p><b>Credit Report</b><p>Access a snapshot of your financial history. It’s the primary tool that credit grantors, like banks and credit card companies, use to decide whether to grant you credit.</p>",
+            "image": "./partners/Transunion.svg",
+            "url": "https://membership.tui.transunion.com/tucm/orderStep1_form.page?offer=3BM10246&PLACE_CTA=home:center:tu"
           },
           {
-            "type": "logo mb-4",
-            "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/Transunion.svg"
+            "type": "info-tile-component",
+            "title": "Equifax",
+            "text": "Monitor your credit and help better protect your identity.",
+            "image": "./partners/equifax.png",
+            "url": "https://my.equifax.com/consumer-registration/UCSC/#/personal-info"
           },
           {
-            "type": "p-bold",
-            "text": "Consumer Disclosure"
-          },
-          {
-            "type": "p",
-            "text": "Access to your free monthly Consumer Disclosure report. This lists all inquiries made to your credit information, including account management inquiries, non-credit-related inquires, and your own inquires."
-          },
-          {
-            "type": "p-bold",
-            "text": "Credit Report"
-          },
-          {
-            "type": "p",
-            "text": "Access a snapshot of your financial history. It’s the primary tool that credit grantors, like banks and credit card companies, use to decide whether to grant you credit."
-          },
-          {
-            "type": "button primary",
-            "text": "Go to TransUnion",
-            "onClickUrl": "https://membership.tui.transunion.com/tucm/orderStep1_form.page?offer=3BM10246&PLACE_CTA=home:center:tu"
+            "type": "info-tile-component",
+            "title": "Experian",
+            "text": "Get your credit report and FICO Score today.",
+            "image": "./partners/logo-experian.svg",
+            "url": "https://usa.experian.com/registration/?offer=at_frsas102&br=exp&op=FRSC-HMP-PRI-102-SEC-XXXXXXX-XX-EXP-VWIN-SEO-XXXXXX-XXXXXX-XXXXX&dAuth=true"
           }
         ]
       },
