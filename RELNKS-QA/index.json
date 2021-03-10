@@ -169,11 +169,11 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "northwoodconnect" },
         "imageURL": "",
-        "pageTitle": "NORTHWOOD MORTGAGE"
+        "pageTitle": "Northwood Mortgage"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "northwoodconnect" },
-        "pageTitle": "NORTHWOOD MORTGAGE",
+        "pageTitle": "Northwood Mortgage",
         "imageURL": ""
       },
       {
@@ -190,11 +190,11 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "xevaconnect" },
         "imageURL": "",
-        "pageTitle": "XEVA CONNECT"
+        "pageTitle": "Xeva Connect"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "xevaconnect" },
-        "pageTitle": "XEVA CONNECT",
+        "pageTitle": "Xeva Connect",
         "imageURL": ""
       },
       {
