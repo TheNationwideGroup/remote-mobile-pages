@@ -169,11 +169,11 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "northwoodconnect" },
         "imageURL": "",
-        "pageTitle": "NORTHWOOD MORTGAGE"
+        "pageTitle": "Northwood Mortgage"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "northwoodconnect" },
-        "pageTitle": "NORTHWOOD MORTGAGE",
+        "pageTitle": "Northwood Mortgage",
         "imageURL": ""
       },
       {
@@ -190,11 +190,11 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "xevaconnect" },
         "imageURL": "",
-        "pageTitle": "XEVA CONNECT"
+        "pageTitle": "Xeva Connect"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "xevaconnect" },
-        "pageTitle": "XEVA CONNECT",
+        "pageTitle": "Xeva Connect",
         "imageURL": ""
       },
       {
@@ -468,7 +468,7 @@
     ],
     "selectOptions2": [
       { "conditions":{"page":"RegisterPage","region":"CA","company":"*", "name":"brokerHouse" }, "items":[{"value":"","title":"None"}, { "value": "Axiom", "title": "Axiom" }, { "value": "Centum", "title": "Centum" }, { "value": "CML", "title": "CML" }, { "value": "DLC", "title": "DLC" }, { "value": "Invis/Mortgage", "title": "Invis/Mortgage" }, { "value": "Intelligence", "title": "Intelligence" }, { "value": "Monster Mortgage", "title": "Monster Mortgage" }, { "value": "Mortgage Architects", "title": "Mortgage Architects" }, { "value": "Mortgage Centre", "title": "Mortgage Centre" }, { "value": "Oriana", "title": "Oriana" }, { "value": "TMACC", "title": "TMACC" }, { "value": "TMG", "title": "TMG" }, { "value": "Verico", "title": "Verico" }, { "value": "OTHER", "title": "Other" }] },
-      { "conditions":{"page":"RegisterPage","region":"CA","company":"northwoodconnect", "name":"brokerHouse" }, "items": null },
+      { "conditions":{"page":"RegisterPage","region":"CA","company":["northwoodconnect","xevaconnect","selectmortgage","approvedfinancialconnect","onlinemortgage","vericofortuneconnect"], "name":"brokerHouse" }, "items": null },
       { "conditions":{"page":"RegisterPage","region":"US","company":"*", "name":"brokerHouse" }, "items": null } 
     ],
     "missingResponseProperties":[
