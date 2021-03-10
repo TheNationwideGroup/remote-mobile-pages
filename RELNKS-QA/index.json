@@ -471,6 +471,87 @@
       { "conditions":{"page":"RegisterPage","region":"CA","company":["northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect"], "name":"brokerHouse" }, "items": null },
       { "conditions":{"page":"RegisterPage","region":"US","company":"*", "name":"brokerHouse" }, "items": null } 
     ],
+    "selectOptions": {
+      "103": {
+        "vendors": {
+          "data": [
+            {
+              "vendor_id": "jmarino",
+              "fee": null,
+              "name": "Lighthouse Inspections",
+              "description": "We have more than 17+ years of experience and have completed over 37,000+ home inspections using the most progressive technology available.",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/lighthouseinspections.png",
+              "phoneNumber": "+1-800-217-2450"
+            },
+            {
+              "vendor_id": "truinspections",
+              "fee": null,
+              "name": "TRU Inspections",
+              "description": "Raising the bar of GTA Home Inspection",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/truinspections.jpg",
+              "phoneNumber": "416-732-2165"
+            },
+            {
+              "vendor_id": "carsondunlop",
+              "fee": null,
+              "name": "Carson Dunlop",
+              "description": "The leaders in home inspection since 1978.",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/CarsonDunlopHomeInspection.png",
+              "phoneNumber": "+1-800-268-7070"
+            },
+            {
+              "vendor_id": "craiglaine",
+              "fee": null,
+              "name": "Craig Line",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/craigline.png",
+              "phoneNumber": "+1-800-268-7070"
+            },
+            {
+              "vendor_id": "tm",
+              "fee": null,
+              "name": "TM",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/tm.png",
+              "phoneNumber": "+1-800-217-2450"
+            },
+            {
+              "vendor_id": "RELNKS to Assign",
+              "fee": null,
+              "name": "RELNKS to Assign Home Inspector",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/RELNKS.png",
+              "phoneNumber": null
+            },
+            {
+              "vendor_id": "stevek",
+              "fee": null,
+              "name": "stevek",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/all-in-one-home-inspections.jpg",
+              "phoneNumber": ""
+            },
+            {
+              "vendor_id": "douville",
+              "fee": null,
+              "name": "douville",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/douville.jpg",
+              "phoneNumber": ""
+            },
+            {
+              "vendor_id": "jamesdobney",
+              "fee": null,
+              "name": "jamesdobney",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/james-dobney.png",
+              "phoneNumber": ""
+            },
+            {
+              "vendor_id": "wolfpack",
+              "fee": null,
+              "name": "wolfpack",
+              "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/wolfpack-home-inspection.png",
+              "phoneNumber": ""
+            }
+          ]
+        }
+      }
+    },
     "missingResponseProperties":[
       { "conditions":{ "serviceProvider_id": "103", "method":"vendors", "id":"jmarino"}, "imageUrl": "./partners/lighthouseinspections.png" },
       { "conditions":{ "serviceProvider_id": "103", "method":"vendors", "id":"truinspections"}, "imageUrl": "./partners/truinspections.jpg" },
