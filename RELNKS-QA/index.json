@@ -19,12 +19,12 @@
       "thrivemortgage",
       "tribefinancial",
       "vericoconnect",
-      "northwoodconnect",
+      "northwoodmortgageconnect",
       "xevaconnect",
-      "selectmortgage",
+      "selectmortgageconnect",
       "approvedfinancialconnect",
-      "onlinemortgage",
-      "vericofortuneconnect"
+      "onlinemortgageconnect",
+      "vericofortuneeffectconnect"
     ],
     "WhitelabelAssets": [
       {
