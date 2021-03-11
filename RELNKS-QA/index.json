@@ -268,7 +268,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "vericofortuneeffectconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericofortuneconnect/logo.png",
-        "imageSize": "98%",
+        "imageSize": "60%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericofortuneconnect/poweredby.png"
       },
