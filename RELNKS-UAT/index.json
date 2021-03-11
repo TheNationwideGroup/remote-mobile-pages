@@ -3866,7 +3866,7 @@
           {
             "type": "button primary",
             "text": "Go to TransUnion",
-            "onClickUrl": "https://secure-ocs.transunion.ca/secureocs/credit-agree.html?lang=en"
+            "onClickUrl": "https://members.transunion.ca/tucan_en/orderStep1_form.page?offer=CANTUM10070&CID=TRANSUNION:HPB"
           }
         ]
       },
