@@ -184,7 +184,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "xevaconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/xevaconnect/logo.png",
-        "imageSize": "98%",
+        "imageSize": "60%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/xevaconnect/poweredby.png"
       },
