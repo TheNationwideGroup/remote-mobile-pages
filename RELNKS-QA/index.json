@@ -170,11 +170,11 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "northwoodmortgageconnect" },
         "imageURL": "",
-        "pageTitle": "Northwood Mortgage"
+        "pageTitle": "Northwood Mortgage Connect"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "northwoodmortgageconnect" },
-        "pageTitle": "Northwood Mortgage",
+        "pageTitle": "Northwood Mortgage Connect",
         "imageURL": ""
       },
       {
