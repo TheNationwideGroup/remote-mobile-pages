@@ -289,7 +289,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "mortgagewellnessconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgagewellnessconnect/logo.png",
-        "imageSize": "98%",
+        "imageSize": "60%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgagewellnessconnect/poweredby.png"
       },
