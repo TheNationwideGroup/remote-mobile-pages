@@ -25,7 +25,17 @@
       "approvedfinancialconnect",
       "onlinemortgageconnect",
       "vericofortuneeffectconnect",
-      "mortgagewellnessconnect"
+      "mortgagewellnessconnect",
+      "pekoemortgagesconnect",
+      "jpmortgageservicesconnect",
+      "lendateaseconnect",
+      "reliancemortgagesconnect",
+      "mortgageplusconnect",
+      "sunliteconnect",
+      "citadelconnect",
+      "financialforumconnect",
+      "mortgagestationconnect",
+      "bestmortgageloansconnect"
     ],
     "WhitelabelAssets": [
       {
@@ -302,6 +312,216 @@
         "conditions": { "page": [ "RegisterPage" ], "company": "mortgagewellnessconnect" },
         "pageTitle": "Mortgage Wellness Connect",
         "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "pekoemortgagesconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/pekoemortgagesconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "pekoemortgagesconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/pekoemortgagesconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/pekoemortgagesconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "pekoemortgagesconnect" },
+        "imageURL": "",
+        "pageTitle": "Pekoe Mortgages Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "pekoemortgagesconnect" },
+        "pageTitle": "Pekoe Mortgages Connect",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "jpmortgageservicesconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/jpmortgageservicesconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "jpmortgageservicesconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/jpmortgageservicesconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/jpmortgageservicesconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "jpmortgageservicesconnect" },
+        "imageURL": "",
+        "pageTitle": "JP Mortgage Services Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "jpmortgageservicesconnect" },
+        "pageTitle": "JP Mortgage Services Connect",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "lendateaseconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/lendateaseconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "lendateaseconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/lendateaseconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/lendateaseconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "lendateaseconnect" },
+        "imageURL": "",
+        "pageTitle": "Lend At Ease Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "lendateaseconnect" },
+        "pageTitle": "Lend At Ease Connect",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "reliancemortgagesconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/reliancemortgagesconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "reliancemortgagesconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/reliancemortgagesconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/reliancemortgagesconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "reliancemortgagesconnect" },
+        "imageURL": "",
+        "pageTitle": "Reliance Mortgages Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "reliancemortgagesconnect" },
+        "pageTitle": "Reliance Mortgages Connect",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "mortgageplusconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgageplusconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "mortgageplusconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgageplusconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgageplusconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "mortgageplusconnect" },
+        "imageURL": "",
+        "pageTitle": "Mortgage Plus Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "mortgageplusconnect" },
+        "pageTitle": "Mortgage Plus Connect",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "sunliteconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/sunliteconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "sunliteconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/sunliteconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/sunliteconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "sunliteconnect" },
+        "imageURL": "",
+        "pageTitle": "Sunlite Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "sunliteconnect" },
+        "pageTitle": "Sunlite Connect",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "citadelconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "citadelconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "citadelconnect" },
+        "imageURL": "",
+        "pageTitle": "Citadel Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "citadelconnect" },
+        "pageTitle": "Citadel Connect",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "financialforumconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/financialforumconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "financialforumconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/financialforumconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/financialforumconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "financialforumconnect" },
+        "imageURL": "",
+        "pageTitle": "Financial Forum Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "financialforumconnect" },
+        "pageTitle": "Financial Forum Connect",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "mortgagestationconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgagestationconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "mortgagestationconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgagestationconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgagestationconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "mortgagestationconnect" },
+        "imageURL": "",
+        "pageTitle": "Mortgage Station Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "mortgagestationconnect" },
+        "pageTitle": "Mortgage Station Connect",
+        "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "bestmortgageloansconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/bestmortgageloansconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "bestmortgageloansconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/bestmortgageloansconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/bestmortgageloansconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "bestmortgageloansconnect" },
+        "imageURL": "",
+        "pageTitle": "Best Mortgage Loans Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "bestmortgageloansconnect" },
+        "pageTitle": "Best Mortgage Loans Connect",
+        "imageURL": ""
       }
     ],
     "WhitelabelData": [
@@ -372,7 +592,27 @@
       { "conditions": { "company": "vericofortuneeffectconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "vericofortuneeffectconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Verico Fortune Effect Financial Group", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "mortgagewellnessconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "mortgagewellnessconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Mortgage Wellness", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true }              
+      { "conditions": { "company": "mortgagewellnessconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Mortgage Wellness", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "pekoemortgagesconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "pekoemortgagesconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Pekoe Mortgages", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "jpmortgageservicesconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "jpmortgageservicesconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "JP Mortgage Services", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "lendateaseconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "lendateaseconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Lend At Ease", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "reliancemortgagesconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "reliancemortgagesconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Reliance Mortgages", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "mortgageplusconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "mortgageplusconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "A.K. Mortgage Plus", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "sunliteconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "sunliteconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Sunlite Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "citadelconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "citadelconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Citadel Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "financialforumconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "financialforumconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "The Financial Forum", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "mortgagestationconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "mortgagestationconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "The Mortgage Station", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "bestmortgageloansconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "bestmortgageloansconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Best Mortgage Loans", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true }                                  
     ],
     "WhitelabelCSS": [
       {
@@ -418,6 +658,46 @@
       {
         "conditions": { "company": "mortgagewellnessconnect" },
         "css": "  #page-login #logo {background-size: contain} #page-login #login { background-color: #f68d2e; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #f68d2e !important;} .theme-accent-bg{background-color: #f68d2e !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #f68d2e !important; background-color:white !important; } .theme-accent-fg{color: #f68d2e !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #f68d2e !important; color:white !important; } .page-HeaderPage>.header {background-color: #f68d2e !important;} div[page].page-Menu .menu-body {background-color: #f68d2e;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #f68d2e !important; } .btn-primary, button.primary { background-color: #f68d2e !important; border: 1px solid #f68d2e !important;} button.primary:active { background-color: #649623 !important; border-color: #f68d2e !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #f68d2e !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #f68d2e !important; } div[type='info-tile-component'] button { background-color: #f68d2e !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #f68d2e !important;}"
+      },
+      {
+        "conditions": { "company": "pekoemortgagesconnect" },
+        "css": "  #page-login #logo {background-size: contain} #page-login #login { background-color: #0f1737; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #0f1737 !important;} .theme-accent-bg{background-color: #0f1737 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #0f1737 !important; background-color:white !important; } .theme-accent-fg{color: #0f1737 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #0f1737 !important; color:white !important; } .page-HeaderPage>.header {background-color: #0f1737 !important;} div[page].page-Menu .menu-body {background-color: #0f1737;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #0f1737 !important; } .btn-primary, button.primary { background-color: #0f1737 !important; border: 1px solid #0f1737 !important;} button.primary:active { background-color: #649623 !important; border-color: #0f1737 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #0f1737 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #0f1737 !important; } div[type='info-tile-component'] button { background-color: #0f1737 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #0f1737 !important;}"
+      },
+      {
+        "conditions": { "company": "jpmortgageservicesconnect" },
+        "css": ".title{color: black !important;} .header button{color: black !important;} .logo-container{border-bottom: 0px solid;} #page-login #logo {background-size: contain}  #page-login #login { background-color: #e3d4b5; } #page-login #login .fieldgroup label {color: black;} #page-login #login form .h2 {color: black} #page-login #login form { padding-top: 30px;} .fa-linkedin:before {color: black;} .fa-twitter-square:before { color: black; } .fa-facebook-square:before { color: black; } .fa-instagram-square:before {color: black; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #e3d4b5 !important; color: #000 !important;} .theme-accent-bg{background-color: #e3d4b5 !important; color:black !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #e3d4b5 !important; background-color: #607d8b !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #e3d4b5 !important; color:black !important; }.page-HeaderPage>.header { background-color: #e3d4b5 !important;} div[page].page-Menu .menu-body { background-color: #e3d4b5;} #page-WelcomePage .content { background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #e3d4b5 !important; } .btn-primary, button.primary { background-color: #e3d4b5 !important; border: 1px solid #e3d4b5 !important; color: black;} .btn.btn-primary:active,.btn.btn-primary:hover { background-color: #607d8b !important; border-color: #e3d4b5 !important; color:white; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #e3d4b5 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #e3d4b5 !important; } div[type='info-tile-component'] button { background-color: #e3d4b5 !important; color: black !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; } .page-HeaderPage>.header .headertitle, .page-HeaderPage>.header .logo { color: black; } div[page].page-Menu .menu-body ul li>span { color: black; } div[page].page-Menu .menu-body ul li>span:hover { color: black; font-weight: 700; } .CH-text,.CH-title {color: #000 !important;} .theme-accent-fg{color: #000 !important; } .theme-footer,.btn-link,.link{color:#000 !important;} .item.selected .theme-accent-bg, .theme-accent-fg.selected {background-color: #dedede !important}"
+      },
+      {
+        "conditions": { "company": "lendateaseconnect" },
+        "css": "  #page-login #logo {background-size: contain} #page-login #login { background-color: #92193c; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #92193c !important;} .theme-accent-bg{background-color: #92193c !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #92193c !important; background-color:white !important; } .theme-accent-fg{color: #92193c !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #92193c !important; color:white !important; } .page-HeaderPage>.header {background-color: #92193c !important;} div[page].page-Menu .menu-body {background-color: #92193c;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #92193c !important; } .btn-primary, button.primary { background-color: #92193c !important; border: 1px solid #92193c !important;} button.primary:active { background-color: #649623 !important; border-color: #92193c !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #92193c !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #92193c !important; } div[type='info-tile-component'] button { background-color: #92193c !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #92193c !important;}"
+      },
+      {
+        "conditions": { "company": "reliancemortgagesconnect" },
+        "css": "  #page-login #logo {background-size: contain} #page-login #login { background-color: #85bd3c; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #85bd3c !important;} .theme-accent-bg{background-color: #85bd3c !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #85bd3c !important; background-color:white !important; } .theme-accent-fg{color: #85bd3c !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #85bd3c !important; color:white !important; } .page-HeaderPage>.header {background-color: #85bd3c !important;} div[page].page-Menu .menu-body {background-color: #85bd3c;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #85bd3c !important; } .btn-primary, button.primary { background-color: #85bd3c !important; border: 1px solid #85bd3c !important;} button.primary:active { background-color: #649623 !important; border-color: #85bd3c !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #85bd3c !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #85bd3c !important; } div[type='info-tile-component'] button { background-color: #85bd3c !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #85bd3c !important;}"
+      },
+      {
+        "conditions": { "company": "mortgageplusconnect" },
+        "css": " .logo-container{background: linear-gradient(to bottom, #e6e6e6 0%, #a6a6a6 100%);} #page-login #logo {background-size: contain; background: linear-gradient(to bottom, #e6e6e6 0%, #a6a6a6 100%); background-repeat: no-repeat; background-position: center;} #page-login #login { background-color: #003d6c; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #003d6c !important;} .theme-accent-bg{background-color: #003d6c !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #003d6c !important; background-color:white !important; } .theme-accent-fg{color: #003d6c !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #003d6c !important; color:white !important; } .page-HeaderPage>.header {background-color: #003d6c !important;} div[page].page-Menu .menu-body {background-color: #003d6c;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #003d6c !important; } .btn-primary, button.primary { background-color: #003d6c !important; border: 1px solid #003d6c !important;} button.primary:active { background-color: #649623 !important; border-color: #003d6c !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #003d6c !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #003d6c !important; } div[type='info-tile-component'] button { background-color: #003d6c !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #003d6c !important;}"
+      },
+      {
+        "conditions": { "company": "sunliteconnect" },
+        "css": "  #page-login #logo {background-size: contain} #page-login #login { background-color: #ffab34; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #ffab34 !important;} .theme-accent-bg{background-color: #ffab34 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #ffab34 !important; background-color:white !important; } .theme-accent-fg{color: #ffab34 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #ffab34 !important; color:white !important; } .page-HeaderPage>.header {background-color: #ffab34 !important;} div[page].page-Menu .menu-body {background-color: #ffab34;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #ffab34 !important; } .btn-primary, button.primary { background-color: #ffab34 !important; border: 1px solid #ffab34 !important;} button.primary:active { background-color: #649623 !important; border-color: #ffab34 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #ffab34 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #ffab34 !important; } div[type='info-tile-component'] button { background-color: #ffab34 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #ffab34 !important;}"
+      },
+      {
+        "conditions": { "company": "citadelconnect" },
+        "css": ".title{color: black !important;} .header button{color: black !important;} .logo-container{border-bottom: 0px solid;} #page-login #logo {background-size: contain}  #page-login #login { background-color: #f5f6f7; } #page-login #login .fieldgroup label {color: black;} #page-login #login form .h2 {color: black} #page-login #login form { padding-top: 30px;} .fa-linkedin:before {color: black;} .fa-twitter-square:before { color: black; } .fa-facebook-square:before { color: black; } .fa-instagram-square:before {color: black; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #f5f6f7 !important; color: #000 !important;} .theme-accent-bg{background-color: #f5f6f7 !important; color:black !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #f5f6f7 !important; background-color: #607d8b !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #f5f6f7 !important; color:black !important; }.page-HeaderPage>.header { background-color: #f5f6f7 !important;} div[page].page-Menu .menu-body { background-color: #f5f6f7;} #page-WelcomePage .content { background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #f5f6f7 !important; } .btn-primary, button.primary { background-color: #f5f6f7 !important; border: 1px solid #f5f6f7 !important; color: black;} .btn.btn-primary:active,.btn.btn-primary:hover { background-color: #607d8b !important; border-color: #f5f6f7 !important; color:white; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #f5f6f7 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #f5f6f7 !important; } div[type='info-tile-component'] button { background-color: #f5f6f7 !important; color: black !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; } .page-HeaderPage>.header .headertitle, .page-HeaderPage>.header .logo { color: black; } div[page].page-Menu .menu-body ul li>span { color: black; } div[page].page-Menu .menu-body ul li>span:hover { color: black; font-weight: 700; } .CH-text,.CH-title {color: #000 !important;} .theme-accent-fg{color: #000 !important; } .theme-footer,.btn-link,.link{color:#000 !important;} .item.selected .theme-accent-bg, .theme-accent-fg.selected {background-color: #dedede !important}"
+      },
+      {
+        "conditions": { "company": "financialforumconnect" },
+        "css": " .logo-container{background-color: #263c45;}  #page-login #logo {background-size: contain; background-color: #263c45;} #page-login #login { background-color: #263c45; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #263c45 !important;} .theme-accent-bg{background-color: #263c45 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #263c45 !important; background-color:white !important; } .theme-accent-fg{color: #263c45 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #263c45 !important; color:white !important; } .page-HeaderPage>.header {background-color: #263c45 !important;} div[page].page-Menu .menu-body {background-color: #263c45;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #263c45 !important; } .btn-primary, button.primary { background-color: #263c45 !important; border: 1px solid #263c45 !important;} button.primary:active { background-color: #649623 !important; border-color: #263c45 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #263c45 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #263c45 !important; } div[type='info-tile-component'] button { background-color: #263c45 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #263c45 !important;}"
+      },
+      {
+        "conditions": { "company": "mortgagestationconnect" },
+        "css": "  #page-login #logo {background-size: contain} #page-login #login { background-color: #af272f; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #af272f !important;} .theme-accent-bg{background-color: #af272f !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #af272f !important; background-color:white !important; } .theme-accent-fg{color: #af272f !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #af272f !important; color:white !important; } .page-HeaderPage>.header {background-color: #af272f !important;} div[page].page-Menu .menu-body {background-color: #af272f;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #af272f !important; } .btn-primary, button.primary { background-color: #af272f !important; border: 1px solid #af272f !important;} button.primary:active { background-color: #649623 !important; border-color: #af272f !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #af272f !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #af272f !important; } div[type='info-tile-component'] button { background-color: #af272f !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #af272f !important;}"
+      },
+      {
+        "conditions": { "company": "bestmortgageloansconnect" },
+        "css": " #page-login #logo {background-size: contain} #page-login #login { background-color: #6B6B6B; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #6B6B6B !important;} .theme-accent-bg{background-color: #6B6B6B !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #6B6B6B !important; background-color:white !important; } .theme-accent-fg{color: #6B6B6B !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #6B6B6B !important; color:white !important; } .page-HeaderPage>.header {background-color: #6B6B6B !important;} div[page].page-Menu .menu-body {background-color: #6B6B6B;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #6B6B6B !important; } .btn-primary, button.primary { background-color: #6B6B6B !important; border: 1px solid #6B6B6B !important;} button.primary:active { background-color: #649623 !important; border-color: #6B6B6B !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #6B6B6B !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #6B6B6B !important; } div[type='info-tile-component'] button { background-color: #6B6B6B !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #6B6B6B !important;}"
       }
     ],
     "UserTypePermissions": [
@@ -477,7 +757,7 @@
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
-        "conditions": { "serviceProvider_id": [ "100" ], "company": [ "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect","mortgagewellnessconnect"], "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
+        "conditions": { "serviceProvider_id": [ "100" ], "company": [ "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
@@ -500,7 +780,7 @@
     ],
     "selectOptions2": [
       { "conditions":{"page":"RegisterPage","region":"CA","company":"*", "name":"brokerHouse" }, "items":[{"value":"","title":"None"}, { "value": "Axiom", "title": "Axiom" }, { "value": "Centum", "title": "Centum" }, { "value": "CML", "title": "CML" }, { "value": "DLC", "title": "DLC" }, { "value": "Invis/Mortgage", "title": "Invis/Mortgage" }, { "value": "Intelligence", "title": "Intelligence" }, { "value": "Monster Mortgage", "title": "Monster Mortgage" }, { "value": "Mortgage Architects", "title": "Mortgage Architects" }, { "value": "Mortgage Centre", "title": "Mortgage Centre" }, { "value": "Oriana", "title": "Oriana" }, { "value": "TMACC", "title": "TMACC" }, { "value": "TMG", "title": "TMG" }, { "value": "Verico", "title": "Verico" }, { "value": "OTHER", "title": "Other" }] },
-      { "conditions":{"page":"RegisterPage","region":"CA","company":["northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect"], "name":"brokerHouse" }, "items": null },
+      { "conditions":{"page":"RegisterPage","region":"CA","company":["northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "name":"brokerHouse" }, "items": null },
       { "conditions":{"page":"RegisterPage","region":"US","company":"*", "name":"brokerHouse" }, "items": null } 
     ],
     "selectOptions": {
@@ -976,7 +1256,7 @@
           }
         ]
       },
-      { "title": "Property Services", "conditions": { "title": "Property Services", "company":["northwoodmortgageconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect"], "province":["ON"] },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company":["northwoodmortgageconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province":["ON"] },
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -1671,7 +1951,7 @@
           { "title": "Life Insurance", "icon": "fas fa-umbrella", "serviceProvider_id": "107" }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect"], "province": "*" },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
         "parent": null,
         "buttons": [
           { "title": "Home Warranty", "icon": "fas fa-umbrella", "serviceProvider_id": "105" },
@@ -1942,7 +2222,7 @@
           }
         ]
       },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect"], "province": "*" },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -4160,6 +4440,58 @@
           }
         ]
       },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "financialforumconnect", "province": "*" },
+        "items": [
+          {
+            "type": "p",
+            "text": "<!--Just a whitespace-->"
+          },
+          {
+            "type": "card",
+            "items": [
+              {
+                "type": "image",
+                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/financialforumconnect/logo.png"
+              },
+              {
+                "type": "p",
+                "text": "Apply for a Mortgage with Financial Forum Connect"
+              },
+              {
+                "type": "button primary",
+                "text": "Apply",
+                "onClickUrl": "https://www.mortgageweb.ca/thefinancialforum/MortgageApplication/en-US/Style3_"
+              }
+            ]
+          }
+        ]
+      },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "citadelconnect", "province": "*" },
+        "items": [
+          {
+            "type": "p",
+            "text": "<!--Just a whitespace-->"
+          },
+          {
+            "type": "card",
+            "items": [
+              {
+                "type": "image",
+                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/logo.png"
+              },
+              {
+                "type": "p",
+                "text": "Apply for a Mortgage with Citadel Connect"
+              },
+              {
+                "type": "button primary",
+                "text": "Apply",
+                "onClickUrl": "https://citadel-mortgages.mtg-app.com/signup?refId=467a4eae-d050-4e91-a6ec-e5f74ccda0d9 "
+              }
+            ]
+          }
+        ]
+      },
       { "title": "Home Closing", "conditions": { "title": "Home Closing", "region":"US", "company": "*", "province": "*"},
         "items": [
           {
@@ -4322,7 +4654,7 @@
         "disabled":true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": ["Home/Auto Insurance"], "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect"], "province": "*" },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": ["Home/Auto Insurance"], "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
         "disabled":true,
         "items": null
       }
