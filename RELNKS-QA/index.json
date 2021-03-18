@@ -1911,11 +1911,8 @@
       { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
+        "description":"Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>",
         "items": [
-          {
-            "type": "p",
-            "text": "Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>"
-          },
           {
             "type": "info-tile-component",
             "title": "Atlas Care",
@@ -1945,11 +1942,8 @@
       { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "region": "US", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
+        "description":"Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>",
         "items": [
-          {
-            "type": "p",
-            "text": "Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>"
-          },
           {
             "type": "info-tile-component",
             "title": "One Guard Home Warranty",
@@ -1979,11 +1973,8 @@
       { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
+        "description": "Home Insurance is required to close on your home. Find the right fit for your needs here.",
         "items": [
-          {
-            "type": "p",
-            "text": "Home Insurance is required to close on your home. Find the right fit for your needs here."
-          },
           {
             "type": "info-tile-component",
             "title": "Magnes",
@@ -2067,6 +2058,7 @@
       { "title": "Home Insurance", "conditions": { "title": "Home Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
+        "description": "Home Insurance is required to close on your home. Find the right fit for your needs here.",
         "items": [
           {
             "type": "info-tile-component",
@@ -2076,8 +2068,7 @@
             "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
             "phone": "800-650-3435"
           }
-        ],
-        "description": "Home Insurance is required to close on your home. Find the right fit for your needs here."
+        ]
       },
       { "title": "Auto Insurance", "conditions": { "title": "Auto Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
