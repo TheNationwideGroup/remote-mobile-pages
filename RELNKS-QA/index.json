@@ -1119,6 +1119,7 @@
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services" },
+        "description": "List of property services offered",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -1165,6 +1166,7 @@
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "*", "province": [ "AB" ] },
+        "description": "List of property services offered",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -1211,6 +1213,7 @@
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "AB", "BC", "ON" ] },
+        "description": "List of property services offered",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -1257,6 +1260,7 @@
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province":[ "ON" ] },
+        "description": "List of property services offered",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -1303,6 +1307,7 @@
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "xevaconnect", "province": [ "AB", "BC" ] },
+        "description": "List of property services offered",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -1349,6 +1354,7 @@
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "NS" ] },
+        "description": "List of property services offered",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -1390,6 +1396,7 @@
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "SK", "MB" ] },
+        "description": "List of property services offered",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -1431,6 +1438,7 @@
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "NB", "NL" ] },
+        "description": "List of property services offered",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
