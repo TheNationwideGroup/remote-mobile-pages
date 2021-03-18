@@ -757,7 +757,7 @@
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
-        "conditions": { "serviceProvider_id": [ "100" ], "company": [ "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
+        "conditions": { "serviceProvider_id": [ "100" ], "company": [ "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
