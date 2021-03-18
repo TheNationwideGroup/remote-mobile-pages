@@ -748,11 +748,6 @@
         "permissions": [ ]
       },
       {
-        "conditions": { "serviceProvider_id": ["104"],"company": "vericoconnect",  "province": "*",  "userType": "*" },
-        "_comment": "Hide HCS item for default provinces.",  
-        "permissions": [ ], "requirements": ["HIDDEN"]
-      },
-      {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
