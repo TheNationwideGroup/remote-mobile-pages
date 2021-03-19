@@ -571,6 +571,12 @@
           { "value": "For rent", "title": "For rent" }
         ]
       },
+      { "conditions": { "company": null, "page": "DocumentsRepositoryPage", "userType": "*", "region": "CA" },
+        "description": "You can store all your homeownership documents here. <a href=\"https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/RELNKS platform - List of Documents for Homebuying - JAN2021_V1b.pdf\" target=\"new\">Click here</a> for a guide on which documents you may need throughout your homebuying process."
+      },
+      { "conditions": { "company": null, "page": "DocumentsRepositoryPage", "userType": "*", "region": "US" },
+        "description": "Securely stored and easily accessible document storage for your convenience. Great for saving you time gathering all the paperwork that comes with buying a home. Find service reports here once a service has been completed."
+      },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "ON", "askNASUsersToLogin": true },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "defaultProvince": "ON", "askNASUsersToLogin": true },
       { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "BC", "askNASUsersToLogin": true },
@@ -1914,7 +1920,7 @@
       { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
-        "description":"Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>",
+        "description":"Optional protection plan for peace of mind when purchasing a home. <b>Not required for closing.</b>",
         "items": [
           {
             "type": "info-tile-component",
@@ -1945,7 +1951,7 @@
       { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "region": "US", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
-        "description":"Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>",
+        "description":"Optional protection plan for peace of mind when purchasing a home. <b>Not required for closing.</b>",
         "items": [
           {
             "type": "info-tile-component",
@@ -3903,7 +3909,7 @@
             "title": "Financial Forum",
             "text": "Apply for a Mortgage with Financial Forum Connect",
             "image": "./whitelabel/financialforumconnect/logo.png",
-            "url": "https://www.mortgageweb.ca/thefinancialforum/MortgageApplication/en-US/Style3_",
+            "url": "https://www.mortgageweb.ca/thefinancialforum/MortgageApplication/en-US/Style3",
             "urlTitle":"Apply",
             "phone": null
           }
