@@ -509,7 +509,7 @@
       {
         "conditions": { "page": [ "LoginPage" ], "company": "bestmortgageloansconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/bestmortgageloansconnect/logo.png",
-        "imageSize": "60%",
+        "imageSize": "80%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/bestmortgageloansconnect/poweredby.png"
       },
