@@ -575,7 +575,7 @@
         "description": "You can store all your homeownership documents here. <a href=\"https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/RELNKS platform - List of Documents for Homebuying - JAN2021_V1b.pdf\" target=\"new\">Click here</a> for a guide on which documents you may need throughout your homebuying process."
       },
       { "conditions": { "company": null, "page": "DocumentsRepositoryPage", "userType": "*", "region": "US" },
-        "description": "Securely stored and easily accessible document storage for your convenience. Great for saving you time gathering all the paperwork that comes with buying a home. Find service reports here once a service has been completed."
+        "description": "Securely stored and easily accessible document storage for your convenience. Great for saving you time gathering all the paperwork that comes with buying a home."
       },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*" }, "defaultProvince": "ON", "askNASUsersToLogin": true },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "defaultProvince": "ON", "askNASUsersToLogin": true },
