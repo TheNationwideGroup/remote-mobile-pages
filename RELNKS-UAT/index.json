@@ -3236,11 +3236,8 @@
       },
       { "title": "Electric Companies", "conditions": { "title": "Electric Companies", "company": "*", "province": "*" },
         "serviceProvider_id": "119",
+        "description": "Regional electric providers all in one location for your convenience. <b>Required before you move in.</b>",
         "items": [
-          {
-            "type": "p",
-            "text": "Regional electric providers all in one location for your convenience. <b>Required before you move in.</b>"
-          },
           {
             "type": "info-tile-component",
             "title": "Hydro One",
@@ -3277,11 +3274,8 @@
       },
       { "title": "Electric Companies", "conditions": { "title": "Electric Companies", "company": "*", "region": "US", "province": "*" },
         "serviceProvider_id": "119",
+        "description": "Regional electric providers all in one location for your convenience. <b>Required before you move in.</b>",
         "items": [
-          {
-            "type": "p",
-            "text": "Regional electric providers all in one location for your convenience. <b>Required before you move in.</b>"
-          },
           {
             "type": "info-tile-component",
             "title": "APS (Arizona Public Service Electric)",
@@ -3332,18 +3326,15 @@
         "serviceProvider_id": "121",
         "items": [
           {
-            "type": "p",
+            "type": "info-tile-component",
             "text": "Please contact your local provider."
           }
         ]
       },
       { "title": "Phone", "conditions": { "title": "Phone", "company": "*", "province": "*" },
         "serviceProvider_id": "122",
+        "description": "Regional phone providers all in one location for your convenience.",
         "items": [
-          {
-            "type": "p",
-            "text": "Regional phone providers all in one location for your convenience."
-          },
           {
             "type": "info-tile-component",
             "title": "Rogers",
@@ -3411,11 +3402,8 @@
       },
       { "title": "Phone", "conditions": { "title": "Phone", "company": "*", "region": "US", "province": "*" },
         "serviceProvider_id": "122",
+        "description": "Regional phone providers all in one location for your convenience.",
         "items": [
-          {
-            "type": "p",
-            "text": "Regional phone providers all in one location for your convenience."
-          },
           {
             "type": "info-tile-component",
             "title": "Cox Communications",
@@ -3517,11 +3505,8 @@
       },
       { "title": "Internet", "conditions": { "title": "Internet", "company": "*", "province": "*" },
         "serviceProvider_id": "123",
+        "description": "Regional internet providers all in one location for your convenience.",
         "items": [
-          {
-            "type": "p",
-            "text": "Regional internet providers all in one location for your convenience."
-          },
           {
             "type": "info-tile-component",
             "title": "Rogers",
@@ -3668,11 +3653,8 @@
       },
       { "title": "Internet", "conditions": { "title": "Internet", "company": "*", "region": "US", "province": "*" },
         "serviceProvider_id": "123",
+        "description": "Regional internet providers all in one location for your convenience.",
         "items": [
-          {
-            "type": "p",
-            "text": "Regional internet providers all in one location for your convenience."
-          },
           {
             "type": "info-tile-component",
             "title": "Cox Communications",
@@ -3761,11 +3743,8 @@
       },
       { "title": "Cable", "conditions": { "title": "Cable", "company": "*", "region": "US", "province": "*" },
         "serviceProvider_id": "122",
+        "description": "Regional phone providers all in one location for your convenience.",
         "items": [
-          {
-            "type": "p",
-            "text": "Regional phone providers all in one location for your convenience."
-          },
           {
             "type": "info-tile-component",
             "title": "Cox Communications",
