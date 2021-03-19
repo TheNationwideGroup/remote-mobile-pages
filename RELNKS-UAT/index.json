@@ -439,23 +439,23 @@
         "imageURL": ""
       },
       {
-        "conditions": { "page": [ "MenuPage" ], "company": "citadelmortgageconnect" },
+        "conditions": { "page": [ "MenuPage" ], "company": "citadelmortgagesconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/logo.png"
       },
       {
-        "conditions": { "page": [ "LoginPage" ], "company": "citadelmortgageconnect" },
+        "conditions": { "page": [ "LoginPage" ], "company": "citadelmortgagesconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/logo.png",
         "imageSize": "60%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/poweredby.png"
       },
       {
-        "conditions": { "page": [ "BaseHeaderPage" ], "company": "citadelmortgageconnect" },
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "citadelmortgagesconnect" },
         "imageURL": "",
         "pageTitle": "Citadel Connect"
       },
       {
-        "conditions": { "page": [ "RegisterPage" ], "company": "citadelmortgageconnect" },
+        "conditions": { "page": [ "RegisterPage" ], "company": "citadelmortgagesconnect" },
         "pageTitle": "Citadel Connect",
         "imageURL": ""
       },
@@ -610,8 +610,8 @@
       { "conditions": { "company": "mortgageplusconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "A.K. Mortgage Plus", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "sunliteconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "sunliteconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Sunlite Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "citadelmortgageconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "citadelmortgageconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Citadel Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "citadelmortgagesconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "citadelmortgagesconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Citadel Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "financialforumconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "financialforumconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "The Financial Forum", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "mortgagestationconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
@@ -689,7 +689,7 @@
         "css": "  #page-login #logo {background-size: contain} #page-login #login { background-color: #ffab34; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #ffab34 !important;} .theme-accent-bg{background-color: #ffab34 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #ffab34 !important; background-color:white !important; } .theme-accent-fg{color: #ffab34 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #ffab34 !important; color:white !important; } .page-HeaderPage>.header {background-color: #ffab34 !important;} div[page].page-Menu .menu-body {background-color: #ffab34;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #ffab34 !important; } .btn-primary, button.primary { background-color: #ffab34 !important; border: 1px solid #ffab34 !important;} button.primary:active { background-color: #649623 !important; border-color: #ffab34 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #ffab34 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #ffab34 !important; } div[type='info-tile-component'] button { background-color: #ffab34 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #ffab34 !important;}"
       },
       {
-        "conditions": { "company": "citadelmortgageconnect" },
+        "conditions": { "company": "citadelmortgagesconnect" },
         "css": ".title{color: black !important;} .header button{color: black !important;} .logo-container{border-bottom: 0px solid;} #page-login #logo {background-size: contain}  #page-login #login { background-color: #f5f6f7; } #page-login #login .fieldgroup label {color: black;} #page-login #login form .h2 {color: black} #page-login #login form { padding-top: 30px;} .fa-linkedin:before {color: black;} .fa-twitter-square:before { color: black; } .fa-facebook-square:before { color: black; } .fa-instagram-square:before {color: black; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #f5f6f7 !important; color: #000 !important;} .theme-accent-bg{background-color: #f5f6f7 !important; color:black !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #f5f6f7 !important; background-color: #607d8b !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #f5f6f7 !important; color:black !important; }.page-HeaderPage>.header { background-color: #f5f6f7 !important;} div[page].page-Menu .menu-body { background-color: #f5f6f7;} #page-WelcomePage .content { background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #f5f6f7 !important; } .btn-primary, button.primary { background-color: #f5f6f7 !important; border: 1px solid #f5f6f7 !important; color: black;} .btn.btn-primary:active,.btn.btn-primary:hover { background-color: #607d8b !important; border-color: #f5f6f7 !important; color:white; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #f5f6f7 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #f5f6f7 !important; } div[type='info-tile-component'] button { background-color: #f5f6f7 !important; color: black !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; } .page-HeaderPage>.header .headertitle, .page-HeaderPage>.header .logo { color: black; } div[page].page-Menu .menu-body ul li>span { color: black; } div[page].page-Menu .menu-body ul li>span:hover { color: black; font-weight: 700; } .CH-text,.CH-title {color: #000 !important;} .theme-accent-fg{color: #000 !important; } .theme-footer,.btn-link,.link{color:#000 !important;} .item.selected .theme-accent-bg, .theme-accent-fg.selected {background-color: #dedede !important}"
       },
       {
@@ -781,7 +781,7 @@
     "selectOptions2": [
       { "conditions":{"page":"RegisterPage","region":"CA","company":"*", "name":"brokerHouse" }, "items":[{"value":"","title":"None"}, { "value": "Axiom", "title": "Axiom" }, { "value": "Centum", "title": "Centum" }, { "value": "CML", "title": "CML" }, { "value": "DLC", "title": "DLC" }, { "value": "Invis/Mortgage", "title": "Invis/Mortgage" }, { "value": "Intelligence", "title": "Intelligence" }, { "value": "Monster Mortgage", "title": "Monster Mortgage" }, { "value": "Mortgage Architects", "title": "Mortgage Architects" }, { "value": "Mortgage Centre", "title": "Mortgage Centre" }, { "value": "Oriana", "title": "Oriana" }, { "value": "TMACC", "title": "TMACC" }, { "value": "TMG", "title": "TMG" }, { "value": "Verico", "title": "Verico" }, { "value": "OTHER", "title": "Other" }] },
       { "conditions":{"page":"RegisterPage","region":"CA","company":["tribefinancial"], "name":"brokerHouse" }, "items": null },
-      { "conditions":{"page":"RegisterPage","region":"CA","company":["northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgageconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "name":"brokerHouse" }, "items": null },
+      { "conditions":{"page":"RegisterPage","region":"CA","company":["northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "name":"brokerHouse" }, "items": null },
       { "conditions":{"page":"RegisterPage","region":"US","company":"*", "name":"brokerHouse" }, "items": null } 
     ],
     "selectOptions": {
@@ -1263,7 +1263,7 @@
           }
         ]
       },
-      { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgageconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province":[ "ON" ] },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province":[ "ON" ] },
         "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "description": "List of property services offered",
         "parent": null,
@@ -1902,7 +1902,7 @@
           }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgageconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
         "parent": null,
         "buttons": [
           {
@@ -2124,7 +2124,7 @@
         ],
         "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
       },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgageconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -3894,7 +3894,7 @@
           }
         ]
       },
-      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "citadelmortgageconnect", "province": "*" },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "citadelmortgagesconnect", "province": "*" },
         "serviceProvider_id": "100",
         "items": [
           {
@@ -4029,7 +4029,7 @@
       {
         "title": "Disabled",
         "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance",
-        "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgageconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province": "*" },
+        "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province": "*" },
         "disabled": true,
         "items": null
       }
