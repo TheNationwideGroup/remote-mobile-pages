@@ -1086,12 +1086,6 @@
       { "conditions": { "title": "Find Property", "region": "US", "province": "*" },
         "buttons": [
           {
-            "serviceProvider_id": "NB_PROFILER_REALESTATE",
-            "icon": "fas fa-home",
-            "title": "Real Estate Listings",
-            "action": "CREAVuePage"
-          },
-          {
             "serviceProvider_id": "NB_PROFILER_LOCAL",
             "icon": "fas fa-map-marked-alt",
             "title": "Local Data",
