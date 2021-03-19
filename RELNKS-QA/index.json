@@ -32,7 +32,7 @@
       "reliancemortgagesconnect",
       "mortgageplusconnect",
       "sunliteconnect",
-      "citadelconnect",
+      "citadelmortgageconnect",
       "financialforumconnect",
       "mortgagestationconnect",
       "bestmortgageloansconnect"
@@ -440,23 +440,23 @@
         "imageURL": ""
       },
       {
-        "conditions": { "page": [ "MenuPage" ], "company": "citadelconnect" },
+        "conditions": { "page": [ "MenuPage" ], "company": "citadelmortgageconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/logo.png"
       },
       {
-        "conditions": { "page": [ "LoginPage" ], "company": "citadelconnect" },
+        "conditions": { "page": [ "LoginPage" ], "company": "citadelmortgageconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/logo.png",
         "imageSize": "60%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/poweredby.png"
       },
       {
-        "conditions": { "page": [ "BaseHeaderPage" ], "company": "citadelconnect" },
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "citadelmortgageconnect" },
         "imageURL": "",
         "pageTitle": "Citadel Connect"
       },
       {
-        "conditions": { "page": [ "RegisterPage" ], "company": "citadelconnect" },
+        "conditions": { "page": [ "RegisterPage" ], "company": "citadelmortgageconnect" },
         "pageTitle": "Citadel Connect",
         "imageURL": ""
       },
@@ -605,8 +605,8 @@
       { "conditions": { "company": "mortgageplusconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "A.K. Mortgage Plus", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "sunliteconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "sunliteconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Sunlite Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "citadelconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "citadelconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Citadel Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "citadelmortgageconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "citadelmortgageconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "Citadel Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "financialforumconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "financialforumconnect", "page": "RegisterPage", "userType": "BROKER" }, "brokerHouse": "Verico","brokerCompanyName": "The Financial Forum", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "mortgagestationconnect", "page": "RegisterPage", "userType": "*" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
@@ -637,7 +637,7 @@
       },
       {
         "conditions": { "company": "xevaconnect" },
-        "css": ".title{color: black !important;} .header button{color: black !important;} .logo-container{border-bottom: 1px solid;} #page-login #logo {background-size: contain}  #page-login #login { background-color: #F5F7F6; } #page-login #login .fieldgroup label {color: black;} #page-login #login form .h2 {color: black} #page-login #login form { padding-top: 30px;} .fa-linkedin:before {color: black;} .fa-twitter-square:before { color: black; } .fa-facebook-square:before { color: black; } .fa-instagram-square:before {color: black; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #F5F7F6 !important; color: #000 !important;} .theme-accent-bg{background-color: #F5F7F6 !important; color:black !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #F5F7F6 !important; background-color: #607d8b !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #F5F7F6 !important; color:black !important; }.page-HeaderPage>.header { background-color: #F5F7F6 !important;} div[page].page-Menu .menu-body { background-color: #F5F7F6;} #page-WelcomePage .content { background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #F5F7F6 !important; } .btn-primary, button.primary { background-color: #F5F7F6 !important; border: 1px solid #F5F7F6 !important; color: black;} .btn.btn-primary:active,.btn.btn-primary:hover { background-color: #607d8b !important; border-color: #F5F7F6 !important; color:white; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #F5F7F6 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #F5F7F6 !important; } div[type='info-tile-component'] button { background-color: #F5F7F6 !important; color: black !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; } .page-HeaderPage>.header .headertitle, .page-HeaderPage>.header .logo { color: black; } div[page].page-Menu .menu-body ul li>span { color: black; } div[page].page-Menu .menu-body ul li>span:hover { color: black; font-weight: 700; } .CH-text,.CH-title {color: #000 !important;} .theme-accent-fg{color: #000 !important; } .theme-footer,.btn-link,.link{color:#000 !important;} .item.selected .theme-accent-bg, .theme-accent-fg.selected {background-color: #dedede !important}"
+        "css": ".title{color: black !important;} .header button{color: black !important;} .logo-container{border-bottom: 1px solid;} #page-login #logo {background-size: contain}  #page-login #login { background-color: #F5F7F6; } #page-login #login .fieldgroup label {color: black;} #page-login #login form .h2 {color: black} #page-login #login form { padding-top: 30px;} .fa-linkedin:before {color: black;} .fa-twitter-square:before { color: black; } .fa-facebook-square:before { color: black; } .fa-instagram-square:before {color: black; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #F5F7F6 !important; color: #000 !important;} .theme-accent-bg{background-color: #F5F7F6 !important; color:black !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #F5F7F6 !important; background-color: #607d8b !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #F5F7F6 !important; color:black !important; }.page-HeaderPage>.header { background-color: #F5F7F6 !important;} div[page].page-Menu .menu-body { background-color: #F5F7F6;} #page-WelcomePage .content { background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #F5F7F6 !important; } .btn-primary, button.primary { background-color: #F5F7F6 !important; border: 1px solid #F5F7F6 !important; color: black;} .btn.btn-primary:active,.btn.btn-primary:hover { background-color: #607d8b !important; border-color: #F5F7F6 !important; color:white; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio {  } div[type='info-tile-component'] button { background-color: #F5F7F6 !important; color: black !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; } .page-HeaderPage>.header .headertitle, .page-HeaderPage>.header .logo { color: black; } div[page].page-Menu .menu-body ul li>span { color: black; } div[page].page-Menu .menu-body ul li>span:hover { color: black; font-weight: 700; } .CH-text,.CH-title {color: #000 !important;} .theme-accent-fg{color: #000 !important; } .theme-footer,.btn-link,.link{color:#000 !important;} .item.selected .theme-accent-bg, .theme-accent-fg.selected {background-color: #dedede !important}"
       },
       {
         "conditions": { "company": "selectmortgageconnect" },
@@ -684,7 +684,7 @@
         "css": "  #page-login #logo {background-size: contain} #page-login #login { background-color: #ffab34; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #ffab34 !important;} .theme-accent-bg{background-color: #ffab34 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #ffab34 !important; background-color:white !important; } .theme-accent-fg{color: #ffab34 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #ffab34 !important; color:white !important; } .page-HeaderPage>.header {background-color: #ffab34 !important;} div[page].page-Menu .menu-body {background-color: #ffab34;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #ffab34 !important; } .btn-primary, button.primary { background-color: #ffab34 !important; border: 1px solid #ffab34 !important;} button.primary:active { background-color: #649623 !important; border-color: #ffab34 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #ffab34 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #ffab34 !important; } div[type='info-tile-component'] button { background-color: #ffab34 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #ffab34 !important;}"
       },
       {
-        "conditions": { "company": "citadelconnect" },
+        "conditions": { "company": "citadelmortgageconnect" },
         "css": ".title{color: black !important;} .header button{color: black !important;} .logo-container{border-bottom: 0px solid;} #page-login #logo {background-size: contain}  #page-login #login { background-color: #f5f6f7; } #page-login #login .fieldgroup label {color: black;} #page-login #login form .h2 {color: black} #page-login #login form { padding-top: 30px;} .fa-linkedin:before {color: black;} .fa-twitter-square:before { color: black; } .fa-facebook-square:before { color: black; } .fa-instagram-square:before {color: black; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #f5f6f7 !important; color: #000 !important;} .theme-accent-bg{background-color: #f5f6f7 !important; color:black !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #f5f6f7 !important; background-color: #607d8b !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #f5f6f7 !important; color:black !important; }.page-HeaderPage>.header { background-color: #f5f6f7 !important;} div[page].page-Menu .menu-body { background-color: #f5f6f7;} #page-WelcomePage .content { background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #f5f6f7 !important; } .btn-primary, button.primary { background-color: #f5f6f7 !important; border: 1px solid #f5f6f7 !important; color: black;} .btn.btn-primary:active,.btn.btn-primary:hover { background-color: #607d8b !important; border-color: #f5f6f7 !important; color:white; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #f5f6f7 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #f5f6f7 !important; } div[type='info-tile-component'] button { background-color: #f5f6f7 !important; color: black !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; } .page-HeaderPage>.header .headertitle, .page-HeaderPage>.header .logo { color: black; } div[page].page-Menu .menu-body ul li>span { color: black; } div[page].page-Menu .menu-body ul li>span:hover { color: black; font-weight: 700; } .CH-text,.CH-title {color: #000 !important;} .theme-accent-fg{color: #000 !important; } .theme-footer,.btn-link,.link{color:#000 !important;} .item.selected .theme-accent-bg, .theme-accent-fg.selected {background-color: #dedede !important}"
       },
       {
@@ -748,16 +748,11 @@
         "permissions": [ ]
       },
       {
-        "conditions": { "serviceProvider_id": ["104"],"company": "vericoconnect",  "province": "*",  "userType": "*" },
-        "_comment": "Hide HCS item for default provinces.",  
-        "permissions": [ ], "requirements": ["HIDDEN"]
-      },
-      {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
-        "conditions": { "serviceProvider_id": [ "100" ], "company": [ "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
+        "conditions": { "serviceProvider_id": [ "100" ], "company": [ "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
@@ -780,7 +775,7 @@
     ],
     "selectOptions2": [
       { "conditions":{"page":"RegisterPage","region":"CA","company":"*", "name":"brokerHouse" }, "items":[{"value":"","title":"None"}, { "value": "Axiom", "title": "Axiom" }, { "value": "Centum", "title": "Centum" }, { "value": "CML", "title": "CML" }, { "value": "DLC", "title": "DLC" }, { "value": "Invis/Mortgage", "title": "Invis/Mortgage" }, { "value": "Intelligence", "title": "Intelligence" }, { "value": "Monster Mortgage", "title": "Monster Mortgage" }, { "value": "Mortgage Architects", "title": "Mortgage Architects" }, { "value": "Mortgage Centre", "title": "Mortgage Centre" }, { "value": "Oriana", "title": "Oriana" }, { "value": "TMACC", "title": "TMACC" }, { "value": "TMG", "title": "TMG" }, { "value": "Verico", "title": "Verico" }, { "value": "OTHER", "title": "Other" }] },
-      { "conditions":{"page":"RegisterPage","region":"CA","company":["northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "name":"brokerHouse" }, "items": null },
+      { "conditions":{"page":"RegisterPage","region":"CA","company":["northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgageconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "name":"brokerHouse" }, "items": null },
       { "conditions":{"page":"RegisterPage","region":"US","company":"*", "name":"brokerHouse" }, "items": null } 
     ],
     "selectOptions": {
@@ -1119,318 +1114,334 @@
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services" },
+        "description": "List of property services offered",
+        "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {
             "title": "Lawn/Garden Care",
-            "icon": "",
+            "icon": "icon-lawn-mower",
             "serviceProvider_id": "111"
           },
           {
             "title": "Property Management",
-            "icon": "",
+            "icon": "icon-property-management",
             "serviceProvider_id": "112"
           },
           {
             "title": "Home Renovation",
-            "icon": "",
+            "icon": "icon-home-renovations",
             "serviceProvider_id": "113"
           },
           {
             "title": "Pest Control",
-            "icon": "",
+            "icon": "icon-pest-control",
             "serviceProvider_id": "114"
           },
           {
             "title": "Locksmith",
-            "icon": "",
+            "icon": "icon-locksmith",
             "serviceProvider_id": "115"
           },
           {
             "title": "Cleaning Services",
-            "icon": "",
+            "icon": "icon-cleaning-services",
             "serviceProvider_id": "116"
           },
           {
             "title": "Junk Removal",
-            "icon": "",
+            "icon": "icon-junk-removal",
             "serviceProvider_id": "117"
           },
           {
             "title": "Smart Home/Home Security",
-            "icon": "",
+            "icon": "icon-smart-home",
             "serviceProvider_id": "126"
           }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "*", "province": [ "AB" ] },
+        "description": "List of property services offered",
+        "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {
             "title": "Lawn/Garden Care",
-            "icon": "",
+            "icon": "icon-lawn-mower",
             "serviceProvider_id": "111"
           },
           {
             "title": "Property Management",
-            "icon": "",
+            "icon": "icon-property-management",
             "serviceProvider_id": "112"
           },
           {
             "title": "Home Renovation",
-            "icon": "",
+            "icon": "icon-home-renovations",
             "serviceProvider_id": "113"
           },
           {
             "title": "Pest Control",
-            "icon": "",
+            "icon": "icon-pest-control",
             "serviceProvider_id": "114"
           },
           {
             "title": "Locksmith",
-            "icon": "",
+            "icon": "icon-locksmith",
             "serviceProvider_id": "115"
           },
           {
             "title": "Cleaning Services",
-            "icon": "",
+            "icon": "icon-cleaning-services",
             "serviceProvider_id": "116"
           },
           {
             "title": "Junk Removal",
-            "icon": "",
+            "icon": "icon-junk-removal",
             "serviceProvider_id": "117"
           },
           {
             "title": "Smart Home/Home Security",
-            "icon": "",
+            "icon": "icon-smart-home",
             "serviceProvider_id": "126"
           }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "AB", "BC", "ON" ] },
+        "description": "List of property services offered",
+        "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {
             "title": "Lawn/Garden Care",
-            "icon": "",
+            "icon": "icon-lawn-mower",
             "serviceProvider_id": "111"
           },
           {
             "title": "Property Management",
-            "icon": "",
+            "icon": "icon-property-management",
             "serviceProvider_id": "112"
           },
           {
             "title": "Home Renovation",
-            "icon": "",
+            "icon": "icon-home-renovations",
             "serviceProvider_id": "113"
           },
           {
             "title": "Pest Control",
-            "icon": "",
+            "icon": "icon-pest-control",
             "serviceProvider_id": "114"
           },
           {
             "title": "Locksmith",
-            "icon": "",
+            "icon": "icon-locksmith",
             "serviceProvider_id": "115"
           },
           {
             "title": "Cleaning Services",
-            "icon": "",
+            "icon": "icon-cleaning-services",
             "serviceProvider_id": "116"
           },
           {
             "title": "Junk Removal",
-            "icon": "",
+            "icon": "icon-junk-removal",
             "serviceProvider_id": "117"
           },
           {
             "title": "Smart Home/Home Security",
-            "icon": "",
+            "icon": "icon-smart-home",
             "serviceProvider_id": "126"
           }
         ]
       },
-      { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province":[ "ON" ] },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgageconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province":[ "ON" ] },
+        "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
+        "description": "List of property services offered",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {
             "title": "Lawn/Garden Care",
-            "icon": "",
+            "icon": "icon-lawn-mower",
             "serviceProvider_id": "111"
           },
           {
             "title": "Property Management",
-            "icon": "",
+            "icon": "icon-property-management",
             "serviceProvider_id": "112"
           },
           {
             "title": "Home Renovation",
-            "icon": "",
+            "icon": "icon-home-renovations",
             "serviceProvider_id": "113"
           },
           {
             "title": "Pest Control",
-            "icon": "",
+            "icon": "icon-pest-control",
             "serviceProvider_id": "114"
           },
           {
             "title": "Locksmith",
-            "icon": "",
+            "icon": "icon-locksmith",
             "serviceProvider_id": "115"
           },
           {
             "title": "Cleaning Services",
-            "icon": "",
+            "icon": "icon-cleaning-services",
             "serviceProvider_id": "116"
           },
           {
             "title": "Junk Removal",
-            "icon": "",
+            "icon": "icon-junk-removal",
             "serviceProvider_id": "117"
           },
           {
             "title": "Smart Home/Home Security",
-            "icon": "",
+            "icon": "icon-smart-home",
             "serviceProvider_id": "126"
           }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "xevaconnect", "province": [ "AB", "BC" ] },
+        "description": "List of property services offered",
+        "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {
             "title": "Lawn/Garden Care",
-            "icon": "",
+            "icon": "icon-lawn-mower",
             "serviceProvider_id": "111"
           },
           {
             "title": "Property Management",
-            "icon": "",
+            "icon": "icon-property-management",
             "serviceProvider_id": "112"
           },
           {
             "title": "Home Renovation",
-            "icon": "",
+            "icon": "icon-home-renovations",
             "serviceProvider_id": "113"
           },
           {
             "title": "Pest Control",
-            "icon": "",
+            "icon": "icon-pest-control",
             "serviceProvider_id": "114"
           },
           {
             "title": "Locksmith",
-            "icon": "",
+            "icon": "icon-locksmith",
             "serviceProvider_id": "115"
           },
           {
             "title": "Cleaning Services",
-            "icon": "",
+            "icon": "icon-cleaning-services",
             "serviceProvider_id": "116"
           },
           {
             "title": "Junk Removal",
-            "icon": "",
+            "icon": "icon-junk-removal",
             "serviceProvider_id": "117"
           },
           {
             "title": "Smart Home/Home Security",
-            "icon": "",
+            "icon": "icon-smart-home",
             "serviceProvider_id": "126"
           }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "NS" ] },
+        "description": "List of property services offered",
+        "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {
             "title": "Lawn/Garden Care",
-            "icon": "",
+            "icon": "icon-lawn-mower",
             "serviceProvider_id": "111"
           },
           {
             "title": "Property Management",
-            "icon": "",
+            "icon": "icon-property-management",
             "serviceProvider_id": "112"
           },
           {
             "title": "Home Renovation",
-            "icon": "",
+            "icon": "icon-home-renovations",
             "serviceProvider_id": "113"
           },
           {
             "title": "Pest Control",
-            "icon": "",
+            "icon": "icon-pest-control",
             "serviceProvider_id": "114"
           },
           {
             "title": "Cleaning Services",
-            "icon": "",
+            "icon": "icon-cleaning-services",
             "serviceProvider_id": "116"
           },
           {
             "title": "Junk Removal",
-            "icon": "",
+            "icon": "icon-junk-removal",
             "serviceProvider_id": "117"
           },
           {
             "title": "Smart Home/Home Security",
-            "icon": "",
+            "icon": "icon-smart-home",
             "serviceProvider_id": "126"
           }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "SK", "MB" ] },
+        "description": "List of property services offered",
+        "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           {
             "title": "Lawn/Garden Care",
-            "icon": "",
+            "icon": "icon-lawn-mower",
             "serviceProvider_id": "111"
           },
           {
             "title": "Property Management",
-            "icon": "",
+            "icon": "icon-property-management",
             "serviceProvider_id": "112"
           },
           {
             "title": "Home Renovation",
-            "icon": "",
+            "icon": "icon-home-renovations",
             "serviceProvider_id": "113"
           },
           {
             "title": "Pest Control",
-            "icon": "",
+            "icon": "icon-pest-control",
             "serviceProvider_id": "114"
           },
           {
             "title": "Cleaning Services",
-            "icon": "",
+            "icon": "icon-cleaning-services",
             "serviceProvider_id": "116"
           },
           {
             "title": "Junk Removal",
-            "icon": "",
+            "icon": "icon-junk-removal",
             "serviceProvider_id": "117"
           },
           {
             "title": "Smart Home/Home Security",
-            "icon": "",
+            "icon": "icon-smart-home",
             "serviceProvider_id": "126"
           }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "NB", "NL" ] },
+        "description": "List of property services offered",
+        "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
@@ -1885,7 +1896,7 @@
           }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgageconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
         "parent": null,
         "buttons": [
           {
@@ -1903,11 +1914,8 @@
       { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
+        "description":"Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>",
         "items": [
-          {
-            "type": "p",
-            "text": "Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>"
-          },
           {
             "type": "info-tile-component",
             "title": "Atlas Care",
@@ -1937,11 +1945,8 @@
       { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "region": "US", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
+        "description":"Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>",
         "items": [
-          {
-            "type": "p",
-            "text": "Optional protection plan for piece of mind when purchasing a home. <b>Not required for closing.</b>"
-          },
           {
             "type": "info-tile-component",
             "title": "One Guard Home Warranty",
@@ -1971,11 +1976,8 @@
       { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
+        "description": "Home Insurance is required to close on your home. Find the right fit for your needs here.",
         "items": [
-          {
-            "type": "p",
-            "text": "Home Insurance is required to close on your home. Find the right fit for your needs here."
-          },
           {
             "type": "info-tile-component",
             "title": "Magnes",
@@ -2059,6 +2061,7 @@
       { "title": "Home Insurance", "conditions": { "title": "Home Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
+        "description": "Home Insurance is required to close on your home. Find the right fit for your needs here.",
         "items": [
           {
             "type": "info-tile-component",
@@ -2068,8 +2071,7 @@
             "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
             "phone": "800-650-3435"
           }
-        ],
-        "description": "Home Insurance is required to close on your home. Find the right fit for your needs here."
+        ]
       },
       { "title": "Auto Insurance", "conditions": { "title": "Auto Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
@@ -2116,7 +2118,7 @@
         ],
         "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
       },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgageconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect"], "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -2897,6 +2899,7 @@
       },
       { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "*", "province": "*" },
         "parent": null,
+        "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
         "buttons": [
           { "title": "Moving Companies", "icon": "", "serviceProvider_id": "108" },
           { "title": "Truck Rental", "icon": "", "serviceProvider_id": "109" },
@@ -2909,6 +2912,7 @@
       },
       { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "*", "province": [ "AB" ] },
         "parent": null,
+        "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
         "buttons": [
           { "title": "Moving Companies", "icon": "", "serviceProvider_id": "108" },
           { "title": "Truck Rental", "icon": "", "serviceProvider_id": "109" },
@@ -2920,6 +2924,7 @@
       },
       { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "*", "region": "US", "province": "*" },
         "parent": null,
+        "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
         "buttons": [
           { "title": "Moving Companies", "icon": "", "serviceProvider_id": "108" },
           { "title": "Truck Rental", "icon": "", "serviceProvider_id": "109" },
@@ -2932,6 +2937,7 @@
       },
       { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "vericoconnect", "province": [ "NB", "NL" ] },
         "parent": null,
+        "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
         "buttons": [
           { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
           { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
@@ -3862,128 +3868,58 @@
         "description": "Regional cable providers all in one location for your convenience."
       },
       { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "opendoorsmortgage", "province": "*" },
+        "serviceProvider_id": "100",
         "items": [
           {
-            "type": "card",
-            "items": [
-              {
-                "type": "image",
-                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/opendoorsmortgage.png"
-              },
-              {
-                "type": "p",
-                "text": "Apply for a Mortgage with Open Doors Mortgage"
-              },
-              {
-                "type": "button primary",
-                "text": "Apply",
-                "onClickUrl": "https://open-doors-mortgage-team.mtg-app.com/signup"
-              }
-            ]
+            "type": "info-tile-component",
+            "title": "Open Doors Mortgage",
+            "text": "Apply for a Mortgage with Open Doors Mortgage",
+            "image": "./partners/opendoorsmortgage.png",
+            "url": "https://open-doors-mortgage-team.mtg-app.com/signup",
+            "urlTitle":"Apply",
+            "phone": null
           }
         ]
       },
       { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "thrivemortgage", "province": "*" },
+        "serviceProvider_id": "100",
         "items": [
           {
-            "type": "p",
-            "text": "<!--Just a whitespace-->"
-          },
-          {
-            "type": "card",
-            "items": [
-              {
-                "type": "image",
-                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png"
-              },
-              {
-                "type": "p",
-                "text": "Apply for a Mortgage with Thrive Mortgage Co."
-              },
-              {
-                "type": "button primary",
-                "text": "Apply",
-                "onClickUrl": "https://thrive-mortgage.mtg-app.com/signup"
-              }
-            ]
+            "type": "info-tile-component",
+            "title": "Thrive Mortgage Co.",
+            "text": "Apply for a Mortgage with Thrive Mortgage Co.",
+            "image": "./whitelabel/thrivemortgage/logo.png",
+            "url": "https://thrive-mortgage.mtg-app.com/signup",
+            "urlTitle":"Apply",
+            "phone": null
           }
         ]
       },
       { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "financialforumconnect", "province": "*" },
+        "serviceProvider_id": "100",
         "items": [
           {
-            "type": "p",
-            "text": "<!--Just a whitespace-->"
-          },
-          {
-            "type": "card",
-            "items": [
-              {
-                "type": "image",
-                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/financialforumconnect/logo.png"
-              },
-              {
-                "type": "p",
-                "text": "Apply for a Mortgage with Financial Forum Connect"
-              },
-              {
-                "type": "button primary",
-                "text": "Apply",
-                "onClickUrl": "https://www.mortgageweb.ca/en-CA/thefinancialforum/Apply"
-              }
-            ]
+            "type": "info-tile-component",
+            "title": "Financial Forum",
+            "text": "Apply for a Mortgage with Financial Forum Connect",
+            "image": "./whitelabel/financialforumconnect/logo.png",
+            "url": "https://www.mortgageweb.ca/thefinancialforum/MortgageApplication/en-US/Style3_",
+            "urlTitle":"Apply",
+            "phone": null
           }
         ]
       },
-      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "citadelconnect", "province": "*" },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "citadelmortgageconnect", "province": "*" },
+        "serviceProvider_id": "100",
         "items": [
           {
-            "type": "p",
-            "text": "<!--Just a whitespace-->"
-          },
-          {
-            "type": "card",
-            "items": [
-              {
-                "type": "image",
-                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/logo.png"
-              },
-              {
-                "type": "p",
-                "text": "Apply for a Mortgage with Citadel Connect"
-              },
-              {
-                "type": "button primary",
-                "text": "Apply",
-                "onClickUrl": "https://citadel-mortgages.mtg-app.com/signup?refId=467a4eae-d050-4e91-a6ec-e5f74ccda0d9 "
-              }
-            ]
-          }
-        ]
-      },
-      { "title": "Home Closing", "conditions": { "title": "Home Closing", "region": "US", "company": "*", "province": "*" },
-        "items": [
-          {
-            "type": "p",
-            "text": "<!--Just a whitespace-->"
-          },
-          {
-            "type": "card",
-            "items": [
-              {
-                "type": "image",
-                "text": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png"
-              },
-              {
-                "type": "p",
-                "text": "Apply for a Mortgage with Thrive Mortgage Co."
-              },
-              {
-                "type": "button primary",
-                "text": "Apply",
-                "onClickUrl": "https://thrive-mortgage.mtg-app.com/signup"
-              }
-            ]
+            "type": "info-tile-component",
+            "title": "Citadel",
+            "text": "Apply for a Mortgage with Citadel Connect",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/logo.png",
+            "url": "https://citadel-mortgages.mtg-app.com/signup?refId=467a4eae-d050-4e91-a6ec-e5f74ccda0d9",
+            "urlTitle":"Apply",
+            "phone": null
           }
         ]
       },
@@ -4108,7 +4044,7 @@
       {
         "title": "Disabled",
         "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance",
-        "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province": "*" },
+        "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgageconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province": "*" },
         "disabled": true,
         "items": null
       }
