@@ -1156,46 +1156,15 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          {
-            "title": "Lawn/Garden Care",
-            "icon": "icon-lawn-mower",
-            "serviceProvider_id": "111"
-          },
-          {
-            "title": "Property Management",
-            "icon": "icon-property-management",
-            "serviceProvider_id": "112"
-          },
-          {
-            "title": "Home Renovation",
-            "icon": "icon-home-renovations",
-            "serviceProvider_id": "113"
-          },
-          {
-            "title": "Pest Control",
-            "icon": "icon-pest-control",
-            "serviceProvider_id": "114"
-          },
-          {
-            "title": "Locksmith",
-            "icon": "icon-locksmith",
-            "serviceProvider_id": "115"
-          },
-          {
-            "title": "Cleaning Services",
-            "icon": "icon-cleaning-services",
-            "serviceProvider_id": "116"
-          },
-          {
-            "title": "Junk Removal",
-            "icon": "icon-junk-removal",
-            "serviceProvider_id": "117"
-          },
-          {
-            "title": "Smart Home/Home Security",
-            "icon": "icon-smart-home",
-            "serviceProvider_id": "126"
-          }
+          { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
+          { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "*", "province": [ "AB" ] },
@@ -1204,46 +1173,14 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          {
-            "title": "Lawn/Garden Care",
-            "icon": "icon-lawn-mower",
-            "serviceProvider_id": "111"
-          },
-          {
-            "title": "Property Management",
-            "icon": "icon-property-management",
-            "serviceProvider_id": "112"
-          },
-          {
-            "title": "Home Renovation",
-            "icon": "icon-home-renovations",
-            "serviceProvider_id": "113"
-          },
-          {
-            "title": "Pest Control",
-            "icon": "icon-pest-control",
-            "serviceProvider_id": "114"
-          },
-          {
-            "title": "Locksmith",
-            "icon": "icon-locksmith",
-            "serviceProvider_id": "115"
-          },
-          {
-            "title": "Cleaning Services",
-            "icon": "icon-cleaning-services",
-            "serviceProvider_id": "116"
-          },
-          {
-            "title": "Junk Removal",
-            "icon": "icon-junk-removal",
-            "serviceProvider_id": "117"
-          },
-          {
-            "title": "Smart Home/Home Security",
-            "icon": "icon-smart-home",
-            "serviceProvider_id": "126"
-          }
+          { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "AB", "BC", "ON" ] },
@@ -1252,46 +1189,14 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          {
-            "title": "Lawn/Garden Care",
-            "icon": "icon-lawn-mower",
-            "serviceProvider_id": "111"
-          },
-          {
-            "title": "Property Management",
-            "icon": "icon-property-management",
-            "serviceProvider_id": "112"
-          },
-          {
-            "title": "Home Renovation",
-            "icon": "icon-home-renovations",
-            "serviceProvider_id": "113"
-          },
-          {
-            "title": "Pest Control",
-            "icon": "icon-pest-control",
-            "serviceProvider_id": "114"
-          },
-          {
-            "title": "Locksmith",
-            "icon": "icon-locksmith",
-            "serviceProvider_id": "115"
-          },
-          {
-            "title": "Cleaning Services",
-            "icon": "icon-cleaning-services",
-            "serviceProvider_id": "116"
-          },
-          {
-            "title": "Junk Removal",
-            "icon": "icon-junk-removal",
-            "serviceProvider_id": "117"
-          },
-          {
-            "title": "Smart Home/Home Security",
-            "icon": "icon-smart-home",
-            "serviceProvider_id": "126"
-          }
+          { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "cmlconnect", "province": [ "BC" ] },
@@ -1300,46 +1205,14 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          {
-            "title": "Lawn/Garden Care",
-            "icon": "icon-lawn-mower",
-            "serviceProvider_id": "111"
-          },
-          {
-            "title": "Property Management",
-            "icon": "icon-property-management",
-            "serviceProvider_id": "112"
-          },
-          {
-            "title": "Home Renovation",
-            "icon": "icon-home-renovations",
-            "serviceProvider_id": "113"
-          },
-          {
-            "title": "Pest Control",
-            "icon": "icon-pest-control",
-            "serviceProvider_id": "114"
-          },
-          {
-            "title": "Locksmith",
-            "icon": "icon-locksmith",
-            "serviceProvider_id": "115"
-          },
-          {
-            "title": "Cleaning Services",
-            "icon": "icon-cleaning-services",
-            "serviceProvider_id": "116"
-          },
-          {
-            "title": "Junk Removal",
-            "icon": "icon-junk-removal",
-            "serviceProvider_id": "117"
-          },
-          {
-            "title": "Smart Home/Home Security",
-            "icon": "icon-smart-home",
-            "serviceProvider_id": "126"
-          }
+          { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province":[ "ON" ] },
@@ -1348,46 +1221,14 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          {
-            "title": "Lawn/Garden Care",
-            "icon": "icon-lawn-mower",
-            "serviceProvider_id": "111"
-          },
-          {
-            "title": "Property Management",
-            "icon": "icon-property-management",
-            "serviceProvider_id": "112"
-          },
-          {
-            "title": "Home Renovation",
-            "icon": "icon-home-renovations",
-            "serviceProvider_id": "113"
-          },
-          {
-            "title": "Pest Control",
-            "icon": "icon-pest-control",
-            "serviceProvider_id": "114"
-          },
-          {
-            "title": "Locksmith",
-            "icon": "icon-locksmith",
-            "serviceProvider_id": "115"
-          },
-          {
-            "title": "Cleaning Services",
-            "icon": "icon-cleaning-services",
-            "serviceProvider_id": "116"
-          },
-          {
-            "title": "Junk Removal",
-            "icon": "icon-junk-removal",
-            "serviceProvider_id": "117"
-          },
-          {
-            "title": "Smart Home/Home Security",
-            "icon": "icon-smart-home",
-            "serviceProvider_id": "126"
-          }
+          { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "xevaconnect", "province": [ "AB", "BC" ] },
@@ -1396,46 +1237,14 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          {
-            "title": "Lawn/Garden Care",
-            "icon": "icon-lawn-mower",
-            "serviceProvider_id": "111"
-          },
-          {
-            "title": "Property Management",
-            "icon": "icon-property-management",
-            "serviceProvider_id": "112"
-          },
-          {
-            "title": "Home Renovation",
-            "icon": "icon-home-renovations",
-            "serviceProvider_id": "113"
-          },
-          {
-            "title": "Pest Control",
-            "icon": "icon-pest-control",
-            "serviceProvider_id": "114"
-          },
-          {
-            "title": "Locksmith",
-            "icon": "icon-locksmith",
-            "serviceProvider_id": "115"
-          },
-          {
-            "title": "Cleaning Services",
-            "icon": "icon-cleaning-services",
-            "serviceProvider_id": "116"
-          },
-          {
-            "title": "Junk Removal",
-            "icon": "icon-junk-removal",
-            "serviceProvider_id": "117"
-          },
-          {
-            "title": "Smart Home/Home Security",
-            "icon": "icon-smart-home",
-            "serviceProvider_id": "126"
-          }
+          { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "NS" ] },
@@ -1444,41 +1253,13 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          {
-            "title": "Lawn/Garden Care",
-            "icon": "icon-lawn-mower",
-            "serviceProvider_id": "111"
-          },
-          {
-            "title": "Property Management",
-            "icon": "icon-property-management",
-            "serviceProvider_id": "112"
-          },
-          {
-            "title": "Home Renovation",
-            "icon": "icon-home-renovations",
-            "serviceProvider_id": "113"
-          },
-          {
-            "title": "Pest Control",
-            "icon": "icon-pest-control",
-            "serviceProvider_id": "114"
-          },
-          {
-            "title": "Cleaning Services",
-            "icon": "icon-cleaning-services",
-            "serviceProvider_id": "116"
-          },
-          {
-            "title": "Junk Removal",
-            "icon": "icon-junk-removal",
-            "serviceProvider_id": "117"
-          },
-          {
-            "title": "Smart Home/Home Security",
-            "icon": "icon-smart-home",
-            "serviceProvider_id": "126"
-          }
+          { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
+          { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "SK", "MB" ] },
@@ -1487,41 +1268,13 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          {
-            "title": "Lawn/Garden Care",
-            "icon": "icon-lawn-mower",
-            "serviceProvider_id": "111"
-          },
-          {
-            "title": "Property Management",
-            "icon": "icon-property-management",
-            "serviceProvider_id": "112"
-          },
-          {
-            "title": "Home Renovation",
-            "icon": "icon-home-renovations",
-            "serviceProvider_id": "113"
-          },
-          {
-            "title": "Pest Control",
-            "icon": "icon-pest-control",
-            "serviceProvider_id": "114"
-          },
-          {
-            "title": "Cleaning Services",
-            "icon": "icon-cleaning-services",
-            "serviceProvider_id": "116"
-          },
-          {
-            "title": "Junk Removal",
-            "icon": "icon-junk-removal",
-            "serviceProvider_id": "117"
-          },
-          {
-            "title": "Smart Home/Home Security",
-            "icon": "icon-smart-home",
-            "serviceProvider_id": "126"
-          }
+          { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
+          { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "NB", "NL" ] },
@@ -1530,11 +1283,24 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          {
-            "title": "Home Renovation",
-            "icon": "",
-            "serviceProvider_id": "113"
-          }
+          { "title": "Home Renovation", "icon": "", "serviceProvider_id": "113" }
+        ]
+      },
+      { "title": "Property Services", "conditions": { "title": "Property Services" , "company":"*", "region":"US"},
+        "description": "List of property services offered",
+        "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
+        "parent": null,
+        "serviceProvider_id": "CONCIERGE_SERVICES",
+        "buttons": [
+          { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
+          { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
       { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care", "company": "*" },
@@ -1918,13 +1684,7 @@
           }
         ]
       },
-      {
-        "title": "Insurance Products",
-        "conditions": {
-          "title": "Insurance Products",
-          "company": "*",
-          "province": "BC"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "*", "province": "BC" },
         "parent": null,
         "buttons": [
           {
@@ -1939,13 +1699,7 @@
           }
         ]
       },
-      {
-        "title": "Insurance Products",
-        "conditions": {
-          "title": "Insurance Products",
-          "company": "*",
-          "province": "AB"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "*", "province": "AB" },
         "parent": null,
         "buttons": [
           {
@@ -1960,13 +1714,7 @@
           }
         ]
       },
-      {
-        "title": "Insurance Products",
-        "conditions": {
-          "title": "Insurance Products",
-          "company": "oriana",
-          "province": "*"
-        },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "oriana", "province": "*" },
         "parent": null,
         "buttons": [
           {
@@ -2720,14 +2468,7 @@
         ],
         "description": "Regional gas providers all in one location for your convenience. <b>Required before you move in.</b>"
       },
-      {
-        "title": "Gas",
-        "conditions": {
-          "title": "Gas",
-          "province": [
-            "BC"
-          ]
-        },
+      { "title": "Gas", "conditions": { "title": "Gas", "province": [ "BC" ] },
         "serviceProvider_id": "120",
         "items": [
           {
@@ -3014,7 +2755,6 @@
           { "title": "Arrange Storage", "icon": "", "serviceProvider_id": "110" },
           { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
           { "title": "Utilities", "icon": "", "serviceProvider_id": "" },
-          { "title": "Water Heater/Furnace Replacement", "icon": "", "serviceProvider_id": "125" },
           { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
         ]
       },
@@ -3039,7 +2779,6 @@
           { "title": "Arrange Storage", "icon": "", "serviceProvider_id": "110" },
           { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
           { "title": "Utilities", "icon": "", "serviceProvider_id": "" },
-          { "title": "HVAC", "icon": "", "serviceProvider_id": "125" },
           { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
         ]
       },
@@ -4128,10 +3867,7 @@
         "disabled": true,
         "items": null
       },
-      {
-        "title": "Disabled",
-        "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance",
-        "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect", "cmlconnect" ], "province": "*" },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect", "cmlconnect" ], "province": "*" },
         "disabled": true,
         "items": null
       }
