@@ -742,6 +742,14 @@
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
+        "conditions": { "serviceProvider_id": [ "CREDIT_SCORE" ], "company": "*", "province": "*", "region": "CA" , "userType": "*" },
+        "permissions": [ "VIEW_DOCUMENT" ]
+      },
+      {
+        "conditions": { "serviceProvider_id": [ "102" ], "company": "*", "province": "*", "region": "CA" , "userType": "HOMEOWNER" },
+        "permissions": [ "VIEW_DOCUMENT" ]
+      },
+      {
         "conditions": { "serviceProvider_id": [ "100" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
@@ -807,6 +815,14 @@
         "conditions": { "serviceProvider_id": ["102", "103", "104"], "region": "US", "company": "*",  "province": "*",  "userType": "*" },
         "_comment": "Hide service items for US.",  
         "permissions": [ ]
+      },
+      {
+        "conditions": { "serviceProvider_id": [ "CREDIT_SCORE" ], "company": "*", "province": "*", "region": "US" , "userType": "*" },
+        "permissions": [ "VIEW_DOCUMENT" ]
+      },
+      {
+        "conditions": { "serviceProvider_id": [ "127" ], "company": "*", "province": "*", "region": "US" , "userType": "*" },
+        "permissions": [ "VIEW_DOCUMENT" ]
       }
     ],
     "selectOptions2": [
