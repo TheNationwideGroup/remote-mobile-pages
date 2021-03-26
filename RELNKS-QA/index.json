@@ -1203,7 +1203,8 @@
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
-          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
+          { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "AB", "BC", "ON" ] },
@@ -1219,7 +1220,8 @@
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
-          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
+          { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "canadianmortgagelenderconnect", "province": [ "BC" ] },
@@ -1235,7 +1237,8 @@
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
-          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
+          { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect" ], "province":[ "ON" ] },
@@ -1251,7 +1254,8 @@
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
-          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
+          { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "xevaconnect", "province": [ "AB", "BC" ] },
@@ -1267,7 +1271,8 @@
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
-          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
+          { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "NS" ] },
@@ -1282,7 +1287,8 @@
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
-          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
+          { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "SK", "MB" ] },
@@ -1297,7 +1303,8 @@
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
-          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" }
+          { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
+          { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "NB", "NL" ] },
