@@ -2814,44 +2814,44 @@
         "parent": null,
         "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
         "buttons": [
-          { "title": "Moving Companies", "icon": "", "serviceProvider_id": "108" },
-          { "title": "Truck Rental", "icon": "", "serviceProvider_id": "109" },
-          { "title": "Arrange Storage", "icon": "", "serviceProvider_id": "110" },
-          { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
-          { "title": "Utilities", "icon": "", "serviceProvider_id": "" },
-          { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
+          { "title": "Moving Companies", "icon": "icon-movingcompanies", "serviceProvider_id": "108" },
+          { "title": "Truck Rental", "icon": "icon-truck-rental", "serviceProvider_id": "109" },
+          { "title": "Arrange Storage", "icon": "icon-arrange-storage", "serviceProvider_id": "110" },
+          { "title": "Change Address", "icon": "icon-change-address", "serviceProvider_id": "118" },
+          { "title": "Utilities", "icon": "icon-utilities", "serviceProvider_id": "" },
+          { "title": "Moving Tips", "icon": "icon-moving-tips", "serviceProvider_id": "" }
         ]
       },
       { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "*", "province": [ "AB" ] },
         "parent": null,
         "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
         "buttons": [
-          { "title": "Moving Companies", "icon": "", "serviceProvider_id": "108" },
-          { "title": "Truck Rental", "icon": "", "serviceProvider_id": "109" },
-          { "title": "Arrange Storage", "icon": "", "serviceProvider_id": "110" },
-          { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
-          { "title": "Utilities", "icon": "", "serviceProvider_id": "" },
-          { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
+          { "title": "Moving Companies", "icon": "icon-movingcompanies", "serviceProvider_id": "108" },
+          { "title": "Truck Rental", "icon": "icon-truck-rental", "serviceProvider_id": "109" },
+          { "title": "Arrange Storage", "icon": "icon-arrange-storage", "serviceProvider_id": "110" },
+          { "title": "Change Address", "icon": "icon-change-address", "serviceProvider_id": "118" },
+          { "title": "Utilities", "icon": "icon-utilities", "serviceProvider_id": "" },
+          { "title": "Moving Tips", "icon": "icon-moving-tips", "serviceProvider_id": "" }
         ]
       },
       { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "*", "region": "US", "province": "*" },
         "parent": null,
         "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
         "buttons": [
-          { "title": "Moving Companies", "icon": "", "serviceProvider_id": "108" },
-          { "title": "Truck Rental", "icon": "", "serviceProvider_id": "109" },
-          { "title": "Arrange Storage", "icon": "", "serviceProvider_id": "110" },
-          { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
-          { "title": "Utilities", "icon": "", "serviceProvider_id": "" },
-          { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
+          { "title": "Moving Companies", "icon": "icon-movingcompanies", "serviceProvider_id": "108" },
+          { "title": "Truck Rental", "icon": "icon-truck-rental", "serviceProvider_id": "109" },
+          { "title": "Arrange Storage", "icon": "icon-arrange-storage", "serviceProvider_id": "110" },
+          { "title": "Change Address", "icon": "icon-change-address", "serviceProvider_id": "118" },
+          { "title": "Utilities", "icon": "icon-utilities", "serviceProvider_id": "" },
+          { "title": "Moving Tips", "icon": "icon-moving-tips", "serviceProvider_id": "" }
         ]
       },
       { "title": "Moving Services", "conditions": { "title": "Moving Services", "company": "vericoconnect", "province": [ "NB", "NL" ] },
         "parent": null,
         "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
         "buttons": [
-          { "title": "Change Address", "icon": "", "serviceProvider_id": "118" },
-          { "title": "Moving Tips", "icon": "", "serviceProvider_id": "" }
+          { "title": "Change Address", "icon": "icon-change-address", "serviceProvider_id": "118" },
+          { "title": "Moving Tips", "icon": "icon-moving-tips", "serviceProvider_id": "" }
         ]
       },
       { "title": "Moving Companies", "conditions": { "title": "Moving Companies", "company": "*", "province": "*" },
@@ -3034,36 +3034,36 @@
       },
       { "title": "Utilities", "conditions": { "title": "Utilities", "company": "*", "province": "*" },
         "buttons": [
-          { "title": "Electric Companies", "serviceProvider_id": "119" },
-          { "title": "Gas", "serviceProvider_id": "120" },
-          { "title": "Water", "serviceProvider_id": "121" },
-          { "title": "Phone", "serviceProvider_id": "122" },
-          { "title": "Internet", "serviceProvider_id": "123" },
-          { "title": "Cable", "serviceProvider_id": "124" }
+          { "title": "Electric Companies", "icon":"icon-electricity-companies", "serviceProvider_id": "119" },
+          { "title": "Gas", "icon":"icon-gas-companies", "serviceProvider_id": "120" },
+          { "title": "Water", "icon":"icon-water-companies", "serviceProvider_id": "121" },
+          { "title": "Phone", "icon":"icon-phone", "serviceProvider_id": "122" },
+          { "title": "Internet", "icon":"icon-internet-companies", "serviceProvider_id": "123" },
+          { "title": "Cable", "icon":"icon-cable-companies", "serviceProvider_id": "124" }
         ]
       },
       { "title": "Utilities", "conditions": { "title": "Utilities", "company": "*", "province": [ "AB" ] },
         "buttons": [
-          { "title": "Water", "serviceProvider_id": "121" },
-          { "title": "Phone", "serviceProvider_id": "122" },
-          { "title": "Internet", "serviceProvider_id": "123" },
-          { "title": "Cable", "serviceProvider_id": "124" }
+          { "title": "Water", "icon":"icon-water-companies", "serviceProvider_id": "121" },
+          { "title": "Phone", "icon":"icon-phone", "serviceProvider_id": "122" },
+          { "title": "Internet", "icon":"icon-internet-companies", "serviceProvider_id": "123" },
+          { "title": "Cable", "icon":"icon-cable-companies", "serviceProvider_id": "124" }
         ]
       },
       { "title": "Utilities", "conditions": { "title": "Utilities", "company": "vericoconnect", "province": [ "AB", "SK", "MB", "NS" ] },
         "buttons": [
-          { "title": "Water", "serviceProvider_id": "121" },
-          { "title": "Phone", "serviceProvider_id": "122" },
-          { "title": "Internet", "serviceProvider_id": "123" },
-          { "title": "Cable", "serviceProvider_id": "124" }
+          { "title": "Water", "icon":"icon-water-companies", "serviceProvider_id": "121" },
+          { "title": "Phone", "icon":"icon-phone", "serviceProvider_id": "122" },
+          { "title": "Internet", "icon":"icon-internet-companies", "serviceProvider_id": "123" },
+          { "title": "Cable", "icon":"icon-cable-companies", "serviceProvider_id": "124" }
         ]
       },
       { "title": "Utilities", "conditions": { "title": "Utilities", "company": "xevaconnect", "province": [ "AB" ] },
         "buttons": [
-          { "title": "Water", "serviceProvider_id": "121" },
-          { "title": "Phone", "serviceProvider_id": "122" },
-          { "title": "Internet", "serviceProvider_id": "123" },
-          { "title": "Cable", "serviceProvider_id": "124" }
+          { "title": "Water", "icon":"icon-water-companies", "serviceProvider_id": "121" },
+          { "title": "Phone", "icon":"icon-phone", "serviceProvider_id": "122" },
+          { "title": "Internet", "icon":"icon-internet-companies", "serviceProvider_id": "123" },
+          { "title": "Cable", "icon":"icon-cable-companies", "serviceProvider_id": "124" }
         ]
       },
       { "title": "Water Heater/Furnace Replacement", "conditions": { "title": "Water Heater/Furnace Replacement" },
