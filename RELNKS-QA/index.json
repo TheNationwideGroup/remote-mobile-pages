@@ -39,7 +39,8 @@
       "canadianmortgagelenderconnect",
       "centummetrocapp",
       "sequoiamortgageconnect",
-      "boirongroup"
+      "boirongroup",
+      "RPPconcierge"
     ],
     "WhitelabelAssets": [
       {
@@ -610,6 +611,27 @@
         "conditions": { "page": [ "RegisterPage" ], "company": "boirongroup" },
         "pageTitle": "Borion Group",
         "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "RPPconcierge" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/RPPconcierge/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "RPPconcierge" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/RPPconcierge/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/RPPconcierge/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "RPPconcierge" },
+        "imageURL": "",
+        "pageTitle": "REMAX Prime Properties"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "RPPconcierge" },
+        "pageTitle": "REMAX Prime Properties",
+        "imageURL": ""
       }
     ],
     "WhitelabelData": [
@@ -679,7 +701,9 @@
       { "conditions": { "company": "sequoiamortgageconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "sequoiamortgageconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico","brokerCompanyName": "Sequoia Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "boirongroup", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "boirongroup", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "realEstateBrokerage": "Royal LePage Terrequity","realEstateOffice": "Boiron Group", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true }                                        
+      { "conditions": { "company": "boirongroup", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "realEstateBrokerage": "Royal LePage Terrequity","realEstateOffice": "Boiron Group", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "RPPconcierge", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "RPPconcierge", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "realEstateBrokerage": "REMAX","realEstateOffice": "Prime Properties", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true }                                          
     ],
     "WhitelabelCSS": [
       {
@@ -781,6 +805,10 @@
       {
         "conditions": { "company": "boirongroup" },
         "css": " #page-login #logo {background-size: contain;} #page-login #login { background-color: #27424c; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #27424c !important;} .theme-accent-bg{background-color: #27424c !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #27424c !important; background-color:white !important; } .theme-accent-fg{color: #27424c !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #27424c !important; color:white !important; } .page-HeaderPage>.header {background-color: #27424c !important;} div[page].page-Menu .menu-body {background-color: #27424c;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #27424c !important; } .btn-primary, button.primary { background-color: #27424c !important; border: 1px solid #27424c !important;} button.primary:active { background-color: #649623 !important; border-color: #27424c !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #27424c !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #27424c !important; } div[type='info-tile-component'] button { background-color: #27424c !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #27424c !important;}"
+      },
+      {
+        "conditions": { "company": "RPPconcierge" },
+        "css": " #page-login #logo {background-size: contain;} #page-login #login { background-color: #dc1c2e; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #dc1c2e !important;} .theme-accent-bg{background-color: #dc1c2e !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #dc1c2e !important; background-color:white !important; } .theme-accent-fg{color: #dc1c2e !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #dc1c2e !important; color:white !important; } .page-HeaderPage>.header {background-color: #dc1c2e !important;} div[page].page-Menu .menu-body {background-color: #dc1c2e;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #dc1c2e !important; } .btn-primary, button.primary { background-color: #dc1c2e !important; border: 1px solid #dc1c2e !important;} button.primary:active { background-color: #649623 !important; border-color: #dc1c2e !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #dc1c2e !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #dc1c2e !important; } div[type='info-tile-component'] button { background-color: #dc1c2e !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #dc1c2e !important;}"
       }
     ],
     "UserTypePermissions": [
@@ -877,8 +905,8 @@
       { "conditions":{"page":"RegisterPage","region":"CA","company":["tribefinancial"], "name":"brokerHouse" }, "items": null },
       { "conditions":{"page":"RegisterPage","region":"CA","company":["northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect"], "name":"brokerHouse" }, "items": null },
       { "conditions":{"page":"RegisterPage","region":"US","company":"*", "name":"brokerHouse" }, "items": null },
-      { "conditions":{"page":"RegisterPage","region":"CA","company":"boirongroup", "name":"realEstateBrokerage" }, "items": null },
-      { "conditions":{"page":"RegisterPage","region":"CA","company":"boirongroup", "name":"realEstateOffice" }, "items": null }, 
+      { "conditions":{"page":"RegisterPage","region":"CA","company":["boirongroup","RPPconcierge"], "name":"realEstateBrokerage" }, "items": null },
+      { "conditions":{"page":"RegisterPage","region":"CA","company":["boirongroup","RPPconcierge"], "name":"realEstateOffice" }, "items": null }, 
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":"REALTOR" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
         { "value": "ANOTHERAGENT", "title": "Another Agent" },
