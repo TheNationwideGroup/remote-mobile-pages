@@ -605,11 +605,11 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "boirongroup" },
         "imageURL": "",
-        "pageTitle": "Borion Group"
+        "pageTitle": "Boiron Group"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "boirongroup" },
-        "pageTitle": "Borion Group",
+        "pageTitle": "Boiron Group",
         "imageURL": ""
       },
       {
