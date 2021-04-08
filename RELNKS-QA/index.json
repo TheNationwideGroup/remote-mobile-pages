@@ -701,9 +701,9 @@
       { "conditions": { "company": "sequoiamortgageconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "sequoiamortgageconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico","brokerCompanyName": "Sequoia Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "boirongroup", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "boirongroup", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "brokerHouse": "Royal LePage Terrequity","brokerCompanyName": "Boiron Group", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "boirongroup", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "realEstateBrokerage": "Royal LePage Terrequity","realEstateOffice": "Boiron Group", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "RPPconcierge", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "RPPconcierge", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "brokerHouse": "REMAX","brokerCompanyName": "Prime Properties", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true }                                          
+      { "conditions": { "company": "RPPconcierge", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "realEstateBrokerage": "REMAX","realEstateOffice": "Prime Properties", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true }                                          
     ],
     "WhitelabelCSS": [
       {
