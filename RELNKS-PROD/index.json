@@ -1078,7 +1078,8 @@
       { "conditions":{ "serviceProvider_id": "103", "method":"vendors", "id":"stevek"}, "imageUrl": "./partners/all-in-one-home-inspections.jpg" },
       { "conditions":{ "serviceProvider_id": "103", "method":"vendors", "id":"douville"}, "imageUrl": "./partners/douville.jpg" },
       { "conditions":{ "serviceProvider_id": "103", "method":"vendors", "id":"jamesdobney"}, "imageUrl": "./partners/james-dobney.png" },
-      { "conditions":{ "serviceProvider_id": "103", "method":"vendors", "id":"wolfpack"}, "imageUrl": "./partners/wolfpack-home-inspection.png" }
+      { "conditions":{ "serviceProvider_id": "103", "method":"vendors", "id":"wolfpack"}, "imageUrl": "./partners/wolfpack-home-inspection.png" },
+      { "conditions":{ "serviceProvider_id": "103", "method":"vendors", "id":"tsnyder"}, "imageUrl": "./partners/accurate-home-inspection.jpg" }
     ],
     "serviceOptions": {
       "104": [
