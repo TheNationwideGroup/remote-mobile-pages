@@ -918,7 +918,7 @@
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":["*","HOMEOWNER"] }, "items": [
         { "value": "COAPPLICANT", "title": "Co-Applicant" },
-        { "value": "LAWYER", "title": "Lawyer" },
+        { "value": "FRIENDRELATIVE", "title": "Friend/Relative" },
         { "value": "MORTGAGEBROKER", "title": "Mortgage Broker" },
         { "value": "REALTOR", "title": "Realtor" }
       ]},
@@ -1921,7 +1921,7 @@
       { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
-        "description":"Optional protection plan for peace of mind when purchasing a home. <b>Not required for closing.</b>",
+        "description":"Optional protection plan for peace of mind when purchasing a home. Not required for closing.",
         "items": [
           {
             "type": "info-tile-component",
@@ -1952,7 +1952,7 @@
       { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "region": "US", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
-        "description":"Optional protection plan for peace of mind when purchasing a home. <b>Not required for closing.</b>",
+        "description":"Optional protection plan for peace of mind when purchasing a home. Not required for closing.",
         "items": [
           {
             "type": "info-tile-component",
