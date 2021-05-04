@@ -909,12 +909,16 @@
         { "value": "ADMINISTRATOR", "title": "Administrator" },
         { "value": "ANOTHERAGENT", "title": "Another Agent" },
         { "value": "APPLICANT", "title": "Applicant" },
-        { "value": "COAPPLICANT", "title": "Co-Applicant" }
+        { "value": "FRIENDRELATIVE", "title": "Friend/Relative" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":"BROKER" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
         { "value": "APPLICANT", "title": "Applicant" },
-        { "value": "COAPPLICANT", "title": "Co-Applicant" }
+        { "value": "FRIENDRELATIVE", "title": "Friend/Relative" }
+      ]},
+      { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":"LENDER" }, "items": [
+        { "value": "ADMINISTRATOR", "title": "Administrator" },
+        { "value": "APPLICANT", "title": "Applicant" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":["*","HOMEOWNER"] }, "items": [
         { "value": "COAPPLICANT", "title": "Co-Applicant" },
