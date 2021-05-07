@@ -928,16 +928,15 @@
       { "conditions":{"page":"UserProfilePage", "region":"US", "company":"*", "name":"participantType", "userType":"REALTOR" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
         { "value": "ANOTHERAGENT", "title": "Another Agent" },
-        { "value": "APPLICANT", "title": "Applicant" },
-        { "value": "COAPPLICANT", "title": "Co-Applicant" }
+        { "value": "APPLICANT", "title": "Applicant" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"US", "company":"*", "name":"participantType", "userType":"BROKER" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
-        { "value": "APPLICANT", "title": "Applicant" },
-        { "value": "COAPPLICANT", "title": "Co-Applicant" }
+        { "value": "APPLICANT", "title": "Applicant" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"US", "company":"*", "name":"participantType", "userType":["*","HOMEOWNER"] }, "items": [
         { "value": "COAPPLICANT", "title": "Co-Applicant" },
+        { "value": "FRIENDRELATIVE", "title": "Friend/Relative" },
         { "value": "MORTGAGEBROKER", "title": "Mortgage Broker" },
         { "value": "REALTOR", "title": "Realtor" }
       ]},
