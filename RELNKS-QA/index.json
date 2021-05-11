@@ -2605,7 +2605,7 @@
             "phone": "416-542-8000"
           }
         ],
-        "description": "Regional electric providers all in one location for your convenience. Required before you move in."
+        "description": "Regional electric providers all in one location for your convenience. <b>Required before you move in.</b>"
       },
       { "title": "Electric Companies", "conditions": { "title": "Electric Companies", "province": [ "BC" ] },
         "serviceProvider_id": "119",
@@ -2627,7 +2627,7 @@
             "phone": "866-436-7847"
           }
         ],
-        "description": "Regional electric providers all in one location for your convenience. Required before you move in."
+        "description": "Regional electric providers all in one location for your convenience. <b>Required before you move in.</b>"
       },
       { "title": "Gas", "conditions": { "title": "Gas" },
         "serviceProvider_id": "120",
@@ -3253,7 +3253,7 @@
       },
       { "title": "Electric Companies", "conditions": { "title": "Electric Companies", "company": "*", "province": "*" },
         "serviceProvider_id": "119",
-        "description": "Regional electric providers all in one location for your convenience. Required before you move in.",
+        "description": "Regional electric providers all in one location for your convenience. <b>Required before you move in.</b>",
         "items": [
           {
             "type": "info-tile-component",
@@ -3291,7 +3291,7 @@
       },
       { "title": "Electric Companies", "conditions": { "title": "Electric Companies", "company": "*", "region": "US", "province": "*" },
         "serviceProvider_id": "119",
-        "description": "Regional electric providers all in one location for your convenience. Required before you move in.",
+        "description": "Regional electric providers all in one location for your convenience. <b>Required before you move in.</b>",
         "items": [
           {
             "type": "info-tile-component",
