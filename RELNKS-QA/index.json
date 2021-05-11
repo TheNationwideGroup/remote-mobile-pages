@@ -2641,7 +2641,7 @@
             "phone": "866-763-5427"
           }
         ],
-        "description": "Regional gas providers all in one location for your convenience. Required before you move in."
+        "description": "Regional gas providers all in one location for your convenience. <b>Required before you move in.</b>"
       },
       { "title": "Gas", "conditions": { "title": "Gas", "province": [ "BC" ] },
         "serviceProvider_id": "120",
@@ -2655,7 +2655,7 @@
             "phone": "888-224-2710"
           }
         ],
-        "description": "Regional gas providers all in one location for your convenience. Required before you move in."
+        "description": "Regional gas providers all in one location for your convenience. <b>Required before you move in.</b>"
       },
       { "title": "Phone", "conditions": { "title": "Phone" },
         "serviceProvider_id": "122",
@@ -3323,7 +3323,7 @@
             "phone": "866-763-5427"
           }
         ],
-        "description": "Regional gas providers all in one location for your convenience. Required before you move in."
+        "description": "Regional gas providers all in one location for your convenience. <b>Required before you move in.</b>"
       },
       { "title": "Gas", "conditions": { "title": "Gas", "company": "*", "region": "US", "province": "*" },
         "serviceProvider_id": "120",
@@ -3337,7 +3337,7 @@
             "phone": "877-860-6020"
           }
         ],
-        "description": "Regional gas providers all in one location for your convenience. Required before you move in."
+        "description": "Regional gas providers all in one location for your convenience. <b>Required before you move in.</b>"
       },
       { "title": "Water", "conditions": { "title": "Water", "company": "*", "province": "*" },
         "serviceProvider_id": "121",
