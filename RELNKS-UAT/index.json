@@ -908,13 +908,15 @@
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":"REALTOR" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
         { "value": "ANOTHERAGENT", "title": "Another Agent" },
-        { "value": "APPLICANT", "title": "Applicant" },
-        { "value": "COAPPLICANT", "title": "Co-Applicant" }
+        { "value": "APPLICANT", "title": "Applicant" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":"BROKER" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
-        { "value": "APPLICANT", "title": "Applicant" },
-        { "value": "COAPPLICANT", "title": "Co-Applicant" }
+        { "value": "APPLICANT", "title": "Applicant" }
+      ]},
+      { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":"LENDER" }, "items": [
+        { "value": "ADMINISTRATOR", "title": "Administrator" },
+        { "value": "APPLICANT", "title": "Applicant" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":["*","HOMEOWNER"] }, "items": [
         { "value": "COAPPLICANT", "title": "Co-Applicant" },
@@ -926,13 +928,11 @@
       { "conditions":{"page":"UserProfilePage", "region":"US", "company":"*", "name":"participantType", "userType":"REALTOR" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
         { "value": "ANOTHERAGENT", "title": "Another Agent" },
-        { "value": "APPLICANT", "title": "Applicant" },
-        { "value": "COAPPLICANT", "title": "Co-Applicant" }
+        { "value": "APPLICANT", "title": "Applicant" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"US", "company":"*", "name":"participantType", "userType":"BROKER" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
-        { "value": "APPLICANT", "title": "Applicant" },
-        { "value": "COAPPLICANT", "title": "Co-Applicant" }
+        { "value": "APPLICANT", "title": "Applicant" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"US", "company":"*", "name":"participantType", "userType":["*","HOMEOWNER"] }, "items": [
         { "value": "COAPPLICANT", "title": "Co-Applicant" },
@@ -1104,7 +1104,7 @@
       { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*" },
         "buttons": [
           {
-            "title": "Master Checklist",
+            "title": "Homebuyer Checklist",
             "image": "./whitelabel/relnks/MASTER_CHECKLIST.jpg",
             "icon": "icon-masterchecklist",
             "serviceProvider_id": "MASTERCHECKLIST"
@@ -1222,7 +1222,7 @@
       { "conditions": { "title": "Dashboard", "company": "*", "region": "US", "province": "*" },
         "buttons": [
           {
-            "title": "Master Checklist",
+            "title": "Homebuyer Checklist",
             "image": "./whitelabel/relnks/MASTER_CHECKLIST.jpg",
             "icon": "icon-masterchecklist",
             "serviceProvider_id": "MASTERCHECKLIST"
