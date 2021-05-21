@@ -636,14 +636,14 @@
       },
       {
         "conditions": { "page": [ "MenuPage" ], "company": "onelinkmortgageconnect" },
-        "imageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/onelinkmortgageconnect/logo.png"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/onelinkmortgageconnect/logo.png"
       },
       {
         "conditions": { "page": [ "LoginPage" ], "company": "onelinkmortgageconnect" },
-        "imageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/onelinkmortgageconnect/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/onelinkmortgageconnect/logo.png",
         "imageSize": "60%",
         "italicText": "Powered by",
-        "italicImageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/onelinkmortgageconnect/poweredby.png"
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/onelinkmortgageconnect/poweredby.png"
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "onelinkmortgageconnect" },
