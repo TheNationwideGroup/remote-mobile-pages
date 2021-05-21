@@ -40,7 +40,8 @@
       "centummetrocapp",
       "sequoiamortgageconnect",
       "boirongroup",
-      "RPPconcierge"
+      "RPPconcierge",
+      "onelinkmortgageconnect"
     ],
     "WhitelabelAssets": [
       {
@@ -632,6 +633,27 @@
         "conditions": { "page": [ "RegisterPage" ], "company": "RPPconcierge" },
         "pageTitle": "REMAX Prime Properties",
         "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "onelinkmortgageconnect" },
+        "imageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/onelinkmortgageconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "onelinkmortgageconnect" },
+        "imageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/onelinkmortgageconnect/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/onelinkmortgageconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "onelinkmortgageconnect" },
+        "imageURL": "",
+        "pageTitle": "One Link Mortgage Connect"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "onelinkmortgageconnect" },
+        "pageTitle": "One Link Mortgage Connect",
+        "imageURL": ""
       }
     ],
     "WhitelabelData": [
@@ -703,7 +725,9 @@
       { "conditions": { "company": "boirongroup", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "boirongroup", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "realEstateBrokerage": "Royal LePage Terrequity","realEstateOffice": "Boiron Group", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "RPPconcierge", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "RPPconcierge", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "realEstateBrokerage": "REMAX","realEstateOffice": "Prime Properties", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true }                                          
+      { "conditions": { "company": "RPPconcierge", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "realEstateBrokerage": "REMAX","realEstateOffice": "Prime Properties", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "onelinkmortgageconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["MB"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "onelinkmortgageconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico","brokerCompanyName": "One Link Mortgage", "SupportedRegions":{"CA":["MB"]}, "askNASUsersToLogin": true }                                            
     ],
     "WhitelabelCSS": [
       {
@@ -809,6 +833,10 @@
       {
         "conditions": { "company": "RPPconcierge" },
         "css": " #page-login #logo {background-size: contain;} #page-login #login { background-color: #dc1c2e; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #dc1c2e !important;} .theme-accent-bg{background-color: #dc1c2e !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #dc1c2e !important; background-color:white !important; } .theme-accent-fg{color: #dc1c2e !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #dc1c2e !important; color:white !important; } .page-HeaderPage>.header {background-color: #dc1c2e !important;} div[page].page-Menu .menu-body {background-color: #dc1c2e;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #dc1c2e !important; } .btn-primary, button.primary { background-color: #dc1c2e !important; border: 1px solid #dc1c2e !important;} button.primary:active { background-color: #649623 !important; border-color: #dc1c2e !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #dc1c2e !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #dc1c2e !important; } div[type='info-tile-component'] button { background-color: #dc1c2e !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #dc1c2e !important;}"
+      },
+      {
+        "conditions": { "company": "onelinkmortgageconnect" },
+        "css": "#page-login #login { background-color: #d7a900; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #d7a900 !important;} .theme-accent-bg{background-color: #d7a900 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #d7a900 !important; background-color:white !important; } .theme-accent-fg{color: #d7a900 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #d7a900 !important; color:white !important; } .page-HeaderPage>.header {background-color: #d7a900 !important;} div[page].page-Menu .menu-body {background-color: #d7a900;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #d7a900 !important; } .btn-primary, button.primary { background-color: #d7a900 !important; border: 1px solid #d7a900 !important;} button.primary:active { background-color: #649623 !important; border-color: #d7a900 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #d7a900 !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #d7a900 !important; } div[type='info-tile-component'] button { background-color: #d7a900 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #d7a900 !important;}"
       }
     ],
     "UserTypePermissions": [
@@ -1436,7 +1464,7 @@
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
-      { "title": "Property Services", "conditions": { "title": "Property Services", "company": "vericoconnect", "province": [ "SK", "MB" ] },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company": ["vericoconnect","onelinkmortgageconnect"], "province": [ "SK", "MB" ] },
         "description": "List of property services offered",
         "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "parent": null,
@@ -1904,7 +1932,7 @@
           }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect"], "province": "*" },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect"], "province": "*" },
         "parent": null,
         "buttons": [
           {
@@ -2126,7 +2154,7 @@
         ],
         "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
       },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect"], "province": "*" },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect"], "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -2407,7 +2435,7 @@
         ],
         "description": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
       },
-      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "vericoconnect", "province": "MB" },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": ["vericoconnect","onelinkmortgageconnect"], "province": "MB" },
         "parent": "Concierge Services",
         "serviceProvider_id": "118",
         "items": [
@@ -3161,7 +3189,7 @@
           { "title": "Cable", "icon":"icon-cable-companies", "serviceProvider_id": "124" }
         ]
       },
-      { "title": "Utilities", "conditions": { "title": "Utilities", "company": "vericoconnect", "province": [ "AB", "SK", "MB", "NS" ] },
+      { "title": "Utilities", "conditions": { "title": "Utilities", "company": ["vericoconnect","onelinkmortgageconnect"], "province": [ "AB", "SK", "MB", "NS" ] },
         "buttons": [
           { "title": "Water", "icon":"icon-water-companies", "serviceProvider_id": "121" },
           { "title": "Phone", "icon":"icon-phone", "serviceProvider_id": "122" },
@@ -3492,7 +3520,7 @@
         ],
         "description": "Regional phone providers all in one location for your convenience."
       },
-      { "title": "Phone", "conditions": { "title": "Phone", "company": "vericoconnect", "province": [ "MB" ] },
+      { "title": "Phone", "conditions": { "title": "Phone", "company": ["vericoconnect","onelinkmortgageconnect"], "province": [ "MB" ] },
         "serviceProvider_id": "122",
         "items": [
           {
@@ -3640,7 +3668,7 @@
         ],
         "description": "Regional internet providers all in one location for your convenience."
       },
-      { "title": "Internet", "conditions": { "title": "Internet", "company": "vericoconnect", "province": [ "MB" ] },
+      { "title": "Internet", "conditions": { "title": "Internet", "company": ["vericoconnect","onelinkmortgageconnect"], "province": [ "MB" ] },
         "serviceProvider_id": "123",
         "items": [
           {
@@ -3840,7 +3868,7 @@
         ],
         "description": "Regional cable providers all in one location for your convenience."
       },
-      { "title": "Cable", "conditions": { "title": "Cable", "company": "vericoconnect", "province": [ "MB" ] },
+      { "title": "Cable", "conditions": { "title": "Cable", "company": ["vericoconnect","onelinkmortgageconnect"], "province": [ "MB" ] },
         "serviceProvider_id": "124",
         "items": [
           {
@@ -4052,11 +4080,11 @@
         "disabled": true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for SK,MB,NB,NS,NL", "conditions": { "title": [ "Locksmith" ], "company": "vericoconnect", "province": [ "SK", "MB", "NB", "NS", "NL" ] },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect by default for SK,MB,NB,NS,NL", "conditions": { "title": [ "Locksmith" ], "company": ["vericoconnect","onelinkmortgageconnect"], "province": [ "SK", "MB", "NB", "NS", "NL" ] },
         "disabled": true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect", "canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect" ], "province": "*" },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect", "canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect" ], "province": "*" },
         "disabled": true,
         "items": null
       }
