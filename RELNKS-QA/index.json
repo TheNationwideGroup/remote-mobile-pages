@@ -76,7 +76,7 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "oriana" },
         "pageTitle": "Oriana Financial",
-        "imageURL": ""
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "oriana" },
@@ -164,7 +164,7 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "vericoconnect" },
         "pageTitle": "Verico Connect",
-        "imageURL": ""
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericoconnect/logo.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "vericoconnect" },
@@ -184,7 +184,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "northwoodmortgageconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/northwoodconnect/logo.png",
         "pageTitle": "Northwood Mortgage Connect"
       },
       {
@@ -813,7 +813,7 @@
     ],
     "UserTypePermissions": [
       {
-        "conditions": { "serviceProvider_id": [ "100" ], "company": "*", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
+        "conditions": { "serviceProvider_id": [ "100","127" ], "company": "*", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
@@ -825,7 +825,7 @@
         "permissions": [ "VIEW_DOCUMENT" ]
       },
       {
-        "conditions": { "serviceProvider_id": [ "100" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
+        "conditions": { "serviceProvider_id": [ "100","127" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
@@ -867,15 +867,15 @@
         "permissions": [ ]
       },
       {
-        "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
+        "conditions": { "serviceProvider_id": [ "100","127" ], "company": "vericoconnect", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
-        "conditions": { "serviceProvider_id": [ "100" ], "company": [ "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect"], "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
+        "conditions": { "serviceProvider_id": [ "100","127" ], "company": [ "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect"], "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST","CREATE_ORDER_BROKER_IS_PARTICIPANT"]
       },
       {
-        "conditions": { "serviceProvider_id": [ "100" ], "company": "vericoconnect", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
+        "conditions": { "serviceProvider_id": [ "100","127" ], "company": "vericoconnect", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
@@ -896,7 +896,7 @@
         "permissions": [ "VIEW_DOCUMENT" ]
       },
       {
-        "conditions": { "serviceProvider_id": [ "127" ], "company": "*", "province": "*", "region": "US" , "userType": "*" },
+        "conditions": { "serviceProvider_id": [ "128" ], "company": "*", "province": "*", "region": "US" , "userType": "*" },
         "permissions": [ "VIEW_DOCUMENT" ]
       }
     ],
@@ -908,11 +908,13 @@
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":"REALTOR" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
         { "value": "ANOTHERAGENT", "title": "Another Agent" },
-        { "value": "APPLICANT", "title": "Applicant" }
+        { "value": "APPLICANT", "title": "Applicant" },
+        { "value": "MORTGAGEBROKER", "title": "Mortgage Professional" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":"BROKER" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
-        { "value": "APPLICANT", "title": "Applicant" }
+        { "value": "APPLICANT", "title": "Applicant" },
+        { "value": "REALTOR", "title": "Realtor" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":"LENDER" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
@@ -920,24 +922,22 @@
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":["*","HOMEOWNER"] }, "items": [
         { "value": "COAPPLICANT", "title": "Co-Applicant" },
-        { "value": "FRIENDRELATIVE", "title": "Friend/Relative" },
-        { "value": "MORTGAGEBROKER", "title": "Mortgage Broker" },
         { "value": "REALTOR", "title": "Realtor" }
       ]},
 
       { "conditions":{"page":"UserProfilePage", "region":"US", "company":"*", "name":"participantType", "userType":"REALTOR" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
         { "value": "ANOTHERAGENT", "title": "Another Agent" },
-        { "value": "APPLICANT", "title": "Applicant" }
+        { "value": "APPLICANT", "title": "Applicant" },
+        { "value": "MORTGAGEBROKER", "title": "Mortgage Professional" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"US", "company":"*", "name":"participantType", "userType":"BROKER" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
-        { "value": "APPLICANT", "title": "Applicant" }
+        { "value": "APPLICANT", "title": "Applicant" },
+        { "value": "REALTOR", "title": "Realtor" }
       ]},
       { "conditions":{"page":"UserProfilePage", "region":"US", "company":"*", "name":"participantType", "userType":["*","HOMEOWNER"] }, "items": [
         { "value": "COAPPLICANT", "title": "Co-Applicant" },
-        { "value": "FRIENDRELATIVE", "title": "Friend/Relative" },
-        { "value": "MORTGAGEBROKER", "title": "Mortgage Broker" },
         { "value": "REALTOR", "title": "Realtor" }
       ]},
       { "conditions": {"page": "FilterPropertiesPage", "region":"US", "name": "propertyTypes" }, "items": [
@@ -1257,7 +1257,7 @@
             "title": "Title & Escrow Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
             "icon": "icon-homeclosingservices",
-            "serviceProvider_id": "127",
+            "serviceProvider_id": "128",
             "action": "ConciergeServicePage"
           },
           {
@@ -3985,7 +3985,7 @@
         "items": []
       },
       { "title": "Title & Escrow Services", "conditions": { "title": "Title & Escrow Services", "company": "*", "region": "US", "province": "*" },
-        "serviceProvider_id": "127",
+        "serviceProvider_id": "128",
         "items": [
           {
             "type": "info-tile-component",
