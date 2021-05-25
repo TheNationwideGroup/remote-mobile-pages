@@ -99,7 +99,7 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "opendoorsmortgage" },
         "pageTitle": "Open Doors Mortgage",
-        "imageURL": ""
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/logo.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "opendoorsmortgage" },
@@ -121,7 +121,7 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "thrivemortgage" },
         "pageTitle": "Thrive Connect",
-        "imageURL": ""
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/logo.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "thrivemortgage" },
@@ -143,7 +143,7 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "tribefinancial" },
         "pageTitle": "Tribe Financial",
-        "imageURL": ""
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/tribefinancial/logo.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "tribefinancial" },
@@ -206,7 +206,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "xevaconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/xevaconnect/logo.png",
         "pageTitle": "Xeva Connect"
       },
       {
@@ -227,7 +227,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "selectmortgageconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/selectmortgageconnect/logo.png",
         "pageTitle": "Select Mortgage Connect"
       },
       {
@@ -248,7 +248,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "approvedfinancialconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/approvedfinancialconnect/logo.png",
         "pageTitle": "Approved Financial Connect"
       },
       {
@@ -269,7 +269,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "onlinemortgageconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/onlinemortgageconnect/logo.png",
         "pageTitle": "Online Mortgage Connect"
       },
       {
@@ -290,7 +290,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "vericofortuneeffectconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/vericofortuneeffectconnect/logo.png",
         "pageTitle": "Verico Fortune Effect Connect"
       },
       {
@@ -311,7 +311,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "mortgagewellnessconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgagewellnessconnect/logo.png",
         "pageTitle": "Mortgage Wellness Connect"
       },
       {
@@ -332,7 +332,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "pekoemortgagesconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/pekoemortgagesconnect/logo.png",
         "pageTitle": "Pekoe Mortgages Connect"
       },
       {
@@ -353,7 +353,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "jpmortgageservicesconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/jpmortgageservicesconnect/logo.png",
         "pageTitle": "JP Mortgage Services Connect"
       },
       {
@@ -374,7 +374,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "lendateaseconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/lendateaseconnect/logo.png",
         "pageTitle": "Lend At Ease Connect"
       },
       {
@@ -395,7 +395,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "reliancemortgagesconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/reliancemortgagesconnect/logo.png",
         "pageTitle": "Reliance Mortgages Connect"
       },
       {
@@ -416,7 +416,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "mortgageplusconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgageplusconnect/logo.png",
         "pageTitle": "Mortgage Plus Connect"
       },
       {
@@ -437,7 +437,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "sunliteconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/sunliteconnect/logo.png",
         "pageTitle": "Sunlite Connect"
       },
       {
@@ -458,7 +458,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "citadelmortgagesconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelmortgagesconnect/logo.png",
         "pageTitle": "Citadel Connect"
       },
       {
@@ -479,7 +479,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "financialforumconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/financialforumconnect/logo.png",
         "pageTitle": "Financial Forum Connect"
       },
       {
@@ -500,7 +500,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "mortgagestationconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgagestationconnect/logo.png",
         "pageTitle": "Mortgage Station Connect"
       },
       {
@@ -521,7 +521,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "bestmortgageloansconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/bestmortgageloansconnect/logo.png",
         "pageTitle": "Best Mortgage Loans Connect"
       },
       {
@@ -542,7 +542,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "canadianmortgagelenderconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/canadianmortgagelenderconnect/logo.png",
         "pageTitle": "CML Connect"
       },
       {
@@ -563,7 +563,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "centummetrocapp" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/centummetrocapp/logo.png",
         "pageTitle": "CENTUM Metrocapp Wealth Solutions"
       },
       {
@@ -584,7 +584,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "sequoiamortgageconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/sequoiamortgageconnect/logo.png",
         "pageTitle": "Sequoia Mortgage Connect"
       },
       {
@@ -605,7 +605,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "boirongroup" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/boirongroup/logo.png",
         "pageTitle": "Boiron Group"
       },
       {
@@ -626,7 +626,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "RPPconcierge" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/RPPconcierge/logo.png",
         "pageTitle": "REMAX Prime Properties"
       },
       {
@@ -647,7 +647,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "onelinkmortgageconnect" },
-        "imageURL": "",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/onelinkmortgageconnect/logo.png",
         "pageTitle": "One Link Mortgage Connect"
       },
       {
