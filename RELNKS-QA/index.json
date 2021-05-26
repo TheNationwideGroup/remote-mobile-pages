@@ -41,7 +41,8 @@
       "sequoiamortgageconnect",
       "boirongroup",
       "RPPconcierge",
-      "onelinkmortgageconnect"
+      "onelinkmortgageconnect",
+      "nuborrownetwork"
     ],
     "WhitelabelAssets": [
       {
@@ -654,6 +655,28 @@
         "conditions": { "page": [ "RegisterPage" ], "company": "onelinkmortgageconnect" },
         "pageTitle": "One Link Mortgage Connect",
         "imageURL": ""
+      },
+
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "nuborrownetwork" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/nuborrownetwork/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "nuborrownetwork" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/nuborrownetwork/logo.png",
+        "imageSize": "55%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/nuborrownetwork/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "nuborrownetwork" },
+        "pageTitle": "Nuborrow Network",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/nuborrownetwork/logo.png"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "nuborrownetwork" },
+        "pageTitle": "Nuborrow Network",
+        "imageURL": ""
       }
     ],
     "WhitelabelData": [
@@ -727,8 +750,10 @@
       { "conditions": { "company": "RPPconcierge", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "RPPconcierge", "page": "RegisterPage", "userType": "REALTOR", "region": "CA" }, "realEstateBrokerage": "REMAX","realEstateOffice": "Prime Properties", "SupportedRegions":{"CA":["AB","BC","ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "onelinkmortgageconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["MB"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "onelinkmortgageconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico","brokerCompanyName": "One Link Mortgage", "SupportedRegions":{"CA":["MB"]}, "askNASUsersToLogin": true }                                            
-    ],
+      { "conditions": { "company": "onelinkmortgageconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico","brokerCompanyName": "One Link Mortgage", "SupportedRegions":{"CA":["MB"]}, "askNASUsersToLogin": true },                                            
+      { "conditions": { "company": "nuborrownetwork", "page": "RegisterPage", "userType": "*", "region": "CA"  }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "nuborrownetwork", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "brokerCompanyName": "Nuborrow","brokerHouse": "Nuborrow Network", "askNASUsersToLogin": true }
+      ],
     "WhitelabelCSS": [
       {
         "conditions": { "company": "opendoorsmortgage" },
@@ -837,6 +862,10 @@
       {
         "conditions": { "company": "onelinkmortgageconnect" },
         "css": "#page-login #login { background-color: #d7a900; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #d7a900 !important;} .theme-accent-bg{background-color: #d7a900 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #d7a900 !important; background-color:white !important; } .theme-accent-fg{color: #d7a900 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #d7a900 !important; color:white !important; } .page-HeaderPage>.header {background-color: #d7a900 !important;} div[page].page-Menu .menu-body {background-color: #d7a900;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #d7a900 !important; } .btn-primary, button.primary { background-color: #d7a900 !important; border: 1px solid #d7a900 !important;} button.primary:active { background-color: #649623 !important; border-color: #d7a900 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #d7a900 !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #d7a900 !important; } div[type='info-tile-component'] button { background-color: #d7a900 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #d7a900 !important;}"
+      },
+      {
+        "conditions": { "company": "nuborrownetwork" },
+        "css": "#page-login #login { background-color: #7473b5; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #7473b5 !important;} .theme-accent-bg{background-color: #7473b5 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #7473b5 !important; background-color:white !important; } .theme-accent-fg{color: #7473b5 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #7473b5 !important; color:white !important; } .page-HeaderPage>.header {background-color: #7473b5 !important;} div[page].page-Menu .menu-body {background-color: #7473b5;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #7473b5 !important; } .btn-primary, button.primary { background-color: #7473b5 !important; border: 1px solid #7473b5 !important;} button.primary:active { background-color: #649623 !important; border-color: #7473b5 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #7473b5 !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #7473b5 !important; } div[type='info-tile-component'] button { background-color: #7473b5 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #7473b5 !important;}"
       }
     ],
     "UserTypePermissions": [
@@ -1414,7 +1443,7 @@
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
-      { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect","centummetrocapp","sequoiamortgageconnect" ], "province":[ "ON" ] },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect","centummetrocapp","sequoiamortgageconnect","nuborrownetwork" ], "province":[ "ON" ] },
         "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "description": "List of property services offered",
         "parent": null,
@@ -2154,7 +2183,7 @@
         ],
         "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
       },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect"], "province": "*" },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","nuborrownetwork"], "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -2593,6 +2622,37 @@
             "image": "./partners/service_az.jpg",
             "url": "https://servicearizona.com/",
             "phone": "602-255-0072"
+          }
+        ],
+        "description": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
+      },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": "nuborrownetwork", "province": "ON" },
+        "parent": "Concierge Services",
+        "serviceProvider_id": "118",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "Canada Post",
+            "text": "Direct all your mail from your current address to your new home.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadapost.png",
+            "url": "https://www.canadapost.ca/cpc/en/personal/receiving/manage-mail/mail-forwarding.page",
+            "phone": "800-267-1177"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Government of Canada",
+            "text": "Update your address with Federal government departments.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canada_gov.png",
+            "url": "https://www.canada.ca/en/government/change-address.html",
+            "phone": "800-622-6232"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Service Ontario",
+            "text": "Update your address on all documents issued by the province of Ontario (i.e. Driver's License and Health Card).",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ontario_gov.png",
+            "url": "https://www.ontario.ca/page/change-my-address-ontario-services",
+            "phone": "800-267-8097"
           }
         ],
         "description": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
@@ -4084,7 +4144,7 @@
         "disabled": true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect", "canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect" ], "province": "*" },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect", "canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","nuborrownetwork" ], "province": "*" },
         "disabled": true,
         "items": null
       }
