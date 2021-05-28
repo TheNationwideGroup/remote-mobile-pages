@@ -481,11 +481,11 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "financialforumconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/financialforumconnect/logo.png",
-        "pageTitle": "Financial Forum Connect"
+        "pageTitle": "Forum Connect"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "financialforumconnect" },
-        "pageTitle": "Financial Forum Connect",
+        "pageTitle": "Forum Connect",
         "imageURL": ""
       },
       {
@@ -3998,7 +3998,7 @@
           {
             "type": "info-tile-component",
             "title": "Financial Forum",
-            "text": "Apply for a Mortgage with Financial Forum Connect",
+            "text": "Apply for a Mortgage with Forum Connect",
             "image": "./whitelabel/financialforumconnect/logo.png",
             "url": "https://www.mortgageweb.ca/thefinancialforum/MortgageApplication/en-US/Style3",
             "urlTitle":"Apply",
