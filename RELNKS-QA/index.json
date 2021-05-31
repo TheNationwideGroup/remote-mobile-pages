@@ -186,7 +186,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "northwoodmortgageconnect" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/northwoodconnect/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/northwoodconnect/innerlogo.png",
         "pageTitle": "Northwood Mortgage Connect"
       },
       {
@@ -228,7 +228,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "selectmortgageconnect" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/selectmortgage/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/selectmortgage/innerlogo.png",
         "pageTitle": "Select Mortgage Connect"
       },
       {
@@ -249,7 +249,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "approvedfinancialconnect" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/approvedfinancialconnect/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/approvedfinancialconnect/innerlogo.png",
         "pageTitle": "Approved Financial Connect"
       },
       {
@@ -270,7 +270,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "onlinemortgageconnect" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/onlinemortgage/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/onlinemortgage/innerlogo.png",
         "pageTitle": "Online Mortgage Connect"
       },
       {
@@ -312,7 +312,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "mortgagewellnessconnect" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgagewellnessconnect/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mortgagewellnessconnect/innerlogo.png",
         "pageTitle": "Mortgage Wellness Connect"
       },
       {
@@ -480,7 +480,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "financialforumconnect" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/financialforumconnect/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/financialforumconnect/innerlogo.png",
         "pageTitle": "Forum Connect"
       },
       {
@@ -522,7 +522,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "bestmortgageloansconnect" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/bestmortgageloansconnect/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/bestmortgageloansconnect/innerlogo.png",
         "pageTitle": "Best Mortgage Loans Connect"
       },
       {
@@ -585,7 +585,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "sequoiamortgageconnect" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/sequoiamortgageconnect/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/sequoiamortgageconnect/innerlogo.png",
         "pageTitle": "Sequoia Mortgage Connect"
       },
       {
@@ -627,7 +627,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "RPPconcierge" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/RPPconcierge/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/RPPconcierge/innerlogo.png",
         "pageTitle": "REMAX Prime Properties"
       },
       {
