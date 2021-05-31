@@ -1681,6 +1681,21 @@
           }
         ]
       },
+      { "title": "Home Renovation", "conditions": { "title": "Home Renovation", "company": "*", "province": ["ON"] },
+        "parent": "Property Management",
+        "serviceProvider_id": "113",
+        "description": "Thinking of renovating your home? Connect with local and trusted home renovation professionals to bring your project to life!",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "Bidmii",
+            "text": "Bidmii is the easiest way to find, hire, and pay for qualified contractors at a fair price. With verified ratings and reviews, and 100% payment security, Bidmii is the #1 online platform for home improvement projects.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bidmii.png",
+            "url": "https://www.bidmii.com/how-it-works-relnks",
+            "signupUrl": "https://app.bidmii.com/login?r=RELNKS"
+          }
+        ]
+      },
       { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "*" },
         "parent": "Property Services",
         "serviceProvider_id": "115",
