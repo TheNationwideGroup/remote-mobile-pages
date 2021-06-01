@@ -78,7 +78,7 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "oriana" },
         "pageTitle": "Oriana Financial",
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/logo.png"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/innerlogo.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "oriana" },
