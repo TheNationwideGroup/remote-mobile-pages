@@ -681,11 +681,11 @@
       },
       {
         "conditions": { "page": [ "MenuPage" ], "company": "mtgprofessionalsconnect" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mtgprofessionalsconnect/logo.jpg"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mtgprofessionalsconnect/logo.png"
       },
       {
         "conditions": { "page": [ "LoginPage" ], "company": "mtgprofessionalsconnect" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mtgprofessionalsconnect/logo.jpg",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mtgprofessionalsconnect/logo.png",
         "imageSize": "80%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mtgprofessionalsconnect/poweredby.png"
@@ -693,7 +693,7 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "mtgprofessionalsconnect" },
         "pageTitle": "Mortgage Professionals Connect",
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mtgprofessionalsconnect/logo.jpg"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/mtgprofessionalsconnect/logo.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "mtgprofessionalsconnect" },
