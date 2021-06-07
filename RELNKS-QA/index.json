@@ -902,7 +902,7 @@
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
-        "conditions": { "serviceProvider_id": [ "CREDIT_SCORE" ], "company": "*", "province": "*", "region": "CA" , "userType": "*" },
+        "conditions": { "serviceProvider_id": [ "CREDIT_SCORE","129" ], "company": "*", "province": "*", "region": "CA" , "userType": "*" },
         "permissions": [ "VIEW_DOCUMENT" ]
       },
       {
@@ -910,7 +910,7 @@
         "permissions": [ "VIEW_DOCUMENT" ]
       },
       {
-        "conditions": { "serviceProvider_id": [ "100","127" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
+        "conditions": { "serviceProvider_id": [ "100","127","129" ], "company": "*", "province": "*",  "userType": "*", "isParticipant": true, "participantType": [ "APPLICANT", "COAPPLICANT" ] },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
@@ -972,7 +972,7 @@
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
-        "conditions": { "serviceProvider_id": ["102", "103", "104"], "region": "US", "company": "*",  "province": "*",  "userType": "*" },
+        "conditions": { "serviceProvider_id": ["102", "103", "104", "129"], "region": "US", "company": "*",  "province": "*",  "userType": "*" },
         "_comment": "Hide service items for US.",  
         "permissions": [ ]
       },
@@ -983,6 +983,10 @@
       {
         "conditions": { "serviceProvider_id": [ "128" ], "company": "*", "province": "*", "region": "US" , "userType": "*" },
         "permissions": [ "VIEW_DOCUMENT" ]
+      },
+      {
+        "conditions": { "serviceProvider_id": [ "129" ], "company": "*", "province": "*", "region": "CA" , "userType": "HOMEOWNER" },
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       }
     ],
     "selectOptions2": [
@@ -1198,7 +1202,7 @@
             "serviceProvider_id": "MASTERCHECKLIST"
           },
           {
-            "title": "Find Property",
+            "title": "Find a Property",
             "image": "./whitelabel/relnks/FIND_YOUR_NEW_HOUSE.jpg",
             "icon": "icon-neighbourhood-profiler",
             "serviceProvider_id": "NB_PROFILER"
@@ -1247,7 +1251,66 @@
           }
         ]
       },
-      { "conditions": { "title": "Find Property" },
+      { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*", "userType":["HOMEOWNER","REALTOR"] }, 
+        "buttons": [
+          {
+            "title": "Homebuyer Checklist",
+            "image": "./whitelabel/relnks/MASTER_CHECKLIST.jpg",
+            "icon": "icon-masterchecklist",
+            "serviceProvider_id": "MASTERCHECKLIST"
+          },
+          {
+            "title": "Find a Property",
+            "image": "./whitelabel/relnks/FIND_YOUR_NEW_HOUSE.jpg",
+            "icon": "icon-neighbourhood-profiler",
+            "serviceProvider_id": "NB_PROFILER"
+          },
+          {
+            "title": "Apply for a Mortgage",
+            "image": "./whitelabel/relnks/APPLY_FOR_A_MORTGAGE.jpg",
+            "icon": "icon-applyforamortgage",
+            "serviceProvider_id": "APPLY_FOR_AMORTGAGE"
+          },
+          {
+            "title": "Home Inspection",
+            "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
+            "icon": "icon-homeinspection",
+            "serviceProvider_id": "103",
+            "action": "CreateService"
+          },
+          {
+            "title": "Insurance Products",
+            "image": "./whitelabel/relnks/INSURANCE_AND_WARRANTY_PRODUCTS.jpg",
+            "icon": "icon-insuranceproducts",
+            "serviceProvider_id": "INSURANCE_PRODUCTS"
+          },
+          {
+            "title": "Find a Real Estate Lawyer",
+            "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
+            "icon": "icon-homeclosingservices",
+            "serviceProvider_id": "104"
+          },
+          {
+            "title": "Moving Services",
+            "image": "./whitelabel/relnks/MOVING_SERVICES.jpg",
+            "icon": "icon-movingcompanies",
+            "serviceProvider_id": "MOVING_SERVICES"
+          },
+          {
+            "title": "Property Services",
+            "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
+            "icon": "icon-property-services",
+            "serviceProvider_id": "PROPERTY_SERVICES"
+          },
+          {
+            "title": "My Personal Documents",
+            "image": "./whitelabel/relnks/MY_DOCUMENTS.jpg",
+            "icon": "icon-my-personal-documents",
+            "serviceProvider_id": "DOCUMENT_REPOSITORY"
+          }
+        ]
+      },
+      { "conditions": { "title": "Find a Property" },
         "buttons": [
           {
             "serviceProvider_id": "NB_PROFILER_REALESTATE",
@@ -1322,7 +1385,7 @@
             "serviceProvider_id": "MASTERCHECKLIST"
           },
           {
-            "title": "Find Property",
+            "title": "Find a Property",
             "image": "./whitelabel/relnks/FIND_YOUR_NEW_HOUSE.jpg",
             "icon": "icon-neighbourhood-profiler",
             "serviceProvider_id": "NB_PROFILER"
@@ -1373,7 +1436,35 @@
           }
         ]
       },
-      { "conditions": { "title": "Find Property", "region": "US", "province": "*" },
+      { "conditions": { "title": "Find a Property", "region": "CA", "province": "*" },
+        "buttons": [
+          {
+            "serviceProvider_id": "NB_PROFILER_REALESTATE",
+            "icon": "fas fa-home",
+            "title": "Real Estate Listings",
+            "action": "CREAVuePage"
+          },
+          {
+            "serviceProvider_id": "NB_PROFILER_LOCAL",
+            "icon": "fas fa-map-marked-alt",
+            "title": "Local Data",
+            "action": "NeighborhoodProfilerLocalVuePage"
+          },
+          {
+            "serviceProvider_id": "NB_PROFILER_DEMOGRAPHIC",
+            "icon": "fas fa-users",
+            "title": "Demographic Data",
+            "action": "NeighborhoodProfilerDemographicVuePage"
+          },
+          {
+            "serviceProvider_id": "129",
+            "icon": "icon-homevaluation",
+            "title": "Find a Home Value",
+            "action": "CreateService"
+          }
+        ]
+      },
+      { "conditions": { "title": "Find a Property", "region": "US", "province": "*" },
         "buttons": [
           {
             "serviceProvider_id": "NB_PROFILER_REALESTATE",
@@ -4134,7 +4225,7 @@
           {
             "type": "info-tile-component",
             "title": "",
-            "text": "<p style='font-size: 1.2em;font-weight: 500;'>A <span style='color: red;'>Quicker & Easier</span> Home Purchase</p><p>Are you ready to make an offer on a new home and your deposit money is locked-in your existing home equity or your investments?</p><p>Deposit Rocket will unlock your equity instantly, so you can make an offer, without a loan!</p><p style='color: red;font-size: 1.2em;font-weight: 500;'>How?</p><p>Deposit Rocket issues a Guarantee that your Realtor submits along with your offer, instead of a certified cheque. Deposit Rocket Guarantees are available for upto 10% of the property purchase price and $100,000.</p><p style='color: red; font-size: 1.2em;font-weight: 500;'>AND</p><p>You can make as many offers with Deposit Rocket as you need untill you are the successful buyer - At no extra cost!*</p><p style='color: red; font-size: 1.2em;font-weight: 500;'>What's the catch?</p><p>No catch!</p><p>Simply pay the full purchase price at closing.<br /> If you fail to do so, you are at risk of forfeiting your deposit guarantee amount, same as if the offer was made with a certified cheque. If a claim is made, Deposit Rocket will settle with the Sellers Listing Brokerage on your behalf and will seek recovery from you.</p>",
+            "text": "<p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; font-size: 1.25em;font-weight: bold; color: #007cd4;'>A Quicker & Easier Home Purchase</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>Are you ready to make an offer on a new home and your deposit money is locked-in your existing home equity or your investments?</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>Deposit Rocket will unlock your equity instantly, so you can make an offer, without a loan!</p><p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; color: #007cd4; font-weight: bold; font-size: 1.25em;'>How?</p><p style='margin-top: 0.2em; margin-bottom: 0.2em;'>Deposit Rocket issues a Guarantee that your Realtor submits along with your offer, instead of a certified cheque. Deposit Rocket Guarantees are available for up to 10% of the property purchase price and $100,000.</p><p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; color: #007cd4; font-size: 1.25em;font-weight: bold;'>AND</p><p style='margin-top: 0.2em; margin-bottom: 0.2em;'>You can make as many offers with Deposit Rocket as you need untill you are the successful buyer - At no extra cost!*</p><p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; color: #007cd4; font-size: 1.25em;font-weight: bold;'>What's the catch?</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>No catch!</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>Simply pay the full purchase price at closing.<br /> If you fail to do so, you are at risk of forfeiting your deposit guarantee amount, same as if the offer was made with a certified cheque. If a claim is made, Deposit Rocket will settle with the Sellers Listing Brokerage on your behalf and will seek recovery from you.</p>",
             "image": "./partners/deposit_rocket_logo.jpg",
             "url": "https://apply.depositrocket.ca/?Source=relnks",
             "urlTitle": "Apply Now",
