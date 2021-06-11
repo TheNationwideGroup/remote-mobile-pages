@@ -1251,7 +1251,7 @@
           }
         ]
       },
-      { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*", "userType":["HOMEOWNER","REALTOR", "LENDER"] }, 
+      { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*", "userType":["HOMEOWNER","REALTOR"] }, 
         "buttons": [
           {
             "title": "Homebuyer Checklist",
