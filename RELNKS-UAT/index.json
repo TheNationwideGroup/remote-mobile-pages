@@ -1251,7 +1251,7 @@
           }
         ]
       },
-      { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*", "userType":["HOMEOWNER","REALTOR", "LENDER"] }, 
+      { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*", "userType":["HOMEOWNER","REALTOR"] }, 
         "buttons": [
           {
             "title": "Homebuyer Checklist",
@@ -1455,12 +1455,6 @@
             "icon": "fas fa-users",
             "title": "Demographic Data",
             "action": "NeighborhoodProfilerDemographicVuePage"
-          },
-          {
-            "serviceProvider_id": "129",
-            "icon": "icon-homevaluation",
-            "title": "Find a Home Value",
-            "action": "CreateService"
           }
         ]
       },
@@ -2121,7 +2115,7 @@
       { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
-        "description":"Optional protection plan for peace of mind when purchasing a home. Not required for closing.",
+        "description":"Optional protection plan for peace of mind when purchasing a home. <b>Not required for closing.</b>",
         "items": [
           {
             "type": "info-tile-component",
@@ -2152,7 +2146,7 @@
       { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "region": "US", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "105",
-        "description":"Optional protection plan for peace of mind when purchasing a home. Not required for closing.",
+        "description":"Optional protection plan for peace of mind when purchasing a home. <b>Not required for closing.</b>",
         "items": [
           {
             "type": "info-tile-component",
@@ -4225,7 +4219,7 @@
           {
             "type": "info-tile-component",
             "title": "",
-            "text": "<p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; font-size: 1.25em;font-weight: bold; color: #007cd4;'>A Quicker & Easier Home Purchase</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>Are you ready to make an offer on a new home and your deposit money is locked-in your existing home equity or your investments?</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>Deposit Rocket will unlock your equity instantly, so you can make an offer, without a loan!</p><p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; color: #007cd4; font-weight: bold; font-size: 1.25em;'>How?</p><p style='margin-top: 0.2em; margin-bottom: 0.2em;'>Deposit Rocket issues a Guarantee that your Realtor submits along with your offer, instead of a certified cheque. Deposit Rocket Guarantees are available for up to 10% of the property purchase price and $100,000.</p><p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; color: #007cd4; font-size: 1.25em;font-weight: bold;'>AND</p><p style='margin-top: 0.2em; margin-bottom: 0.2em;'>You can make as many offers with Deposit Rocket as you need untill you are the successful buyer - At no extra cost!*</p><p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; color: #007cd4; font-size: 1.25em;font-weight: bold;'>What's the catch?</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>No catch!</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>Simply pay the full purchase price at closing.<br /> If you fail to do so, you are at risk of forfeiting your deposit guarantee amount, same as if the offer was made with a certified cheque. If a claim is made, Deposit Rocket will settle with the Sellers Listing Brokerage on your behalf and will seek recovery from you.</p>",
+            "text": "<p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; font-size: 1.25em;font-weight: bold; color: #014874;'>A Quicker & Easier Home Purchase</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>Are you ready to make an offer on a new home and your deposit money is locked-in your existing home equity or your investments?</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>Deposit Rocket will unlock your equity instantly, so you can make an offer, without a loan!</p><p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; color: #014874; font-weight: bold; font-size: 1.25em;'>How?</p><p style='margin-top: 0.2em; margin-bottom: 0.2em;'>Deposit Rocket issues a Guarantee that your Realtor submits along with your offer, instead of a certified cheque. Deposit Rocket Guarantees are available for up to 10% of the property purchase price and $100,000.</p><p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; color: #014874; font-size: 1.25em;font-weight: bold;'>AND</p><p style='margin-top: 0.2em; margin-bottom: 0.2em;'>You can make as many offers with Deposit Rocket as you need untill you are the successful buyer - At no extra cost!*</p><p style='margin-bottom: 0.2em; font-family: Open Sans,sans-serif; color: #014874; font-size: 1.25em;font-weight: bold;'>What's the catch?</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>No catch!</p><p style='margin-bottom: 0.2em; margin-top: 0.2em;'>Simply pay the full purchase price at closing.<br /> If you fail to do so, you are at risk of forfeiting your deposit guarantee amount, same as if the offer was made with a certified cheque. If a claim is made, Deposit Rocket will settle with the Sellers Listing Brokerage on your behalf and will seek recovery from you.</p>",
             "image": "./partners/deposit_rocket_logo.jpg",
             "url": "https://apply.depositrocket.ca/?Source=relnks",
             "urlTitle": "Apply Now",
