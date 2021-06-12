@@ -913,10 +913,6 @@
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ], "requirements":["CREATE_ORDER_FIRST"]
       },
       {
-        "conditions": { "serviceProvider_id": [ "129" ], "company": "*", "province": "*", "region": "CA",  "userType": "*" },
-        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ]
-      },
-      {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "HOMEOWNER" },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT" ]
       },
@@ -975,7 +971,7 @@
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
-        "conditions": { "serviceProvider_id": ["102", "103", "104", "129"], "region": "US", "company": "*",  "province": "*",  "userType": "*" },
+        "conditions": { "serviceProvider_id": ["102", "103", "104"], "region": "US", "company": "*",  "province": "*",  "userType": "*" },
         "_comment": "Hide service items for US.",  
         "permissions": [ ]
       },
