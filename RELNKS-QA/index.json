@@ -1681,7 +1681,8 @@
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
-          { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "125" }
+          { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "125" },
+          { "title": "Pool Maintenance", "icon": "icon-smart-home", "serviceProvider_id": "130" }
         ]
       },
       { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care", "company": "*" },
@@ -1819,6 +1820,27 @@
             "image": "./partners/Angies-List.png",
             "url": "https://www.angieslist.com/",
             "phone": "888-944-5478"
+          }
+        ]
+      },
+      { "title": "Pool Maintenance", "conditions": { "title": "Pool Maintenance", "company": "*", "region": "US" },
+        "parent": "Property Management",
+        "serviceProvider_id": "130",
+        "description": "",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "America's Swimming Pool Company",
+            "text": "Our professional pool care company provides our customers with easy, informative, and friendly repair and maintenance for their swimming pools.",
+            "image": "./partners/americas_swimming_pool_logo.png",
+            "url": "https://www.asppoolco.com/request-appointment/"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Shimmering Waters Pool Service",
+            "text": "Shimmering Waters Pool Service is a family owned and operated swimming pool maintenance, repair, and remodeling company with a commitment to our customer's satisfaction",
+            "image": "./partners/shimmering_waters_pool_service.jpg",
+            "url": "https://www.shimmeringwaterspoolservices.com"
           }
         ]
       },
