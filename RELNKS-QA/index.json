@@ -1682,7 +1682,7 @@
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
           { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "125" },
-          { "title": "Pool Maintenance", "icon": "icon-smart-home", "serviceProvider_id": "130" }
+          { "title": "Pool Maintenance", "icon": "icon-pool-maintenance", "serviceProvider_id": "130" }
         ]
       },
       { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care", "company": "*" },
