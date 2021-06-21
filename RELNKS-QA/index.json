@@ -1254,10 +1254,10 @@
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
-            "title": "Find a Real Estate Lawyer",
+            "title": "Legal Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
-            "icon": "icon-homeclosingservices",
-            "serviceProvider_id": "104"
+            "icon": "icon-legalservices",
+            "serviceProvider_id": "LEGAL_SERVICES"
           },
           {
             "title": "Moving Services",
@@ -1313,10 +1313,10 @@
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
-            "title": "Find a Real Estate Lawyer",
+            "title": "Legal Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
-            "icon": "icon-homeclosingservices",
-            "serviceProvider_id": "104"
+            "icon": "icon-legalservices",
+            "serviceProvider_id": "LEGAL_SERVICES"
           },
           {
             "title": "Moving Services",
@@ -1385,6 +1385,35 @@
             "icon": "icon-icon-secureadeposit",
             "title": "Secure a Deposit",
             "action": "ConciergeServicePage"
+          }
+        ]
+      },
+      { "conditions": { "title": "Legal Services" },
+        "buttons": [
+          {
+            "serviceProvider_id": "104",
+            "icon": "icon-homeclosingservices",
+            "title": "Find a Real Estate Lawyer",
+            "action": "CreateService"
+          },
+          {
+            "serviceProvider_id": "131",
+            "icon": "icon-createyourwill",
+            "title": "Create Your Will"
+          }
+        ]
+      },
+      { "title": "Create Your Will", "conditions": { "title": "Create Your Will","region": "CA", "company": "*" },
+        "parent": "Legal Services",
+        "serviceProvider_id": "131",
+        "description": "",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "Willful",
+            "text": "Willful is Canada’s #1 online will platform, designed to make creating a legal will easier and more affordable. Create a will and/or power of attorney by following Willful’s simple and user-friendly step-by-step process without the need for expensive lawyers or notaries. Plus, Willful users get free lifetime updates to their will, plus a 30-day money-back guarantee.",
+            "url": "https://www.willful.co/partners/relnks",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/willful.png"
           }
         ]
       },
