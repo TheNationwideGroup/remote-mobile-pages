@@ -1543,7 +1543,7 @@
           },
           {
             "serviceProvider_id": "129",
-            "icon": "icon-homevaluation",
+            "icon": "icon-home-valuation-new",
             "title": "Find a Home Value",
             "action": "CreateService"
           }
