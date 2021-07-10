@@ -6,7 +6,13 @@
       "CA": [
         "AB",
         "BC",
-        "ON"
+        "ON",
+        "MB",
+        "NB",
+        "NL",
+        "NS",
+        "PE",
+        "SK"
       ],
       "US": [
         "AZ"
@@ -43,7 +49,8 @@
       "RPPconcierge",
       "onelinkmortgageconnect",
       "nuborrownetwork",
-      "mtgprofessionalsconnect"
+      "mtgprofessionalsconnect",
+      "adamasfinancialconnect"
     ],
     "WhitelabelAssets": [
       {
@@ -699,6 +706,27 @@
         "conditions": { "page": [ "RegisterPage" ], "company": "mtgprofessionalsconnect" },
         "pageTitle": "Mortgage Professionals Connect",
         "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "adamasfinancialconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/adamasfinancialconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "adamasfinancialconnect" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/adamasfinancialconnect/logo.png",
+        "imageSize": "100%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/adamasfinancialconnect/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "adamasfinancialconnect" },
+        "pageTitle": "Adamas Financial Connect",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/adamasfinancialconnect/logo.png"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "adamasfinancialconnect" },
+        "pageTitle": "Adamas Financial Connect",
+        "imageURL": ""
       }
     ],
     "WhitelabelData": [
@@ -719,12 +747,14 @@
       { "conditions": { "company": "*", "page": "DocumentsRepositoryPage", "userType": "*", "region": "US" },
         "description": "Securely stored and easily accessible document storage for your convenience. Great for saving you time gathering all the paperwork that comes with buying a home."
       },
-      { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*", "region": "CA"  }, "defaultProvince": "ON", "askNASUsersToLogin": true },
-      { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "defaultProvince": "ON", "askNASUsersToLogin": true },
-      { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*", "region": "CA" }, "defaultProvince": "BC", "askNASUsersToLogin": true },
-      { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerCompanyName": "Open Doors Mortgage", "brokerHouse": "DLC", "defaultProvince": "BC", "askNASUsersToLogin": true },
-      { "conditions": { "company": "thrivemortgage", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerCompanyName": "Thrive Mortgage", "brokerHouse": "DLC", "askNASUsersToLogin": true },
-      { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerCompanyName": "Tribe Financial Group", "brokerHouse": "TBD", "askNASUsersToLogin": true },
+      { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*", "region": "CA"  }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "defaultProvince": "ON", "askNASUsersToLogin": true },
+      { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "SupportedRegions":{"CA":["AB","BC","ON"]}, "defaultProvince": "ON", "askNASUsersToLogin": true },
+      { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "defaultProvince": "BC", "askNASUsersToLogin": true },
+      { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "brokerCompanyName": "Open Doors Mortgage", "brokerHouse": "DLC", "defaultProvince": "BC", "askNASUsersToLogin": true },
+      { "conditions": { "company": "thrivemortgage", "page": "RegisterPage", "userType": "*", "region": "CA"  }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "defaultProvince": "ON", "askNASUsersToLogin": true },
+      { "conditions": { "company": "thrivemortgage", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "brokerCompanyName": "Thrive Mortgage", "brokerHouse": "DLC", "askNASUsersToLogin": true },
+      { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "*", "region": "CA"  }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "defaultProvince": "ON", "askNASUsersToLogin": true },	  
+      { "conditions": { "company": "tribefinancial", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "brokerCompanyName": "Tribe Financial Group", "brokerHouse": "TBD", "askNASUsersToLogin": true },
       { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "vericoconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico", "SupportedRegions":{"CA":["AB","BC","ON","MB","NB","NS","SK","NL"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "northwoodmortgageconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
@@ -776,7 +806,9 @@
       { "conditions": { "company": "nuborrownetwork", "page": "RegisterPage", "userType": "*", "region": "CA"  }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "nuborrownetwork", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "brokerCompanyName": "Nuborrow","brokerHouse": "Nuborrow Network", "askNASUsersToLogin": true },
       { "conditions": { "company": "mtgprofessionalsconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "mtgprofessionalsconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico","brokerCompanyName": "The Mortgage Professionals", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true }
+      { "conditions": { "company": "mtgprofessionalsconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico","brokerCompanyName": "The Mortgage Professionals", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "adamasfinancialconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "adamasfinancialconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico", "brokerCompanyName": "Adamas Financial", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true }
       ],
     "WhitelabelCSS": [
       {
@@ -894,6 +926,10 @@
       {
         "conditions": { "company": "mtgprofessionalsconnect" },
         "css": "#page-login #login { background-color: #00c4f6; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #00c4f6 !important;} .theme-accent-bg{background-color: #00c4f6 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #00c4f6 !important; background-color:white !important; } .theme-accent-fg{color: #00c4f6 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #00c4f6 !important; color:white !important; } .page-HeaderPage>.header {background-color: #00c4f6 !important;} div[page].page-Menu .menu-body {background-color: #00c4f6;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #00c4f6 !important; } .btn-primary, button.primary { background-color: #00c4f6 !important; border: 1px solid #00c4f6 !important;} button.primary:active { background-color: #649623 !important; border-color: #00c4f6 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #00c4f6 !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #00c4f6 !important; } div[type='info-tile-component'] button { background-color: #00c4f6 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #00c4f6 !important;}"
+      },
+      {
+        "conditions": { "company": "adamasfinancialconnect" },
+        "css": "#page-login #login { background-color: #00529C; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #00529C !important;} .theme-accent-bg{background-color: #00529C !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #00529C !important; background-color:white !important; } .theme-accent-fg{color: #00529C !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #00529C !important; color:white !important; } .page-HeaderPage>.header {background-color: #00529C !important;} div[page].page-Menu .menu-body {background-color: #00529C;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #00529C !important; } .btn-primary, button.primary { background-color: #00529C !important; border: 1px solid #00529C !important;} button.primary:active { background-color: #649623 !important; border-color: #00529C !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #00529C !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #00529C !important; } div[type='info-tile-component'] button { background-color: #00529C !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #00529C !important;}"
       }
     ],
     "UserTypePermissions": [
@@ -1226,10 +1262,10 @@
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
-            "title": "Find a Real Estate Lawyer",
+            "title": "Legal Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
-            "icon": "icon-homeclosingservices",
-            "serviceProvider_id": "104"
+            "icon": "icon-legalservices",
+            "serviceProvider_id": "LEGAL_SERVICES"
           },
           {
             "title": "Moving Services",
@@ -1285,10 +1321,10 @@
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
-            "title": "Find a Real Estate Lawyer",
+            "title": "Legal Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
-            "icon": "icon-homeclosingservices",
-            "serviceProvider_id": "104"
+            "icon": "icon-legalservices",
+            "serviceProvider_id": "LEGAL_SERVICES"
           },
           {
             "title": "Moving Services",
@@ -1357,6 +1393,35 @@
             "icon": "icon-icon-secureadeposit",
             "title": "Secure a Deposit",
             "action": "ConciergeServicePage"
+          }
+        ]
+      },
+      { "conditions": { "title": "Legal Services" },
+        "buttons": [
+          {
+            "serviceProvider_id": "104",
+            "icon": "icon-homeclosingservices",
+            "title": "Find a Real Estate Lawyer",
+            "action": "CreateService"
+          },
+          {
+            "serviceProvider_id": "131",
+            "icon": "icon-createyourwill",
+            "title": "Create Your Will"
+          }
+        ]
+      },
+      { "title": "Create Your Will", "conditions": { "title": "Create Your Will","region": "CA", "company": "*" },
+        "parent": "Legal Services",
+        "serviceProvider_id": "131",
+        "description": "",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "Willful",
+            "text": "Willful is Canada’s #1 online will platform, designed to make creating a legal will easier and more affordable. Create a will and/or power of attorney by following Willful’s simple and user-friendly step-by-step process without the need for expensive lawyers or notaries. Plus, Willful users get free lifetime updates to their will, plus a 30-day money-back guarantee.",
+            "url": "https://go.adftrack.com/aff_c?offer_id=144&aff_id=1267&url_id=319&source=&aff_sub5=",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/willful.png"
           }
         ]
       },
@@ -1477,6 +1542,12 @@
             "icon": "fas fa-users",
             "title": "Demographic Data",
             "action": "NeighborhoodProfilerDemographicVuePage"
+          },
+          {
+            "serviceProvider_id": "129",
+            "icon": "icon-home-valuation-new",
+            "title": "Find a Home Value",
+            "action": "CreateService"
           }
         ]
       },
@@ -1586,7 +1657,7 @@
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
       },
-      { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect","centummetrocapp","sequoiamortgageconnect","nuborrownetwork","mtgprofessionalsconnect" ], "province":[ "ON" ] },
+      { "title": "Property Services", "conditions": { "title": "Property Services", "company": [ "northwoodmortgageconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect","centummetrocapp","sequoiamortgageconnect","nuborrownetwork","mtgprofessionalsconnect","adamasfinancialconnect" ], "province":[ "ON" ] },
         "image": "./whitelabel/relnks/PROPERTY_SERVICES.jpg",
         "description": "List of property services offered",
         "parent": null,
@@ -1675,7 +1746,8 @@
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
-          { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "125" }
+          { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "125" },
+          { "title": "Pool Maintenance", "icon": "icon-pool-maintenance", "serviceProvider_id": "130" }
         ]
       },
       { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care", "company": "*" },
@@ -1813,6 +1885,27 @@
             "image": "./partners/Angies-List.png",
             "url": "https://www.angieslist.com/",
             "phone": "888-944-5478"
+          }
+        ]
+      },
+      { "title": "Pool Maintenance", "conditions": { "title": "Pool Maintenance", "company": "*", "region": "US" },
+        "parent": "Property Management",
+        "serviceProvider_id": "130",
+        "description": "",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "America's Swimming Pool Company",
+            "text": "Our professional pool care company provides our customers with easy, informative, and friendly repair and maintenance for their swimming pools.",
+            "image": "./partners/americas_swimming_pool_logo.png",
+            "url": "https://www.asppoolco.com/request-appointment/"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Shimmering Waters Pool Service",
+            "text": "Shimmering Waters Pool Service is a family owned and operated swimming pool maintenance, repair, and remodeling company with a commitment to our customer's satisfaction",
+            "image": "./partners/shimmering_waters_pool_service.jpg",
+            "url": "https://www.shimmeringwaterspoolservices.com"
           }
         ]
       },
@@ -2119,7 +2212,7 @@
           }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","mtgprofessionalsconnect"], "province": "*" },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","mtgprofessionalsconnect","adamasfinancialconnect"], "province": "*" },
         "parent": null,
         "buttons": [
           {
@@ -2341,7 +2434,7 @@
         ],
         "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
       },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","nuborrownetwork","mtgprofessionalsconnect"], "province": "*" },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","nuborrownetwork","mtgprofessionalsconnect","adamasfinancialconnect"], "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
         "items": [
@@ -2784,7 +2877,7 @@
         ],
         "description": "Convenient recommendations all in one place to help you manage your move. Change your mailing address, government documents, and more with the links located here."
       },
-      { "title": "Change Address", "conditions": { "title": "Change Address", "company": ["nuborrownetwork","mtgprofessionalsconnect"], "province": "ON" },
+      { "title": "Change Address", "conditions": { "title": "Change Address", "company": ["nuborrownetwork","mtgprofessionalsconnect","adamasfinancialconnect"], "province": "ON" },
         "parent": "Concierge Services",
         "serviceProvider_id": "118",
         "items": [
@@ -4324,7 +4417,7 @@
         "disabled": true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect", "canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","mtgprofessionalsconnect" ], "province": "*" },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect", "canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","mtgprofessionalsconnect","adamasfinancialconnect" ], "province": "*" },
         "disabled": true,
         "items": null
       }
