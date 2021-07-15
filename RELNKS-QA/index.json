@@ -2212,7 +2212,7 @@
           }
         ]
       },
-      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","mtgprofessionalsconnect","adamasfinancialconnect"], "province": "*" },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","sequoiamortgageconnect","onelinkmortgageconnect","mtgprofessionalsconnect","adamasfinancialconnect"], "province": "*" },
         "parent": null,
         "buttons": [
           {
@@ -4417,7 +4417,7 @@
         "disabled": true,
         "items": null
       },
-      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect", "canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","mtgprofessionalsconnect","adamasfinancialconnect" ], "province": "*" },
+      { "title": "Disabled", "_coment": "Disable services for vericoconnect, northwoodconnect, xevaconnect, selectmortgage, approvedfinancialconnect, onlinemortgage and vericofortuneconnect for Home/Auto Insurance", "conditions": { "title": [ "Home/Auto Insurance" ], "company": [ "vericoconnect", "northwoodmortgageconnect", "xevaconnect", "selectmortgageconnect", "approvedfinancialconnect", "onlinemortgageconnect", "vericofortuneeffectconnect", "mortgagewellnessconnect", "pekoemortgagesconnect", "jpmortgageservicesconnect", "lendateaseconnect", "reliancemortgagesconnect", "mortgageplusconnect", "sunliteconnect", "citadelmortgagesconnect", "financialforumconnect", "mortgagestationconnect", "bestmortgageloansconnect", "canadianmortgagelenderconnect","sequoiamortgageconnect","onelinkmortgageconnect","mtgprofessionalsconnect","adamasfinancialconnect" ], "province": "*" },
         "disabled": true,
         "items": null
       }
