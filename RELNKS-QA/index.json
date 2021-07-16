@@ -1407,11 +1407,11 @@
           {
             "serviceProvider_id": "131",
             "icon": "icon-createyourwill",
-            "title": "Create Your Will"
+            "title": "Other Legal Services"
           }
         ]
       },
-      { "title": "Create Your Will", "conditions": { "title": "Create Your Will","region": "CA", "company": "*" },
+      { "title": "Other Legal Services", "conditions": { "title": "Other Legal Services","region": "CA", "company": "*" },
         "parent": "Legal Services",
         "serviceProvider_id": "131",
         "description": "",
