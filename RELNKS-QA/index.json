@@ -50,7 +50,8 @@
       "onelinkmortgageconnect",
       "nuborrownetwork",
       "mtgprofessionalsconnect",
-      "adamasfinancialconnect"
+      "adamasfinancialconnect",
+      "myhomeconnections"
     ],
     "WhitelabelAssets": [
       {
@@ -727,6 +728,27 @@
         "conditions": { "page": [ "RegisterPage" ], "company": "adamasfinancialconnect" },
         "pageTitle": "Adamas Financial Connect",
         "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "MenuPage" ], "company": "myhomeconnections" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/myhomeconnections/logo.png"
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "myhomeconnections" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/myhomeconnections/logo.png",
+        "imageSize": "60%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/myhomeconnections/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "myhomeconnections" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/myhomeconnections/logo.png",
+        "pageTitle": "My Home Group"
+      },
+      {
+        "conditions": { "page": [ "RegisterPage" ], "company": "myhomeconnections" },
+        "pageTitle": "My Home Group",
+        "imageURL": ""
       }
     ],
     "WhitelabelData": [
@@ -808,7 +830,9 @@
       { "conditions": { "company": "mtgprofessionalsconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "mtgprofessionalsconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico","brokerCompanyName": "The Mortgage Professionals", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "adamasfinancialconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "adamasfinancialconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico", "brokerCompanyName": "Adamas Financial", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true }
+      { "conditions": { "company": "adamasfinancialconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico", "brokerCompanyName": "Adamas Financial", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "myhomeconnections", "page": "RegisterPage", "userType": "*", "region": "US" }, "askNASUsersToLogin": true },
+      { "conditions": { "company": "myhomeconnections", "page": "RegisterPage", "userType": "BROKER", "region": "US" }, "brokerHouse": "My Home Group", "brokerCompanyName": "My Home Group", "askNASUsersToLogin": true }
       ],
     "WhitelabelCSS": [
       {
@@ -930,6 +954,10 @@
       {
         "conditions": { "company": "adamasfinancialconnect" },
         "css": "#page-login #login { background-color: #00529C; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #00529C !important;} .theme-accent-bg{background-color: #00529C !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #00529C !important; background-color:white !important; } .theme-accent-fg{color: #00529C !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #00529C !important; color:white !important; } .page-HeaderPage>.header {background-color: #00529C !important;} div[page].page-Menu .menu-body {background-color: #00529C;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #00529C !important; } .btn-primary, button.primary { background-color: #00529C !important; border: 1px solid #00529C !important;} button.primary:active { background-color: #649623 !important; border-color: #00529C !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #00529C !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #00529C !important; } div[type='info-tile-component'] button { background-color: #00529C !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #00529C !important;}"
+      },
+      {
+        "conditions": { "company": "myhomeconnections" },
+        "css": " .logo-container{background-color: #000000;}  #page-login #logo {background-size: contain; background-color: #000000;} #page-login #login { background-color: #000000; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #000000 !important;} .theme-accent-bg{background-color: #000000 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #000000 !important; background-color:white !important; } .theme-accent-fg{color: #000000 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #000000 !important; color:white !important; } .page-HeaderPage>.header {background-color: #000000 !important;} div[page].page-Menu .menu-body {background-color: #000000;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #000000 !important; } .btn-primary, button.primary { background-color: #000000 !important; border: 1px solid #000000 !important;} button.primary:active { background-color: #649623 !important; border-color: #000000 !important; } #page-login #login button.btn_login {border: 1px solid #980000; background-color: #980000  !important; color: #ffffff; background-image: none !important;} #page-login #login button.btn_register { background-color: #999999 !important; background-image: none !important; border-color: #969696 !important; color: #000000; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #000000 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #000000 !important; } div[type='info-tile-component'] button { background-color: #000000 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #000000 !important;}"
       }
     ],
     "UserTypePermissions": [
@@ -1444,6 +1472,28 @@
             "icon": "fas fa-users",
             "title": "Mortgage Application",
             "action": "CreateService"
+          }
+        ]
+      },
+      { "conditions": { "title": "Apply for a Mortgage", "company": "myhomeconnections", "region": "US", "province": "*" },
+        "buttons": [
+          {
+            "serviceProvider_id": "CREDIT_SCORE",
+            "icon": "fas fa-home",
+            "title": "Credit Score",
+            "action": "ConciergeServicePage"
+          },
+          {
+            "serviceProvider_id": "MORTGAGE_CALC",
+            "icon": "fas fa-map-marked-alt",
+            "title": "Mortgage Calculator",
+            "action": "MortgageCalculator"
+          },
+          {
+            "serviceProvider_id": "100",
+            "icon": "fas fa-users",
+            "title": "Mortgage Application",
+            "action": "ConciergeServicePage"
           }
         ]
       },
@@ -4284,6 +4334,56 @@
             "phone": null
           }
         ]
+      },
+      { "title": "Mortgage Application", "conditions": { "title": "Mortgage Application", "company": "myhomeconnections", "province": "*" },
+        "serviceProvider_id": "100",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "VIP Mortgage",
+            "text": "Whether you’re looking to pre-qualify, searching for loan programs, or looking for the right loan officer for you, we’re here to help!",
+            "image": "./partners/vipmortgage-blue.png",
+            "url": "https://stuartcrawford.vipmtginc.com/",
+            "urlTitle":"Visit Site",
+            "phone": "480-776-2954",
+            "email": "Crawfordteam@vipmtginc.com",
+            "contactPerson": "Liz Dysart"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Cross Country Mortgage",
+            "text": "Navigating the homebuying process can be difficult, so it’s important to find the right partner. We recognize that every financing situation is unique, so when you work with us, you’ll work closely with a licensed loan officer to make sure that you’re receiving competitive rates and that your experience is exceptionally fast and simple. Our team of licensed loan officers and branch managers are here to assist you from application to closing and beyond. We strive to build a lifetime relationship with you so that we can be your mortgage lender of choice for years to come.",
+            "image": "./partners/cross-country-mortgage.png",
+            "url": "https://lizyhoeffer.com/",
+            "urlTitle":"Visit Site",
+            "phone": "480-818-6222",
+            "email": "Teamhoeffer@myccmortgage.com",
+            "contactPerson": "Liz Hoeffer"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Fairway Independent Mortgage",
+            "text": "At Fairway Independent Mortgage Corporation, customer service is a way of life. We are dedicated to finding great rates and loan options for our customers while offering some of the fastest turn times in the industry. Our goal is to act as a trusted advisor, providing highly personalized service and helping you through every step of the loan process – from application to closing and beyond. It’s all designed to exceed expectations, provide satisfaction and earn trust.",
+            "image": "./partners/fairway.png",
+            "url": "https://www.fairwayindependentmc.com/about-us",
+            "urlTitle":"Visit Site",
+            "phone": "623-698-3947",
+            "email": "tim@tobiasteam.com",
+            "contactPerson": "Tim Schnautz"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Guild Mortgage",
+            "text": "With over five decades of experience in providing loans, service, and expertise to homebuyers, Guild Mortgage upholds an enduring presence in the lending community. By strategically meeting the ups and downs of the real estate and financial markets, Guild has remained steadfast in its mission to provide affordable home financing, unsurpassed service, and a dedicated workforce to meet our customers’ needs.",
+            "image": "./partners/guild-mortgage.png",
+            "url": "https://branches.guildmortgage.com/az/chandler/stacy-williams-936-clsw.html",
+            "urlTitle":"Visit Site",
+            "phone": "602-214-9186",
+            "email": "Stacy.williams@guildmortgage.net",
+            "contactPerson": "Stacy Williams"
+          }
+        ],
+        "description": "Start your mortgage application here. Find the right mortgage professionals to help you take your next steps."
       },
       { "title": "Credit Score", "conditions": { "title": "Credit Score", "company": "*", "region": "CA", "province": "*" },
         "items": [
