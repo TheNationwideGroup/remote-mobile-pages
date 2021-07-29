@@ -1115,19 +1115,42 @@
           { "value": "Commercial Sale", "title": "Commercial Sale" },
           { "value": "Land", "title": "Land" }
       ]},
-      { "conditions": { "page": "FilterPropertiesPage", "region":"CA", "name": "propertyTypes" }, "items": [
+      { "conditions": { "page": "FilterPropertiesPage", "region":"CA", "name": "propertyTypes", "subname": "residential" }, "items": [
           { "value": null, "title": "Any" },
           { "value": "Single Family", "title": "Residential" },
-          { "value": "Multi-family", "title": "Multi-Family" },
+          { "value": "Condo/Strata", "title": "Condo/Strata" },
+          { "value": "Vacant Land", "title": "Vacant Land" },
           { "value": "Recreational", "title": "Recreational" },
+          { "value": "Multi-family", "title": "Multi-Family" },
           { "value": "Agricultural", "title": "Agriculture" },
-          { "value": "Parking", "title": "Parking" },
-          { "value": "Vacant Land", "title": "Vacant Land" }
+          { "value": "Parking", "title": "Parking" }
+      ]},
+      { "conditions": { "page": "FilterPropertiesPage", "region":"CA", "name": "propertyTypes", "subname": "commercial" }, "items": [
+        { "value": "All Commercial", "title": "All Commercial" },
+        { "value": "Business", "title": "Business" },
+        { "value": "Multi-family", "title": "Multi-Family" },
+        { "value": "Retail", "title": "Retail" },
+        { "value": "Industrial", "title": "Industrial" },
+        { "value": "Office", "title": "Office" },
+        { "value": "Vacant Land", "title": "Vacant Land" },
+        { "value": "Agricultural", "title": "Agriculture" },
+        { "value": "Hospitality", "title": "Hospitality" },
+        { "value": "Institutional", "title": "Institutional" }
       ]},
       { "conditions": { "page": "FilterPropertiesPage", "region":"CA", "name": "transactionTypes" }, "items": [
           { "value": null, "title": "Any" },
           { "value": "For sale", "title": "For sale" },
           { "value": "For rent", "title": "For rent" }
+      ]},
+      { "conditions": { "page": "FilterPropertiesPage", "region":"CA", "name": "transactionTypes", "subname": "commercial" }, "items": [
+        { "value": null, "title": "Any" },
+        { "value": "For sale", "title": "For sale" },
+        { "value": "For lease", "title": "For lease" }
+      ]},
+      { "conditions": { "page": "FilterPropertiesPage", "region":"CA", "name": "transactionTypes", "subname": "residential" }, "items": [
+        { "value": null, "title": "Any" },
+        { "value": "For sale", "title": "For sale" },
+        { "value": "For rent", "title": "For rent" }
       ]}
     ],
     "selectOptions": {
