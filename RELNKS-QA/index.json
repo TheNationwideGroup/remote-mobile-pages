@@ -855,7 +855,7 @@
       { "conditions": { "company": "adamasfinancialconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico", "brokerCompanyName": "Adamas Financial", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "myhomeconnections", "page": "RegisterPage", "userType": "*", "region": "US" }, "askNASUsersToLogin": true },
       { "conditions": { "company": "myhomeconnections", "page": "RegisterPage", "userType": "BROKER", "region": "US" }, "brokerHouse": "My Home Group", "brokerCompanyName": "My Home Group", "askNASUsersToLogin": true },
-      { "conditions": { "company": "kwarizonapartners", "page": "RegisterPage", "userType": "*", "region": "US" }, "SupportedRegions":{"US":["AZ"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "kwarizonapartners", "page": "RegisterPage", "userType": "*", "region": "US" }, "SupportedRegions":{"US":["AZ"]}, "askNASUsersToLogin": true, "brokerHouse": "OTHER" },
       { "conditions": { "company": "kwarizonapartners", "page": "RegisterPage", "userType": "REALTOR", "region": "US" }, "realEstateBrokerage": "Keller Williams", "realEstateOffice": "Arizona Realty", "SupportedRegions":{"US":["AZ"]}, "askNASUsersToLogin": true }
       ],
     "WhitelabelCSS": [
