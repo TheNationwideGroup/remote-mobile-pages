@@ -88,7 +88,7 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "oriana" },
         "pageTitle": "Oriana Financial",
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/innerlogo.png"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/oriana_small.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "oriana" },
@@ -877,7 +877,7 @@
       },
       {
         "conditions": { "company": "oriana" },
-        "css": ".page-HeaderPage>.drawer-layout>.header-wrapper { background-color: #ffffff !important;} .header button { color: #385CAA !important;} .page-HeaderPage>.drawer-layout>.header-wrapper { border-bottom: 4px solid #385CAA; } .broker-title { color: #385CAA !important; } .broker-name { color: #385CAA !important; } .broker-company { color: #385CAA !important; } .broker-email, .broker-email a { color: #385CAA !important; } .broker-phone { color: #385CAA !important; } .header .logo{ background-size: 115px !important; }"
+        "css": ".page-HeaderPage>.drawer-layout>.header-wrapper { background-color: #ffffff !important;} .header button { color: #385CAA !important;} .page-HeaderPage>.drawer-layout>.header-wrapper { border-bottom: 4px solid #385CAA; } .broker-title { color: #385CAA !important; } .broker-name { color: #385CAA !important; } .broker-company { color: #385CAA !important; } .broker-email, .broker-email a { color: #385CAA !important; } .broker-phone { color: #385CAA !important; } .header .logo{ background-size: 170px !important; }"
       },
       {
         "conditions": { "company": "northwoodmortgageconnect" },
