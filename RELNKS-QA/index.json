@@ -1595,9 +1595,9 @@
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
-            "title": "Title & Escrow Services",
+            "title": "Legal Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
-            "icon": "icon-homeclosingservices",
+            "icon": "icon-legalservices",
             "serviceProvider_id": "128",
             "action": "ConciergeServicePage"
           },
@@ -4495,7 +4495,7 @@
       { "title": "Moving Tips", "conditions": { "title": "Moving Tips", "company": "*", "province": "*" },
         "items": []
       },
-      { "title": "Title & Escrow Services", "conditions": { "title": "Title & Escrow Services", "company": "*", "region": "US", "province": "*" },
+      { "title": "Legal Services", "conditions": { "title": "Legal Services", "company": "*", "region": "US", "province": "*" },
         "serviceProvider_id": "128",
         "items": [
           {
