@@ -1450,7 +1450,7 @@
           }
         ]
       },
-      { "conditions": { "title": "Legal Services" },
+      { "conditions": { "title": "Legal Services", "region": "CA", "company": "*" },
         "buttons": [
           {
             "serviceProvider_id": "104",
@@ -1598,8 +1598,7 @@
             "title": "Legal Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
             "icon": "icon-legalservices",
-            "serviceProvider_id": "128",
-            "action": "ConciergeServicePage"
+            "serviceProvider_id": "LEGAL_SERVICES"
           },
           {
             "title": "Moving Services",
@@ -1620,6 +1619,28 @@
             "serviceProvider_id": "DOCUMENT_REPOSITORY"
           }
         ]
+      },
+      { "conditions": { "title": "Legal Services", "region": "US", "company": "*" },
+        "buttons": [
+          {
+            "title": "Title & Escrow",
+            "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
+            "icon": "icon-homeclosingservices",
+            "serviceProvider_id": "128",
+            "action": "ConciergeServicePage"
+          },
+          {
+            "serviceProvider_id": "131",
+            "icon": "icon-createyourwill",
+            "title": "Other Legal Services"
+          }
+        ]
+      },
+      { "title": "Other Legal Services", "conditions": { "title": "Other Legal Services","region": "US", "company": "*" },
+        "parent": "Legal Services",
+        "serviceProvider_id": "131",
+        "description": "",
+        "items": [ ]
       },
       { "conditions": { "title": "Find a Property", "region": "CA", "province": "*" },
         "buttons": [
@@ -4495,7 +4516,8 @@
       { "title": "Moving Tips", "conditions": { "title": "Moving Tips", "company": "*", "province": "*" },
         "items": []
       },
-      { "title": "Legal Services", "conditions": { "title": "Legal Services", "company": "*", "region": "US", "province": "*" },
+      { "title": "Title & Escrow", "conditions": { "title": "Title & Escrow", "company": "*", "region": "US", "province": "*" },
+        "parent": "Legal Services",
         "serviceProvider_id": "128",
         "items": [
           {
@@ -4505,14 +4527,6 @@
             "image": "./partners/lawyers-title.png",
             "url": "http://www.lawyerstitlearizona.com/",
             "phone": "602-257-2600"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Chicago Title",
-            "text": "Chicago Title provides title insurance, underwriting, escrow and closing services.",
-            "image": "./partners/chicago-title.png",
-            "url": "https://www.ctic.com/",
-            "phone": "888-934-3354"
           },
           {
             "type": "info-tile-component",
@@ -4528,14 +4542,6 @@
       { "title": "Home Inspection", "conditions": { "title": "Home Inspection", "company": "*", "region": "US", "province": "*" },
         "serviceProvider_id": "103",
         "items": [
-          {
-            "type": "info-tile-component",
-            "title": "AJF Inspections and Engineering",
-            "text": "With over 45 years of inspection, engineering and construction experience, we’ve conducted tens of thousands of inspections in the Valley. All of our inspectors maintain their proficiency and knowledge through continuing professional education.",
-            "image": "./partners/ajf-engineering-inspections.jpg",
-            "url": "https://ajfengineering.com/order-an-inspection/",
-            "phone": "480-661-8888"
-          },
           {
             "type": "info-tile-component",
             "title": "Alliance Property Inspections",
