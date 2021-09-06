@@ -3824,15 +3824,6 @@
           }
         ]
       },
-      { "title": "Test Service", "conditions": { "title": "Test", "company": "*", "province": "*" },
-        "serviceProvider_id": "137",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "text": "Please contact your local provider."
-          }
-        ]
-      },
       { "title": "Phone", "conditions": { "title": "Phone", "company": "*", "province": "*" },
         "serviceProvider_id": "122",
         "description": "Regional phone providers all in one location for your convenience.",
