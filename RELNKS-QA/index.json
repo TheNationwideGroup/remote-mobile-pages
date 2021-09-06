@@ -1853,7 +1853,7 @@
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
-          { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "125" },
+          { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "133" },
           { "title": "Solar", "icon": "icon-pool-maintenance", "serviceProvider_id": "134" }
         ]
       },
@@ -3698,7 +3698,7 @@
         "description": "If you need a new furnace or water heater, you can access the vendors provided here."
       },
       { "title": "HVAC", "conditions": { "title": "HVAC", "company": "*", "region": "US", "province": "*" },
-        "serviceProvider_id": "125",
+        "serviceProvider_id": "133",
         "items": [
           {
             "type": "info-tile-component",
