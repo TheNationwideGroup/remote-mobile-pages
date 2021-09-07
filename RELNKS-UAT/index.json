@@ -88,7 +88,7 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "oriana" },
         "pageTitle": "Oriana Financial",
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/oriana_small.png"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/oriana/innerlogo.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "oriana" },
@@ -732,7 +732,7 @@
       },
       {
         "conditions": { "page": [ "MenuPage" ], "company": "myhomeconnections" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/myhomeconnections/logo-black.png"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/myhomeconnections/logo.png"
       },
       {
         "conditions": { "page": [ "LoginPage" ], "company": "myhomeconnections" },
@@ -743,7 +743,7 @@
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "myhomeconnections" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/myhomeconnections/logo-black-large.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/myhomeconnections/logo.png",
         "pageTitle": "My Home Group"
       },
       {
@@ -873,11 +873,7 @@
       },
       {
         "conditions": { "company": "vericoconnect" },
-        "css": "#page-login #login { background-color: #22386E; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #22386E !important;} .theme-accent-bg{background-color: #22386E !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #22386E !important; background-color:white !important; } .theme-accent-fg{color: #22386E !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #22386E !important; color:white !important; } .page-HeaderPage>.header {background-color: #22386E !important;} div[page].page-Menu .menu-body {background-color: #22386E;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #22386E !important; } .btn-primary, button.primary { background-color: #22386E !important; border: 1px solid #22386E !important;} button.primary:active { background-color: #649623 !important; border-color: #22386E !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #22386E !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #22386E !important; } div[type='info-tile-component'] button { background-color: #22386E !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #22386e !important;} .page-HeaderPage>.drawer-layout>.header-wrapper { background-color: #ffffff !important;} .header button { color: #27386B !important;} .page-HeaderPage>.drawer-layout>.header-wrapper { border-bottom: 4px solid #27386B; } .broker-title { color: #27386B !important; } .broker-name { color: #27386B !important; } .broker-company { color: #27386B !important; } .broker-email, .broker-email a { color: #27386B !important; } .broker-phone { color: #27386B !important; }"
-      },
-      {
-        "conditions": { "company": "oriana" },
-        "css": ".page-HeaderPage>.drawer-layout>.header-wrapper { background-color: #ffffff !important;} .header button { color: #385CAA !important;} .page-HeaderPage>.drawer-layout>.header-wrapper { border-bottom: 4px solid #385CAA; } .broker-title { color: #385CAA !important; } .broker-name { color: #385CAA !important; } .broker-company { color: #385CAA !important; } .broker-email, .broker-email a { color: #385CAA !important; } .broker-phone { color: #385CAA !important; } .header .logo{ background-size: 170px !important; }"
+        "css": "#page-login #login { background-color: #22386E; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #22386E !important;} .theme-accent-bg{background-color: #22386E !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #22386E !important; background-color:white !important; } .theme-accent-fg{color: #22386E !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #22386E !important; color:white !important; } .page-HeaderPage>.header {background-color: #22386E !important;} div[page].page-Menu .menu-body {background-color: #22386E;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #22386E !important; } .btn-primary, button.primary { background-color: #22386E !important; border: 1px solid #22386E !important;} button.primary:active { background-color: #649623 !important; border-color: #22386E !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } /*.fieldgroup label.toggle input:checked+.radio:before { background-color: #22386E !important; }*/ .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #22386E !important; } div[type='info-tile-component'] button { background-color: #22386E !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #22386e !important;}"
       },
       {
         "conditions": { "company": "northwoodmortgageconnect" },
@@ -929,7 +925,7 @@
       },
       {
         "conditions": { "company": "sunliteconnect" },
-        "css": "  #page-login #logo {background-size: contain} #page-login #login { background-color: #ffab34; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #ffab34 !important;} .theme-accent-bg{background-color: #ffab34 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #ffab34 !important; background-color:white !important; } .theme-accent-fg{color: #ffab34 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #ffab34 !important; color:white !important; } .page-HeaderPage>.header {background-color: #ffab34 !important;} div[page].page-Menu .menu-body {background-color: #ffab34;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #ffab34 !important; } .btn-primary, button.primary { background-color: #ffab34 !important; border: 1px solid #ffab34 !important;} button.primary:active { background-color: #649623 !important; border-color: #ffab34 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #ffab34 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #ffab34 !important; } div[type='info-tile-component'] button { background-color: #ffab34 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #ffab34 !important;} .page-HeaderPage>.drawer-layout>.header-wrapper { background-color: #ffffff !important;} .header button { color: #3C4D6B !important;} .page-HeaderPage>.drawer-layout>.header-wrapper { border-bottom: 4px solid #ffab34; } .broker-title { color: #3C4D6B !important; } .broker-name { color: #3C4D6B !important; } .broker-company { color: #3C4D6B !important; } .broker-email, .broker-email a { color: #3C4D6B !important; } .broker-phone { color: #3C4D6B !important; }"
+        "css": "  #page-login #logo {background-size: contain} #page-login #login { background-color: #ffab34; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #ffab34 !important;} .theme-accent-bg{background-color: #ffab34 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #ffab34 !important; background-color:white !important; } .theme-accent-fg{color: #ffab34 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #ffab34 !important; color:white !important; } .page-HeaderPage>.header {background-color: #ffab34 !important;} div[page].page-Menu .menu-body {background-color: #ffab34;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #ffab34 !important; } .btn-primary, button.primary { background-color: #ffab34 !important; border: 1px solid #ffab34 !important;} button.primary:active { background-color: #649623 !important; border-color: #ffab34 !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #ffab34 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #ffab34 !important; } div[type='info-tile-component'] button { background-color: #ffab34 !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #ffab34 !important;}"
       },
       {
         "conditions": { "company": "citadelmortgagesconnect" },
@@ -985,11 +981,11 @@
       },
       {
         "conditions": { "company": "myhomeconnections" },
-        "css": ".header .title{color: #252525 !important;} .logo-container{background-color: #000000;}  #page-login #logo {background-size: contain; background-color: #000000;} #page-login #login { background-color: #000000; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #252525 !important;} .theme-accent-bg{background-color: #F7F7F7 !important; color:#252525 !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #252525 !important; background-color:white !important; } .theme-accent-fg,.theme-accent2-fg{color: #252525 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #252525 !important; color:white !important; } .page-HeaderPage>.header {background-color: white !important;} div[page].page-Menu .menu-body {background-color: #252525;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #252525 !important; } .btn-primary, button.primary { background-color: #ecedf0 !important; color: #252525 !important; border: 1px solid #252525 !important;} button.primary:active { background-color: #649623 !important; border-color: #252525 !important; } #page-login #login button.btn_login {border: 1px solid #980000; background-color: #980000  !important; color: #ffffff; background-image: none !important;} #page-login #login button.btn_register { background-color: #999999 !important; background-image: none !important; border-color: #969696 !important; color: #252525; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #252525 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #252525 !important; } div[type='info-tile-component'] button { background-color: #ecedf0 !important; color: #252525 !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #252525 !important;} .CH-text,.CH-title {color: #252525 !important;} .page-HeaderPage>.drawer-layout>.header-wrapper { background-color: #ffffff !important;} .header button { color: #252525 !important;} .page-HeaderPage>.drawer-layout>.header-wrapper { border-bottom: 4px solid #252525; } .broker-title { color: #252525 !important; } .broker-name { color: #252525 !important; } .broker-company { color: #252525 !important; } .broker-email, .broker-email a { color: #252525 !important; } .broker-phone { color: #252525 !important; } .page-HeaderPage>.header{ border-bottom: 4px solid #252525; color: #252525 !important;} .page-HeaderPage>.header .headertitle {color: #252525 !important;} .background-2 { background: linear-gradient(90deg,#F7F7F7,#F7F7F7 55%,rgba(247, 247, 247, 0.929) 73%,rgba(247, 247, 247, 0) 100% ,rgba(247, 247, 247,0.1)) !important; position: absolute; top: 0; left: 0; width: 100%; height: 100%; } @media  screen and (min-width: 1367px) {.background-2 { background: linear-gradient(90deg,#F7F7F7,#F7F7F7 75%,rgba(247, 247, 247, 0.929) 83%,rgba(247, 247, 247, 0) 100% ,rgba(247, 247, 247,0.1)) !important; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }}"
+        "css": " .logo-container{background-color: #000000;}  #page-login #logo {background-size: contain; background-color: #000000;} #page-login #login { background-color: #000000; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: #000000 !important;} .theme-accent-bg{background-color: #000000 !important; color:white !important; } .selected .theme-accent-bg{background-color: #147ec8 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #000000 !important; background-color:white !important; } .theme-accent-fg,.theme-accent2-fg{color: #000000 !important; } .theme-accent-fg.selected{color: #147ec8 !important; background-color:white !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #000000 !important; color:white !important; } .page-HeaderPage>.header {background-color: #000000 !important;} div[page].page-Menu .menu-body {background-color: #000000;} #page-WelcomePage .content{background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #000000 !important; } .btn-primary, button.primary { background-color: #ecedf0 !important; color: #000000 !important; border: 1px solid #000000 !important;} button.primary:active { background-color: #649623 !important; border-color: #000000 !important; } #page-login #login button.btn_login {border: 1px solid #980000; background-color: #980000  !important; color: #ffffff; background-image: none !important;} #page-login #login button.btn_register { background-color: #999999 !important; background-image: none !important; border-color: #969696 !important; color: #000000; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #000000 !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #000000 !important; } div[type='info-tile-component'] button { background-color: #ecedf0 !important; color: #000000 !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #000000 !important;} .CH-text,.CH-title {color: #000 !important;}"
       },
       {
         "conditions": { "company": "kwarizonapartners" },
-        "css": ".title{color: black !important;} .header button{color: black !important;} .logo-container{border-bottom: 0px solid;} #page-login #logo {background-size: contain}  #page-login #login { background-color: #ecf1f4; } #page-login #login .fieldgroup label {color: black;} #page-login #login form .h2 {color: black} #page-login #login form { padding-top: 30px;} .fa-linkedin:before {color: black;} .fa-twitter-square:before { color: black; } .fa-facebook-square:before { color: black; } .fa-instagram-square:before {color: black; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #ffffff !important; color: #000 !important;} .theme-accent-bg{background-color: #ecf1f4 !important; color:#1F2930 !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #ffffff !important; background-color: #607d8b !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #ffffff !important; color:black !important; }.page-HeaderPage>.header { background-color: #ffffff !important;} div[page].page-Menu .menu-body { background-color: #ffffff;} #page-WelcomePage .content { background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #ffffff !important; } .btn-primary, button.primary { background-color: #607d8b !important; border: 1px solid #ffffff !important; color: #ffffff;} .btn.btn-primary:active,.btn.btn-primary:hover { background-color: #607d8b !important; border-color: #ffffff !important; color:white; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #C7C1BA !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #C7C1BA !important; } div[type='info-tile-component'] button { background-color: #ffffff !important; color: black !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; } .page-HeaderPage>.header .headertitle, .page-HeaderPage>.header .logo { color: black; } div[page].page-Menu .menu-body ul li>span { color: black; } div[page].page-Menu .menu-body ul li>span:hover { color: black; font-weight: 700; } .CH-text,.CH-title {color: #000 !important;} .theme-accent-fg{color: #000 !important; } .theme-footer,.btn-link,.link{color:#000 !important;} .item.selected .theme-accent-bg, .theme-accent-fg.selected {background-color: #dedede !important} .page-HeaderPage>.drawer-layout>.header-wrapper { background-color: #ffffff !important;} .header button { color: #1F2930 !important;} .page-HeaderPage>.drawer-layout>.header-wrapper { border-bottom: 4px solid #1F2930; } .broker-title { color: #1F2930 !important; } .broker-name { color: #1F2930 !important; } .broker-company { color: #1F2930 !important; } .broker-email, .broker-email a { color: #1F2930 !important; } .broker-phone { color: #1F2930 !important; } .page-HeaderPage>.header{ border-bottom: 4px solid #1F2930; } .background-2 { background: linear-gradient(90deg,#ECF1F4,#ECF1F4 55%,rgba(236, 241, 244, 0.929) 73%,rgba(236, 241, 244, 0) 100% ,rgba(236, 241, 244,0.1)) !important; position: absolute; top: 0; left: 0; width: 100%; height: 100%; } @media  screen and (min-width: 1367px) {.background-2 { background: linear-gradient(90deg,#ECF1F4,#ECF1F4 75%,rgba(236, 241, 244, 0.929) 83%,rgba(236, 241, 244, 0) 100% ,rgba(236, 241, 244,0.1)) !important; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }}"
+        "css": ".title{color: black !important;} .header button{color: black !important;} .logo-container{border-bottom: 0px solid;} #page-login #logo {background-size: contain}  #page-login #login { background-color: #ecf1f4; } #page-login #login .fieldgroup label {color: black;} #page-login #login form .h2 {color: black} #page-login #login form { padding-top: 30px;} .fa-linkedin:before {color: black;} .fa-twitter-square:before { color: black; } .fa-facebook-square:before { color: black; } .fa-instagram-square:before {color: black; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer { background-color: #ffffff !important; color: #000 !important;} .theme-accent-bg{background-color: #ecf1f4 !important; color:black !important; } .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: #ffffff !important; background-color: #607d8b !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #ffffff !important; color:black !important; }.page-HeaderPage>.header { background-color: #ffffff !important;} div[page].page-Menu .menu-body { background-color: #ffffff;} #page-WelcomePage .content { background-image: radial-gradient(circle, #147ec8, #1070b3, #0d629f, #09558b, #054877); } .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #ffffff !important; } .btn-primary, button.primary { background-color: #ffffff !important; border: 1px solid #ffffff !important; color: black;} .btn.btn-primary:active,.btn.btn-primary:hover { background-color: #607d8b !important; border-color: #ffffff !important; color:white; } #page-login #login button.btn_login { border: 1px solid #cccccc; background-color: #cecece !important; color: #6b6b6b; background-image: none !important; } #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #C7C1BA !important; } .fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #C7C1BA !important; } div[type='info-tile-component'] button { background-color: #ffffff !important; color: black !important;} #page-DocumentsRepositoryPage .box-info .title-row { color: #d66a34 !important; } .page-HeaderPage>.header .headertitle, .page-HeaderPage>.header .logo { color: black; } div[page].page-Menu .menu-body ul li>span { color: black; } div[page].page-Menu .menu-body ul li>span:hover { color: black; font-weight: 700; } .CH-text,.CH-title {color: #000 !important;} .theme-accent-fg{color: #000 !important; } .theme-footer,.btn-link,.link{color:#000 !important;} .item.selected .theme-accent-bg, .theme-accent-fg.selected {background-color: #dedede !important}"
       }
     ],
     "UserTypePermissions": [
@@ -1450,7 +1446,7 @@
           }
         ]
       },
-      { "conditions": { "title": "Legal Services", "region": "CA", "company": "*" },
+      { "conditions": { "title": "Legal Services" },
         "buttons": [
           {
             "serviceProvider_id": "104",
@@ -1595,10 +1591,11 @@
             "serviceProvider_id": "INSURANCE_PRODUCTS"
           },
           {
-            "title": "Legal Services",
+            "title": "Title & Escrow Services",
             "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
-            "icon": "icon-legalservices",
-            "serviceProvider_id": "LEGAL_SERVICES"
+            "icon": "icon-homeclosingservices",
+            "serviceProvider_id": "128",
+            "action": "ConciergeServicePage"
           },
           {
             "title": "Moving Services",
@@ -1619,28 +1616,6 @@
             "serviceProvider_id": "DOCUMENT_REPOSITORY"
           }
         ]
-      },
-      { "conditions": { "title": "Legal Services", "region": "US", "company": "*" },
-        "buttons": [
-          {
-            "title": "Title & Escrow",
-            "image": "./whitelabel/relnks/FIND_A_LAWYER.jpg",
-            "icon": "icon-homeclosingservices",
-            "serviceProvider_id": "128",
-            "action": "ConciergeServicePage"
-          },
-          {
-            "serviceProvider_id": "131",
-            "icon": "icon-createyourwill",
-            "title": "Other Legal Services"
-          }
-        ]
-      },
-      { "title": "Other Legal Services", "conditions": { "title": "Other Legal Services","region": "US", "company": "*" },
-        "parent": "Legal Services",
-        "serviceProvider_id": "131",
-        "description": "",
-        "items": [ ]
       },
       { "conditions": { "title": "Find a Property", "region": "CA", "province": "*" },
         "buttons": [
@@ -1845,7 +1820,7 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          { "title": "Lawn, Garden and Pool", "icon": "icon-lawn-mower", "serviceProvider_id": "132" },
+          { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
@@ -1853,8 +1828,8 @@
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
-          { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "133" },
-          { "title": "Solar", "icon": "icon-pool-maintenance", "serviceProvider_id": "134" }
+          { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "125" },
+          { "title": "Pool Maintenance", "icon": "icon-pool-maintenance", "serviceProvider_id": "130" }
         ]
       },
       { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care", "company": "*" },
@@ -1888,9 +1863,9 @@
           }
         ]
       },
-      { "title": "Lawn, Garden and Pool", "conditions": { "title": "Lawn, Garden and Pool", "company": "*", "region": "US" },
+      { "title": "Lawn/Garden Care", "conditions": { "title": "Lawn/Garden Care", "company": "*", "region": "US" },
         "parent": "Property Services",
-        "serviceProvider_id": "132",
+        "serviceProvider_id": "111",
         "description": "The outside of a property is your chance to make a great first impression. Shop trusted, local professionals to spruce up your yard.",
         "items": [
           {
@@ -1908,20 +1883,6 @@
             "image": "./partners/AMS-Landscaping.png",
             "url": "https://azlawns.com/",
             "phone": "602-944-0421"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "America's Swimming Pool Company",
-            "text": "Our professional pool care company provides our customers with easy, informative, and friendly repair and maintenance for their swimming pools.",
-            "image": "./partners/americas_swimming_pool_logo.png",
-            "url": "https://www.asppoolco.com/request-appointment/"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Shimmering Waters Pool Service",
-            "text": "Shimmering Waters Pool Service is a family owned and operated swimming pool maintenance, repair, and remodeling company with a commitment to our customer's satisfaction",
-            "image": "./partners/shimmering_waters_pool_service.jpg",
-            "url": "https://www.shimmeringwaterspoolservices.com"
           }
         ]
       },
@@ -2028,14 +1989,6 @@
             "image": "./partners/shimmering_waters_pool_service.jpg",
             "url": "https://www.shimmeringwaterspoolservices.com"
           }
-        ]
-      },
-      { "title": "Solar", "conditions": { "title": "Solar", "company": "*", "region": "US" },
-        "parent": "Property Management",
-        "serviceProvider_id": "134",
-        "description": "",
-        "items": [
-          
         ]
       },
       { "title": "Home Renovation", "conditions": { "title": "Home Renovation", "company": "*", "province": ["ON"] },
@@ -3698,7 +3651,7 @@
         "description": "If you need a new furnace or water heater, you can access the vendors provided here."
       },
       { "title": "HVAC", "conditions": { "title": "HVAC", "company": "*", "region": "US", "province": "*" },
-        "serviceProvider_id": "133",
+        "serviceProvider_id": "125",
         "items": [
           {
             "type": "info-tile-component",
@@ -4538,8 +4491,7 @@
       { "title": "Moving Tips", "conditions": { "title": "Moving Tips", "company": "*", "province": "*" },
         "items": []
       },
-      { "title": "Title & Escrow", "conditions": { "title": "Title & Escrow", "company": "*", "region": "US", "province": "*" },
-        "parent": "Legal Services",
+      { "title": "Title & Escrow Services", "conditions": { "title": "Title & Escrow Services", "company": "*", "region": "US", "province": "*" },
         "serviceProvider_id": "128",
         "items": [
           {
@@ -4549,6 +4501,14 @@
             "image": "./partners/lawyers-title.png",
             "url": "http://www.lawyerstitlearizona.com/",
             "phone": "602-257-2600"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Chicago Title",
+            "text": "Chicago Title provides title insurance, underwriting, escrow and closing services.",
+            "image": "./partners/chicago-title.png",
+            "url": "https://www.ctic.com/",
+            "phone": "888-934-3354"
           },
           {
             "type": "info-tile-component",
@@ -4564,6 +4524,14 @@
       { "title": "Home Inspection", "conditions": { "title": "Home Inspection", "company": "*", "region": "US", "province": "*" },
         "serviceProvider_id": "103",
         "items": [
+          {
+            "type": "info-tile-component",
+            "title": "AJF Inspections and Engineering",
+            "text": "With over 45 years of inspection, engineering and construction experience, we’ve conducted tens of thousands of inspections in the Valley. All of our inspectors maintain their proficiency and knowledge through continuing professional education.",
+            "image": "./partners/ajf-engineering-inspections.jpg",
+            "url": "https://ajfengineering.com/order-an-inspection/",
+            "phone": "480-661-8888"
+          },
           {
             "type": "info-tile-component",
             "title": "Alliance Property Inspections",
