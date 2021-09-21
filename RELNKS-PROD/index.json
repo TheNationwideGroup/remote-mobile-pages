@@ -852,10 +852,10 @@
       { "conditions": { "company": "mtgprofessionalsconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico","brokerCompanyName": "The Mortgage Professionals", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "adamasfinancialconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "adamasfinancialconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico", "brokerCompanyName": "Adamas Financial", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
-      { "conditions": { "company": "myhomeconnector", "page": "RegisterPage", "userType": "*", "region": "US" }, "askNASUsersToLogin": true },
-      { "conditions": { "company": "myhomeconnector", "page": "RegisterPage", "userType": "BROKER", "region": "US" }, "brokerHouse": "My Home Group", "brokerCompanyName": "My Home Group", "askNASUsersToLogin": true },
-      { "conditions": { "company": "kwarizonapartners", "page": "RegisterPage", "userType": "*", "region": "US" }, "SupportedRegions":{"US":["AZ"]}, "askNASUsersToLogin": true, "brokerHouse": "OTHER" },
-      { "conditions": { "company": "kwarizonapartners", "page": "RegisterPage", "userType": "REALTOR", "region": "US" }, "realEstateBrokerage": "Keller Williams", "realEstateOffice": "Arizona Realty", "SupportedRegions":{"US":["AZ"]}, "askNASUsersToLogin": true }
+      { "conditions": { "company": "myhomeconnector", "page": "RegisterPage", "userType": "*", "region": "US" }, "askNASUsersToLogin": false },
+      { "conditions": { "company": "myhomeconnector", "page": "RegisterPage", "userType": "BROKER", "region": "US" }, "brokerHouse": "My Home Group", "brokerCompanyName": "My Home Group", "askNASUsersToLogin": false },
+      { "conditions": { "company": "kwarizonapartners", "page": "RegisterPage", "userType": "*", "region": "US" }, "SupportedRegions":{"US":["AZ"]}, "askNASUsersToLogin": false, "brokerHouse": "OTHER" },
+      { "conditions": { "company": "kwarizonapartners", "page": "RegisterPage", "userType": "REALTOR", "region": "US" }, "realEstateBrokerage": "Keller Williams Arizona Realty", "realEstateOffice": "Arizona Realty", "SupportedRegions":{"US":["AZ"]}, "askNASUsersToLogin": false }
       ],
     "WhitelabelCSS": [
       {
