@@ -856,7 +856,7 @@
       { "conditions": { "company": "myhomeconnector", "page": "RegisterPage", "userType": "*", "region": "US" }, "askNASUsersToLogin": false },
       { "conditions": { "company": "myhomeconnector", "page": "RegisterPage", "userType": "BROKER", "region": "US" }, "brokerHouse": "My Home Group", "brokerCompanyName": "My Home Group", "askNASUsersToLogin": false },
       { "conditions": { "company": "kwarizonapartners", "page": "RegisterPage", "userType": "*", "region": "US" }, "SupportedRegions":{"US":["AZ"]}, "askNASUsersToLogin": false, "brokerHouse": "OTHER" },
-      { "conditions": { "company": "kwarizonapartners", "page": "RegisterPage", "userType": "REALTOR", "region": "US" }, "realEstateBrokerage": "Keller Williams", "realEstateOffice": "Arizona Realty", "SupportedRegions":{"US":["AZ"]}, "askNASUsersToLogin": false }
+      { "conditions": { "company": "kwarizonapartners", "page": "RegisterPage", "userType": "REALTOR", "region": "US" }, "realEstateBrokerage": "Keller Williams Arizona Realty", "realEstateOffice": "Arizona Realty", "SupportedRegions":{"US":["AZ"]}, "askNASUsersToLogin": false }
       ],
     "WhitelabelCSS": [
       {
@@ -1706,7 +1706,7 @@
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
@@ -1723,7 +1723,7 @@
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
@@ -1740,7 +1740,7 @@
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
@@ -1757,7 +1757,7 @@
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
@@ -1774,7 +1774,7 @@
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
@@ -1791,7 +1791,7 @@
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
@@ -1849,7 +1849,7 @@
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
@@ -1998,74 +1998,6 @@
             "signupUrl": "https://app.bidmii.com/login?r=RELNKS"
           }
         ]
-      },
-      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "*" },
-        "parent": "Property Services",
-        "serviceProvider_id": "115",
-        "description": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered.",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Pop-A-Lock",
-            "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
-            "url": "http://www.popalock.ca/locksmith/relnks",
-            "phone": "905-891-9888"
-          }
-        ]
-      },
-      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "vericoconnect", "province": [ "AB" ] },
-        "parent": "Property Services",
-        "serviceProvider_id": "115",
-        "text": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered.",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Pop-A-Lock",
-            "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
-            "url": "http://www.popalock.ca/locksmith/relnks",
-            "phone": "905-891-9888"
-          }
-        ]
-      },
-      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "xevaconnect", "province": [ "AB" ] },
-        "parent": "Property Services",
-        "serviceProvider_id": "115",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Pop-A-Lock",
-            "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
-            "url": "http://www.popalock.ca/locksmith/relnks",
-            "phone": "905-891-9888"
-          }
-        ],
-        "description": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered."
-      },
-      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "*", "region": "US" },
-        "parent": "Property Services",
-        "serviceProvider_id": "115",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Pop-A-Lock",
-            "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
-            "image": "./partners/popalock.png",
-            "url": "https://www.popalock.com/",
-            "phone": "800-767-25625"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Arizona Keys Locksmith",
-            "text": "As a mobile locksmith, we offer auto, commercial, residential, emergency, and mailbox keying services. ",
-            "image": "./partners/Arizona-Keys-Locksmith.jpg",
-            "url": "https://arizonakeyslocksmith.com/",
-            "phone": "480-941-7239"
-          }
-        ],
-        "description": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered."
       },
       { "title": "Cleaning Services", "conditions": { "title": "Cleaning Services", "company": "*" },
         "parent": "Property Services",
