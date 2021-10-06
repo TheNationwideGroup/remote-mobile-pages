@@ -1846,12 +1846,12 @@
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           { "title": "Lawn, Garden and Pool", "icon": "icon-lawn-mower", "serviceProvider_id": "132" },
-          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
-          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
           { "title": "HVAC", "icon": "icon-water-heater", "serviceProvider_id": "133" },
           { "title": "Solar", "icon": "icon-solar", "serviceProvider_id": "134" }
@@ -1922,6 +1922,37 @@
             "text": "Shimmering Waters Pool Service is a family owned and operated swimming pool maintenance, repair, and remodeling company with a commitment to our customer's satisfaction",
             "image": "./partners/shimmering_waters_pool_service.jpg",
             "url": "https://www.shimmeringwaterspoolservices.com"
+          }
+        ]
+      },
+      { "title": "Property Management", "conditions": { "title": "Property Management", "company": "*", "region": "US" },
+        "parent": "Property Services",
+        "serviceProvider_id": "112",
+        "description": "Thinking of leasing your property? Connect to a list of expert rental managers here to put your investment in the right hands.",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "OnQ Property Management",
+            "text": "Arizona's #1 Property Management & Real Estate Investment Company.",
+            "image": "./partners/On-Q-Property-Management.png",
+            "url": "https://www.onqpm.com",
+            "phone": "480-518-9910"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Capstone Realty Property Management",
+            "text": "Capstone Realty is a leading Phoenix Property management group, helping first-time investors and long-term investors make smart decisions when it comes to renting out their property.",
+            "image": "./partners/Capstone-Realty-Professionals.png",
+            "url": "http://soldonphoenix.com/property-management-in-phoenix/",
+            "phone": "602-354-4660"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Renters Warehouse",
+            "text": "Renters Warehouse is America's full-service property management and investment services company for Single-Family Rental homes.",
+            "image": "./partners/Renters-Warehouse.jpg",
+            "url": "https://renterswarehouse.com/offices/phoenix",
+            "phone": "480-626-2226"
           }
         ]
       },
@@ -1998,6 +2029,29 @@
             "signupUrl": "https://app.bidmii.com/login?r=RELNKS"
           }
         ]
+      },
+      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "*", "region": "US" },
+        "parent": "Property Services",
+        "serviceProvider_id": "115",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "Pop-A-Lock",
+            "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
+            "image": "./partners/popalock.png",
+            "url": "https://www.popalock.com/",
+            "phone": "800-767-25625"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Arizona Keys Locksmith",
+            "text": "As a mobile locksmith, we offer auto, commercial, residential, emergency, and mailbox keying services. ",
+            "image": "./partners/Arizona-Keys-Locksmith.jpg",
+            "url": "https://arizonakeyslocksmith.com/",
+            "phone": "480-941-7239"
+          }
+        ],
+        "description": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered."
       },
       { "title": "Cleaning Services", "conditions": { "title": "Cleaning Services", "company": "*" },
         "parent": "Property Services",
@@ -2245,6 +2299,57 @@
           }
         ]
       },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "*", "region": "US", "province": "*" },
+        "parent": null,
+        "buttons": [
+          {
+            "title": "Home Warranty",
+            "icon": "fas fa-umbrella",
+            "serviceProvider_id": "105"
+          },
+          {
+            "title": "Home/Auto Insurance",
+            "icon": "fas fa-car-crash",
+            "serviceProvider_id": "106"
+          },
+          {
+            "title": "Life Insurance",
+            "icon": "fas fa-umbrella",
+            "serviceProvider_id": "107"
+          }
+        ]
+      },
+      { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "region": "US", "province": "*" },
+        "parent": "Insurance Products",
+        "serviceProvider_id": "105",
+        "description":"Optional protection plan for peace of mind when purchasing a home. <b>Not required for closing.</b>",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "One Guard Home Warranty",
+            "text": "OneGuard® offers home warranty and service plans you can count on. We offer more than standard coverage; we also offer additional home maintenance services to help you out with jobs around the house.",
+            "image": "./partners/one-guard-home-warranty.png",
+            "url": "https://common.oneguardhomewarranty.com/Homeowners/NewQuoteType?_ga=2.13685680.607430919.1613155928-386651901.1613155928",
+            "phone": "888-896-0014"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "American Home Shield",
+            "text": "Get the best in home warranty protection with American Home Shield®.",
+            "image": "./partners/american-home-shield.png",
+            "url": "https://shopping.ahs.com/plans/",
+            "phone": "888-682-1043"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Old Republic Home Protection",
+            "text": "Old Republic Home Protection has offered exceptional home warranty coverage and service to homeowners and the real estate community since 1974.",
+            "image": "./partners/old-republic-home-protection.png",
+            "url": "https://homeowner.orhp.com/hoc/index.cfm/login/login-form/",
+            "phone": "800-972-5985"
+          }
+        ]
+      },
       { "title": "Home Insurance", "conditions": { "title": "Home Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
@@ -2274,6 +2379,76 @@
           }
         ],
         "description": "Connect with auto insurance providers to ensure you and your family are fully covered while on the go."
+      },
+      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "region": "US" },
+        "parent": "Insurance Products",
+        "serviceProvider_id": "106",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "State Farm",
+            "text": "State Farm helps you protect what matters most with home & car insurance, checking & savings accounts, loans, and more.",
+            "image": "./partners/state-farm.png",
+            "url": "https://www.statefarm.com/",
+            "phone": "800-782-8332"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Farmers Insurance",
+            "text": "Farmers Insurance Group is an American insurer group of automobiles, homes and small businesses and also provides other insurance and financial services products.",
+            "image": "./partners/farmers.png",
+            "url": "https://www.farmers.com/",
+            "phone": "800-493-4917"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "GEICO",
+            "text": "GEICO provides the insurance savings you expect.  We offer competitive rates on coverage tailored to fit your needs.",
+            "image": "./partners/geico.jpg",
+            "url": "https://www.geico.com/",
+            "phone": "800-841-2964"
+          }
+        ],
+        "description": "Home Insurance is required to close on your home. Find the right fit for your needs here."
+      },
+      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "*", "region": "US", "province": "*" },
+        "parent": "Insurance Products",
+        "serviceProvider_id": "107",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "Watermark",
+            "text": "We are here to put the <b><i>life</i></b> back in life insurance.",
+            "image": "./partners/watermark.png",
+            "url": "https://www.leavemymark.com/RELNKS",
+            "phone": "844-526-7210"
+          }
+        ],
+        "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
+      },
+      { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "company": "*", "region": "US", "province": "*" },
+        "parent": "Concierge Services",
+        "serviceProvider_id": "117",
+        "type": "button",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "1-800-GOT-JUNK?",
+            "text": "1-800-GOT-JUNK? Is a full-service junk removal company serving areas across US.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/gotjunk.png",
+            "url": "https://www.1800gotjunk.com/",
+            "phone": "866-674-1573"
+          },
+          {
+            "type": "info-tile-component",
+            "title": "Happy Junk Removal",
+            "text": "Got JUNK?? No Problem! We are Phoenix Arizona's Number one FULL SERVICE Junk Removal Company.",
+            "image": "./partners/happy-junk-removal.png",
+            "url": "https://happyjunkremoval.com/book-online",
+            "phone": "480-939-7387"
+          }
+        ],
+        "description": "Whether you’re letting go of unwanted furnishings or cleaning up your next property, take care of it trouble-free with these experts in junk removal."
       },
       { "title": "Change Address", "conditions": { "title": "Change Address", "company": "*", "province": "*" },
         "parent": "Concierge Services",
