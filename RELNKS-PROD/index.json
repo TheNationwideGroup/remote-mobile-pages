@@ -1702,12 +1702,12 @@
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
-          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
-          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
@@ -1719,12 +1719,12 @@
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
-          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
-          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
@@ -1736,12 +1736,12 @@
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
-          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
-          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
@@ -1753,12 +1753,12 @@
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
-          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
-          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
@@ -1770,12 +1770,12 @@
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
-          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
-          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
@@ -1787,12 +1787,12 @@
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
-          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
-          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
+          { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
-          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
@@ -1804,11 +1804,11 @@
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
-          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
-          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
@@ -1820,11 +1820,11 @@
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
-          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
+          { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
-          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117" },
+          { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
           { "title": "Smart Home/Home Security", "icon": "icon-smart-home", "serviceProvider_id": "126" },
           { "title": "Water Heater/Furnace Replacement", "icon": "icon-water-heater", "serviceProvider_id": "125" }
         ]
@@ -1921,29 +1921,6 @@
             "text": "Shimmering Waters Pool Service is a family owned and operated swimming pool maintenance, repair, and remodeling company with a commitment to our customer's satisfaction",
             "image": "./partners/shimmering_waters_pool_service.jpg",
             "url": "https://www.shimmeringwaterspoolservices.com"
-          }
-        ]
-      },
-      { "title": "Property Management", "conditions": { "title": "Property Management", "company": "*" },
-        "parent": "Property Services",
-        "serviceProvider_id": "112",
-        "description": "Thinking of leasing your property? Connect to a list of expert rental managers here to put your investment in the right hands.",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Richmond Property Advisory Services Inc.",
-            "text": "Richmond Advisory Services provides residential and commercial property management services across Canada.",
-            "url": "http://www.raspropertymanagement.com/",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/ras.png",
-            "phone": "855-547-2122"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Veranova",
-            "text": "Serving the nation’s largest enterprises, lenders, law firms, property investors and real estate brokerages we’re Canada’s trusted partner in property management, real estate asset management and legal support services. ",
-            "url": "https://www.veranova.ca/",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/veranova.png",
-            "phone": "800-667-3626"
           }
         ]
       },
@@ -2051,51 +2028,6 @@
             "signupUrl": "https://app.bidmii.com/login?r=RELNKS"
           }
         ]
-      },
-      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "*" },
-        "parent": "Property Services",
-        "serviceProvider_id": "115",
-        "description": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered.",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Pop-A-Lock",
-            "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
-            "url": "http://www.popalock.ca/locksmith/relnks",
-            "phone": "905-891-9888"
-          }
-        ]
-      },
-      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "vericoconnect", "province": [ "AB" ] },
-        "parent": "Property Services",
-        "serviceProvider_id": "115",
-        "text": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered.",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Pop-A-Lock",
-            "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
-            "url": "http://www.popalock.ca/locksmith/relnks",
-            "phone": "905-891-9888"
-          }
-        ]
-      },
-      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "xevaconnect", "province": [ "AB" ] },
-        "parent": "Property Services",
-        "serviceProvider_id": "115",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Pop-A-Lock",
-            "text": "Pop-A-Lock Security Professionals has grown to become one of the largest network of locksmiths in the world.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/popalock.png",
-            "url": "http://www.popalock.ca/locksmith/relnks",
-            "phone": "905-891-9888"
-          }
-        ],
-        "description": "If you’ve just moved into a house, new or old, it’s time to change your locks. You can feel safe knowing these expert locksmiths have you covered."
       },
       { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "*", "region": "US" },
         "parent": "Property Services",
@@ -2281,17 +2213,20 @@
           {
             "title": "Home Warranty",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "105"
+            "serviceProvider_id": "105",
+            "action": "CreateService"
           },
           {
             "title": "Home/Auto Insurance",
             "icon": "fas fa-car-crash",
-            "serviceProvider_id": "106"
+            "serviceProvider_id": "106",
+            "action": "CreateService"
           },
           {
             "title": "Life Insurance",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "107"
+            "serviceProvider_id": "107",
+            "action": "CreateService"
           }
         ]
       },
@@ -2301,12 +2236,14 @@
           {
             "title": "Home Warranty",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "105"
+            "serviceProvider_id": "105",
+            "action": "CreateService"
           },
           {
             "title": "Home/Auto Insurance",
             "icon": "fas fa-car-crash",
-            "serviceProvider_id": "106"
+            "serviceProvider_id": "106",
+            "action": "CreateService"
           }
         ]
       },
@@ -2316,12 +2253,14 @@
           {
             "title": "Home Warranty",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "105"
+            "serviceProvider_id": "105",
+            "action": "CreateService"
           },
           {
             "title": "Life Insurance",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "107"
+            "serviceProvider_id": "107",
+            "action": "CreateService"
           }
         ]
       },
@@ -2331,12 +2270,14 @@
           {
             "title": "Home/Auto Insurance",
             "icon": "fas fa-car-crash",
-            "serviceProvider_id": "106"
+            "serviceProvider_id": "106",
+            "action": "CreateService"
           },
           {
             "title": "Life Insurance",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "107"
+            "serviceProvider_id": "107",
+            "action": "CreateService"
           }
         ]
       },
@@ -2346,43 +2287,34 @@
           {
             "title": "Home Warranty",
             "icon": "fas fa-umbrella",
+            "serviceProvider_id": "105",
+            "action": "CreateService"
+          },
+          {
+            "title": "Life Insurance",
+            "icon": "fas fa-umbrella",
+            "serviceProvider_id": "107",
+            "action": "CreateService"
+          }
+        ]
+      },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "*", "region": "US", "province": "*" },
+        "parent": null,
+        "buttons": [
+          {
+            "title": "Home Warranty",
+            "icon": "fas fa-umbrella",
             "serviceProvider_id": "105"
+          },
+          {
+            "title": "Home/Auto Insurance",
+            "icon": "fas fa-car-crash",
+            "serviceProvider_id": "106"
           },
           {
             "title": "Life Insurance",
             "icon": "fas fa-umbrella",
             "serviceProvider_id": "107"
-          }
-        ]
-      },
-      { "title": "Home Warranty", "conditions": { "title": "Home Warranty", "company": "*", "province": "*" },
-        "parent": "Insurance Products",
-        "serviceProvider_id": "105",
-        "description":"Optional protection plan for peace of mind when purchasing a home. <b>Not required for closing.</b>",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Atlas Care",
-            "text": "Keeping homes comfortable since 1932.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/atlascare.png",
-            "url": "https://atlascare.ca/protection-plans/",
-            "phone": "905-829-1296"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Complete Protection",
-            "text": "Complete Protection™ (CP™) is unlike any other home warranty on the market. In business since 1998, we have become the industry leader in Customer Service.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/completeprotection.png",
-            "url": "https://www.completehomewarranty.com/request-a-quote/",
-            "phone": "800-978-2022"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Blanket Universal Home Warranty",
-            "text": "Blanket Universal Home Warranty provides Canada’s best coverage against unexpected repairs or breakdowns that can cost homeowners thousands of dollars, whether it’s a new or pre-owned home.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/blanket.png",
-            "url": "https://portal.buhw.ca/register",
-            "phone": "855-587-4792"
           }
         ]
       },
@@ -2417,7 +2349,7 @@
           }
         ]
       },
-      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "province": "*" },
+      { "title": "Home Insurance", "conditions": { "title": "Home Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "description": "Home Insurance is required to close on your home. Find the right fit for your needs here.",
@@ -2429,37 +2361,13 @@
             "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/magnes.png",
             "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
             "phone": "800-650-3435"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Sonnet",
-            "text": "At Sonnet, we offer customized coverage, in language you can understand, at a competitive price – and we do it all online.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/sonnet.png",
-            "url": "https://www.sonnet.ca",
-            "phone": "844-766-6374"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Belairdirect",
-            "text": "A true ally is someone you trust. At belairdirect, we’ve offered car and home insurance to nearly 1 million customers over the last 60 years.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/belairdirect.png",
-            "url": "https://www.belairdirect.com/",
-            "phone": "888-280-8549"
           }
         ]
       },
-      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "province": [ "BC" ] },
+      { "title": "Auto Insurance", "conditions": { "title": "Auto Insurance", "company": "*", "province": [ "BC" ] },
         "parent": "Insurance Products",
         "serviceProvider_id": "106",
         "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Magnes",
-            "text": "With effort and care, we deliver the very best personalized insurance coverage and risk management advice. ",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/magnes.png",
-            "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
-            "phone": "800-650-3435"
-          },
           {
             "type": "info-tile-component",
             "title": "ICBC",
@@ -2469,7 +2377,7 @@
             "phone": "800-910-4222"
           }
         ],
-        "description": "Home Insurance is required to close on your home. Find the right fit for your needs here."
+        "description": "Connect with auto insurance providers to ensure you and your family are fully covered while on the go."
       },
       { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "*", "region": "US" },
         "parent": "Insurance Products",
@@ -2502,81 +2410,6 @@
         ],
         "description": "Home Insurance is required to close on your home. Find the right fit for your needs here."
       },
-      { "title": "Home Insurance", "conditions": { "title": "Home Insurance", "company": "*", "province": [ "BC" ] },
-        "parent": "Insurance Products",
-        "serviceProvider_id": "106",
-        "description": "Home Insurance is required to close on your home. Find the right fit for your needs here.",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Magnes",
-            "text": "With effort and care, we deliver the very best personalized insurance coverage and risk management advice. ",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/magnes.png",
-            "url": "https://magnesgroup.com/en/get-an-insurance-quote/",
-            "phone": "800-650-3435"
-          }
-        ]
-      },
-      { "title": "Auto Insurance", "conditions": { "title": "Auto Insurance", "company": "*", "province": [ "BC" ] },
-        "parent": "Insurance Products",
-        "serviceProvider_id": "106",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "ICBC",
-            "text": "Buy, renew, or update your auto insurance through the Insurance Corporation of British Columbia.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/icbc.png",
-            "url": "https://www.icbc.com/insurance/buy-renew-cancel/Pages/buy-or-renew.aspx",
-            "phone": "800-910-4222"
-          }
-        ],
-        "description": "Connect with auto insurance providers to ensure you and your family are fully covered while on the go."
-      },
-      { "title": "Home/Auto Insurance", "conditions": { "title": "Home/Auto Insurance", "company": "oriana", "province": "*" },
-        "parent": "Insurance Products",
-        "serviceProvider_id": "106",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Case Insurance",
-            "text": "Case Insurance Brokers: The entrepreneur's choice for business, auto and home insurance.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/case-insurance.png",
-            "url": "https://www.caseinsurance.ca/",
-            "phone": "416-484-3810"
-          }
-        ],
-        "description": "Home Insurance is required to close on your home. Find the right fit for your needs here."
-      },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "*", "province": [ "ON", "AB" ] },
-        "parent": "Insurance Products",
-        "serviceProvider_id": "107",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Bold Financial",
-            "text": "Life insurance, group benefits and investment solutions for business owners and professionals.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bold-financial.png",
-            "url": "https://www.boldfinancial.ca/",
-            "phone": "416-727-7071"
-          }
-        ],
-        "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
-      },
-      { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": ["vericoconnect","northwoodmortgageconnect","xevaconnect","selectmortgageconnect","approvedfinancialconnect","onlinemortgageconnect","vericofortuneeffectconnect","mortgagewellnessconnect","pekoemortgagesconnect","jpmortgageservicesconnect","lendateaseconnect","reliancemortgagesconnect","mortgageplusconnect","sunliteconnect","citadelmortgagesconnect","financialforumconnect","mortgagestationconnect","bestmortgageloansconnect","canadianmortgagelenderconnect","centummetrocapp","sequoiamortgageconnect","onelinkmortgageconnect","nuborrownetwork","mtgprofessionalsconnect","adamasfinancialconnect"], "province": "*" },
-        "parent": "Insurance Products",
-        "serviceProvider_id": "107",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Bold Financial",
-            "text": "Life insurance, group benefits and investment solutions for business owners and professionals.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bold-financial.png",
-            "url": "https://www.boldfinancial.ca/",
-            "phone": "416-727-7071"
-          }
-        ],
-        "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
-      },
       { "title": "Life Insurance", "conditions": { "title": "Life Insurance", "company": "*", "region": "US", "province": "*" },
         "parent": "Insurance Products",
         "serviceProvider_id": "107",
@@ -2591,70 +2424,6 @@
           }
         ],
         "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
-      },
-      { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "company": "*", "province": "*" },
-        "parent": "Concierge Services",
-        "serviceProvider_id": "117",
-        "type": "button",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "1-800-GOT-JUNK?",
-            "text": "1-800-GOT-JUNK? Is a full-service junk removal company serving areas across Canada.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/gotjunk.png",
-            "url": "https://request.1800gotjunk.com/ca_en/onlinebooking?_ga=2.116313093.2060181575.1591233719-669800212.1591233719",
-            "phone": "866-674-1573"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Just Junk",
-            "text": "We can remove virtually anything (except hazardous waste). Just point and we do the rest.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/justjunk.png",
-            "url": "https://justjunk.com/book",
-            "phone": "403-410-0822"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Canada Junk",
-            "text": "Canada Junk is a locally owned and operated Toronto junk disposal and recycling company.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/canadajunk.png",
-            "url": "https://booknow.appointment-plus.com/36jqyn1k/10",
-            "phone": "888-979-5865"
-          }
-        ],
-        "description": "Whether you’re letting go of unwanted furnishings or cleaning up your next property, take care of it trouble-free with these experts in junk removal."
-      },
-      { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "company": "*", "province": [ "BC" ] },
-        "parent": "Concierge Services",
-        "serviceProvider_id": "117",
-        "type": "button",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "1-800-GOT-JUNK?",
-            "text": "1-800-GOT-JUNK? Is a full-service junk removal company serving areas across Canada.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/gotjunk.png",
-            "url": "https://request.1800gotjunk.com/ca_en/onlinebooking?_ga=2.116313093.2060181575.1591233719-669800212.1591233719",
-            "phone": "866-674-1573"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Just Junk",
-            "text": "We can remove virtually anything (except hazardous waste). Just point and we do the rest.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/justjunk.png",
-            "url": "https://justjunk.com/book",
-            "phone": "403-410-0822"
-          },
-          {
-            "type": "info-tile-component",
-            "title": "Joey's Junk",
-            "text": "Experts in the removal of residential & commercial garbage and junk!",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/joeysjunk.png",
-            "url": "https://www.joeysjunk.ca/",
-            "phone": "778-881-5865"
-          }
-        ],
-        "description": "Whether you’re letting go of unwanted furnishings or cleaning up your next property, take care of it trouble-free with these experts in junk removal."
       },
       { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "company": "*", "region": "US", "province": "*" },
         "parent": "Concierge Services",
