@@ -1289,7 +1289,8 @@
       ]
     },
     "concieregeServicesPages": [
-      { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*" },
+      { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*",
+        "userType":["HOMEOWNER", "BROKER"] },
         "buttons": [
           {
             "title": "Homebuyer Checklist",
@@ -1347,7 +1348,7 @@
           }
         ]
       },
-      { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*", "userType":["HOMEOWNER","REALTOR"] }, 
+      { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*", "userType":["REALTOR"] }, 
         "buttons": [
           {
             "title": "Homebuyer Checklist",
