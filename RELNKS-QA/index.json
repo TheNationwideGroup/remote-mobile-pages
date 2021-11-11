@@ -1676,7 +1676,7 @@
           {
             "serviceProvider_id": "NB_PROFILER_LOCAL",
             "icon": "fas fa-map-marked-alt",
-            "title": "Neighborhood Data",
+            "title": "Neighborhood Insights",
             "action": "NeighborhoodProfilerDataVuePage"
           }
         ]
