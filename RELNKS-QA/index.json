@@ -1418,7 +1418,7 @@
           {
             "serviceProvider_id": "NB_PROFILER_LOCAL",
             "icon": "fas fa-map-marked-alt",
-            "title": "Neighbourhood Data",
+            "title": "Neighbourhood Insights",
             "action": "NeighborhoodProfilerDataVuePage"
           }
         ]
@@ -1654,7 +1654,7 @@
           {
             "serviceProvider_id": "NB_PROFILER_LOCAL",
             "icon": "fas fa-map-marked-alt",
-            "title": "Neighbourhood Data",
+            "title": "Neighbourhood Insights",
             "action": "NeighborhoodProfilerDataVuePage"
           },
           {
