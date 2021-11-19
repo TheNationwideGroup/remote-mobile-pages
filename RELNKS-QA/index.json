@@ -2425,7 +2425,7 @@
             "phone": "844-526-7210"
           }
         ],
-        "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs. <b>Not required for closing.</b>"
+        "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs."
       },
       { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "company": "*", "region": "US", "province": "*" },
         "parent": "Concierge Services",
