@@ -57,7 +57,7 @@
     "WhitelabelAssets": [
       {
         "conditions": { "page": [ "LoginPage", "MenuPage" ], "company": "*" },
-        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo.png"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo-horizontal.png"
       },
       {
         "conditions": { "page": [ "MenuPage" ], "company": "whitelabel" },
