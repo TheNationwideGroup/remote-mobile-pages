@@ -1110,6 +1110,12 @@
         { "value": "MORTGAGEBROKER", "title": "Mortgage Broker" },
         { "value": "REALTOR", "title": "Realtor" }
       ]},
+      { "conditions":{"page":"UserProfilePage", "region":"*", "company":"*", "name":"participantType", "userType":["*","ADMIN"] }, "items": [
+        { "value": "COAPPLICANT", "title": "Co-Applicant" },
+        { "value": "APPLICANT", "title": "Applicant" },
+        { "value": "MORTGAGEBROKER", "title": "Mortgage Broker" },
+        { "value": "REALTOR", "title": "Realtor" }
+      ]},
 
       { "conditions":{"page":"UserProfilePage", "region":"US", "company":"*", "name":"participantType", "userType":"REALTOR" }, "items": [
         { "value": "ADMINISTRATOR", "title": "Administrator" },
