@@ -1602,7 +1602,7 @@
             "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
             "icon": "icon-homeinspection",
             "serviceProvider_id": "103",
-            "action": "ConciergeServicePage"
+            "action": "CreateService"
           },
           {
             "title": "Insurance Products",
@@ -1703,7 +1703,7 @@
             "serviceProvider_id": "103",
             "icon": "icon-homeinspection",
             "title": "Home Inspection",
-            "action": "ConciergeServicePage"
+            "action": "CreateService"
           },
           {
             "serviceProvider_id": "102",
