@@ -1085,11 +1085,11 @@
         "permissions": [ "VIEW_DOCUMENT" ]
       },
       {
-        "conditions": { "serviceProvider_id": [ "131" ], "company": "*", "province": "*", "userType": "HOMEOWNER", "isParticipant": false },
+        "conditions": { "serviceProvider_id": [ "131" ], "company": "*", "province": "*", "userType": "*", "isParticipant": false },
         "permissions": [ "CREATE_ORDER" ]
       },
       {
-        "conditions": { "serviceProvider_id": [ "103" ], "company": "*", "province": "*", "region": "US" , "userType": "HOMEOWNER", "isParticipant": false },
+        "conditions": { "serviceProvider_id": [ "103" ], "company": "*", "province": "*", "region": "US" , "userType": "*", "isParticipant": false },
         "permissions": [ "CREATE_ORDER" ]
       }
     ],
