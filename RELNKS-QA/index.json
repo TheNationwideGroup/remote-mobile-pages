@@ -1456,12 +1456,6 @@
             "icon": "fas fa-users",
             "title": "Mortgage Application",
             "action": "CreateService"
-          },
-          {
-            "serviceProvider_id": "SECURE_A_DEPOSIT",
-            "icon": "icon-icon-secureadeposit",
-            "title": "Secure a Deposit",
-            "action": "ConciergeServicePage"
           }
         ]
       },
@@ -2215,6 +2209,12 @@
             "icon": "fas fa-umbrella",
             "serviceProvider_id": "107",
             "action": "CreateService"
+          },
+          {
+            "serviceProvider_id": "SECURE_A_DEPOSIT",
+            "icon": "icon-icon-secureadeposit",
+            "title": "Secure a Deposit",
+            "action": "ConciergeServicePage"
           }
         ]
       },
