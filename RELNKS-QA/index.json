@@ -1470,8 +1470,7 @@
           {
             "serviceProvider_id": "131",
             "icon": "icon-createyourwill",
-            "title": "Other Legal Services",
-            "action": "CreateService"
+            "title": "Other Legal Services"
           }
         ]
       },
@@ -1642,8 +1641,7 @@
           {
             "serviceProvider_id": "131",
             "icon": "icon-createyourwill",
-            "title": "Other Legal Services",
-            "action": "CreateService"
+            "title": "Other Legal Services"
           }
         ]
       },
