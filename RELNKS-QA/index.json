@@ -1595,7 +1595,7 @@
             "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
             "icon": "icon-homeinspection",
             "serviceProvider_id": "103",
-            "action": "CreateService"
+            "action": "ConciergeServicePage"
           },
           {
             "title": "Insurance Products",
@@ -1695,7 +1695,7 @@
             "serviceProvider_id": "103",
             "icon": "icon-homeinspection",
             "title": "Home Inspection",
-            "action": "CreateService"
+            "action": "ConciergeServicePage"
           },
           {
             "serviceProvider_id": "102",
@@ -1713,7 +1713,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
@@ -1730,7 +1730,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
@@ -1747,7 +1747,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
@@ -1764,7 +1764,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
@@ -1854,7 +1854,7 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          { "title": "Lawn, Garden and Pool", "icon": "icon-lawn-mower", "serviceProvider_id": "132", "action": "CreateService" },
+          { "title": "Lawn, Garden and Pool", "icon": "icon-lawn-mower", "serviceProvider_id": "132" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
           { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
@@ -1962,6 +1962,36 @@
             "image": "./partners/Renters-Warehouse.jpg",
             "url": "https://renterswarehouse.com/offices/phoenix",
             "phone": "480-626-2226"
+          }
+        ]
+      },
+      { "title": "Home Renovation", "conditions": { "title": "Home Renovation", "company": "*" },
+        "parent": "Property Management",
+        "serviceProvider_id": "113",
+        "description": "Thinking of renovating your home? Connect with local and trusted home renovation professionals to bring your project to life!",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "HomeStars",
+            "text": "HomeStars is a free service to help homeowners find reputable renovators, repairmen and retailers by searching its database of 2 million companies and hundreds of thousands of reviews.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/homestars.png",
+            "url": "https://homestars.com/",
+            "phone": "855-569-0690"
+          }
+        ]
+      },
+      { "title": "Home Renovation", "conditions": { "title": "Home Renovation", "company": "*", "province": ["ON"] },
+        "parent": "Property Management",
+        "serviceProvider_id": "113",
+        "description": "Thinking of renovating your home? Connect with local and trusted home renovation professionals to bring your project to life!",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "Bidmii",
+            "text": "Bidmii is the easiest way to find, hire, and pay for qualified contractors at a fair price. With verified ratings and reviews, and 100% payment security, Bidmii is the #1 online platform for home improvement projects.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bidmii.png",
+            "url": "https://www.bidmii.com/how-it-works-relnks",
+            "signupUrl": "https://app.bidmii.com/login?r=RELNKS"
           }
         ]
       },
