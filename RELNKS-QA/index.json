@@ -1470,7 +1470,8 @@
           {
             "serviceProvider_id": "131",
             "icon": "icon-createyourwill",
-            "title": "Other Legal Services"
+            "title": "Other Legal Services",
+            "action": "CreateService"
           }
         ]
       },
@@ -1595,7 +1596,7 @@
             "image": "./whitelabel/relnks/INSPECTION_SERVICES.jpg",
             "icon": "icon-homeinspection",
             "serviceProvider_id": "103",
-            "action": "ConciergeServicePage"
+            "action": "CreateService"
           },
           {
             "title": "Insurance Products",
@@ -1641,7 +1642,8 @@
           {
             "serviceProvider_id": "131",
             "icon": "icon-createyourwill",
-            "title": "Other Legal Services"
+            "title": "Other Legal Services",
+            "action": "CreateService"
           }
         ]
       },
@@ -1695,7 +1697,7 @@
             "serviceProvider_id": "103",
             "icon": "icon-homeinspection",
             "title": "Home Inspection",
-            "action": "ConciergeServicePage"
+            "action": "CreateService"
           },
           {
             "serviceProvider_id": "102",
@@ -1713,7 +1715,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
@@ -1730,7 +1732,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
@@ -1747,7 +1749,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
@@ -1764,7 +1766,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
@@ -1781,7 +1783,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
@@ -1798,7 +1800,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115", "action": "CreateService" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
@@ -1815,7 +1817,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
@@ -1831,7 +1833,7 @@
         "buttons": [
           { "title": "Lawn/Garden Care", "icon": "icon-lawn-mower", "serviceProvider_id": "111" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112", "action": "CreateService" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
           { "title": "Junk Removal", "icon": "icon-junk-removal", "serviceProvider_id": "117", "action": "CreateService" },
@@ -1845,7 +1847,7 @@
         "parent": null,
         "serviceProvider_id": "CONCIERGE_SERVICES",
         "buttons": [
-          { "title": "Home Renovation", "icon": "", "serviceProvider_id": "113" }
+          { "title": "Home Renovation", "icon": "", "serviceProvider_id": "113", "action": "CreateService" }
         ]
       },
       { "title": "Property Services", "conditions": { "title": "Property Services" , "company":"*", "region":"US"},
@@ -1856,7 +1858,7 @@
         "buttons": [
           { "title": "Lawn, Garden and Pool", "icon": "icon-lawn-mower", "serviceProvider_id": "132" },
           { "title": "Property Management", "icon": "icon-property-management", "serviceProvider_id": "112" },
-          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113" },
+          { "title": "Home Renovation", "icon": "icon-home-renovations", "serviceProvider_id": "113", "action": "CreateService" },
           { "title": "Pest Control", "icon": "icon-pest-control", "serviceProvider_id": "114" },
           { "title": "Locksmith", "icon": "icon-locksmith", "serviceProvider_id": "115" },
           { "title": "Cleaning Services", "icon": "icon-cleaning-services", "serviceProvider_id": "116" },
