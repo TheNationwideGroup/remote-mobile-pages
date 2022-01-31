@@ -775,19 +775,19 @@
       },
       {
         "conditions": { "page": [ "MenuPage" ], "company": "titanmortgageconnect" },
-        "imageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/titanmortgageconnect/logo.png"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/titanmortgageconnect/logo.png"
       },
       {
         "conditions": { "page": [ "LoginPage" ], "company": "titanmortgageconnect" },
-        "imageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/titanmortgageconnect/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/titanmortgageconnect/logo.png",
         "imageSize": "20%",
         "italicText": "Powered by",
-        "italicImageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/titanmortgageconnect/poweredby.png"
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/titanmortgageconnect/poweredby.png"
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "titanmortgageconnect" },
         "pageTitle": "Titan Mortgage Connect",
-        "imageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/titanmortgageconnect/logo-header.png"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/titanmortgageconnect/logo-header.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "titanmortgageconnect" },
