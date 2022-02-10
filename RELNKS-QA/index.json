@@ -1064,6 +1064,10 @@
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
       {
+        "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "ADMIN" },
+        "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
+      },
+      {
         "conditions": { "serviceProvider_id": [ "103", "104" ], "company": "*", "province": "*",  "userType": "LENDER" },
         "permissions": [ "CREATE_ORDER", "VIEW_DOCUMENT"]
       },
@@ -1342,7 +1346,7 @@
     },
     "concieregeServicesPages": [
       { "conditions": { "title": "Dashboard", "company": "*", "region": "CA", "province": "*",
-        "userType":["HOMEOWNER", "BROKER", "REALTOR"] },
+        "userType":["HOMEOWNER", "BROKER", "REALTOR", "ADMIN"] },
         "buttons": [
           {
             "title": "Homebuyer Checklist",
