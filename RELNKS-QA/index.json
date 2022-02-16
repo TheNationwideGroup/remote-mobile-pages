@@ -1026,7 +1026,8 @@
         "conditions": { "company": "titanmortgageconnect" },
         "css": {
           "theadColor": "rgba(0,0,0,0.03)",
-          "tablefontColor": "rgba(0,0,0,0.9)"
+          "tablefontColor": "rgba(0,0,0,0.9)",
+          "headVariantColor": "light"
         }
     }
     ],
