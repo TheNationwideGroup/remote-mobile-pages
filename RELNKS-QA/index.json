@@ -798,20 +798,20 @@
       },
       {
         "conditions": { "page": [ "MenuPage" ], "company": "integritytreetoolbox" },
-        "imageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/integritytreetoolbox/logo.png"
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/integritytreetoolbox/logo.png"
       },
       {
         "conditions": { "page": [ "LoginPage" ], "company": "integritytreetoolbox" },
-        "imageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/integritytreetoolbox/logo.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/integritytreetoolbox/logo.png",
         "imageSize": "20%",
         "italicText": "Powered by",
-        "italicImageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/integritytreetoolbox/poweredby.png"
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/integritytreetoolbox/poweredby.png"
       },
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "integritytreetoolbox" },
         "pageTitle": "Integrity Tree Toolbox",
-        "imageURLlogoHeader": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/integritytreetoolbox/logo-header.png",
-        "imageURL": "http://localhost:8095/remote-mobile-pages/RELNKS-QA/whitelabel/integritytreetoolbox/logo.png"
+        "imageURLlogoHeader": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/integritytreetoolbox/logo-header.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/integritytreetoolbox/logo.png"
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "integritytreetoolbox" },
