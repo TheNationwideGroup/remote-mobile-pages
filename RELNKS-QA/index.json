@@ -2431,12 +2431,14 @@
           {
             "title": "Home/Auto Insurance",
             "icon": "fas fa-car-crash",
-            "serviceProvider_id": "106"
+            "serviceProvider_id": "106",
+            "action": "CreateService"
           },
           {
             "title": "Life Insurance",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "107"
+            "serviceProvider_id": "107",
+            "action": "CreateService"
           }
         ]
       },
