@@ -2426,7 +2426,8 @@
           {
             "title": "Home Warranty",
             "icon": "fas fa-umbrella",
-            "serviceProvider_id": "105"
+            "serviceProvider_id": "105",
+            "action": "CreateService"
           },
           {
             "title": "Home/Auto Insurance",
