@@ -54,7 +54,8 @@
       "myhomeconnector",
       "kwarizonapartners",
       "titanmortgageconnect",
-      "integritytreetoolbox"
+      "integritytreetoolbox",
+      "Broker"
     ],
     "WhitelabelAssets": [
       {
@@ -817,6 +818,13 @@
         "conditions": { "page": [ "RegisterPage" ], "company": "integritytreetoolbox" },
         "pageTitle": "INTEGRITY TREE TOOLBOX",
         "imageURL": ""
+      },
+      {
+        "conditions": { "page": [ "LoginPage" ], "company": "Broker" },
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo-horizontal.png",
+        "imageSize": "20%",
+        "italicText": "Powered by",
+        "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/Broker/poweredby.png"
       }
     ],
     "WhitelabelData": [
@@ -906,7 +914,9 @@
       { "conditions": { "company": "titanmortgageconnect", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true},
       { "conditions": { "company": "titanmortgageconnect", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Verico", "brokerCompanyName": "Titan Mortgage", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
       { "conditions": { "company": "integritytreetoolbox", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true},
-      { "conditions": { "company": "integritytreetoolbox", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Pineapple", "brokerCompanyName": "Integrity Tree Financial", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true }
+      { "conditions": { "company": "integritytreetoolbox", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "Pineapple", "brokerCompanyName": "Integrity Tree Financial", "SupportedRegions":{"CA":["ON"]}, "askNASUsersToLogin": true },
+      { "conditions": { "company": "Broker", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","MB","NB","NS","ON","SK","NL", "PE", "QC"]}, "askNASUsersToLogin": true},
+      { "conditions": { "company": "Broker", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerHouse": "DLC Group", "brokerCompanyName": "DLCG", "SupportedRegions":{"CA":["AB","BC","MB","NB","NS","ON","SK","NL", "PE", "QC"]}, "askNASUsersToLogin": true }
       ],
     "WhitelabelCSS": [
       {
@@ -1048,6 +1058,10 @@
       {
         "conditions": { "company": "integritytreetoolbox" },
         "css": ".login-logo{width: 200px !important;} .forgot-password {color: #2F77CD !important;font-weight: 600 !important;} .dont-have-account .get-started{color: #2F77CD !important;font-weight: 600 !important;} .custom_label{color: rgba(0,0,0,0.9) !important;} .login-btn-enabled{background-color: #2F77CD !important;} .custom-control-input:checked ~ .custom-control-label::before {background: #2F77CD !important; border: #2F77CD !important;} .form-forgot-password .next-btn-enabled {background-color: #2F77CD !important; border-color: #2F77CD !important;} .custom_label_forgot_password {color: rgba(0,0,0,0.9) !important;} .reset_password_screen .next-btn-enabled {background-color: #2F77CD !important; border-color: #2F77CD !important;} .reset_password_screen .heading_reset_code {color: rgba(0,0,0,0.9) !important;}#page-login #login { background-color: #2F77CD; }  .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer {background-color: white !important; color: rgba(0,0,0,0.9)} .page-HeaderPage>.drawer-layout>.header-wrapper, .page-HeaderPage>.drawer-layout>.content>.padding-wrapper.footer .link{color: #2F77CD !important} .theme-accent-bg{background: #2F77CD !important; border-radius: 0px 0px 4px 4px !important; color: white !important} .theme-accent-bg.clickable:active,.theme-accent-bg[active] {color: rgba(0,0,0,0.9)  !important; background-color:white !important; } .theme-accent-fg{color: rgba(0,0,0,0.9) !important; } .theme-accent-fg.clickable:active,.theme-accent-fg[active]{background-color: #2F77CD !important; color:white !important; } .page-HeaderPage>.header {background-color: #2F77CD !important;} div[page].page-Menu .menu-body {background-color: #2F77CD;} #page-WelcomePage .content{background-image: radial-gradient(circle, #76c70b, #85c72e, #84ca2a, #7ac716, #72c702);} .fieldgroup input, .fieldgroup .input, .fieldgroup select, .fieldgroup select-multiple, .fieldgroup textarea {  } .huge-buttons button i:first-child, #page-BaseDashItemsPage #dashboard .d_item .d_icon i { background-color: #2F77CD !important; } .btn-primary, button.primary { background-color: #2F77CD !important; border: 1px solid #2F77CD !important;} button.primary:active { background-color: #649623 !important; border-color: #2F77CD !important; } #page-login #login button.btn_login {border: 1px solid #cccccc; background-color: #cecece  !important; color: #6b6b6b; background-image: none !important;} #page-login #login button.btn_register { background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; color: #cacaca; !important; } #page-login #login button:active { color: #AAA; background-color: #6b6b6b !important; background-image: none !important; border-color: #969696 !important; } .fieldgroup label.toggle input:checked+.radio:before { background-color: #2F77CD !important; }.fieldgroup label.radio input:checked+.radio, .fieldgroup label.toggle input:checked+.radio { border-color: #2F77CD !important; } div[type='info-tile-component'] button { background-color: #2F77CD !important;}#page-DocumentsRepositoryPage .box-info .title-row { color: #517325 !important;}.item.selected .theme-accent-bg, .theme-accent-fg.selected {background-color: #2F77CD !important;}.page-HeaderPage>.drawer-layout>.header-wrapper {box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);}.header button { color: rgba(0, 0, 0, 0.9) !important;font-weight: 600 !important; font-size: 13px !important; line-height: 18px !important;letter-spacing: 0.02em !important;}.page-HeaderPage>.drawer-layout>.header-wrapper { background-color: #ffffff !important;}.broker-title {line-height: 19px; color: rgba(0, 0, 0, 0.9) !important } .broker-name { color: rgba(0, 0, 0, 0.9) !important } .broker-company { color: rgba(0, 0, 0, 0.9) !important } .broker-email, .broker-email a { color: rgba(0, 0, 0, 0.9) !important } .broker-phone { color: rgba(0, 0, 0, 0.9) !important } .page-HeaderPage .header-wrapper {background-color: #ffffff !important}#page-MortgageCalculatorPage .drawer-layout .header-wrapper { background-color: #ffffff !important;} #page-MortgageCalculatorPage .header button { color: rgba(0,0,0,0.9) !important;} #page-MortgageCalculatorPage .drawer-layout>.header-wrapper { box-shadow: inset 0px -1px 0px rgb(0 0 0 / 15%) !important; }#page-MortgageCalculatorPage .content {padding-top: 12px; z-index: -1 !important;} #page-RealEstateAppraisalPage .drawer-layout .header-wrapper { background-color: #ffffff !important;} #page-RealEstateAppraisalPage .header button { color: rgba(0,0,0,0.9) !important;} #page-RealEstateAppraisalPage .drawer-layout>.header-wrapper { box-shadow: inset 0px -1px 0px rgb(0 0 0 / 15%) !important; }#page-RealEstateAppraisalPage .content {z-index: -1 !important;} #page-DocumentsRepositoryPage .drawer-layout .header-wrapper { background-color: #ffffff !important;} #page-DocumentsRepositoryPage .header button { color: rgba(0,0,0,0.9) !important;} #page-DocumentsRepositoryPage .drawer-layout>.header-wrapper { box-shadow: inset 0px -1px 0px rgb(0 0 0 / 15%) !important; }#page-DocumentsRepositoryPage .content {z-index: -1 !important;}#page-CreateHomeClosingService .drawer-layout .header-wrapper { background-color: #ffffff !important;} #page-CreateHomeClosingService .header button { color: rgba(0,0,0,0.9) !important; } #page-CreateHomeClosingService .drawer-layout>.header-wrapper { box-shadow: inset 0px -1px 0px rgb(0 0 0 / 15%) !important; }#page-CreateHomeClosingService .content {z-index: -1 !important;}#page-CreateServicePage .drawer-layout .header-wrapper { background-color: #ffffff !important;} #page-CreateServicePage .header button { color: rgba(0,0,0,0.9) !important;} #page-CreateServicePage .drawer-layout>.header-wrapper { box-shadow: inset 0px -1px 0px rgb(0 0 0 / 15%) !important; }#page-CreateServicePage .content {z-index: -1 !important;} .page-HeaderPage>.drawer-layout>.content>.content-header>.content-header>.padding-wrapper .inner_logo_class{width: auto !important} .page-HeaderPage>.drawer-layout>.header-wrapper>.padding-wrapper .logo{width: 150px !important; height: 45px !important; background-size: 150px !important;} .page-HeaderPage>.drawer-layout>.content>.padding-wrapper .dashboarditems .item{ border-radius: 0px 0px 4px 4px !important;}.theme-accent2-fg {color: rgba(0,0,0,0.9) !important;}.page-HeaderPage>.drawer-layout>.header-wrapper>.padding-wrapper .dropdown-list .dropdown-menu{background: #FFFFFF !important; border: 1px solid rgba(0, 0, 0, 0.01) !important; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04) !important; border-radius: 4px !important;}.page-HeaderPage>.header .logo {background-position: 17% !important; background-size: 150px !important; }#page-MortgageCalculatorPage .drawer-layout>.header-wrapper .padding-wrapper .dropdown-list .dropdown-menu{background: #FFFFFF !important; border: 1px solid rgba(0, 0, 0, 0.01) !important; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04) !important; border-radius: 4px !important;} #page-RealEstateAppraisalPage .drawer-layout>.header-wrapper .padding-wrapper .dropdown-list .dropdown-menu{background: #FFFFFF !important; border: 1px solid rgba(0, 0, 0, 0.01) !important; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04) !important; border-radius: 4px !important;} #page-DocumentsRepositoryPage .drawer-layout>.header-wrapper .padding-wrapper .dropdown-list .dropdown-menu{background: #FFFFFF !important; border: 1px solid rgba(0, 0, 0, 0.01) !important; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04) !important; border-radius: 4px !important;}#page-CreateHomeClosingService .drawer-layout>.header-wrapper .padding-wrapper .dropdown-list .dropdown-menu{background: #FFFFFF !important; border: 1px solid rgba(0, 0, 0, 0.01) !important; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04) !important; border-radius: 4px !important;}#page-CreateServicePage .drawer-layout>.header-wrapper .padding-wrapper .dropdown-list .dropdown-menu{background: #FFFFFF !important; border: 1px solid rgba(0, 0, 0, 0.01) !important; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04) !important; border-radius: 4px !important;}"
+      },
+      {
+        "conditions": {"company": "Broker"},
+        "css": ""
       }
     ],
     "DashboardCSS": [
@@ -1170,6 +1184,10 @@
       },
       {
         "conditions": { "serviceProvider_id": [ "103" ], "company": "*", "province": "*", "region": "US" , "userType": "*", "isParticipant": false },
+        "permissions": [ "CREATE_ORDER" ]
+      },
+      {
+        "conditions": { "serviceProvider_id": [ "SECURE_A_DEPOSIT" ], "company": "Broker", "province": "*", "region": "CA" , "userType": "*" },
         "permissions": [ "CREATE_ORDER" ]
       }
     ],
@@ -1554,6 +1572,16 @@
             "action": "CreateService"
           }
         ]
+      },
+      { "conditions": { "title": "Legal Services", "region": "CA", "company": "Broker" },
+      "buttons": [
+        {
+          "serviceProvider_id": "104",
+          "icon": "icon-homeclosingservices",
+          "title": "Find a Real Estate Lawyer",
+          "action": "CreateService"
+        }
+      ]
       },
       { "title": "Other Legal Services", "conditions": { "title": "Other Legal Services","region": "CA", "company": "*" },
         "parent": "Legal Services",
@@ -2348,6 +2376,35 @@
             "icon": "icon-icon-secureadeposit",
             "title": "Secure a Deposit",
             "action": "ConciergeServicePage"
+          }
+        ]
+      },
+      { "title": "Insurance Products", "conditions": { "title": "Insurance Products", "company": "Broker", "province": "*" },
+        "parent": null,
+        "buttons": [
+          {
+            "title": "Home Warranty",
+            "icon": "fas fa-umbrella",
+            "serviceProvider_id": "105",
+            "action": "CreateService"
+          },
+          {
+            "title": "Home/Auto Insurance",
+            "icon": "fas fa-car-crash",
+            "serviceProvider_id": "106",
+            "action": "CreateService"
+          },
+          {
+            "title": "Life Insurance",
+            "icon": "fas fa-umbrella",
+            "serviceProvider_id": "107",
+            "action": "CreateService"
+          },
+          {
+            "serviceProvider_id": "SECURE_A_DEPOSIT",
+            "icon": "icon-icon-secureadeposit",
+            "title": "Secure a Deposit",
+            "action": "CreateService"
           }
         ]
       },
