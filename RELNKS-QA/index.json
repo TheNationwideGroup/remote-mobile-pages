@@ -453,7 +453,8 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "sunliteconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/sunliteconnect/logo.png",
-        "pageTitle": "Sunlite Connect"
+        "pageTitle": "Sunlite Connect",
+        "disabled": true
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "sunliteconnect" },
@@ -474,7 +475,8 @@
       {
         "conditions": { "page": [ "BaseHeaderPage" ], "company": "citadelmortgagesconnect" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/citadelconnect/logo.png",
-        "pageTitle": "Citadel Connect"
+        "pageTitle": "Citadel Connect",
+        "disabled": true
       },
       {
         "conditions": { "page": [ "RegisterPage" ], "company": "citadelmortgagesconnect" },
