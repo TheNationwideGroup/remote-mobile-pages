@@ -828,6 +828,12 @@
         "imageSize": "20%",
         "italicText": "Powered by",
         "italicImageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/Broker/poweredby.png"
+      },
+      {
+        "conditions": { "page": [ "BaseHeaderPage" ], "company": "Broker" },
+        "pageTitle": "",
+        "imageURLlogoHeader": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo-horizontal.png",
+        "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/relnks/logo-horizontal.png"
       }
     ],
     "WhitelabelData": [
