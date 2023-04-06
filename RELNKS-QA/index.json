@@ -2158,7 +2158,7 @@
           
         ]
       },
-      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "*", "region": ["US", "CA"] },
+      { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "*", "region": "*" },
         "parent": "Property Services",
         "serviceProvider_id": "115",
         "items": [
@@ -2616,7 +2616,7 @@
         ],
         "description": "Life insurance can be a key part of your financial plan. Connect with trusted providers to determine the right life insurance for your needs."
       },
-      { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "company": "*", "region": ["US", "CA"], "province": "*" },
+      { "title": "Junk Removal", "conditions": { "title": "Junk Removal", "company": "*", "region": "*", "province": "*" },
         "parent": "Concierge Services",
         "serviceProvider_id": "117",
         "type": "button",
