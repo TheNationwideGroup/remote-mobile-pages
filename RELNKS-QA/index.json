@@ -1,4 +1,3 @@
-/* eslint-disable */
 { 
   "guid": 2,
   "pages": {},
@@ -7,11 +6,11 @@
       "CA": [
         "AB",
         "BC",
-        "ON",
         "MB",
         "NB",
         "NL",
         "NS",
+        "ON",
         "PE",
         "SK"
       ],
@@ -100,7 +99,6 @@
         "pageTitle": "Oriana Financial",
         "imageURL": ""
       },
-
       {
         "conditions": { "page": [ "MenuPage" ], "company": "opendoorsmortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/opendoorsmortgage/login-logo.png"
@@ -122,7 +120,6 @@
         "pageTitle": "Open Doors Mortgage",
         "imageURL": ""
       },
-
       {
         "conditions": { "page": [ "MenuPage" ], "company": "thrivemortgage" },
         "imageURL": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/whitelabel/thrivemortgage/login-logo.png"
@@ -855,11 +852,11 @@
       { "conditions": { "company": "*", "page": "DocumentsRepositoryPage", "userType": "*", "region": "US" },
         "description": "Securely stored and easily accessible document storage for your convenience. Great for saving you time gathering all the paperwork that comes with buying a home."
       },
-      { "conditions": { "company": "*", "page": "MortgageCalculator", "userType": "*", "region": "CA" }
-	  },
+      { "conditions": { "company": "*", "page": "MortgageCalculatorExternal", "userType": "*", "region": "CA" }
+      },
+      { "conditions": { "company": "oriana", "page": "MortgageCalculatorExternal", "userType": "*", "region": "CA"  }, "apiKey": "998723094732908403924" },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*", "region": "CA"  }, "SupportedRegions":{"CA":["ON"]}, "defaultProvince": "ON", "askNASUsersToLogin": true },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "SupportedRegions":{"CA":["ON"]}, "defaultProvince": "ON", "askNASUsersToLogin": true },
-      { "conditions": { "company": "oriana", "page": "MortgageCalculator", "userType": "*", "region": "CA" }, "apiKey": "9-82342834-0823-04823-04823" },
       { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "*", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "defaultProvince": "BC", "askNASUsersToLogin": true },
       { "conditions": { "company": "opendoorsmortgage", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "SupportedRegions":{"CA":["AB","BC","ON"]}, "brokerCompanyName": "Open Doors Mortgage", "brokerHouse": "DLC", "defaultProvince": "BC", "askNASUsersToLogin": true },
       { "conditions": { "company": "thrivemortgage", "page": "RegisterPage", "userType": "*", "region": "CA"  }, "SupportedRegions":{"CA":["BC"]}, "defaultProvince": "BC", "askNASUsersToLogin": true },
@@ -2103,6 +2100,21 @@
           }
         ]
       },
+      { "title": "Home Renovation", "conditions": { "title": "Home Renovation", "company": "*", "province": ["ON"] },
+        "parent": "Property Management",
+        "serviceProvider_id": "113",
+        "description": "Thinking of renovating your home? Connect with local and trusted home renovation professionals to bring your project to life!",
+        "items": [
+          {
+            "type": "info-tile-component",
+            "title": "Bidmii",
+            "text": "Bidmii is the easiest way to find, hire, and pay for qualified contractors at a fair price. With verified ratings and reviews, and 100% payment security, Bidmii is the #1 online platform for home improvement projects.",
+            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bidmii.png",
+            "url": "https://www.bidmii.com/how-it-works-relnks",
+            "signupUrl": "https://app.bidmii.com/login?r=RELNKS"
+          }
+        ]
+      },
       { "title": "Home Renovation", "conditions": { "title": "Home Renovation", "company": "*", "region": "US" },
         "parent": "Property Management",
         "serviceProvider_id": "113",
@@ -2145,21 +2157,6 @@
         "description": "",
         "items": [
           
-        ]
-      },
-      { "title": "Home Renovation", "conditions": { "title": "Home Renovation", "company": "*", "province": ["ON"] },
-        "parent": "Property Management",
-        "serviceProvider_id": "113",
-        "description": "Thinking of renovating your home? Connect with local and trusted home renovation professionals to bring your project to life!",
-        "items": [
-          {
-            "type": "info-tile-component",
-            "title": "Bidmii",
-            "text": "Bidmii is the easiest way to find, hire, and pay for qualified contractors at a fair price. With verified ratings and reviews, and 100% payment security, Bidmii is the #1 online platform for home improvement projects.",
-            "image": "https://thenationwidegroup.github.io/remote-mobile-pages/RELNKS-QA/partners/bidmii.png",
-            "url": "https://www.bidmii.com/how-it-works-relnks",
-            "signupUrl": "https://app.bidmii.com/login?r=RELNKS"
-          }
         ]
       },
       { "title": "Locksmith", "conditions": { "title": "Locksmith", "company": "*", "region": "*" },
