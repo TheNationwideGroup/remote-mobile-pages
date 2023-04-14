@@ -855,7 +855,7 @@
       { "conditions": { "company": "*", "page": "DocumentsRepositoryPage", "userType": "*", "region": "US" },
         "description": "Securely stored and easily accessible document storage for your convenience. Great for saving you time gathering all the paperwork that comes with buying a home."
       },
-      { "conditions": { "company": "*", "page": "MortgageCalculator", "userType": "*", "region": "CA" },
+      { "conditions": { "company": "*", "page": "MortgageCalculator", "userType": "*", "region": "CA" }
 	  },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "*", "region": "CA"  }, "SupportedRegions":{"CA":["ON"]}, "defaultProvince": "ON", "askNASUsersToLogin": true },
       { "conditions": { "company": "oriana", "page": "RegisterPage", "userType": "BROKER", "region": "CA" }, "brokerCompanyName": "Oriana", "brokerHouse": "Oriana", "SupportedRegions":{"CA":["ON"]}, "defaultProvince": "ON", "askNASUsersToLogin": true },
